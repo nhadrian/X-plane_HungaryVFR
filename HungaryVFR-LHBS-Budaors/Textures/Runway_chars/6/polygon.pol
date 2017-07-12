@@ -1,0 +1,8 @@
+A
+850
+DRAPED_POLYGON
+
+LAYER_GROUP markings +3
+TEXTURE_NOWRAP char.png
+SURFACE concrete
+SCALE 2.2 1.1
