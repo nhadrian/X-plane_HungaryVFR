@@ -1,0 +1,21 @@
+I
+800	# Converted by FS2XPlane 3.26
+OBJ
+
+# object Endresz in file budapest-lib-fsx.bgl scaled x0.37
+
+TEXTURE		lhfh3.dds
+POINT_COUNTS	3 0 0 3
+
+VT	   4.864    2.727    5.007	 0.484  0.875 -0.000	-0.0046 0.1897
+VT	   4.454    2.925   -7.426	 0.484  0.875 -0.000	0.0426 0.0620
+VT	   4.454    2.925   -8.257	 0.484  0.875 -0.000	0.0426 0.0484
+
+IDX	0
+IDX	1
+IDX	2
+
+ATTR_no_blend
+
+ATTR_shiny_rat	0.400
+TRIS	0 3
