@@ -11821,7 +11821,6 @@
                 <child id="10235"/>
                 <child id="10227"/>
                 <child id="9055"/>
-                <child id="10237"/>
                 <child id="10229"/>
                 <child id="9059"/>
                 <child id="10259"/>
@@ -12188,7 +12187,6 @@
                 <child id="8986"/>
                 <child id="8859"/>
                 <child id="8858"/>
-                <child id="10233"/>
                 <child id="9051"/>
                 <child id="9056"/>
                 <child id="10251"/>
@@ -12228,7 +12226,6 @@
                 <child id="10197"/>
                 <child id="8786"/>
                 <child id="8866"/>
-                <child id="10232"/>
                 <child id="9053"/>
                 <child id="9058"/>
                 <child id="9047"/>
@@ -12284,7 +12281,6 @@
                 <child id="10258"/>
                 <child id="10271"/>
                 <child id="10173"/>
-                <child id="10238"/>
                 <child id="10230"/>
                 <child id="9050"/>
                 <child id="10282"/>
@@ -35488,22 +35484,6 @@
             <point heading="51.06" latitude="47.449452218" longitude="18.973743160"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Vehicles/car_honda_CRV.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="10232" parent_id="9229">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="BMW_3_Silver.obj"/>
-            <point heading="140.73" latitude="47.448255031" longitude="18.977549403"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Vehicles/BMW_3_Silver.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="10233" parent_id="9229">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Camaro_Black.obj"/>
-            <point heading="140.32" latitude="47.448237143" longitude="18.977527394"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Vehicles/Camaro_Black.obj" show_level="1 Default"/>
-        </object>
         <object class="WED_ObjPlacement" id="10234" parent_id="9229">
             <sources/>
             <viewers/>
@@ -35527,22 +35507,6 @@
             <hierarchy hidden="0" locked="0" name="car_honda_civic.obj"/>
             <point heading="-216.10" latitude="47.448178902" longitude="18.977471898"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Vehicles/car_honda_civic.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="10237" parent_id="9229">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="ford_mustang.obj"/>
-            <point heading="142.19" latitude="47.448291768" longitude="18.977584752"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="opensceneryx/objects/vehicles/cars/coupe/ford_mustang.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="10238" parent_id="9229">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Golf_Silver.obj"/>
-            <point heading="-40.65" latitude="47.448275744" longitude="18.977562792"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Vehicles/Golf_Silver.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="10239" parent_id="9229">
             <sources/>
@@ -40672,15 +40636,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.977729"/>
-        <pref name="map/north" value="47.448391"/>
+        <pref name="map/east" value="18.977763"/>
+        <pref name="map/north" value="47.448407"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.448087"/>
+        <pref name="map/south" value="47.447970"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.977327"/>
+        <pref name="map/west" value="18.977183"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
