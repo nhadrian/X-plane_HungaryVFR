@@ -51,7 +51,9 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection/>
+            <selection>
+                <sel id="5"/>
+            </selection>
         </object>
         <object class="WED_AirportNode" id="514" parent_id="500">
             <sources/>
@@ -130,7 +132,16 @@
             </children>
             <hierarchy hidden="0" locked="0" name="Tokol Air Base, Hungary"/>
             <airport always_flatten="0" drive_on_left="0" elevation="103.9" has_atc="1" icao="LHTL" kind="Airport" scenery_id="-1"/>
-            <meta_data/>
+            <meta_data>
+                <meta_data_entry pair="city,Tököl"/>
+                <meta_data_entry pair="country,Hungary"/>
+                <meta_data_entry pair="datum_lat,47.345555556"/>
+                <meta_data_entry pair="datum_lon,18.980833333"/>
+                <meta_data_entry pair="icao_code,LHTL"/>
+                <meta_data_entry pair="region_code,LH"/>
+                <meta_data_entry pair="state,Pest"/>
+                <meta_data_entry pair="transition_alt,1700"/>
+            </meta_data>
         </object>
         <object class="WED_AirportNode" id="517" parent_id="500">
             <sources/>
@@ -15674,7 +15685,7 @@
                 <child id="1792"/>
                 <child id="1798"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Ortophoto"/>
+            <hierarchy hidden="0" locked="0" name="Ortophotos"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="1774" parent_id="1750">
             <sources/>
@@ -15683,7 +15694,7 @@
                 <child id="1775"/>
             </children>
             <hierarchy hidden="0" locked="0" name="lhtl6.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Ortophoto/lhtl6.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Ortophotos/lhtl6.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="1775" parent_id="1774">
             <sources/>
@@ -15735,7 +15746,7 @@
                 <child id="1781"/>
             </children>
             <hierarchy hidden="0" locked="0" name="lhtl7.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Ortophoto/lhtl7.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Ortophotos/lhtl7.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="1781" parent_id="1780">
             <sources/>
@@ -15787,7 +15798,7 @@
                 <child id="1793"/>
             </children>
             <hierarchy hidden="0" locked="0" name="lhtl10.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Ortophoto/lhtl10.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Ortophotos/lhtl10.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="1793" parent_id="1792">
             <sources/>
@@ -15839,7 +15850,7 @@
                 <child id="1799"/>
             </children>
             <hierarchy hidden="0" locked="0" name="lhtl11.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Ortophoto/lhtl11.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Ortophotos/lhtl11.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="1799" parent_id="1798">
             <sources/>
@@ -18975,7 +18986,6 @@
             <item value="17"/>
             <item value="1258"/>
             <item value="1326"/>
-            <item value="1750"/>
             <item value="2276"/>
             <item value="2280"/>
             <item value="2281"/>
@@ -18984,15 +18994,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="19.015371"/>
-        <pref name="map/north" value="47.367690"/>
+        <pref name="map/east" value="19.071290"/>
+        <pref name="map/north" value="47.403473"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="3"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.306750"/>
+        <pref name="map/south" value="47.270967"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.920016"/>
+        <pref name="map/west" value="18.864097"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -19067,8 +19077,8 @@
         <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="322"/>
         <pref name="window/main_split2" value="1436"/>
-        <pref name="window/prev_split" value="713"/>
-        <pref name="window/prop_split" value="519"/>
+        <pref name="window/prev_split" value="733"/>
+        <pref name="window/prop_split" value="538"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
