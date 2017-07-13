@@ -115,7 +115,9 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection/>
+            <selection>
+                <sel id="5"/>
+            </selection>
         </object>
         <object class="WED_AirportChain" id="514" parent_id="504">
             <sources/>
@@ -313,7 +315,16 @@
             </children>
             <hierarchy hidden="0" locked="0" name="Budaors"/>
             <airport always_flatten="0" drive_on_left="0" elevation="0.0" has_atc="1" icao="LHBS" kind="Airport" scenery_id="-1"/>
-            <meta_data/>
+            <meta_data>
+                <meta_data_entry pair="city,Budaörs"/>
+                <meta_data_entry pair="country,Hungary"/>
+                <meta_data_entry pair="datum_lat,47.449722222"/>
+                <meta_data_entry pair="datum_lon,18.986944444"/>
+                <meta_data_entry pair="icao_code,LHBS"/>
+                <meta_data_entry pair="region_code,LH"/>
+                <meta_data_entry pair="state,Pest"/>
+                <meta_data_entry pair="transition_alt,1700"/>
+            </meta_data>
         </object>
         <object class="WED_AirportNode" id="517" parent_id="514">
             <sources/>
@@ -40636,15 +40647,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.977763"/>
-        <pref name="map/north" value="47.448407"/>
+        <pref name="map/east" value="18.977902"/>
+        <pref name="map/north" value="47.448512"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.447970"/>
+        <pref name="map/south" value="47.447865"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.977183"/>
+        <pref name="map/west" value="18.977044"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -40721,8 +40732,8 @@
         <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="381"/>
         <pref name="window/main_split2" value="1339"/>
-        <pref name="window/prev_split" value="566"/>
-        <pref name="window/prop_split" value="592"/>
+        <pref name="window/prev_split" value="576"/>
+        <pref name="window/prop_split" value="602"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
