@@ -1,7 +1,7 @@
 HungaryVFR-LHTL-Tököl scenery
 ******************************************************
 
-Verzió szám: 3.0.1
+Verzió szám: 3.0.2
 Lefedett terület: LHTL - Tököl
 
 ******************************************************
@@ -44,3 +44,4 @@ Javasolt sorrend:
 ***** KÖSZÖNETNYILVÁNÍTÁS*****
 
 - Az alap elkészítéséért köszönet Ron Somerville-nek, valamint Maróy Ákosnak.
+- A Scenery az alábbi library-kbõl tartalmaz módosított odjektumokat: CDB-library, Ruscenery, Misterx. Köszönet a fejlesztõknek!!!
