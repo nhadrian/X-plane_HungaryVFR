@@ -1,7 +1,7 @@
 HungaryVFR-LHBS-Budaörs scenery
 ******************************************************
 
-Verzió szám: 3.0.1
+Verzió szám: 3.0.2
 Lefedett terület: LHBS - Budaörs
 
 ******************************************************
@@ -33,7 +33,7 @@ A kiegészítõket az "X-Plane folder/Custom Scenery" alá kell másolni.
 
 - OpenSceneryX (http://www.opensceneryx.com/)
 - handyobjects (http://forums.x-plane.org/index.php?/files/file/24261-the-handy-objects-library/)
-- ruscenery (http://ruscenery.x-air.ru/
+- ruscenery (http://ruscenery.x-air.ru/)
 
 ***** SCENERY.ini *****
 
