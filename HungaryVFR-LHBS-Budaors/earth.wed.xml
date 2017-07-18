@@ -116,7 +116,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="5"/>
+                <sel id="15698"/>
             </selection>
         </object>
         <object class="WED_AirportChain" id="514" parent_id="504">
@@ -313,8 +313,8 @@
                 <child id="10588"/>
                 <child id="605"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Budaors"/>
-            <airport always_flatten="0" drive_on_left="0" elevation="0.0" has_atc="1" icao="LHBS" kind="Airport" scenery_id="-1"/>
+            <hierarchy hidden="0" locked="0" name="Budaörs"/>
+            <airport always_flatten="0" drive_on_left="0" elevation="126.0" has_atc="1" icao="LHBS" kind="Airport" scenery_id="-1"/>
             <meta_data>
                 <meta_data_entry pair="city,Budaörs"/>
                 <meta_data_entry pair="country,Hungary"/>
@@ -3025,14 +3025,6 @@
             <point ctrl_latitude_hi="-0.000056699" ctrl_latitude_lo="0.000056699" ctrl_longitude_hi="-0.000101716" ctrl_longitude_lo="0.000101716" latitude="47.448288267" longitude="18.984294004" split="0"/>
             <markings/>
         </object>
-        <object class="WED_ObjPlacement" id="8479" parent_id="736">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="cirrus.obj"/>
-            <point heading="195.07" latitude="47.452851304" longitude="18.987666733"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="opensceneryx/objects/aircraft/gliders/ga/cirrus.obj" show_level="1 Default"/>
-        </object>
         <object class="WED_AirportNode" id="288" parent_id="244">
             <sources/>
             <viewers/>
@@ -5507,7 +5499,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="hungary.obj"/>
             <point heading="0.00" latitude="47.447831811" longitude="18.984672482"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/flags_world/hungary.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/hungary.obj" show_level="1 Default"/>
         </object>
         <object class="WED_Ring" id="4497" parent_id="4496">
             <sources/>
@@ -10183,12 +10175,12 @@
                 <child id="8477"/>
                 <child id="8481"/>
                 <child id="8480"/>
-                <child id="8479"/>
                 <child id="8478"/>
                 <child id="8476"/>
                 <child id="8475"/>
                 <child id="8466"/>
                 <child id="5076"/>
+                <child id="15698"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Airplanes"/>
         </object>
@@ -12989,7 +12981,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="hungary.obj"/>
             <point heading="0.00" latitude="47.447934644" longitude="18.985011065"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/flags_world/hungary.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/hungary.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9384" parent_id="9467">
             <sources/>
@@ -40598,10 +40590,17 @@
             <point heading="32.22" latitude="47.448643365" longitude="18.976421988"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Vehicles/van_white.obj" show_level="1 Default"/>
         </object>
+        <object class="WED_ObjPlacement" id="15698" parent_id="736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="gobe-gobe.obj"/>
+            <point heading="9.88" latitude="47.452868777" longitude="18.987708788"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Airplanes/gobe-gobe.obj" show_level="1 Default"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
-            <item value="5"/>
             <item value="211"/>
             <item value="402"/>
             <item value="403"/>
@@ -40647,15 +40646,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.977902"/>
-        <pref name="map/north" value="47.448512"/>
+        <pref name="map/east" value="18.988888"/>
+        <pref name="map/north" value="47.453807"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.447865"/>
+        <pref name="map/south" value="47.451682"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.977044"/>
+        <pref name="map/west" value="18.985509"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -40677,7 +40676,7 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="opensceneryx/lines/solid_lines/white.lin"/>
-        <pref name="map_Objects_Object" value="Objects/Vehicles/renault_5_trafic.obj"/>
+        <pref name="map_Objects_Object" value="Objects/Airplanes/gobe-gobe.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="lib/g10/terrain10/coni_wrm_wet_fl.pol"/>
@@ -40729,13 +40728,13 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="997"/>
+        <pref name="window/height" value="1107"/>
         <pref name="window/main_split" value="381"/>
-        <pref name="window/main_split2" value="1339"/>
-        <pref name="window/prev_split" value="576"/>
-        <pref name="window/prop_split" value="602"/>
-        <pref name="window/width" value="1920"/>
-        <pref name="window/x_loc" value="-8"/>
-        <pref name="window/y_loc" value="-8"/>
+        <pref name="window/main_split2" value="1627"/>
+        <pref name="window/prev_split" value="596"/>
+        <pref name="window/prop_split" value="555"/>
+        <pref name="window/width" value="2008"/>
+        <pref name="window/x_loc" value="-1032"/>
+        <pref name="window/y_loc" value="26"/>
     </prefs>
 </doc>
