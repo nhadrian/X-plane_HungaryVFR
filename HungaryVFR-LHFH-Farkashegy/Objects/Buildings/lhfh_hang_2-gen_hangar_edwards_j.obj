@@ -1,0 +1,25 @@
+I
+800	# Converted by FS2XPlane 3.26
+OBJ
+
+# object lhfh_hang_2 in file budapest-lib-fsx.bgl
+
+TEXTURE		gen_hangar_edwards_j.dds
+TEXTURE_LIT	gen_hangar_edwards_j_LIT.dds
+POINT_COUNTS	6 0 0 12
+
+VT	  43.827    7.000  -13.476	 0.000  1.000 -0.000	0.6426 0.6484
+VT	  43.827    7.000   11.072	 0.000  1.000 -0.000	0.6426 0.0723
+VT	  37.247    7.000   11.072	 0.000  1.000 -0.000	0.5137 0.0723
+VT	  21.615    7.000   11.072	 0.000  1.000 -0.000	0.2070 0.0723
+VT	  15.035    7.000  -13.476	 0.000  1.000 -0.000	0.0781 0.6484
+VT	  15.035    7.000   11.072	 0.000  1.000 -0.000	0.0781 0.0723
+
+IDX10	0 1 2 0 2 3 4 0 3 4
+IDX	3
+IDX	5
+
+ATTR_no_blend
+
+ATTR_shiny_rat	0.400
+TRIS	0 12
