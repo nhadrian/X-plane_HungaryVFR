@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Read Me</title>
+<font face="Arial">
+</head>
+
+<body text="black" bgcolor="white">
+
+<h1 align="center"><font color="blue">&#9658;<u>Static Aircraft General Read Me</u>&#9668;</font color="blue"></h1>
+<hr width="100%" size="4" align="center" color="black" noshade>
+<p><font color="red"><b><u>General Information:</u></b></font color="red"><br>This static aircraft is based on a JAS39 Gripen built for X-plane 5.54 by Per Malmqvist and updated to X-Plane 7.62 by jjjj. It was built using ACF import script version 1.12 and Object export script version 1.72. It includes the polygons for all three resolution levels with the needed ATTR_LOD entries. It is also composed almost entirely of quad_strips and tri_fans with only a handful of individual polygons.</p>
+
+<hr width="100%" size="4" align="center" color="black" noshade>
+<p><font color="red"><b><u>Terms And Conditions Of Use:</u></b></font color="red"><br>You may use this static aircraft in the following ways.<br>
+<ol type="1">
+<li>You may place it in the scenery by any airport anywhere in the X-Plane world.<br>
+<li>You may include a copy of it in any scenery pack you wish to publish on the Internet.<br>
+<ul type="square">
+<li>Note, you must include un-altered copies of the object file and texture(s) aswell as a copy of this ‘read me’ document with them.<br>
+<li>You must also mention my name (<font color="red"><b>Planebuilder</b></font color="red">) and give me credit as the original builder of the static model.<br>
+</ul>
+<li>You may modify/customize your own personal copy of the model to suit your own tastes.<br>
+<ul type="square">
+<li>Note, If you are unsure how to do that, there are detailed instructions on just how to customize the static aircraft and still have it work listed near the end of this document.<br>
+</ul>
+<li>You <b><u>MAY NOT</u></b> publish an altered copy of the static aircraft without my express written permission. You can contact me Ezeldachamp@aol.com.<br>
+</ol>
+</P>
+
+<hr width="100%" size="4" align="center" color="black" noshade>
+<p><font color="red"><b><u>Origins Data:</u></b></font color="red"><br>
+I use Johnathon Harris’ X-Plane ACF import script to import existing X-Plane aircraft into Blender and his X-Plane Object exporter script to export them as static objects. Because of this any structural error in an aircraft will end up in the static model based on it. If you see that this model isn’t correctly shaped, please let me know then rebuild it if you can so it is correctly shaped. If you are unable to rebuild the model to correct it, I would appreciate it if you could supply me with info on where I can find a better aircraft to use as a template for the model.<br><br>If planning to recommend a replacement aircraft for this model, please be aware that the ACF import script I use will not import elements built from weapon files. Because of this, the replacement plane will not be suitable if it has major structural elements built from these parts. Also the import script only supports 7.xx acf files. 6.xx planes are suitable, I can update them in Plane-Maker, but 5.xx planes aren’t because I have no way to update them. Also, note that there are times when the ACF import will not import a plane, regardless of what elements it does or doesn’t have, because of this there is no guarantee that any plane is suitable.</p>
+
+<hr width="100%" size="4" align="center" color="black" noshade>
+<p><font color="red"><b><u>Installation:</u></b></font color="red"><br>To install this object, copy the contents of the folder labeled “To custom object textures” to the custom object textures folder of the scenery pack of your choice. The textures must be in the root body (top level) of the custom object textures folder and not inside a sub-folder in the custom object textures folder, otherwise X-Plane may not be able to find the textures for the object and the model may not be rendered in the sim. Now copy the JAS39_OBJ object file itself from the “To custom objects” folder to the custom objects folder of the same scenery pack. That’s it installation is complete. Next, placement.</p>
+
+<hr width="100%" size="4" align="center" color="black" noshade>
+<p><font color="red"><b><u>Placement, (you may want to print this part out):</u></b></font color="red"><br>Here is a little trick to quickly find the ENV file that a given airport is in, even if you don’t know which ENV area it is in. Launch World-Maker and click on the “airports” tab to go into airport editor. Now see the upper bar by where it says “click on TOP bars to SEARCH, click on BOTTOM bars to EDIT”? Click in the upper bar set and type in either the name or 4 letter ID code of the airport you want and press enter. The airport should appear in the map window in the upper-right. Now click on the “Obstacles” tab to switch to obstacles editor, and surprise the ENV coordinates are already set for you!<br>
+<br>Now the tricky part, the ENV file is already set, but your view isn’t automatically zoomed in on the airport. Unless you know exactly were in the ENV file the airport is located, you are going to need to find it. Zoom in enough so the airport names are visible and use your arrow keys to move the map view around until you spot the airport you want. Once you find the airport you want, position the map view so the airport is around the middle of the screen and zoom in a little more. Keep using your arrow keys to move the map view around as you zoom in, trying to keep the airport in the middle of the screen.<br>
+<br>Keep zooming in and moving the map view around until you come to the spot where you wish to place the object. Click the radio button that says “add custom object”, then click on an area in the map view. If there are no objects in the ENV file, a window should come up listing the custom objects available in the active custom objects folder. Click on the name of the object you wish to place and the window should close automatically returning you to the map view. You should now see a flashing icon near spot where you originally clicked on the map. If there are some objects already in the ENV file, a copy of one will be placed near where you clicked on the map. In this case, click the button below where the object name is displayed to select the object to place.<br>
+<br>If you are zoomed in enough, the icon will look like the footprint of the object. If not, then it will look like the symbol next to the “add custom object” radio button. Zoom in enough to see the footprint of the object, moving the map view around as to keep the object in the middle of the screen. Now click on the radio button that says “move nearest obstacle to mouse-click” and then click on the map view near the object. The object should jump to the pointer and stick to it. While holding your mouse button down, move your mouse around and you should see the object follow the pointer around. This way you can drag and position the object anywhere.<br>
+<br>Now move your attention back to the area below the “add custom object” radio button. See those three numbers with the arrow buttons above and below them? Those numbers control the heading or in simpler terms, which way the object is facing. Manipulate them while keeping an eye on the object and you should notice it rotating around an imaginary center point. By changing those three numbers and moving the object around, you can fine tune the positioning of the object until it is just right. When you are satisfied with the position of the static model, go up to the file menu and select “Save Terrain and Obstacles” to save the changes you have made to the ENV file. That’s it, placement is complete.<br>
+<br>Now close World-Maker by going to the file menu and selecting quit. One note, World-Maker is going to ask you if you wish to save changes to the airports file before quitting. Although you didn’t really make any changes to the airports database, World-Maker tends to assume you did if you entered the editor. Just click on “Don’t save” to exit World-Maker without altering the airports database.</p>
+
+<hr width="100%" size="4" align="center" color="black" noshade>
+<p><font color="red"><b><u>Cutomizing The Static Aircraft:</u></b></font color="red"><br>There are a couple of things you can do to customize the static aircraft and still have it work with X-Plane.</p>
+
+<p><ol type="1">
+<li> You can rename the object file, 
+<li> You can rename the texture(s), or
+<li> You can rename both the object file and it's texture(s).
+<li> You can also put either the object file and/or it's texture(s) into sub-catergory folders.</ol></p>
+
+<p><b><u><font size="4">Note, before I describe how to do these in detail, one important thing I need to alert you to is that these modifications must be done before the model is placed in World-Maker. If they are done after a static aircraft has been placed, X-Plane may no longer render the model in the sim or render it distorted in some fashion.</b></u></font size="4"></p> 
+<p><font color="blue"><b><u>To Rename The Object File:</b></u></font color="blue"><br>This is by far the easiest customization step you can do. Just use your OS' "rename" method to change the file name, then when you goto place it in World-Maker you only need to look for the file uner the name you gave it.</b></u></p>
+<p><font color="blue"><b><u>To Rename The Texture(s):</b></u></font color="blue"><br>This is customizing step is similiar to the prior one, however it has one extra step you must perform. After you rename the texture(s), you must edit the object file so X-Plane will know where to find it's texture(s). Say you want to change the texture name from XXXX_OBJ to just XXXX. To do this, follow these steps:
+<ol type="1">
+<li>Open the object file in a plain text editor.
+<li>Look for the line that says something like this:<br>
+<pre>"XXXX_OBJ	// texture"</pre>
+<li>Change the "XXXX_OBJ" to "XXXX", this will tell X-Plane to look for a texture called "XXXX" instead of one called "XXXX_OBJ".</p>
+</ol>
+<br>
+Say you decide to not only rename the texture(s), but also put them in a sub-folder, and the folder is named "XFolder". Change the "XXXX_OBJ" to read "XFolder<b>:</b>XXXX", this will tell X-Plane to look first for a folder called "XFolder", then a texture inside it called "XXXX"
+<br><br>
+For nighttime textures, (the ones with the letters "LIT" as the last letters in the name), the naming convension for the texture is the same as the daytime textures. If there is a texture called "XXXX_OBJLIT", just rename it to "XXXXLIT". You need not specify it in the object file, X-Plane will automatically use a texture with the letters "LIT" at the end  of the name as a nighttime texture on an object where the texture "XXXX" is specified.</P>
+<p><font color="blue"><b><u>To Put The Object File In A Sub-folder:</b></u></font color="blue"><br>This step is similiar to the one detailing renaming the file above, the only difference being is that when going to place the object, you will need to look for the name of the folder you put it in first and then the object name second.</P>
+
+<hr width="100%" size="4" align="center" color="black" noshade>
+<p><font color="red"><b><u>Credits:</u></b></font color="red"><br>Per Malmqvist: Builder of the original X-Plane 5.54 plane this model is based on.<br>jjjj: Updater of the original XP 5.54 plane to X-Plane 7.62’s ACF format.<br>Johnathon Harris: Creator of the scripts used to create this model.<br>And last of all... myself, Planebuilder: Builder of the static model.</p>
+
+</body>
+</html>
+
