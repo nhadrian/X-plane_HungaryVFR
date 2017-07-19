@@ -1,21 +1,51 @@
-ï»¿Hungary VFR - LHGD for X-Plane 10.50+
+HungaryVFR-LHGD-Gödöllõ scenery
+******************************************************
 
-Az eredeti scenery SÃ¶rÃ¶s IstvÃ¡n Ã¡ltal kÃ©szÃ¼lt, jelen csomag az Å LHGD sceneryjÃ©nek mÃ³dosÃ­tÃ¡sa. 
+Verzió szám: 2.0.0
+Lefedett terület: 
+- LHGD - Gödöllõ
+- Gödöllõ település egy része
 
-TelepÃ­tÃ©s: MÃ¡sold a zip tartalmÃ¡t az "X-Plane folder/Custom Scenery" kÃ¶nyvtÃ¡rba.
+******************************************************
+A kiadást HungaryVFR Team készítette.
 
-A scenery mÅ±kÃ¶dÃ©sÃ©hez OpensceneryX (http://www.opensceneryx.com/) Ã©s R2 Library (http://r2.xpl.cz/) szÃ¼ksÃ©ges, anÃ©lkÃ¼l hibÃ¡t fogsz kapni! 
-A letÃ¶ltÃ¶tt R2 Library-t mÃ¡sold szintÃ©n a "X-Plane folder/Custom Scenery" alÃ¡.
+HungaryVFR Team tagok:
+- 
+- 
+- nhadrian
+…
 
+Kapcsolat: hungaryvfr@gmail.com
+******************************************************
 
-----------------------------------------------------------------
+***** TELEPÍTÉS *****
 
+Másold a zip tartalmát az "X-Plane folder/Custom Scenery" könyvtárba.
 
-Hungary VFR - LHGD for X-Plane 10.50+
-Release Date: 2010.03.15.
+***** KOMPATIBILITÁS *****
 
-This is a modified version of LHGD by IstvÃ¡n SÃ¶rÃ¶s. 
+X-Plane verzió: X-Plane 10.50+ kiadáshoz
+Kompatibilitás más kiegészítõkkel: igen
+Ismert kompatibilitási problémák: nincs
 
-Installation: Copy zip contents to "X-Plane folder/Custom Scenery" folder.
+***** SZÜKSÉGES KIEGÉSZÍTÕK *****
 
-OpensceneryX (http://www.opensceneryx.com/) and R2 Library (http://r2.xpl.cz/) is required for this scenery!
+A kiegészítõ helyes mûködéséhez az alábbi kiegészítõkre van szükség. 
+A kiegészítõket az "X-Plane folder/Custom Scenery" alá kell másolni.
+
+- OpenSceneryX (http://www.opensceneryx.com/)
+- R2 library (http://r2.xpl.cz/)
+- handyobjects (http://forums.x-plane.org/index.php?/files/file/24261-the-handy-objects-library/)
+
+***** SCENERY.ini *****
+
+A kiegészítõ helyes mûködéséhez fontos a SCENERY.ini tartalmának helyes sorrendbe rendezése. A SCENERY.ini file-ról részletes információk az alábbi linken:
+https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2992536
+
+Javasolt sorrend:
+//ezt ki kell dolgozni
+
+***** KÖSZÖNETNYILVÁNÍTÁS*****
+
+- Az eredeti scenery Sörös István által készült, jelen csomag az Õ LHGD sceneryjének kiegészítése, köszönet az elkészítésért.
+- A Scenery az alábbi library-kbõl tartalmaz módosított odjektumokat: CDB-library, Ruscenery, european vehicles library. Köszönet a fejlesztõknek!!!

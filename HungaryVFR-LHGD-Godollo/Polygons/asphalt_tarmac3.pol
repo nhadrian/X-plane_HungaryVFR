@@ -1,0 +1,9 @@
+A
+850
+DRAPED_POLYGON
+DECAL_LIB lib/g10/decals/road_res_dry.dcl
+
+LAYER_GROUP markings -1
+TEXTURE asphalt_tarmac3.dds
+SURFACE concrete
+SCALE 25 25
