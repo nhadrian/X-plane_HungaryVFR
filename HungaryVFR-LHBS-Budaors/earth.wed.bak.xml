@@ -116,7 +116,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="15698"/>
+                <sel id="10585"/>
             </selection>
         </object>
         <object class="WED_AirportChain" id="514" parent_id="504">
@@ -265,7 +265,6 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="15698"/>
                 <child id="5"/>
                 <child id="797"/>
                 <child id="798"/>
@@ -312,7 +311,6 @@
                 <child id="10586"/>
                 <child id="8703"/>
                 <child id="10588"/>
-                <child id="605"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Budaörs"/>
             <airport always_flatten="0" drive_on_left="0" elevation="126.0" has_atc="1" icao="LHBS" kind="Airport" scenery_id="-1"/>
@@ -8678,7 +8676,7 @@
             <hierarchy hidden="0" locked="0" name="concrete.pol"/>
             <polygon_placement heading="0.0" resource="opensceneryx/polygons/surfaces/concrete.pol"/>
         </object>
-        <object class="WED_PolygonPlacement" id="605" parent_id="5">
+        <object class="WED_PolygonPlacement" id="605" parent_id="10585">
             <sources/>
             <viewers/>
             <children>
@@ -8688,7 +8686,7 @@
                 <child id="15588"/>
             </children>
             <hierarchy hidden="0" locked="1" name="Base_texture"/>
-            <polygon_placement heading="0.0" resource="lib/g10/terrain10/urban_tmp_wet_prk1.pol"/>
+            <polygon_placement heading="0.0" resource="Polygons/grass.pol"/>
         </object>
         <object class="WED_Ring" id="4701" parent_id="4700">
             <sources/>
@@ -10181,6 +10179,7 @@
                 <child id="8475"/>
                 <child id="8466"/>
                 <child id="5076"/>
+                <child id="15698"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Airplanes"/>
         </object>
@@ -37459,8 +37458,9 @@
             <viewers/>
             <children>
                 <child id="31"/>
+                <child id="605"/>
             </children>
-            <hierarchy hidden="0" locked="1" name="Airport boundary"/>
+            <hierarchy hidden="0" locked="1" name="Boundary+texture"/>
         </object>
         <object class="WED_Group" id="10586" parent_id="5">
             <sources/>
@@ -40590,7 +40590,7 @@
             <point heading="32.22" latitude="47.448643365" longitude="18.976421988"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Vehicles/van_white.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="15698" parent_id="4">
+        <object class="WED_ObjPlacement" id="15698" parent_id="736">
             <sources/>
             <viewers/>
             <children/>
@@ -40603,7 +40603,6 @@
         <pref name="PropertyPane0/Closed">
             <item value="211"/>
             <item value="402"/>
-            <item value="403"/>
             <item value="530"/>
             <item value="565"/>
             <item value="573"/>
@@ -40623,6 +40622,8 @@
             <item value="3431"/>
             <item value="3518"/>
             <item value="4091"/>
+            <item value="8455"/>
+            <item value="8593"/>
             <item value="8638"/>
             <item value="8639"/>
             <item value="8703"/>
@@ -40646,15 +40647,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.988888"/>
-        <pref name="map/north" value="47.453807"/>
+        <pref name="map/east" value="18.984882"/>
+        <pref name="map/north" value="47.456448"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.451682"/>
+        <pref name="map/south" value="47.446357"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.985509"/>
+        <pref name="map/west" value="18.972314"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -40679,7 +40680,7 @@
         <pref name="map_Objects_Object" value="Objects/Airplanes/gobe-gobe.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
-        <pref name="map_Polygons_Resource" value="lib/g10/terrain10/coni_wrm_wet_fl.pol"/>
+        <pref name="map_Polygons_Resource" value="Polygons/grass.pol"/>
         <pref name="map_Polygons_Use Texture Map" value="0"/>
         <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
         <pref name="map_Ramp Start_Airlines" value=""/>
@@ -40728,13 +40729,13 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="1107"/>
+        <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="381"/>
-        <pref name="window/main_split2" value="1627"/>
-        <pref name="window/prev_split" value="596"/>
-        <pref name="window/prop_split" value="555"/>
-        <pref name="window/width" value="2008"/>
-        <pref name="window/x_loc" value="-1032"/>
-        <pref name="window/y_loc" value="26"/>
+        <pref name="window/main_split2" value="1287"/>
+        <pref name="window/prev_split" value="606"/>
+        <pref name="window/prop_split" value="218"/>
+        <pref name="window/width" value="1920"/>
+        <pref name="window/x_loc" value="-8"/>
+        <pref name="window/y_loc" value="-8"/>
     </prefs>
 </doc>
