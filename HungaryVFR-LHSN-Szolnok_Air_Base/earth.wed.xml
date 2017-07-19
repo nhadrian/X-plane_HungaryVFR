@@ -71,7 +71,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="3383"/>
+                <sel id="2162"/>
             </selection>
         </object>
         <object class="WED_AirportNode" id="514" parent_id="513">
@@ -17124,7 +17124,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 2"/>
-            <point ctrl_latitude_hi="-0.000062246" ctrl_latitude_lo="0.000062246" ctrl_longitude_hi="-0.000255397" ctrl_longitude_lo="0.000255397" latitude="47.126202847" longitude="20.237328993" split="0"/>
+            <point ctrl_latitude_hi="-0.000062246" ctrl_latitude_lo="0.000062246" ctrl_longitude_hi="-0.000255397" ctrl_longitude_lo="0.000255397" latitude="47.126202847" longitude="20.237331260" split="0"/>
             <markings>
                 <marking value="Solid White (Roadway)"/>
             </markings>
@@ -26342,17 +26342,17 @@
             <item value="3348"/>
             <item value="3383"/>
         </pref>
-        <pref name="doc/export_target" value="2"/>
+        <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="20.252975"/>
-        <pref name="map/north" value="47.136680"/>
+        <pref name="map/east" value="20.237548"/>
+        <pref name="map/north" value="47.126460"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="3"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.114534"/>
+        <pref name="map/south" value="47.125969"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="20.214820"/>
+        <pref name="map/west" value="20.236701"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -26429,8 +26429,8 @@
         <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="322"/>
         <pref name="window/main_split2" value="1542"/>
-        <pref name="window/prev_split" value="469"/>
-        <pref name="window/prop_split" value="488"/>
+        <pref name="window/prev_split" value="479"/>
+        <pref name="window/prop_split" value="498"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
