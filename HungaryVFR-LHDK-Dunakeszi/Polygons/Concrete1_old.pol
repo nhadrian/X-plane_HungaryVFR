@@ -1,0 +1,8 @@
+A
+850
+DRAPED_POLYGON
+LAYER_GROUP taxiways +3
+
+TEXTURE Concrete1_old.png
+SURFACE concrete
+SCALE 20 20
