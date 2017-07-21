@@ -1,0 +1,8 @@
+I
+850	# Converted by FS2XPlane 3.26
+DRAPED_POLYGON
+
+TEXTURE_NOWRAP		lhdk1.dds
+SCALE		128 128
+LAYER_GROUP	airports -1
+SURFACE		concrete
