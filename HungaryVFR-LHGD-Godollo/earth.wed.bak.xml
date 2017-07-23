@@ -150,7 +150,9 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection/>
+            <selection>
+                <sel id="385"/>
+            </selection>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4098" parent_id="4090">
             <sources/>
@@ -2883,7 +2885,6 @@
                 <child id="293"/>
                 <child id="308"/>
                 <child id="392"/>
-                <child id="2965"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Buildings"/>
         </object>
@@ -2991,7 +2992,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="R_Tower_50m.obj"/>
-            <point heading="321.31" latitude="47.573137898" longitude="19.331766600"/>
+            <point heading="321.31" latitude="47.573264080" longitude="19.331824148"/>
             <obj_placement custom_msl="0" msl="0.000" resource="objects/obstacles/R_Tower_50m.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4304" parent_id="4289">
@@ -4430,7 +4431,7 @@
                 <child id="389"/>
             </children>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2m.str"/>
-            <string_placement closed="1" resource="handyobjects/gatesandfences/chain_link_fence_2m.str" spacing="2.0"/>
+            <string_placement closed="1" resource="objects/misc/chain_link_fence_2m.str" spacing="2.0"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4481" parent_id="4473">
             <sources/>
@@ -8077,14 +8078,6 @@
             <hierarchy hidden="0" locked="0" name="R2_Library/budovy/sklady/sklad_16m/sklad16_60m.obj"/>
             <point heading="74.00" latitude="47.589288167" longitude="19.322598611"/>
             <obj_placement custom_msl="0" msl="0.000" resource="R2_Library/budovy/sklady/sklad_16m/sklad16_60m.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="2965" parent_id="202">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="lib/airport/beacons/beacon_airport_big.obj"/>
-            <point heading="0.00" latitude="47.572491321" longitude="19.330834668"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/beacons/beacon_airport_big.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="2966" parent_id="5308">
             <sources/>
@@ -23528,15 +23521,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="19.352556"/>
-        <pref name="map/north" value="47.578093"/>
+        <pref name="map/east" value="19.333183"/>
+        <pref name="map/north" value="47.574826"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="3"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.561641"/>
+        <pref name="map/south" value="47.572011"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="19.329791"/>
+        <pref name="map/west" value="19.329288"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -23613,8 +23606,8 @@
         <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="322"/>
         <pref name="window/main_split2" value="1315"/>
-        <pref name="window/prev_split" value="623"/>
-        <pref name="window/prop_split" value="391"/>
+        <pref name="window/prev_split" value="643"/>
+        <pref name="window/prop_split" value="411"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
