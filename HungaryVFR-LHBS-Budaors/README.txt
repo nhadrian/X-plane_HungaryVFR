@@ -1,7 +1,7 @@
 HungaryVFR-LHBS-Budaörs scenery
 ******************************************************
 
-Verzió szám: 3.0.4
+Verzió szám: 3.0.5
 Lefedett terület: LHBS - Budaörs
 
 ******************************************************
@@ -46,4 +46,4 @@ Javasolt sorrend:
 ***** KÖSZÖNETNYILVÁNÍTÁS*****
 
 - Az egyedi épületek 3d modelljeiért és textúráiért köszönet a hazai SketchUp közösségnek, Clidey-nek, Papirzacsinak és az LHSimulations csapatának!!!
-- A Scenery az alábbi library-kbõl tartalmaz módosított odjektumokat: Misterx, handyobjects, R2-library, CDB-library, Ruscenery, european vehicles library, misterx library, rd-library. Köszönet a fejlesztõknek!!!
+- A Scenery az alábbi library-kbõl tartalmaz módosított odjektumokat: Misterx, handyobjects, R2-library, CDB-library, Ruscenery, world models, european vehicles library, misterx library, rd-library. Köszönet a fejlesztõknek!!!
