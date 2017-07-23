@@ -542,23 +542,23 @@ I
 1301 A general_aviation 
 1300  47.44826497  018.97947619 183.95 tie_down props Ramp 10
 1301 A general_aviation 
-1300  47.44825317  018.97982954 182.49 tie_down props Ramp 9
+1300  47.44825317  018.97982954 182.49 tie_down turboprops|props Ramp 9
 1301 A general_aviation 
-1300  47.44829601  018.98190512 182.48 tie_down props|helos Ramp 8
+1300  47.44825262  018.98190512 182.48 tie_down props|helos Ramp 8
 1301 A general_aviation 
-1300  47.44828615  018.98214805 181.61 tie_down props|helos Ramp 7
+1300  47.44824276  018.98214805 181.61 tie_down props|helos Ramp 7
 1301 A general_aviation 
-1300  47.44828021  018.98238979 182.22 tie_down turboprops|props|helos Ramp 6
+1300  47.44823682  018.98238979 182.22 tie_down props|helos Ramp 6
 1301 A general_aviation 
-1300  47.44828208  018.98265869 183.11 tie_down turboprops|props|helos Ramp 5
+1300  47.44823869  018.98265869 183.11 tie_down props|helos Ramp 5
 1301 A general_aviation 
-1300  47.44826970  018.98296732 182.50 tie_down turboprops|props|helos Ramp 4
+1300  47.44822631  018.98296732 182.50 tie_down props|helos Ramp 4
 1301 A general_aviation 
-1300  47.44826439  018.98326811 182.77 tie_down turboprops|props|helos Ramp 3
+1300  47.44822101  018.98326811 182.77 tie_down props|helos Ramp 3
 1301 A general_aviation 
-1300  47.44825024  018.98357151 183.24 tie_down turboprops|props|helos Ramp 2
+1300  47.44820685  018.98357151 183.24 tie_down props|helos Ramp 2
 1301 A general_aviation 
-1300  47.44824140  018.98388015 183.03 tie_down turboprops|props|helos Ramp 1
+1300  47.44819801  018.98388015 183.03 tie_down props|helos Ramp 1
 1301 A general_aviation 
 19  47.45319316  018.98617729 0 New Windsock 21
 19  47.44846749  018.98511334 0 New Windsock 20

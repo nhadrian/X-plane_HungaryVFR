@@ -4,8 +4,7 @@ OBJ
 
 # object lhbs_torony in file budapest-lib-fsx.bgl scaled x0.54
 
-TEXTURE		air_w2.dds
-TEXTURE_LIT	air_w2_LIT.dds
+TEXTURE		air_w2.png
 POINT_COUNTS	72 0 0 168
 
 VT	  18.368    4.052   -0.000	 1.000  0.000 -0.000	2.0698 0.4523
