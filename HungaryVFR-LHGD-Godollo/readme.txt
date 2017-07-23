@@ -1,7 +1,7 @@
 HungaryVFR-LHGD-Gödöllõ scenery
 ******************************************************
 
-Verzió szám: 2.0.0
+Verzió szám: 2.0.2
 Lefedett terület: 
 - LHGD - Gödöllõ
 - Gödöllõ település egy része
@@ -48,4 +48,4 @@ Javasolt sorrend:
 ***** KÖSZÖNETNYILVÁNÍTÁS*****
 
 - Az eredeti scenery Sörös István által készült, jelen csomag az Õ LHGD sceneryjének kiegészítése, köszönet az elkészítésért.
-- A Scenery az alábbi library-kbõl tartalmaz módosított odjektumokat: CDB-library, Ruscenery, european vehicles library. Köszönet a fejlesztõknek!!!
+- A Scenery az alábbi library-kbõl tartalmaz módosított odjektumokat: CDB-library, handyobjects, world models, Ruscenery, european vehicles library. Köszönet a fejlesztõknek!!!
