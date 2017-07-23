@@ -16,7 +16,9 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection/>
+            <selection>
+                <sel id="1233"/>
+            </selection>
         </object>
         <object class="WED_Runway" id="18" parent_id="563">
             <sources/>
@@ -2316,7 +2318,7 @@
                 <child id="1232"/>
             </children>
             <hierarchy hidden="0" locked="0" name="barbed_wire_fence_wide.str"/>
-            <string_placement closed="0" resource="handyobjects/gatesandfences/barbed_wire_fence_wide.str" spacing="2.0"/>
+            <string_placement closed="0" resource="objects/misc/barbed_wire_fence_wide.str" spacing="2.0"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1225" parent_id="1224">
             <sources/>
@@ -2808,7 +2810,7 @@
                 <child id="1235"/>
             </children>
             <hierarchy hidden="0" locked="0" name="barbed_wire_fence_wide.str"/>
-            <string_placement closed="0" resource="handyobjects/gatesandfences/barbed_wire_fence_wide.str" spacing="2.0"/>
+            <string_placement closed="0" resource="objects/misc/barbed_wire_fence_wide.str" spacing="2.0"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1234" parent_id="1233">
             <sources/>
@@ -2832,7 +2834,7 @@
                 <child id="1238"/>
             </children>
             <hierarchy hidden="0" locked="0" name="barbed_wire_fence_wide.str"/>
-            <string_placement closed="0" resource="handyobjects/gatesandfences/barbed_wire_fence_wide.str" spacing="2.0"/>
+            <string_placement closed="0" resource="objects/misc/barbed_wire_fence_wide.str" spacing="2.0"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1237" parent_id="1236">
             <sources/>
@@ -2874,7 +2876,7 @@
                 <child id="1249"/>
             </children>
             <hierarchy hidden="0" locked="0" name="barbed_wire_fence_wide.str"/>
-            <string_placement closed="0" resource="handyobjects/gatesandfences/barbed_wire_fence_wide.str" spacing="2.0"/>
+            <string_placement closed="0" resource="objects/misc/barbed_wire_fence_wide.str" spacing="2.0"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1246" parent_id="1245">
             <sources/>
@@ -7566,7 +7568,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="windsock.obj"/>
             <point heading="0.00" latitude="47.617430304" longitude="19.143595049"/>
-            <obj_placement custom_msl="1" msl="133.000" resource="lib/airport/landscape/windsock.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="1" msl="135.000" resource="lib/airport/landscape/windsock.obj" show_level="1 Default"/>
         </object>
         <object class="WED_Group" id="8749" parent_id="8054">
             <sources/>
@@ -9335,7 +9337,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="205.99" latitude="47.617662057" longitude="19.141950300"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9126" parent_id="9159">
             <sources/>
@@ -9343,7 +9345,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="-155.02" latitude="47.617568144" longitude="19.142223725"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9127" parent_id="9159">
             <sources/>
@@ -9351,7 +9353,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_2panel.obj"/>
             <point heading="296.57" latitude="47.617662176" longitude="19.141950057"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_2panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_2panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9128" parent_id="9159">
             <sources/>
@@ -9359,7 +9361,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_2panel.obj"/>
             <point heading="118.40" latitude="47.617567554" longitude="19.142224034"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_2panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_2panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9129" parent_id="9159">
             <sources/>
@@ -9367,7 +9369,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_2panel.obj"/>
             <point heading="116.71" latitude="47.617590147" longitude="19.142161011"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_2panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_2panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9130" parent_id="9159">
             <sources/>
@@ -9375,7 +9377,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m.obj"/>
             <point heading="296.57" latitude="47.617641976" longitude="19.142009992"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9131" parent_id="9159">
             <sources/>
@@ -9383,7 +9385,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="203.26" latitude="47.616722397" longitude="19.145303767"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9132" parent_id="9159">
             <sources/>
@@ -9391,7 +9393,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="202.86" latitude="47.616929941" longitude="19.145434672"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9133" parent_id="9159">
             <sources/>
@@ -9399,7 +9401,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_5panel.obj"/>
             <point heading="202.37" latitude="47.617137018" longitude="19.145563133"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_5panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_5panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9134" parent_id="9159">
             <sources/>
@@ -9407,7 +9409,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_5panel.obj"/>
             <point heading="113.68" latitude="47.617231701" longitude="19.145658894"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_5panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_5panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9135" parent_id="9159">
             <sources/>
@@ -9415,7 +9417,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_5panel.obj"/>
             <point heading="204.65" latitude="47.617168043" longitude="19.145452580"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_5panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_5panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9136" parent_id="9159">
             <sources/>
@@ -9423,7 +9425,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_2panel.obj"/>
             <point heading="114.12" latitude="47.617192643" longitude="19.145467903"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_2panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_2panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9137" parent_id="9159">
             <sources/>
@@ -9431,7 +9433,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_2panel.obj"/>
             <point heading="114.51" latitude="47.617211876" longitude="19.145404271"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_2panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_2panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9138" parent_id="9159">
             <sources/>
@@ -9439,7 +9441,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_2panel.obj"/>
             <point heading="114.60" latitude="47.617231855" longitude="19.145340788"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_2panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_2panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9139" parent_id="9159">
             <sources/>
@@ -9447,7 +9449,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_2panel.obj"/>
             <point heading="113.86" latitude="47.617249933" longitude="19.145279049"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_2panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_2panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9140" parent_id="9159">
             <sources/>
@@ -9455,7 +9457,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="204.40" latitude="47.617063392" longitude="19.145079658"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9141" parent_id="9159">
             <sources/>
@@ -9463,7 +9465,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_2panel.obj"/>
             <point heading="205.10" latitude="47.617021371" longitude="19.145050852"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_2panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_2panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9142" parent_id="9159">
             <sources/>
@@ -9471,7 +9473,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="294.13" latitude="47.616722587" longitude="19.145302839"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9143" parent_id="9159">
             <sources/>
@@ -9479,7 +9481,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="294.13" latitude="47.616630368" longitude="19.145609647"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9144" parent_id="9159">
             <sources/>
@@ -9487,7 +9489,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="294.13" latitude="47.616537898" longitude="19.145916427"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9145" parent_id="9159">
             <sources/>
@@ -9495,7 +9497,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="294.13" latitude="47.616445966" longitude="19.146222117"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9146" parent_id="9159">
             <sources/>
@@ -9503,7 +9505,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="294.13" latitude="47.616353908" longitude="19.146527727"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9147" parent_id="9159">
             <sources/>
@@ -9511,7 +9513,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="294.13" latitude="47.616260654" longitude="19.146834822"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9148" parent_id="9159">
             <sources/>
@@ -9519,7 +9521,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="294.13" latitude="47.616169256" longitude="19.147140062"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9149" parent_id="9159">
             <sources/>
@@ -9527,7 +9529,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="294.13" latitude="47.616076875" longitude="19.147449470"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9150" parent_id="9159">
             <sources/>
@@ -9535,7 +9537,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="294.13" latitude="47.615984722" longitude="19.147755552"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9151" parent_id="9159">
             <sources/>
@@ -9543,7 +9545,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="294.13" latitude="47.615892412" longitude="19.148061733"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9152" parent_id="9159">
             <sources/>
@@ -9551,7 +9553,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="294.13" latitude="47.615799868" longitude="19.148368543"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9153" parent_id="9159">
             <sources/>
@@ -9559,7 +9561,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_10panel.obj"/>
             <point heading="294.13" latitude="47.615707487" longitude="19.148675123"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_10panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9154" parent_id="9159">
             <sources/>
@@ -9567,7 +9569,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_5panel.obj"/>
             <point heading="280.71" latitude="47.615615349" longitude="19.148977471"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_5panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_5panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9155" parent_id="9159">
             <sources/>
@@ -9575,7 +9577,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_5panel.obj"/>
             <point heading="279.71" latitude="47.615594714" longitude="19.149141121"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_5panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_5panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9156" parent_id="9159">
             <sources/>
@@ -9583,7 +9585,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_5panel.obj"/>
             <point heading="292.95" latitude="47.615578483" longitude="19.149285012"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_5panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_5panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9157" parent_id="9159">
             <sources/>
@@ -9591,7 +9593,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_5panel.obj"/>
             <point heading="258.30" latitude="47.615536420" longitude="19.149440421"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_5panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_5panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9158" parent_id="9159">
             <sources/>
@@ -9599,7 +9601,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="chain_link_fence_2.5m_5panel.obj"/>
             <point heading="255.69" latitude="47.615562718" longitude="19.149605431"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/gatesandfences/chain_link_fence_2.5m_5panel.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/chain_link_fence_2.5m_5panel.obj" show_level="1 Default"/>
         </object>
         <object class="WED_Group" id="9159" parent_id="8052">
             <sources/>
@@ -10978,7 +10980,6 @@
             <item value="674"/>
             <item value="850"/>
             <item value="894"/>
-            <item value="910"/>
             <item value="8003"/>
             <item value="8051"/>
             <item value="8055"/>
@@ -11015,23 +11016,21 @@
             <item value="8675"/>
             <item value="8712"/>
             <item value="8745"/>
-            <item value="8747"/>
-            <item value="8749"/>
             <item value="8910"/>
             <item value="9159"/>
             <item value="9193"/>
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="19.145088"/>
-        <pref name="map/north" value="47.616970"/>
+        <pref name="map/east" value="19.146647"/>
+        <pref name="map/north" value="47.609445"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.615967"/>
+        <pref name="map/south" value="47.607428"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="19.143834"/>
+        <pref name="map/west" value="19.144128"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -11079,7 +11078,7 @@
         <pref name="map_Sign_Style" value="23"/>
         <pref name="map_Sign_Text" value="{@L}A"/>
         <pref name="map_Sign_Use Clipboard" value="0"/>
-        <pref name="map_Strings_Resource" value="handyobjects/gatesandfences/wooden_bumper_barrier.str"/>
+        <pref name="map_Strings_Resource" value="Objects/Misc/Chain_Link_Fence_2.5m.str"/>
         <pref name="map_Strings_Spacing" value="5.000000"/>
         <pref name="map_Taxi Routes_Allowed Vehicles" value="144"/>
         <pref name="map_Taxi Routes_Arrival" value=""/>
@@ -11108,8 +11107,8 @@
         <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="429"/>
         <pref name="window/main_split2" value="1335"/>
-        <pref name="window/prev_split" value="324"/>
-        <pref name="window/prop_split" value="506"/>
+        <pref name="window/prev_split" value="374"/>
+        <pref name="window/prop_split" value="378"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>

@@ -1,7 +1,7 @@
 HungaryVFR-LHDK-Dunakeszi scenery
 ******************************************************
 
-Verzió szám: 2.0.0
+Verzió szám: 2.0.1
 Lefedett terület: LHDK - Dunakeszi
 
 ******************************************************
@@ -45,4 +45,4 @@ Javasolt sorrend:
 ***** KÖSZÖNETNYILVÁNÍTÁS*****
 
 - Az egyedi épületek 3d modelljeiért és textúráiért köszönet a hazai SketchUp közösségnek, Clidey-nek, Papirzacsinak és az LHSimulations csapatának!!!
-- A Scenery az alábbi library-kbõl tartalmaz módosított odjektumokat: Misterx, Ruscenery, RD-Library, european vehicles library. Köszönet a fejlesztõknek!!!
+- A Scenery az alábbi library-kbõl tartalmaz módosított odjektumokat: Misterx, handyobjects, Ruscenery, RD-Library, european vehicles library. Köszönet a fejlesztõknek!!!
