@@ -1,7 +1,7 @@
 HungaryVFR-LHFH-Farkashegy scenery
 ******************************************************
 
-Verzió szám: 2.0.0
+Verzió szám: 2.0.1
 Lefedett terület: LHFH - Farkashegy
 
 ******************************************************
@@ -46,4 +46,4 @@ Javasolt sorrend:
 ***** KÖSZÖNETNYILVÁNÍTÁS*****
 
 - Az egyedi épületek 3d modelljeiért és textúráiért köszönet a hazai SketchUp közösségnek, Clidey-nek, Papirzacsinak és az LHSimulations csapatának!!!
-- A Scenery az alábbi library-kbõl tartalmaz módosított odjektumokat: Misterx, R2-library, CDB-library, Ruscenery, Flags of the world, european vehicles library, misterx library, rd-library. Köszönet a fejlesztõknek!!!
+- A Scenery az alábbi library-kbõl tartalmaz módosított odjektumokat: Misterx, R2-library, CDB-library, Ruscenery, handyobjects, Flags of the world, european vehicles library, misterx library, rd-library. Köszönet a fejlesztõknek!!!
