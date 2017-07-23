@@ -2,9 +2,7 @@ I
 800	# Converted by FS2XPlane 3.26
 OBJ
 
-# object lhfh_hang1 in file budapest-lib-fsx.bgl
-
-TEXTURE		gen_hangar_edwards_o.dds
+TEXTURE		gen_hangar_edwards_o.jpg
 TEXTURE_LIT	gen_hangar_edwards_o_LIT.dds
 POINT_COUNTS	62 0 0 93
 
@@ -84,7 +82,6 @@ IDX	58
 IDX	61
 IDX	59
 
+ATTR_no_cull
 ATTR_no_blend
-
-ATTR_shiny_rat	0.400
 TRIS	0 93
