@@ -41,7 +41,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="725"/>
+                <sel id="1893"/>
             </selection>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="514" parent_id="505">
@@ -11454,15 +11454,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.912655"/>
-        <pref name="map/north" value="47.488454"/>
+        <pref name="map/east" value="18.913510"/>
+        <pref name="map/north" value="47.489046"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.487461"/>
+        <pref name="map/south" value="47.486869"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.911219"/>
+        <pref name="map/west" value="18.910364"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -11539,8 +11539,8 @@
         <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="336"/>
         <pref name="window/main_split2" value="1370"/>
-        <pref name="window/prev_split" value="623"/>
-        <pref name="window/prop_split" value="494"/>
+        <pref name="window/prev_split" value="643"/>
+        <pref name="window/prop_split" value="514"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>

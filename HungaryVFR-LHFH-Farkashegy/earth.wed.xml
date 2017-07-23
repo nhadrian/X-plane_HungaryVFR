@@ -40,7 +40,9 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection/>
+            <selection>
+                <sel id="9625"/>
+            </selection>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="514" parent_id="505">
             <sources/>
@@ -111,9 +113,6 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="9624"/>
-                <child id="9623"/>
-                <child id="9622"/>
                 <child id="5"/>
                 <child id="523"/>
                 <child id="9593"/>
@@ -877,6 +876,7 @@
                 <child id="606"/>
                 <child id="577"/>
                 <child id="583"/>
+                <child id="9626"/>
                 <child id="374"/>
                 <child id="613"/>
                 <child id="516"/>
@@ -5665,6 +5665,9 @@
                 <child id="9582"/>
                 <child id="935"/>
                 <child id="934"/>
+                <child id="9624"/>
+                <child id="9623"/>
+                <child id="9622"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Vehicles"/>
         </object>
@@ -6748,7 +6751,7 @@
             <point heading="271.08" latitude="47.488947276" longitude="18.909677358"/>
             <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="9622" parent_id="4">
+        <object class="WED_ObjPlacement" id="9622" parent_id="983">
             <sources/>
             <viewers/>
             <children/>
@@ -6764,7 +6767,7 @@
             <point heading="74.74" latitude="47.488973054" longitude="18.909696433"/>
             <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="9623" parent_id="4">
+        <object class="WED_ObjPlacement" id="9623" parent_id="983">
             <sources/>
             <viewers/>
             <children/>
@@ -6780,7 +6783,7 @@
             <point heading="218.66" latitude="47.488941547" longitude="18.909630731"/>
             <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="9624" parent_id="4">
+        <object class="WED_ObjPlacement" id="9624" parent_id="983">
             <sources/>
             <viewers/>
             <children/>
@@ -6796,6 +6799,17 @@
             <point heading="0.00" latitude="47.488908607" longitude="18.910048254"/>
             <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
         </object>
+        <object class="WED_Ring" id="9625" parent_id="9626">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="9627"/>
+                <child id="9628"/>
+                <child id="9629"/>
+                <child id="9630"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Polygon 3 Outer Ring"/>
+        </object>
         <object class="WED_ObjPlacement" id="1434" parent_id="1653">
             <sources/>
             <viewers/>
@@ -6803,6 +6817,15 @@
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="162.82" latitude="47.488891421" longitude="18.910094880"/>
             <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_PolygonPlacement" id="9626" parent_id="103">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="9625"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="asphalt_5L.pol"/>
+            <polygon_placement heading="0.0" resource="lib/airport/pavement/asphalt_5L.pol"/>
         </object>
         <object class="WED_ObjPlacement" id="1435" parent_id="1653">
             <sources/>
@@ -6812,6 +6835,13 @@
             <point heading="257.59" latitude="47.488828406" longitude="18.910060970"/>
             <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
         </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="9627" parent_id="9625">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.488062385" longitude="18.911638586" split="0"/>
+        </object>
         <object class="WED_ObjPlacement" id="1436" parent_id="1653">
             <sources/>
             <viewers/>
@@ -6819,6 +6849,13 @@
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="131.47" latitude="47.488804059" longitude="18.910086403"/>
             <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="9628" parent_id="9625">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.488131514" longitude="18.911703927" split="0"/>
         </object>
         <object class="WED_ObjPlacement" id="1437" parent_id="1653">
             <sources/>
@@ -6828,6 +6865,13 @@
             <point heading="277.91" latitude="47.488825542" longitude="18.910133030"/>
             <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
         </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="9629" parent_id="9625">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.488197813" longitude="18.911550334" split="0"/>
+        </object>
         <object class="WED_ObjPlacement" id="1438" parent_id="1653">
             <sources/>
             <viewers/>
@@ -6835,6 +6879,13 @@
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="156.04" latitude="47.488851321" longitude="18.909980433"/>
             <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="9630" parent_id="9625">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.488128668" longitude="18.911484824" split="0"/>
         </object>
         <object class="WED_ObjPlacement" id="1439" parent_id="1653">
             <sources/>
@@ -11442,6 +11493,7 @@
             <item value="1653"/>
             <item value="1874"/>
             <item value="1957"/>
+            <item value="1958"/>
             <item value="1962"/>
             <item value="1963"/>
             <item value="1964"/>
@@ -11452,15 +11504,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.913000"/>
-        <pref name="map/north" value="47.488693"/>
+        <pref name="map/east" value="18.912988"/>
+        <pref name="map/north" value="47.489438"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.487222"/>
+        <pref name="map/south" value="47.487201"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.910874"/>
+        <pref name="map/west" value="18.909755"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -11482,10 +11534,10 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="R2_Library/linie/silnice/polni-cesta-koleje-tmava.lin"/>
-        <pref name="map_Objects_Object" value="Objects/Vehicles/ford_transit.obj"/>
+        <pref name="map_Objects_Object" value="Objects/Buildings/JB_Hangar-14x9m.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
-        <pref name="map_Polygons_Resource" value="lib/g10/terrain10/coni_wrm_wet_fl.pol"/>
+        <pref name="map_Polygons_Resource" value="lib/airport/pavement/asphalt_5L.pol"/>
         <pref name="map_Polygons_Use Texture Map" value="0"/>
         <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
         <pref name="map_Ramp Start_Airlines" value=""/>
@@ -11537,8 +11589,8 @@
         <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="336"/>
         <pref name="window/main_split2" value="1370"/>
-        <pref name="window/prev_split" value="633"/>
-        <pref name="window/prop_split" value="504"/>
+        <pref name="window/prev_split" value="465"/>
+        <pref name="window/prop_split" value="524"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
