@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <objects>
+        <object class="WED_Root" id="1" parent_id="0">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2"/>
+                <child id="3"/>
+                <child id="4"/>
+            </children>
+            <hierarchy name="root"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="17" parent_id="16">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="e1"/>
+            <point latitude="47.379695892" longitude="19.003093719"/>
+        </object>
+        <object class="WED_TextureNode" id="1169" parent_id="0">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Point"/>
+            <point latitude="47.345620184" longitude="18.979058900"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_Select" id="2" parent_id="1">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy name="selection"/>
+            <selection/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="18" parent_id="16">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="e2"/>
+            <point latitude="47.380531311" longitude="19.004314423"/>
+        </object>
+        <object class="WED_TextureNode" id="1170" parent_id="0">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Point"/>
+            <point latitude="47.360545415" longitude="18.979058900"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_KeyObjects" id="3" parent_id="1">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy name="choices"/>
+            <keys>
+                <key id="0" name="airport"/>
+            </keys>
+        </object>
+        <object class="WED_ExclusionZone" id="19" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="20"/>
+                <child id="21"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Forests"/>
+            </excluzions>
+        </object>
+        <object class="WED_Group" id="4" parent_id="1">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1190"/>
+                <child id="13"/>
+                <child id="1200"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="world"/>
+        </object>
+        <object class="WED_Group" id="13" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="16"/>
+                <child id="75"/>
+                <child id="78"/>
+                <child id="19"/>
+                <child id="22"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zones"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="77" parent_id="75">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="e2"/>
+            <point latitude="47.374034882" longitude="18.984502792"/>
+        </object>
+        <object class="WED_ExclusionZone" id="16" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="17"/>
+                <child id="18"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Forests"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="80" parent_id="78">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="e2"/>
+            <point latitude="47.374061584" longitude="18.983043671"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="20" parent_id="19">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="e1"/>
+            <point latitude="47.372417450" longitude="19.003665924"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="21" parent_id="19">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="e2"/>
+            <point latitude="47.373935699" longitude="19.005931854"/>
+        </object>
+        <object class="WED_TextureNode" id="1173" parent_id="0">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Point"/>
+            <point latitude="47.360545415" longitude="18.979058900"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_ExclusionZone" id="22" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="23"/>
+                <child id="24"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Forests"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="23" parent_id="22">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="e1"/>
+            <point latitude="47.368129730" longitude="19.005586624"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="24" parent_id="22">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="e2"/>
+            <point latitude="47.369449615" longitude="19.007545471"/>
+        </object>
+        <object class="WED_TextureNode" id="1176" parent_id="0">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Point"/>
+            <point latitude="47.360545415" longitude="19.000000000"/>
+            <texture_node s="0.9523" t="1.0000"/>
+        </object>
+        <object class="WED_ObjPlacement" id="25" parent_id="26">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="lib/g10/streetlights/PrimaryLt1.obj"/>
+            <point heading="79.56" latitude="47.369192512" longitude="19.005631056"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/streetlights/PrimaryLt1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Group" id="26" parent_id="1190">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="25"/>
+                <child id="27"/>
+                <child id="28"/>
+                <child id="29"/>
+                <child id="30"/>
+                <child id="31"/>
+                <child id="32"/>
+                <child id="33"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Lights"/>
+        </object>
+        <object class="WED_ObjPlacement" id="27" parent_id="26">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="lib/g10/streetlights/PrimaryLt1.obj"/>
+            <point heading="168.37" latitude="47.369315061" longitude="19.006412604"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/streetlights/PrimaryLt1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="28" parent_id="26">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="lib/g10/streetlights/PrimaryLt1.obj"/>
+            <point heading="347.83" latitude="47.368281739" longitude="19.006742103"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/streetlights/PrimaryLt1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="29" parent_id="26">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="lib/g10/streetlights/PrimaryLt1.obj"/>
+            <point heading="259.17" latitude="47.368882086" longitude="19.007337205"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/streetlights/PrimaryLt1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_TextureNode" id="1181" parent_id="0">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Point"/>
+            <point latitude="47.330695430" longitude="18.979058900"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_ObjPlacement" id="30" parent_id="26">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="lib/g10/streetlights/PrimaryLt1.obj"/>
+            <point heading="259.17" latitude="47.369419966" longitude="19.007171263"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/streetlights/PrimaryLt1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_TextureNode" id="1182" parent_id="0">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Point"/>
+            <point latitude="47.345620661" longitude="18.979058900"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_ObjPlacement" id="31" parent_id="26">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="lib/g10/streetlights/PrimaryLt1.obj"/>
+            <point heading="259.17" latitude="47.368389982" longitude="19.007496471"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/streetlights/PrimaryLt1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="32" parent_id="26">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="lib/g10/streetlights/PrimaryLt1.obj"/>
+            <point heading="79.46" latitude="47.368159667" longitude="19.005961032"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/streetlights/PrimaryLt1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="33" parent_id="26">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="lib/g10/streetlights/PrimaryLt1.obj"/>
+            <point heading="79.46" latitude="47.368674659" longitude="19.005802243"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/streetlights/PrimaryLt1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="34" parent_id="1189">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Objects/Buildings/Lakihegy2_radiotorony.obj"/>
+            <point heading="348.30" latitude="47.368776703" longitude="19.006583791"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/radio_tower_180m_rope.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="35" parent_id="1189">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Objects/Buildings/Lakihegy2_radiotorony.obj"/>
+            <point heading="347.88" latitude="47.380112726" longitude="19.003698882"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/radio_tower_180m_rope.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="547" parent_id="0">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Point"/>
+            <point latitude="47.356818399" longitude="18.974546998"/>
+        </object>
+        <object class="WED_ObjPlacement" id="36" parent_id="1189">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Objects/Buildings/lakihegy_nh.obj"/>
+            <point heading="7.23" latitude="47.373173686" longitude="19.004803731"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/radio_tower_320m_Lakihegy.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="548" parent_id="0">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Point"/>
+            <point latitude="47.357034886" longitude="18.974779698"/>
+        </object>
+        <object class="WED_ExclusionZone" id="75" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="76"/>
+                <child id="77"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Forests"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="76" parent_id="75">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="e1"/>
+            <point latitude="47.373363495" longitude="18.983634949"/>
+        </object>
+        <object class="WED_ExclusionZone" id="78" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="79"/>
+                <child id="80"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Forests"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="79" parent_id="78">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="e1"/>
+            <point latitude="47.373348236" longitude="18.981971741"/>
+        </object>
+        <object class="WED_ObjPlacement" id="264" parent_id="1189">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Objects/Buildings/radiotorony_small.obj"/>
+            <point heading="359.84" latitude="47.373688678" longitude="18.982528897"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/radio_tower_108m_rope.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="266" parent_id="1189">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Objects/Buildings/Lakihegy2_radiotorony.obj"/>
+            <point heading="0.00" latitude="47.373688678" longitude="18.984051938"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/radio_tower_180m_rope.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Group" id="1189" parent_id="1190">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="34"/>
+                <child id="264"/>
+                <child id="266"/>
+                <child id="35"/>
+                <child id="36"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Radio towers"/>
+        </object>
+        <object class="WED_Group" id="1190" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1189"/>
+                <child id="26"/>
+                <child id="1241"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Objects"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1191" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.685550000" longitude="18.064419000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Ring" id="1193" parent_id="1198">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1194"/>
+                <child id="1195"/>
+                <child id="1196"/>
+                <child id="1197"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="1194" parent_id="1193">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point latitude="47.621836240" longitude="18.049656828"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1195" parent_id="1193">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point latitude="47.621836240" longitude="18.160864925"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1196" parent_id="1193">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point latitude="47.692554923" longitude="18.160944308"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1197" parent_id="1193">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="47.692554923" longitude="18.049736211"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="1198" parent_id="1200">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1193"/>
+            </children>
+            <hierarchy hidden="1" locked="1" name="Reference_images\Kisigmand.png"/>
+            <overlay_image alpha="1.0" file_path="Reference_images\Kisigmand.png"/>
+        </object>
+        <object class="WED_Group" id="1200" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1256"/>
+                <child id="1198"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Reference images"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1202" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.637836000" longitude="18.118229000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1205" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.682235419" longitude="18.063098943"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1206" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.679282883" longitude="18.066209561"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1207" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.681916708" longitude="18.069966424"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1208" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.676690791" longitude="18.068445573"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1209" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.677350195" longitude="18.073831419"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1210" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.672197534" longitude="18.072925917"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1211" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.672323366" longitude="18.078637949"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1212" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.673001956" longitude="18.084634032"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1213" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.669265473" longitude="18.084684786"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1214" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.666695164" longitude="18.081889197"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1215" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.666901283" longitude="18.088129329"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1216" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.669466921" longitude="18.058916353"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1217" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.641743162" longitude="18.108071671"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1218" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.644182500" longitude="18.112056084"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1219" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.644555506" longitude="18.119534173"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1220" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.639758687" longitude="18.123955979"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1221" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.646866754" longitude="18.126588529"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1222" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.652171087" longitude="18.128070687"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1223" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.653709998" longitude="18.132347076"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1224" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.635773137" longitude="18.155059175"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1225" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.639593130" longitude="18.149714620"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1226" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.635186495" longitude="18.149390708"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1227" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.635882280" longitude="18.143904442"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1228" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.635805656" longitude="18.130431726"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1229" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.657445566" longitude="18.129218937"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1230" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.658506433" longitude="18.124641278"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1231" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.656148952" longitude="18.121072454"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1232" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.663622660" longitude="18.114138425"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1233" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.666844551" longitude="18.119096060"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1235" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.625678998" longitude="18.113634832"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1236" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.622386000" longitude="18.108356000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1237" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.621817000" longitude="18.119043000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1238" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.614554000" longitude="18.116783000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1239" parent_id="1240">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.610085000" longitude="18.121170000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Group" id="1240" parent_id="1241">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1239"/>
+                <child id="1238"/>
+                <child id="1237"/>
+                <child id="1236"/>
+                <child id="1235"/>
+                <child id="1233"/>
+                <child id="1232"/>
+                <child id="1231"/>
+                <child id="1230"/>
+                <child id="1229"/>
+                <child id="1228"/>
+                <child id="1227"/>
+                <child id="1226"/>
+                <child id="1225"/>
+                <child id="1224"/>
+                <child id="1223"/>
+                <child id="1222"/>
+                <child id="1221"/>
+                <child id="1220"/>
+                <child id="1219"/>
+                <child id="1218"/>
+                <child id="1217"/>
+                <child id="1216"/>
+                <child id="1215"/>
+                <child id="1214"/>
+                <child id="1213"/>
+                <child id="1212"/>
+                <child id="1211"/>
+                <child id="1210"/>
+                <child id="1209"/>
+                <child id="1208"/>
+                <child id="1207"/>
+                <child id="1206"/>
+                <child id="1205"/>
+                <child id="1191"/>
+                <child id="1202"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Kisigmánd 50MW"/>
+        </object>
+        <object class="WED_Group" id="1241" parent_id="1190">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1240"/>
+                <child id="1276"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Wind turbines"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1242" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.205366000" longitude="16.855755000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1244" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.221913000" longitude="16.911618000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Ring" id="1251" parent_id="1256">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1252"/>
+                <child id="1253"/>
+                <child id="1254"/>
+                <child id="1255"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="1252" parent_id="1251">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point latitude="47.177801251" longitude="16.842812974"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1253" parent_id="1251">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point latitude="47.177801251" longitude="16.923500005"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1254" parent_id="1251">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point latitude="47.229249812" longitude="16.923500005"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1255" parent_id="1251">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="47.229249812" longitude="16.842812974"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="1256" parent_id="1200">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1251"/>
+            </children>
+            <hierarchy hidden="1" locked="1" name="Reference_images\Ikervar.png"/>
+            <overlay_image alpha="1.0" file_path="Reference_images\Ikervar.png"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1257" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.188195928" longitude="16.877896749"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1258" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.188801023" longitude="16.860039080"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1259" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.188577281" longitude="16.870970268"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1260" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.194353110" longitude="16.863918308"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1261" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.210364804" longitude="16.867975176"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1262" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.204160044" longitude="16.866433223"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1263" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.204323758" longitude="16.872625128"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1264" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.205546134" longitude="16.878216158"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1265" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.210370920" longitude="16.859788724"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1266" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.215152879" longitude="16.872203296"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1267" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.217252663" longitude="16.863126429"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1268" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.228452298" longitude="16.884277569"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1270" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.224565055" longitude="16.905246862"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1271" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.200659675" longitude="16.862157452"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1273" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.220074764" longitude="16.890012585"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1274" parent_id="1276">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turbine_135.obj"/>
+            <point heading="0.00" latitude="47.230943000" longitude="16.893248000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Group" id="1276" parent_id="1241">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1274"/>
+                <child id="1273"/>
+                <child id="1271"/>
+                <child id="1270"/>
+                <child id="1268"/>
+                <child id="1267"/>
+                <child id="1266"/>
+                <child id="1265"/>
+                <child id="1264"/>
+                <child id="1263"/>
+                <child id="1262"/>
+                <child id="1261"/>
+                <child id="1260"/>
+                <child id="1259"/>
+                <child id="1258"/>
+                <child id="1257"/>
+                <child id="1244"/>
+                <child id="1242"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Ikervár 34MW"/>
+        </object>
+    </objects>
+    <prefs>
+        <pref name="PropertyPane0/Closed">
+            <item value="26"/>
+            <item value="1189"/>
+            <item value="1240"/>
+            <item value="1276"/>
+        </pref>
+        <pref name="doc/export_target" value="4"/>
+        <pref name="doc/use_feet" value="0"/>
+        <pref name="map/east" value="19.022680"/>
+        <pref name="map/north" value="47.382418"/>
+        <pref name="map/obj_density" value="1"/>
+        <pref name="map/pavement_alpha" value="2"/>
+        <pref name="map/preview_vis" value="1"/>
+        <pref name="map/real_lines_vis" value="1"/>
+        <pref name="map/south" value="47.341890"/>
+        <pref name="map/vertices_vis" value="1"/>
+        <pref name="map/west" value="18.970292"/>
+        <pref name="map/world_map_vis" value="1"/>
+        <pref name="map_Airport Beacon_Kind" value="69"/>
+        <pref name="map_Boundary_.Markings" value=""/>
+        <pref name="map_Boundary_Lights" value=""/>
+        <pref name="map_Boundary_Markings" value=""/>
+        <pref name="map_Exclusions_Exclusions" value="110,111"/>
+        <pref name="map_Facades_Height" value="10.000000"/>
+        <pref name="map_Facades_Resource" value="lib/g10/US/industrial/light/IL90x90x0v1.fac"/>
+        <pref name="map_Forests_Density" value="1.000000"/>
+        <pref name="map_Forests_Resource" value="Objects/Forests/broad_tmp_dry.for"/>
+        <pref name="map_Helipad_Edge Lights" value="15"/>
+        <pref name="map_Helipad_Markings" value="67"/>
+        <pref name="map_Helipad_Roughness" value="0.000000"/>
+        <pref name="map_Helipad_Shoulder" value="56"/>
+        <pref name="map_Helipad_Surface" value="26"/>
+        <pref name="map_Hole_.Markings" value=""/>
+        <pref name="map_Hole_Lights" value=""/>
+        <pref name="map_Hole_Markings" value=""/>
+        <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
+        <pref name="map_Light Fixture_Fixture Type" value="35"/>
+        <pref name="map_Lines_Resource" value="CDB-Library/Airport/paviment/asphalt_line.lin"/>
+        <pref name="map_Objects_Object" value="Objects/Buildings/windfarms/WindTbn2m5_125.obj"/>
+        <pref name="map_Objects_Show with" value="558"/>
+        <pref name="map_Polygons_Heading" value="0.000000"/>
+        <pref name="map_Polygons_Resource" value="Ortophotos/8.pol"/>
+        <pref name="map_Polygons_Use Texture Map - Orthophoto" value="1"/>
+        <pref name="map_Ramp Start_Airlines" value=""/>
+        <pref name="map_Ramp Start_Equipment Type" value="129,130,131"/>
+        <pref name="map_Ramp Start_Ramp Operation Type" value="531"/>
+        <pref name="map_Ramp Start_Ramp Start Type" value="139"/>
+        <pref name="map_Ramp Start_Size" value="523"/>
+        <pref name="map_Runway_Appch" value="51"/>
+        <pref name="map_Runway_Center" value="1"/>
+        <pref name="map_Runway_Dist" value="1"/>
+        <pref name="map_Runway_Edge" value="7"/>
+        <pref name="map_Runway_Marks" value="62"/>
+        <pref name="map_Runway_REIL" value="10"/>
+        <pref name="map_Runway_Rough" value="0.000000"/>
+        <pref name="map_Runway_Shoulder" value="56"/>
+        <pref name="map_Runway_Surface" value="26"/>
+        <pref name="map_Runway_TDZL" value="0"/>
+        <pref name="map_Sealane_Buoys" value="1"/>
+        <pref name="map_Sign_Size" value="18"/>
+        <pref name="map_Sign_Style" value="23"/>
+        <pref name="map_Sign_Text" value="{@L}A"/>
+        <pref name="map_Strings_Resource" value="handyobjects/gatesandfences/wooden_fence_white.str"/>
+        <pref name="map_Strings_Spacing" value="2.000000"/>
+        <pref name="map_Taxi Routes_Allowed Vehicles" value="144"/>
+        <pref name="map_Taxi Routes_Arrival" value="175"/>
+        <pref name="map_Taxi Routes_Departure" value="249"/>
+        <pref name="map_Taxi Routes_ILS" value=""/>
+        <pref name="map_Taxi Routes_Name" value="2RL_C"/>
+        <pref name="map_Taxi Routes_Oneway" value="0"/>
+        <pref name="map_Taxi Routes_Runway" value="465"/>
+        <pref name="map_Taxi Routes_Size" value="523"/>
+        <pref name="map_Taxi Routes_Slop" value="30"/>
+        <pref name="map_Taxilines_.Markings" value=""/>
+        <pref name="map_Taxilines_Lights" value=""/>
+        <pref name="map_Taxilines_Markings" value=""/>
+        <pref name="map_Taxiway_.Markings" value=""/>
+        <pref name="map_Taxiway_Heading" value="0.000000"/>
+        <pref name="map_Taxiway_Lights" value=""/>
+        <pref name="map_Taxiway_Markings" value=""/>
+        <pref name="map_Taxiway_Pavement" value="27"/>
+        <pref name="map_Taxiway_Roughness" value="0.000000"/>
+        <pref name="map_Tower Viewpoint_Tower Height" value="25.000000"/>
+        <pref name="map_Truck Destination_Truck Types" value=""/>
+        <pref name="map_Truck Parking_." value="3"/>
+        <pref name="map_Truck Parking_Truck Type" value="154"/>
+        <pref name="map_Vertex_Snap To Vertices" value="1"/>
+        <pref name="map_Windsock_Lit" value="0"/>
+        <pref name="window/height" value="997"/>
+        <pref name="window/main_split" value="380"/>
+        <pref name="window/main_split2" value="1318"/>
+        <pref name="window/prev_split" value="671"/>
+        <pref name="window/prop_split" value="440"/>
+        <pref name="window/width" value="1920"/>
+        <pref name="window/x_loc" value="-8"/>
+        <pref name="window/y_loc" value="-8"/>
+    </prefs>
+</doc>
