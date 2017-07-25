@@ -59,9 +59,7 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection>
-                <sel id="2701"/>
-            </selection>
+            <selection/>
         </object>
         <object class="WED_AirportNode" id="514" parent_id="500">
             <sources/>
@@ -19870,94 +19868,6 @@
             </children>
             <hierarchy hidden="0" locked="0" name="Lights"/>
         </object>
-        <object class="WED_ObjPlacement" id="2519" parent_id="2570">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="lakihegy_nh.obj"/>
-            <point heading="7.23" latitude="47.373174000" longitude="19.004804000"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/lakihegy_nh.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="2520" parent_id="2570">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Lakihegy2_radiotorony.obj"/>
-            <point heading="348.31" latitude="47.368777000" longitude="19.006584000"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Lakihegy2_radiotorony.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="2521" parent_id="2570">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Lakihegy2_radiotorony.obj"/>
-            <point heading="-12.12" latitude="47.380113200" longitude="19.003699300"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Lakihegy2_radiotorony.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="2523" parent_id="2569">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="PrimaryLt1.obj"/>
-            <point heading="79.46" latitude="47.368675133" longitude="19.005802391"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/streetlights/PrimaryLt1.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="2524" parent_id="2569">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="PrimaryLt1.obj"/>
-            <point heading="79.56" latitude="47.369192871" longitude="19.005631511"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/streetlights/PrimaryLt1.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="2531" parent_id="2569">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="PrimaryLt1.obj"/>
-            <point heading="79.46" latitude="47.368159929" longitude="19.005961066"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/streetlights/PrimaryLt1.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="2532" parent_id="2569">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="PrimaryLt1.obj"/>
-            <point heading="259.17" latitude="47.368389989" longitude="19.007496777"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/streetlights/PrimaryLt1.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="2533" parent_id="2569">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="PrimaryLt1.obj"/>
-            <point heading="259.17" latitude="47.369420396" longitude="19.007171455"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/streetlights/PrimaryLt1.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="2535" parent_id="2569">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="PrimaryLt1.obj"/>
-            <point heading="259.17" latitude="47.368882225" longitude="19.007337573"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/streetlights/PrimaryLt1.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="2536" parent_id="2569">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="PrimaryLt1.obj"/>
-            <point heading="347.83" latitude="47.368282175" longitude="19.006742318"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/streetlights/PrimaryLt1.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="2537" parent_id="2569">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="PrimaryLt1.obj"/>
-            <point heading="168.37" latitude="47.369315387" longitude="19.006412851"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/streetlights/PrimaryLt1.obj" show_level="1 Default"/>
-        </object>
         <object class="WED_Group" id="2546" parent_id="4">
             <sources/>
             <viewers/>
@@ -19966,85 +19876,6 @@
                 <child id="2571"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Adótornyok"/>
-        </object>
-        <object class="WED_ExclusionZone" id="2553" parent_id="2571">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2554"/>
-                <child id="2555"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Exclusion Zone 3"/>
-            <excluzions>
-                <exclusion value="Objects"/>
-            </excluzions>
-        </object>
-        <object class="WED_SimpleBoundaryNode" id="2554" parent_id="2553">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="47.368130817" longitude="19.007545282"/>
-        </object>
-        <object class="WED_SimpleBoundaryNode" id="2555" parent_id="2553">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="End"/>
-            <point latitude="47.369448339" longitude="19.005585617"/>
-        </object>
-        <object class="WED_ExclusionZone" id="2559" parent_id="2571">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2560"/>
-                <child id="2561"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Exclusion Zone 5"/>
-            <excluzions>
-                <exclusion value="Objects"/>
-            </excluzions>
-        </object>
-        <object class="WED_SimpleBoundaryNode" id="2560" parent_id="2559">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="47.373933771" longitude="19.003664953"/>
-        </object>
-        <object class="WED_SimpleBoundaryNode" id="2561" parent_id="2559">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="End"/>
-            <point latitude="47.372417323" longitude="19.005931617"/>
-        </object>
-        <object class="WED_ExclusionZone" id="2565" parent_id="2571">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2566"/>
-                <child id="2567"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Exclusion Zone 7"/>
-            <excluzions>
-                <exclusion value="Objects"/>
-                <exclusion value="Forests"/>
-            </excluzions>
-        </object>
-        <object class="WED_SimpleBoundaryNode" id="2566" parent_id="2565">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="47.380530610" longitude="19.003093895"/>
-        </object>
-        <object class="WED_SimpleBoundaryNode" id="2567" parent_id="2565">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="End"/>
-            <point latitude="47.379696240" longitude="19.004314104"/>
         </object>
         <object class="WED_Group" id="2568" parent_id="2546">
             <sources/>
@@ -20058,139 +19889,20 @@
         <object class="WED_Group" id="2569" parent_id="2568">
             <sources/>
             <viewers/>
-            <children>
-                <child id="2524"/>
-                <child id="2537"/>
-                <child id="2536"/>
-                <child id="2535"/>
-                <child id="2533"/>
-                <child id="2532"/>
-                <child id="2531"/>
-                <child id="2523"/>
-            </children>
+            <children/>
             <hierarchy hidden="0" locked="0" name="Lights"/>
         </object>
         <object class="WED_Group" id="2570" parent_id="2568">
             <sources/>
             <viewers/>
-            <children>
-                <child id="2580"/>
-                <child id="2521"/>
-                <child id="2573"/>
-                <child id="2572"/>
-                <child id="2520"/>
-                <child id="2519"/>
-            </children>
+            <children/>
             <hierarchy hidden="0" locked="0" name="Buildings"/>
         </object>
         <object class="WED_Group" id="2571" parent_id="2546">
             <sources/>
             <viewers/>
-            <children>
-                <child id="2565"/>
-                <child id="2559"/>
-                <child id="2553"/>
-                <child id="2577"/>
-                <child id="2574"/>
-            </children>
+            <children/>
             <hierarchy hidden="0" locked="0" name="Exclusion zones"/>
-        </object>
-        <object class="WED_ObjPlacement" id="2572" parent_id="2570">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Lakihegy2_radiotorony.obj"/>
-            <point heading="0.00" latitude="47.373689000" longitude="18.984052000"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Lakihegy2_radiotorony.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="2573" parent_id="2570">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Lakihegy2_radiotorony.obj"/>
-            <point heading="-0.16" latitude="47.373689000" longitude="18.982529000"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/radiotorony_small.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ExclusionZone" id="2574" parent_id="2571">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2575"/>
-                <child id="2576"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Exclusion Zone 1"/>
-            <excluzions>
-                <exclusion value="Objects"/>
-                <exclusion value="Forests"/>
-            </excluzions>
-        </object>
-        <object class="WED_SimpleBoundaryNode" id="2575" parent_id="2574">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="47.374061167" longitude="18.981972273"/>
-        </object>
-        <object class="WED_SimpleBoundaryNode" id="2576" parent_id="2574">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="End"/>
-            <point latitude="47.373347130" longitude="18.983043347"/>
-        </object>
-        <object class="WED_ExclusionZone" id="2577" parent_id="2571">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2578"/>
-                <child id="2579"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Exclusion Zone 2"/>
-            <excluzions>
-                <exclusion value="Objects"/>
-                <exclusion value="Forests"/>
-            </excluzions>
-        </object>
-        <object class="WED_SimpleBoundaryNode" id="2578" parent_id="2577">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="47.374036074" longitude="18.983635030"/>
-        </object>
-        <object class="WED_SimpleBoundaryNode" id="2579" parent_id="2577">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="End"/>
-            <point latitude="47.373365287" longitude="18.984502582"/>
-        </object>
-        <object class="WED_ExclusionZone" id="2580" parent_id="2570">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2581"/>
-                <child id="2582"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Exclusion Zone 3"/>
-            <excluzions>
-                <exclusion value="Objects"/>
-                <exclusion value="Forests"/>
-            </excluzions>
-        </object>
-        <object class="WED_SimpleBoundaryNode" id="2581" parent_id="2580">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="47.372410518" longitude="18.984553190"/>
-        </object>
-        <object class="WED_SimpleBoundaryNode" id="2582" parent_id="2580">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="End"/>
-            <point latitude="47.372410518" longitude="18.984553190"/>
         </object>
         <object class="WED_Ring" id="2583" parent_id="2588">
             <sources/>
@@ -20462,7 +20174,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.339154882" longitude="18.997579786" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.339142583" longitude="18.997556453" split="0"/>
             <facade_node wall_type="Wall 1"/>
         </object>
         <object class="WED_FacadeNode" id="2689" parent_id="2686">
@@ -20470,7 +20182,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.339347633" longitude="18.997127640" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.339326550" longitude="18.997112085" split="0"/>
             <facade_node wall_type="Wall 1"/>
         </object>
         <object class="WED_FacadeNode" id="2690" parent_id="2686">
@@ -20478,7 +20190,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.338167628" longitude="18.996011408" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.338146545" longitude="18.995995853" split="0"/>
             <facade_node wall_type="Wall 1"/>
         </object>
         <object class="WED_FacadeNode" id="2691" parent_id="2686">
@@ -20486,7 +20198,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.337973892" longitude="18.996475445" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.337817525" longitude="18.996312113" split="0"/>
             <facade_node wall_type="Wall 1"/>
         </object>
         <object class="WED_FacadePlacement" id="2692" parent_id="2724">
@@ -20729,7 +20441,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.338386527" longitude="18.996966124" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.338384419" longitude="18.996969235" split="0"/>
             <facade_node wall_type="Wall 1"/>
         </object>
         <object class="WED_FacadeNode" id="2723" parent_id="2718">
@@ -22027,15 +21739,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.999222"/>
-        <pref name="map/north" value="47.338977"/>
+        <pref name="map/east" value="19.070825"/>
+        <pref name="map/north" value="47.429389"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="3"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.336571"/>
+        <pref name="map/south" value="47.306537"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.995705"/>
+        <pref name="map/west" value="18.899147"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -22107,13 +21819,13 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="997"/>
+        <pref name="window/height" value="1076"/>
         <pref name="window/main_split" value="425"/>
-        <pref name="window/main_split2" value="1472"/>
-        <pref name="window/prev_split" value="497"/>
-        <pref name="window/prop_split" value="379"/>
-        <pref name="window/width" value="1920"/>
-        <pref name="window/x_loc" value="-8"/>
-        <pref name="window/y_loc" value="-8"/>
+        <pref name="window/main_split2" value="1506"/>
+        <pref name="window/prev_split" value="507"/>
+        <pref name="window/prop_split" value="423"/>
+        <pref name="window/width" value="1954"/>
+        <pref name="window/x_loc" value="-950"/>
+        <pref name="window/y_loc" value="68"/>
     </prefs>
 </doc>
