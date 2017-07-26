@@ -53,9 +53,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="1926"/>
-                <sel id="1927"/>
-                <sel id="1928"/>
+                <sel id="1955"/>
             </selection>
         </object>
         <object class="WED_SimpleBoundaryNode" id="1538" parent_id="1536">
@@ -147,8 +145,8 @@
             <viewers/>
             <children>
                 <child id="1190"/>
-                <child id="13"/>
                 <child id="1200"/>
+                <child id="13"/>
                 <child id="1955"/>
             </children>
             <hierarchy hidden="0" locked="0" name="world"/>
@@ -325,7 +323,17 @@
                 <child id="75"/>
                 <child id="78"/>
                 <child id="19"/>
+                <child id="1960"/>
                 <child id="22"/>
+                <child id="1965"/>
+                <child id="1970"/>
+                <child id="1981"/>
+                <child id="1985"/>
+                <child id="2004"/>
+                <child id="1996"/>
+                <child id="2011"/>
+                <child id="2016"/>
+                <child id="2023"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Exclusion Zones"/>
         </object>
@@ -692,13 +700,13 @@
                 <exclusion value="Facades"/>
             </excluzions>
         </object>
-        <object class="WED_ObjPlacement" id="34" parent_id="1189">
+        <object class="WED_ObjPlacement" id="34" parent_id="1995">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Lakihegy-kisebb"/>
             <point heading="348.30" latitude="47.368776703" longitude="19.006583791"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/radio_tower_180m_rope.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/180m_radio_tower_rope.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="1570" parent_id="1569">
             <sources/>
@@ -707,13 +715,13 @@
             <hierarchy hidden="0" locked="0" name="Start"/>
             <point latitude="47.657715102" longitude="18.006749980"/>
         </object>
-        <object class="WED_ObjPlacement" id="35" parent_id="1189">
+        <object class="WED_ObjPlacement" id="35" parent_id="1995">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Lakihegy-kisebb"/>
             <point heading="347.88" latitude="47.380112726" longitude="19.003698882"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/radio_tower_180m_rope.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/180m_radio_tower_rope.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="547" parent_id="0">
             <sources/>
@@ -729,13 +737,13 @@
             <hierarchy hidden="0" locked="0" name="End"/>
             <point latitude="47.656772821" longitude="18.008149087"/>
         </object>
-        <object class="WED_ObjPlacement" id="36" parent_id="1189">
+        <object class="WED_ObjPlacement" id="36" parent_id="1995">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Lakihegy_adótorony"/>
             <point heading="7.23" latitude="47.373173686" longitude="19.004803731"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/radio_tower_320m_Lakihegy.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/320m_radio_tower_Lakihegy.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="548" parent_id="0">
             <sources/>
@@ -837,13 +845,13 @@
             <hierarchy hidden="0" locked="0" name="Start"/>
             <point latitude="47.679728443" longitude="18.065451512"/>
         </object>
-        <object class="WED_ObjPlacement" id="264" parent_id="1189">
+        <object class="WED_ObjPlacement" id="264" parent_id="1995">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Lakihegy-kisebb2"/>
             <point heading="359.84" latitude="47.373688678" longitude="18.982528897"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/radio_tower_108m_rope.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/108m_radio_tower_rope.obj" show_level="1 Default"/>
         </object>
         <object class="WED_TextureNode" id="1288" parent_id="1286">
             <sources/>
@@ -853,13 +861,13 @@
             <point latitude="47.626481420" longitude="17.949251813"/>
             <texture_node s="1.0000" t="0.0000"/>
         </object>
-        <object class="WED_ObjPlacement" id="266" parent_id="1189">
+        <object class="WED_ObjPlacement" id="266" parent_id="1995">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Lakihegy-kisebb"/>
             <point heading="0.00" latitude="47.373688678" longitude="18.984051938"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/radio_tower_180m_rope.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/180m_radio_tower_rope.obj" show_level="1 Default"/>
         </object>
         <object class="WED_TextureNode" id="1290" parent_id="1286">
             <sources/>
@@ -873,17 +881,9 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="1940"/>
-                <child id="1939"/>
-                <child id="1932"/>
-                <child id="34"/>
-                <child id="264"/>
-                <child id="266"/>
-                <child id="35"/>
-                <child id="36"/>
-                <child id="1458"/>
+                <child id="1995"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Radio towers"/>
+            <hierarchy hidden="0" locked="0" name="Radio towers - www.fdmx.hu"/>
         </object>
         <object class="WED_ExclusionZone" id="1701" parent_id="13">
             <sources/>
@@ -2891,13 +2891,13 @@
             </children>
             <hierarchy hidden="0" locked="0" name="Mosonszolnok"/>
         </object>
-        <object class="WED_ObjPlacement" id="1458" parent_id="1189">
+        <object class="WED_ObjPlacement" id="1458" parent_id="1995">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Széchenyi-hegy_radio"/>
             <point heading="0.00" latitude="47.491944000" longitude="18.980000000"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/radio_tower_180m_rope.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/180m_radio_tower_rope.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ExclusionZone" id="1461" parent_id="13">
             <sources/>
@@ -2918,14 +2918,14 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="47.492388208" longitude="18.979342072"/>
+            <point latitude="47.492636788" longitude="18.978899131"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="1463" parent_id="1461">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="End"/>
-            <point latitude="47.491508123" longitude="18.980636447"/>
+            <point latitude="47.491193593" longitude="18.981086895"/>
         </object>
         <object class="WED_ExclusionZone" id="1464" parent_id="13">
             <sources/>
@@ -6529,30 +6529,6 @@
             <hierarchy hidden="0" locked="0" name="End"/>
             <point latitude="47.188331637" longitude="16.860647836"/>
         </object>
-        <object class="WED_ObjPlacement" id="1926" parent_id="1955">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="tutorony-air_tb1_2_180m.obj"/>
-            <point heading="0.00" latitude="47.364982278" longitude="18.997425465"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/tutorony-air_tb1_2_180m.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="1927" parent_id="1955">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="tutorony-air_w8_180m.obj"/>
-            <point heading="0.00" latitude="47.364982278" longitude="18.997425465"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/tutorony-air_w8_180m.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="1928" parent_id="1955">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="tutorony-tut1_180m.obj"/>
-            <point heading="0.00" latitude="47.364982278" longitude="18.997425465"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/tutorony-tut1_180m.obj" show_level="1 Default"/>
-        </object>
         <object class="WED_ExclusionZone" id="1929" parent_id="13">
             <sources/>
             <viewers/>
@@ -6571,16 +6547,16 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="47.469395911" longitude="19.126617396"/>
+            <point latitude="47.469089383" longitude="19.125280247"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="1931" parent_id="1929">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="End"/>
-            <point latitude="47.468947154" longitude="19.127274350"/>
+            <point latitude="47.468285511" longitude="19.126424989"/>
         </object>
-        <object class="WED_Group" id="1932" parent_id="1189">
+        <object class="WED_Group" id="1932" parent_id="1995">
             <sources/>
             <viewers/>
             <children>
@@ -6596,7 +6572,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tutorony-air_w8_113m.obj"/>
             <point heading="0.00" latitude="47.550000000" longitude="19.001389000"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/tutorony-air_w8_113m.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/113m_tutorony-air_w8.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="1934" parent_id="1939">
             <sources/>
@@ -6604,7 +6580,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tutorony-tut1_113m.obj"/>
             <point heading="0.00" latitude="47.550000000" longitude="19.001389000"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/tutorony-tut1_113m.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/113m_tutorony-tut1.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="1935" parent_id="1939">
             <sources/>
@@ -6612,7 +6588,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tutorony-air_tb1_2_113m.obj"/>
             <point heading="0.00" latitude="47.550000000" longitude="19.001389000"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/tutorony-air_tb1_2_113m.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/113m_tutorony-air_tb1_2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ExclusionZone" id="1936" parent_id="13">
             <sources/>
@@ -6632,16 +6608,16 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="47.550233272" longitude="19.001084033"/>
+            <point latitude="47.550400683" longitude="19.000798431"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="1938" parent_id="1936">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="End"/>
-            <point latitude="47.549734192" longitude="19.001739968"/>
+            <point latitude="47.549576927" longitude="19.002010539"/>
         </object>
-        <object class="WED_Group" id="1939" parent_id="1189">
+        <object class="WED_Group" id="1939" parent_id="1995">
             <sources/>
             <viewers/>
             <children>
@@ -6651,13 +6627,13 @@
             </children>
             <hierarchy hidden="0" locked="0" name="Felsõ-Kecske-hegy"/>
         </object>
-        <object class="WED_ObjPlacement" id="1940" parent_id="1189">
+        <object class="WED_ObjPlacement" id="1940" parent_id="1995">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Nagy-Hideg-hegy"/>
             <point heading="0.00" latitude="47.936389000" longitude="18.921667000"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/R_Tower_50m.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/50m_R_Tower.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ExclusionZone" id="1941" parent_id="13">
             <sources/>
@@ -6677,120 +6653,620 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="47.936455653" longitude="18.921565139"/>
+            <point latitude="47.936609244" longitude="18.921331689"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="1943" parent_id="1941">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="End"/>
-            <point latitude="47.936316549" longitude="18.921777598"/>
+            <point latitude="47.936172956" longitude="18.922005713"/>
         </object>
         <object class="WED_ObjPlacement" id="1944" parent_id="1932">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="tutorony-air_tb1_2_180m.obj"/>
-            <point heading="0.00" latitude="47.469167000" longitude="19.126944000"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/tutorony-air_tb1_2_180m.obj" show_level="1 Default"/>
+            <point heading="0.00" latitude="47.468695597" longitude="19.125844491"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/180m_tutorony-air_tb1_2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="1945" parent_id="1932">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="tutorony-air_w8_180m.obj"/>
-            <point heading="0.00" latitude="47.469167000" longitude="19.126944000"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/tutorony-air_w8_180m.obj" show_level="1 Default"/>
+            <point heading="0.00" latitude="47.468695597" longitude="19.125844491"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/180m_tutorony-air_w8.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="1946" parent_id="1932">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="tutorony-tut1_180m.obj"/>
-            <point heading="0.00" latitude="47.469167000" longitude="19.126944000"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/tutorony-tut1_180m.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="1947" parent_id="1955">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="tutorony-air_tb1_2_113m.obj"/>
-            <point heading="0.00" latitude="47.361247954" longitude="18.998238218"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/tutorony-air_tb1_2_113m.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="1948" parent_id="1955">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="tutorony-air_w8_113m.obj"/>
-            <point heading="0.00" latitude="47.361247954" longitude="18.998238218"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/tutorony-air_w8_113m.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="1949" parent_id="1955">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="tutorony-tut1_113m.obj"/>
-            <point heading="0.00" latitude="47.361247954" longitude="18.998238218"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/tutorony-tut1_113m.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="1950" parent_id="1955">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="tv-air_w8_180m.obj"/>
-            <point heading="0.00" latitude="47.363003123" longitude="18.997836874"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/tv-air_w8_180m.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="1951" parent_id="1955">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="tv-ap_tb5_6_180m.obj"/>
-            <point heading="0.00" latitude="47.363003123" longitude="18.997836874"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/tv-ap_tb5_6_180m.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="1952" parent_id="1955">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="tv-cement-1_180m.obj"/>
-            <point heading="0.00" latitude="47.363003123" longitude="18.997836874"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/tv-cement-1_180m.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="1953" parent_id="1955">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="tv-tut1_180m.obj"/>
-            <point heading="0.00" latitude="47.363003123" longitude="18.997836874"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/tv-tut1_180m.obj" show_level="1 Default"/>
+            <point heading="0.00" latitude="47.468695597" longitude="19.125844491"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/180m_tutorony-tut1.obj" show_level="1 Default"/>
         </object>
         <object class="WED_Group" id="1955" parent_id="4">
             <sources/>
             <viewers/>
             <children>
-                <child id="1953"/>
-                <child id="1952"/>
-                <child id="1951"/>
-                <child id="1950"/>
-                <child id="1947"/>
-                <child id="1949"/>
-                <child id="1928"/>
-                <child id="1927"/>
-                <child id="1926"/>
-                <child id="1948"/>
+                <child id="2043"/>
+                <child id="2042"/>
+                <child id="2041"/>
+                <child id="2040"/>
+                <child id="2039"/>
+                <child id="2038"/>
+                <child id="2037"/>
+                <child id="2036"/>
+                <child id="2035"/>
+                <child id="2034"/>
+                <child id="2033"/>
+                <child id="2032"/>
+                <child id="2031"/>
+                <child id="2030"/>
+                <child id="2029"/>
+                <child id="2028"/>
+                <child id="2027"/>
+                <child id="2026"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="TEST_OBJECTS"/>
+            <hierarchy hidden="1" locked="0" name="TEST_OBJECTS"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1956" parent_id="1959">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="tutorony-air_tb1_2_113m.obj"/>
+            <point heading="0.00" latitude="47.172222000" longitude="19.795278000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/113m_tutorony-air_tb1_2.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1957" parent_id="1959">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="tutorony-air_w8_113m.obj"/>
+            <point heading="0.00" latitude="47.172222000" longitude="19.795278000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/113m_tutorony-air_w8.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1958" parent_id="1959">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="tutorony-tut1_113m.obj"/>
+            <point heading="0.00" latitude="47.172222000" longitude="19.795278000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/113m_tutorony-tut1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Group" id="1959" parent_id="1995">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1958"/>
+                <child id="1957"/>
+                <child id="1956"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Cegléd-Gubody-utca"/>
+        </object>
+        <object class="WED_ExclusionZone" id="1960" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1961"/>
+                <child id="1962"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 1"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="1961" parent_id="1960">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.172560333" longitude="19.794779099"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="1962" parent_id="1960">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.171884984" longitude="19.795781068"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1963" parent_id="1995">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Csobánka-TV-relé"/>
+            <point heading="0.00" latitude="47.636667000" longitude="18.961667000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/50m_R_Tower.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ExclusionZone" id="1965" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1966"/>
+                <child id="1967"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 2"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="1966" parent_id="1965">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.636906760" longitude="18.961297690"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="1967" parent_id="1965">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.636423266" longitude="18.962039613"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1968" parent_id="1995">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Érd-vízmû"/>
+            <point heading="0.00" latitude="47.413611000" longitude="18.889722000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/26m_GSM-tow.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ExclusionZone" id="1970" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1971"/>
+                <child id="1972"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 3"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="1971" parent_id="1970">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.413895866" longitude="18.889358965"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="1972" parent_id="1970">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.413314577" longitude="18.890124238"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1979" parent_id="1995">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Bp-Széchenyi-hegy"/>
+            <point heading="0.00" latitude="47.495278000" longitude="18.975278000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/26m_GSM-tow.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ExclusionZone" id="1981" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1982"/>
+                <child id="1983"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 6"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="1982" parent_id="1981">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.495638210" longitude="18.974727384"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="1983" parent_id="1981">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.494891726" longitude="18.975834392"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1984" parent_id="1995">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Fót-Kurjancs-Dûlõ"/>
+            <point heading="0.00" latitude="47.635278000" longitude="19.192222000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/26m_GSM-tow.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ExclusionZone" id="1985" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1986"/>
+                <child id="1987"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 7"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="1986" parent_id="1985">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.636136680" longitude="19.190996829"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="1987" parent_id="1985">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.634361106" longitude="19.193531291"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1994" parent_id="1995">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Monor-Deák F.utca"/>
+            <point heading="0.00" latitude="47.353333000" longitude="19.446389000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/26m_GSM-tow.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Group" id="1995" parent_id="1189">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2022"/>
+                <child id="2014"/>
+                <child id="1994"/>
+                <child id="1940"/>
+                <child id="1968"/>
+                <child id="1939"/>
+                <child id="1932"/>
+                <child id="34"/>
+                <child id="264"/>
+                <child id="266"/>
+                <child id="35"/>
+                <child id="36"/>
+                <child id="1458"/>
+                <child id="1959"/>
+                <child id="1963"/>
+                <child id="1979"/>
+                <child id="1984"/>
+                <child id="2007"/>
+                <child id="1999"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Közép-Magyarország"/>
+        </object>
+        <object class="WED_ExclusionZone" id="1996" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1997"/>
+                <child id="1998"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 10"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="1997" parent_id="1996">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.353673973" longitude="19.445886467"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="1998" parent_id="1996">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.352954701" longitude="19.446969798"/>
+        </object>
+        <object class="WED_ObjPlacement" id="1999" parent_id="1995">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Nagymaros-Hegyes-tetõ"/>
+            <point heading="0.00" latitude="47.781667000" longitude="18.929722000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/108m_radio_tower_rope.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ExclusionZone" id="2004" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2005"/>
+                <child id="2006"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 12"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2005" parent_id="2004">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.782431205" longitude="18.928719238"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2006" parent_id="2004">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.780879576" longitude="18.930793311"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2007" parent_id="1995">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Perõcsény/Kemence"/>
+            <point heading="0.00" latitude="48.007500000" longitude="18.882500000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/108m_radio_tower_no-rope.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ExclusionZone" id="2011" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2012"/>
+                <child id="2013"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 14"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2012" parent_id="2011">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="48.008077817" longitude="18.881639936"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2013" parent_id="2011">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="48.006858871" longitude="18.883488167"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2014" parent_id="1995">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Szigetszentmiklós-Csepeli út"/>
+            <point heading="0.00" latitude="47.359722000" longitude="19.048056000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/26m_GSM-tow.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ExclusionZone" id="2016" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2017"/>
+                <child id="2018"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 15"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2017" parent_id="2016">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.359897223" longitude="19.047809231"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2018" parent_id="2016">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.359523452" longitude="19.048361001"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2022" parent_id="1995">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Vác-Mentõs köz"/>
+            <point heading="0.00" latitude="47.784722000" longitude="19.145833000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/26m_GSM-tow.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ExclusionZone" id="2023" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2024"/>
+                <child id="2025"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 17"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2024" parent_id="2023">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.785018093" longitude="19.145430901"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2025" parent_id="2023">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.784409324" longitude="19.146284012"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2026" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="113m_tutorony-air_tb1_2.obj"/>
+            <point heading="0.00" latitude="47.367413969" longitude="18.988429846"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/113m_tutorony-air_tb1_2.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2027" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="113m_tutorony-air_w8.obj"/>
+            <point heading="0.00" latitude="47.367413969" longitude="18.988429846"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/113m_tutorony-air_w8.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2028" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="113m_tutorony-tut1.obj"/>
+            <point heading="0.00" latitude="47.367413969" longitude="18.988429846"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/113m_tutorony-tut1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2029" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="180m_tutorony-air_tb1_2.obj"/>
+            <point heading="0.00" latitude="47.366076973" longitude="18.988487877"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/180m_tutorony-air_tb1_2.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2030" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="180m_tutorony-air_w8.obj"/>
+            <point heading="0.00" latitude="47.366076973" longitude="18.988487877"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/180m_tutorony-air_w8.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2031" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="180m_tutorony-tut1.obj"/>
+            <point heading="0.00" latitude="47.366076973" longitude="18.988487877"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/180m_tutorony-tut1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2032" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="180m_tv-air_w8.obj"/>
+            <point heading="0.00" latitude="47.365054564" longitude="18.988952124"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/180m_tv-air_w8.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2033" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="180m_tv-ap_tb5_6.obj"/>
+            <point heading="0.00" latitude="47.365054564" longitude="18.988952124"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/180m_tv-ap_tb5_6.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2034" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="180m_tv-cement-1.obj"/>
+            <point heading="0.00" latitude="47.365054564" longitude="18.988952124"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/180m_tv-cement-1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2035" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="180m_tv-tut1.obj"/>
+            <point heading="0.00" latitude="47.365054564" longitude="18.988952124"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/180m_tv-tut1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2036" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="107m_7R_Tower_SAT.obj"/>
+            <point heading="0.00" latitude="47.368440791" longitude="18.988226262"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/107m_7R_Tower_SAT.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2037" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="26m_GSM-tow.obj"/>
+            <point heading="0.00" latitude="47.364213524" longitude="18.989241972"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/26m_GSM-tow.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2038" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="50m_R_Tower.obj"/>
+            <point heading="0.00" latitude="47.363558134" longitude="18.989338707"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/50m_R_Tower.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2039" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="60m_GSM-tow.obj"/>
+            <point heading="0.00" latitude="47.362804435" longitude="18.989435441"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/60m_GSM-tow.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2040" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="65m_R_Tower_GRN.obj"/>
+            <point heading="0.00" latitude="47.362247353" longitude="18.989338707"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/65m_R_Tower_GRN.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2041" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="WindTbn2m5_100_green.obj"/>
+            <point heading="0.00" latitude="47.367638948" longitude="18.986300730"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_green.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2042" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="WindTbn2m5_100_red.obj"/>
+            <point heading="0.00" latitude="47.366463344" longitude="18.986631261"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2043" parent_id="1955">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="WindTbn2m5_100_white.obj"/>
+            <point heading="0.00" latitude="47.365203769" longitude="18.986920476"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_white.obj" show_level="1 Default"/>
         </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
             <item value="13"/>
             <item value="26"/>
+            <item value="1189"/>
             <item value="1190"/>
             <item value="1200"/>
             <item value="1240"/>
+            <item value="1241"/>
             <item value="1276"/>
             <item value="1310"/>
             <item value="1358"/>
@@ -6798,18 +7274,21 @@
             <item value="1439"/>
             <item value="1457"/>
             <item value="1932"/>
+            <item value="1939"/>
+            <item value="1955"/>
+            <item value="1959"/>
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="19.025967"/>
-        <pref name="map/north" value="47.385841"/>
+        <pref name="map/east" value="19.008736"/>
+        <pref name="map/north" value="47.380487"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.344836"/>
+        <pref name="map/south" value="47.353868"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.972895"/>
+        <pref name="map/west" value="18.974278"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -6831,7 +7310,7 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="CDB-Library/Airport/paviment/asphalt_line.lin"/>
-        <pref name="map_Objects_Object" value="Objects/Buildings/tutorony-tut1_113m.obj"/>
+        <pref name="map_Objects_Object" value="Objects/Buildings/windfarms/WindTbn2m5_100_green.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="Ortophotos/8.pol"/>
@@ -6884,8 +7363,8 @@
         <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="380"/>
         <pref name="window/main_split2" value="1319"/>
-        <pref name="window/prev_split" value="194"/>
-        <pref name="window/prop_split" value="420"/>
+        <pref name="window/prev_split" value="469"/>
+        <pref name="window/prop_split" value="512"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>

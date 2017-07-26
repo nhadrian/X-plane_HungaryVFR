@@ -1,7 +1,7 @@
 HungaryVFR-Scenery-Aerials
 ******************************************************
 
-Verzió szám: 0.0.1-beta2
+Verzió szám: 0.0.1
 Lefedett terület:
 	- Hungarian radio towers
 	- Hungarian windfarms
@@ -42,5 +42,6 @@ Javasolt sorrend:
 //ezt ki kell dolgozni
 
 ***** KÖSZÖNETNYILVÁNÍTÁS *****
+- A rádió tornyok elhelyezéséhez a www.fdmx.hu adatbázisát használtuk, köszönet érte!
 - Néhány objektum alapját a Laminar g10 library képezi, köszönet érte a készítõknek!
 

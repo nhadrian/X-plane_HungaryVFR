@@ -3,6 +3,7 @@ A
 OBJ
 
 TEXTURE		wind_turbines_white.dds
+TEXTURE_LIT	wind_turbines_white_LIT.dds
 GLOBAL_no_blend 0.5
 GLOBAL_specular 0.5
 POINT_COUNTS	1749 0 0 6858
