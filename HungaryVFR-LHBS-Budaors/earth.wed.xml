@@ -30116,7 +30116,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="JB_DC-3.obj"/>
             <point heading="-175.58" latitude="47.448692045" longitude="18.979960214"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Airplanes/JB_DC-3.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Airplanes/HA-LIX.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9171" parent_id="10587">
             <sources/>
@@ -40643,15 +40643,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.984518"/>
-        <pref name="map/north" value="47.450734"/>
+        <pref name="map/east" value="18.980148"/>
+        <pref name="map/north" value="47.448952"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.446772"/>
+        <pref name="map/south" value="47.448637"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.979584"/>
+        <pref name="map/west" value="18.979775"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -40673,7 +40673,7 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="opensceneryx/lines/solid_lines/white.lin"/>
-        <pref name="map_Objects_Object" value="Objects/Airplanes/gobe-gobe.obj"/>
+        <pref name="map_Objects_Object" value="Objects/Airplanes/HA-LIX.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="Polygons/grass.pol"/>
@@ -40725,13 +40725,13 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="997"/>
+        <pref name="window/height" value="1152"/>
         <pref name="window/main_split" value="381"/>
-        <pref name="window/main_split2" value="1287"/>
-        <pref name="window/prev_split" value="666"/>
-        <pref name="window/prop_split" value="278"/>
-        <pref name="window/width" value="1920"/>
-        <pref name="window/x_loc" value="-8"/>
-        <pref name="window/y_loc" value="-8"/>
+        <pref name="window/main_split2" value="1373"/>
+        <pref name="window/prev_split" value="686"/>
+        <pref name="window/prop_split" value="374"/>
+        <pref name="window/width" value="2006"/>
+        <pref name="window/x_loc" value="-1011"/>
+        <pref name="window/y_loc" value="16"/>
     </prefs>
 </doc>
