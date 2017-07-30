@@ -1,7 +1,7 @@
 HungaryVFR-Scenery-Százhalombatta
 ******************************************************
 
-Verzió szám: 2.0.3
+Verzió szám: 2.0.4
 Lefedett terület: Százhalombatta - Industrial areas
 
 ******************************************************

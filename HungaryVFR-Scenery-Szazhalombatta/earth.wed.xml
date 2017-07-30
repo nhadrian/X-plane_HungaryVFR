@@ -72,7 +72,9 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection/>
+            <selection>
+                <sel id="1874"/>
+            </selection>
         </object>
         <object class="WED_ObjPlacement" id="514" parent_id="177">
             <sources/>
@@ -848,6 +850,7 @@
                 <child id="1770"/>
                 <child id="1767"/>
                 <child id="1761"/>
+                <child id="1875"/>
             </children>
             <hierarchy hidden="0" locked="1" name="Exclusion zones"/>
         </object>
@@ -12001,6 +12004,7 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="1874"/>
                 <child id="127"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Objects"/>
@@ -12347,11 +12351,46 @@
             <hierarchy hidden="0" locked="0" name="End"/>
             <point latitude="47.298384048" longitude="18.903026222"/>
         </object>
+        <object class="WED_ObjPlacement" id="1874" parent_id="1831">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="batta_water_tower.obj"/>
+            <point heading="246.97" latitude="47.336788000" longitude="18.934457000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/batta_water_tower.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ExclusionZone" id="1875" parent_id="128">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1876"/>
+                <child id="1877"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 1"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+                <exclusion value="Forests"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="1876" parent_id="1875">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.336952554" longitude="18.934208040"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="1877" parent_id="1875">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.336626006" longitude="18.934705624"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
             <item value="128"/>
-            <item value="129"/>
             <item value="130"/>
             <item value="177"/>
             <item value="603"/>
@@ -12361,21 +12400,20 @@
             <item value="1323"/>
             <item value="1325"/>
             <item value="1350"/>
-            <item value="1831"/>
             <item value="1833"/>
             <item value="1870"/>
         </pref>
         <pref name="doc/export_target" value="1"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.908075"/>
-        <pref name="map/north" value="47.300658"/>
+        <pref name="map/east" value="18.935506"/>
+        <pref name="map/north" value="47.337271"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.296460"/>
+        <pref name="map/south" value="47.336004"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.901811"/>
+        <pref name="map/west" value="18.933480"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -12397,7 +12435,7 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="CDB-Library/Airport/paviment/asphalt_line.lin"/>
-        <pref name="map_Objects_Object" value="handyobjects/farm/food_trough_with_water.obj"/>
+        <pref name="map_Objects_Object" value="Objects/Buildings/batta_water_tower.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="Polygons/Ground textures/Water1.pol"/>
@@ -12449,13 +12487,13 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="1126"/>
+        <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="380"/>
-        <pref name="window/main_split2" value="1578"/>
-        <pref name="window/prev_split" value="591"/>
-        <pref name="window/prop_split" value="421"/>
-        <pref name="window/width" value="1983"/>
-        <pref name="window/x_loc" value="-1001"/>
-        <pref name="window/y_loc" value="20"/>
+        <pref name="window/main_split2" value="1515"/>
+        <pref name="window/prev_split" value="601"/>
+        <pref name="window/prop_split" value="413"/>
+        <pref name="window/width" value="1920"/>
+        <pref name="window/x_loc" value="-8"/>
+        <pref name="window/y_loc" value="-8"/>
     </prefs>
 </doc>
