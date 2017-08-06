@@ -52,9 +52,7 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection>
-                <sel id="1955"/>
-            </selection>
+            <selection/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="1538" parent_id="1536">
             <sources/>
@@ -334,6 +332,7 @@
                 <child id="2011"/>
                 <child id="2016"/>
                 <child id="2023"/>
+                <child id="2047"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Exclusion Zones"/>
         </object>
@@ -881,9 +880,10 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="2046"/>
                 <child id="1995"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Radio towers - www.fdmx.hu"/>
+            <hierarchy hidden="0" locked="0" name="Radio towers - www.fmdx.hu"/>
         </object>
         <object class="WED_ExclusionZone" id="1701" parent_id="13">
             <sources/>
@@ -1506,6 +1506,7 @@
                 <child id="1415"/>
                 <child id="1439"/>
                 <child id="1457"/>
+                <child id="2044"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Wind turbines"/>
         </object>
@@ -2918,14 +2919,14 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="47.492636788" longitude="18.978899131"/>
+            <point latitude="47.492636788" longitude="18.978207730"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="1463" parent_id="1461">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="End"/>
-            <point latitude="47.491193593" longitude="18.981086895"/>
+            <point latitude="47.490646252" longitude="18.981086895"/>
         </object>
         <object class="WED_ExclusionZone" id="1464" parent_id="13">
             <sources/>
@@ -7257,13 +7258,62 @@
             <point heading="0.00" latitude="47.365203769" longitude="18.986920476"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_white.obj" show_level="1 Default"/>
         </object>
+        <object class="WED_ObjPlacement" id="2044" parent_id="1241">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Felsõzsolcai szélerõmû"/>
+            <point heading="0.00" latitude="48.097797000" longitude="20.907525000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2045" parent_id="2046">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Szentes 240m"/>
+            <point heading="0.00" latitude="46.623763000" longitude="20.282277000"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/240m_radio_tower_rope.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Group" id="2046" parent_id="1189">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2045"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Dél-Alföld Csongrád-megye"/>
+        </object>
+        <object class="WED_ExclusionZone" id="2047" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2048"/>
+                <child id="2049"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 1"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2048" parent_id="2047">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="46.624333674" longitude="20.281435502"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2049" parent_id="2047">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="46.623179846" longitude="20.283115514"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
             <item value="13"/>
             <item value="26"/>
-            <item value="1189"/>
-            <item value="1190"/>
             <item value="1200"/>
             <item value="1240"/>
             <item value="1241"/>
@@ -7277,18 +7327,20 @@
             <item value="1939"/>
             <item value="1955"/>
             <item value="1959"/>
+            <item value="1995"/>
+            <item value="2046"/>
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="19.008736"/>
-        <pref name="map/north" value="47.380487"/>
+        <pref name="map/east" value="18.988736"/>
+        <pref name="map/north" value="47.497118"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.353868"/>
+        <pref name="map/south" value="47.484423"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.974278"/>
+        <pref name="map/west" value="18.972261"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -7310,7 +7362,7 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="CDB-Library/Airport/paviment/asphalt_line.lin"/>
-        <pref name="map_Objects_Object" value="Objects/Buildings/windfarms/WindTbn2m5_100_green.obj"/>
+        <pref name="map_Objects_Object" value="Objects/Buildings/240m_radio_tower_rope.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="Ortophotos/8.pol"/>
@@ -7363,8 +7415,8 @@
         <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="380"/>
         <pref name="window/main_split2" value="1319"/>
-        <pref name="window/prev_split" value="469"/>
-        <pref name="window/prop_split" value="512"/>
+        <pref name="window/prev_split" value="499"/>
+        <pref name="window/prop_split" value="542"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
