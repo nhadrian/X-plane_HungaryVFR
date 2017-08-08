@@ -1,0 +1,94 @@
+A
+800
+LIBRARY
+
+# HungaryVFR-Library
+# Version: 1.0.0
+
+
+# ----------------------------------
+# OBJECTS
+# ----------------------------------
+
+# Airplanes
+# ----------------------------------
+EXPORT HungaryVFR-Library/Objects/Airplanes/AN-2_HA-YHF.obj Objects/Airplanes/AN-2_HA-YHF.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/AN-2_HA-MAR.obj Objects/Airplanes/AN-2_HA-MAR.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/GOBE_HA-5397.obj Objects/Airplanes/GOBE_HA-5397.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/LI-2_HA-LIX.obj Objects/Airplanes/LI-2_HA-LIX.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/TCMELAK_HA-MFC.obj Objects/Airplanes/TCMELAK_HA-MFC.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/WILGA_HA-SEK.obj Objects/Airplanes/WILGA_HA-SEK.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/WILGA_HA-SEM.obj Objects/Airplanes/WILGA_HA-SEM.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/BLANIK_HA-5175.obj Objects/Airplanes/BLANIK_HA-5175.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/PIRAT_HA-4368.obj Objects/Airplanes/PIRAT_HA-4368.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/PZL-101_HA-SBL.obj Objects/Airplanes/PZL-101_HA-SBL.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/PZL-101_HA-PYC.obj Objects/Airplanes/PZL-101_HA-PYC.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/TRIKE_nosign.obj Objects/Airplanes/TRIKE_nosign.obj
+
+# Buildings
+# ----------------------------------
+
+# Fences
+# ----------------------------------
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2m.obj Objects/Fences/Chain_Link_Fence_2m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2m_2panel.obj Objects/Fences/Chain_Link_Fence_2m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2m_5panel.obj Objects/Fences/Chain_Link_Fence_2m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2m_10panel.obj Objects/Fences/Chain_Link_Fence_2m_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2m_20panel.obj Objects/Fences/Chain_Link_Fence_2m_20panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2.5m.obj Objects/Fences/Chain_Link_Fence_2.5m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2.5m_2panel.obj Objects/Fences/Chain_Link_Fence_2.5m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2.5m_5panel.obj Objects/Fences/Chain_Link_Fence_2.5m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2.5m_10panel.obj Objects/Fences/Chain_Link_Fence_2.5m_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2.5m_20panel.obj Objects/Fences/Chain_Link_Fence_2.5m_20panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence.obj Objects/Fences/Barbed_Wire_Fence.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_2_panel.obj Objects/Fences/Barbed_Wire_Fence_2_panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_5_panel.obj Objects/Fences/Barbed_Wire_Fence_5_panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_10_panel.obj Objects/Fences/Barbed_Wire_Fence_10_panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_20_panel.obj Objects/Fences/Barbed_Wire_Fence_20_panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_Wide.obj Objects/Fences/Barbed_Wire_Fence_Wide.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_Wide_2_panel.obj Objects/Fences/Barbed_Wire_Fence_Wide_2_Panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_Wide_5_panel.obj Objects/Fences/Barbed_Wire_Fence_Wide_5_Panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_Wide_10_panel.obj Objects/Fences/Barbed_Wire_Fence_Wide_10_Panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_Wide_20_panel.obj Objects/Fences/Barbed_Wire_Fence_Wide_20_Panel.obj
+
+# Trees, hedges
+# ----------------------------------
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree1-12m.obj Objects/Trees_Hedges/Tree1-12m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree1-11m.obj Objects/Trees_Hedges/Tree1-11m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree1-10m.obj Objects/Trees_Hedges/Tree1-10m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree1-8m.obj Objects/Trees_Hedges/Tree1-8m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree2-12m.obj Objects/Trees_Hedges/Tree2-12m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree2-10m.obj Objects/Trees_Hedges/Tree2-10m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree2-9m.obj Objects/Trees_Hedges/Tree2-9m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree2-7m.obj Objects/Trees_Hedges/Tree2-7m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree3-12m.obj Objects/Trees_Hedges/Tree3-12m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree3-11m.obj Objects/Trees_Hedges/Tree3-11m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree3-9m.obj Objects/Trees_Hedges/Tree3-9m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree3-7m.obj Objects/Trees_Hedges/Tree3-7m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree4-14m.obj Objects/Trees_Hedges/Tree4-14m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree4-12m.obj Objects/Trees_Hedges/Tree4-12m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree4-10m.obj Objects/Trees_Hedges/Tree4-10m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree4-8m.obj Objects/Trees_Hedges/Tree4-8m.obj
+
+# Vehicles
+# ----------------------------------
+EXPORT HungaryVFR-Library/Objects/Vehicles/LADA-NIVA_CNL821.obj Objects/Vehicles/LADA-NIVA_CNL821.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/SKODA-FABIA_GOV392.obj Objects/Vehicles/SKODA-FABIA_GOV392.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/VW-POLO_ICX856.obj Objects/Vehicles/VW-POLO_ICX856.obj
+
+# Miscellanous
+# ----------------------------------
+
+# ----------------------------------
+# POLYGONS
+# ----------------------------------
+EXPORT HungaryVFR-Library/Polygons/Grass-1.pol Polygons/Grass-1.pol
+EXPORT HungaryVFR-Library/Polygons/Water-1.pol Polygons/Water-1.pol
+
+# ----------------------------------
+# STRINGS
+# ----------------------------------
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2m.str Objects/Fences/Chain_Link_Fence_2m.str
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2.5m.str Objects/Fences/Chain_Link_Fence_2.5m.str
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence.str Objects/Fences/Barbed_Wire_Fence.str
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_Wide.str Objects/Fences/Barbed_Wire_Fence_Wide.str
