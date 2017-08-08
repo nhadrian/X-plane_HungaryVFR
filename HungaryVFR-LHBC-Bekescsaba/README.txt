@@ -1,7 +1,7 @@
 HungaryVFR-LHBC-Békéscsaba scenery
 ******************************************************
 
-Verzió szám: 3.0.1
+Verzió szám: 3.0.2
 Lefedett terület: LHBC - Békéscsaba
 
 ******************************************************
