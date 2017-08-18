@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+
+LAYER_GROUP markings -1
+TEXTURE concrete_3L.dds
+TEXTURE_NORMAL 1 concrete_3L_NML.png
+SPECULAR 0.3
+SURFACE concrete
+SCALE 37.5 37.5

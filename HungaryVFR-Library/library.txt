@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.0.1
+# Version: 1.1.0-beta
 
 
 # ----------------------------------
@@ -30,16 +30,16 @@ EXPORT HungaryVFR-Library/Objects/Airplanes/TRIKE_nosign.obj Objects/Airplanes/T
 
 # Fences
 # ----------------------------------
-EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2m.obj Objects/Fences/Chain_Link_Fence_2m.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2m_2panel.obj Objects/Fences/Chain_Link_Fence_2m_2panel.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2m_5panel.obj Objects/Fences/Chain_Link_Fence_2m_5panel.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2m_10panel.obj Objects/Fences/Chain_Link_Fence_2m_10panel.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2m_20panel.obj Objects/Fences/Chain_Link_Fence_2m_20panel.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2.5m.obj Objects/Fences/Chain_Link_Fence_2.5m.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2.5m_2panel.obj Objects/Fences/Chain_Link_Fence_2.5m_2panel.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2.5m_5panel.obj Objects/Fences/Chain_Link_Fence_2.5m_5panel.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2.5m_10panel.obj Objects/Fences/Chain_Link_Fence_2.5m_10panel.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2.5m_20panel.obj Objects/Fences/Chain_Link_Fence_2.5m_20panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2m.obj Objects/Fences/Chain_Link_Fence_2x2m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2m_2panel.obj Objects/Fences/Chain_Link_Fence_2x2m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2m_5panel.obj Objects/Fences/Chain_Link_Fence_2x2m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2m_10panel.obj Objects/Fences/Chain_Link_Fence_2x2m_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2m_20panel.obj Objects/Fences/Chain_Link_Fence_2x2m_20panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m.obj Objects/Fences/Chain_Link_Fence_2x2.5m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m_2panel.obj Objects/Fences/Chain_Link_Fence_2x2.5m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m_5panel.obj Objects/Fences/Chain_Link_Fence_2x2.5m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m_10panel.obj Objects/Fences/Chain_Link_Fence_2x2.5m_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m_20panel.obj Objects/Fences/Chain_Link_Fence_2x2.5m_20panel.obj
 EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence.obj Objects/Fences/Barbed_Wire_Fence.obj
 EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_2_panel.obj Objects/Fences/Barbed_Wire_Fence_2_panel.obj
 EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_5_panel.obj Objects/Fences/Barbed_Wire_Fence_5_panel.obj
@@ -82,13 +82,85 @@ EXPORT HungaryVFR-Library/Objects/Vehicles/VW-POLO_ICX856.obj Objects/Vehicles/V
 # ----------------------------------
 # POLYGONS
 # ----------------------------------
-EXPORT HungaryVFR-Library/Polygons/Grass-1.pol Polygons/Grass-1.pol
-EXPORT HungaryVFR-Library/Polygons/Water-1.pol Polygons/Water-1.pol
+EXPORT HungaryVFR-Library/Polygons/Plain/Grass_1.pol Polygons/Plain/Grass_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol Polygons/Bump-mapped/Water/Water_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_2.pol Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_Cracked_1.pol Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_Cracked_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_Tarmac_1.pol Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_Tarmac_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_2.pol Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_Cracked_1.pol Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_Cracked_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_Tarmac_1.pol Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_Tarmac_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_1D.pol Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_1D.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_1L.pol Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_1L.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_2D.pol Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_2D.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_2L.pol Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_2L.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_3D.pol Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_3D.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_3L.pol Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_3L.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_4D.pol Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_4D.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_4L.pol Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_4L.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_5D.pol Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_5D.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_5L.pol Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_5L.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_6D.pol Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_6D.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_6L.pol Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_6L.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_1.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_dirty_1.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_dirty_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_light_1.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_light_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_old_1.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_old_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_1.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_dirty_1.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_dirty_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_light_1.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_light_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_old_1.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_old_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Grass_1.pol Polygons/Bump-mapped/Grass/HIGH-RES/Grass_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Grass_2.pol Polygons/Bump-mapped/Grass/HIGH-RES/Grass_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Grass_3.pol Polygons/Bump-mapped/Grass/HIGH-RES/Grass_3.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Grass_4.pol Polygons/Bump-mapped/Grass/HIGH-RES/Grass_4.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Grass_5.pol Polygons/Bump-mapped/Grass/HIGH-RES/Grass_5.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Grass_6.pol Polygons/Bump-mapped/Grass/HIGH-RES/Grass_6.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Dirt_grass_1.pol Polygons/Bump-mapped/Grass/HIGH-RES/Dirt_grass_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/LOW-RES/Grass_1.pol Polygons/Bump-mapped/Grass/LOW-RES/Grass_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/LOW-RES/Grass-2.pol Polygons/Bump-mapped/Grass/LOW-RES/Grass_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/LOW-RES/Grass_3.pol Polygons/Bump-mapped/Grass/LOW-RES/Grass_3.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/LOW-RES/Grass_4.pol Polygons/Bump-mapped/Grass/LOW-RES/Grass_4.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/LOW-RES/Grass_5.pol Polygons/Bump-mapped/Grass/LOW-RES/Grass_5.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/LOW-RES/Grass_6.pol Polygons/Bump-mapped/Grass/LOW-RES/Grass_6.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/LOW-RES/Dirt_grass_1.pol Polygons/Bump-mapped/Grass/LOW-RES/Dirt_grass_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_2.pol Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_cracked_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_cracked_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Mud_dry_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Mud_dry_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Sand_cracked_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_2.pol Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_cracked_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_cracked_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Mud_dry_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Mud_dry_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Sand_cracked_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Dirt_road_1.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Dirt_road_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Gravel_1.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Gravel_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Paving_1.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Paving_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Stone_road_1.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Stone_road_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Dirt_road_1.pol Polygons/Bump-mapped/Pavement/LOW-RES/Dirt_road_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Gravel_1.pol Polygons/Bump-mapped/Pavement/LOW-RES/Gravel_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Paving_1.pol Polygons/Bump-mapped/Pavement/LOW-RES/Paving_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Stone_road_1.pol Polygons/Bump-mapped/Pavement/LOW-RES/Stone_road_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/HIGH-RES/Cracks_old_1.pol Polygons/Bump-mapped/Surface_damages/HIGH-RES/Cracks_old_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/HIGH-RES/Tar_marks_1.pol Polygons/Bump-mapped/Surface_damages/HIGH-RES/Tar_marks_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/HIGH-RES/Tar_marks_2.pol Polygons/Bump-mapped/Surface_damages/HIGH-RES/Tar_marks_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/HIGH-RES/Tar_marks_heavy_1.pol Polygons/Bump-mapped/Surface_damages/HIGH-RES/Tar_marks_heavy_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Cracks_old_1.pol Polygons/Bump-mapped/Surface_damages/LOW-RES/Cracks_old_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_1.pol Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_2.pol Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_heavy_1.pol Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_heavy_1.pol
 
 # ----------------------------------
 # STRINGS
 # ----------------------------------
-EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2m.str Objects/Fences/Chain_Link_Fence_2m.str
-EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2.5m.str Objects/Fences/Chain_Link_Fence_2.5m.str
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2m.str Objects/Fences/Chain_Link_Fence_2x2m.str
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m.str Objects/Fences/Chain_Link_Fence_2x2.5m.str
 EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence.str Objects/Fences/Barbed_Wire_Fence.str
 EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_Wide.str Objects/Fences/Barbed_Wire_Fence_Wide.str
+
+# ----------------------------------
+# FORESTS
+# ----------------------------------
+
+EXPORT HungaryVFR-Library/Forests/broad_tmp_dry_10x10.for Forests/broad_tmp_dry_10x10.for

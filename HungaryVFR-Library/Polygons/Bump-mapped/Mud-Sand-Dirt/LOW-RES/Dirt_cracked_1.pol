@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+LAYER_GROUP runways -1
+
+TEXTURE 	Dirt_cracked_1.dds
+TEXTURE_NORMAL 	1 Dirt_cracked_1_NML.png
+SPECULAR 0.25
+SURFACE dirt
+SCALE 5 5
