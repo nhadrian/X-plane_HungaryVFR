@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.1.0-beta
+# Version: 1.1.1-beta
 
 
 # ----------------------------------
@@ -40,16 +40,26 @@ EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m_2panel.obj Obje
 EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m_5panel.obj Objects/Fences/Chain_Link_Fence_2x2.5m_5panel.obj
 EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m_10panel.obj Objects/Fences/Chain_Link_Fence_2x2.5m_10panel.obj
 EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m_20panel.obj Objects/Fences/Chain_Link_Fence_2x2.5m_20panel.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence.obj Objects/Fences/Barbed_Wire_Fence.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_2_panel.obj Objects/Fences/Barbed_Wire_Fence_2_panel.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_5_panel.obj Objects/Fences/Barbed_Wire_Fence_5_panel.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_10_panel.obj Objects/Fences/Barbed_Wire_Fence_10_panel.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_20_panel.obj Objects/Fences/Barbed_Wire_Fence_20_panel.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_Wide.obj Objects/Fences/Barbed_Wire_Fence_Wide.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_Wide_2_panel.obj Objects/Fences/Barbed_Wire_Fence_Wide_2_Panel.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_Wide_5_panel.obj Objects/Fences/Barbed_Wire_Fence_Wide_5_Panel.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_Wide_10_panel.obj Objects/Fences/Barbed_Wire_Fence_Wide_10_Panel.obj
-EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_Wide_20_panel.obj Objects/Fences/Barbed_Wire_Fence_Wide_20_Panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1x2m.obj Objects/Fences/Chain_Link_Fence_1x2m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1x2m_2panel.obj Objects/Fences/Chain_Link_Fence_1x2m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1x2m_5panel.obj Objects/Fences/Chain_Link_Fence_1x2m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1x2m_10panel.obj Objects/Fences/Chain_Link_Fence_1x2m_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1x2m_20panel.obj Objects/Fences/Chain_Link_Fence_1x2m_20panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1.5x2m.obj Objects/Fences/Chain_Link_Fence_1x2m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1.5x2m_2panel.obj Objects/Fences/Chain_Link_Fence_1.5x2m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1.5x2m_5panel.obj Objects/Fences/Chain_Link_Fence_1.5x2m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1.5x2m_10panel.obj Objects/Fences/Chain_Link_Fence_1.5x2m_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1.5x2m_20panel.obj Objects/Fences/Chain_Link_Fence_1.5x2m_20panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1x1.5m.obj Objects/Fences/Barbed_Wire_Fence_1.5x1m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1x1.5m_2panel.obj Objects/Fences/Barbed_Wire_Fence_1x1.5m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1x1.5m_5panel.obj Objects/Fences/Barbed_Wire_Fence_1x1.5m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1x1.5m_10panel.obj Objects/Fences/Barbed_Wire_Fence_1x1.5m_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1x1.5m_20panel.obj Objects/Fences/Barbed_Wire_Fence_1x1.5m_20panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1.5x2m.obj Objects/Fences/Barbed_Wire_Fence_1.5x2m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1.5x2m_2panel.obj Objects/Fences/Barbed_Wire_Fence_1.5x2m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1.5x2m_5panel.obj Objects/Fences/Barbed_Wire_Fence_1.5x2m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1.5x2m_10panel.obj Objects/Fences/Barbed_Wire_Fence_1.5x2m_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1.5x2m_20panel.obj Objects/Fences/Barbed_Wire_Fence_1.5x2m_20panel.obj
 
 # Trees, hedges
 # ----------------------------------
@@ -103,10 +113,20 @@ EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_5L.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_6D.pol Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_6D.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_6L.pol Polygons/Bump-mapped/Asphalt/XP-remake/Concrete_6L.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_1.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_2.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_3.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_3.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_4.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_4.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_5.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_5.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_cracked_1.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_cracked_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_dirty_1.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_dirty_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_light_1.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_light_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_old_1.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_old_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_1.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_2.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_3.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_3.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_4.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_4.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_5.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_5.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_cracked_1.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_cracked_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_dirty_1.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_dirty_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_light_1.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_light_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_old_1.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_old_1.pol
@@ -154,10 +174,13 @@ EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks
 # ----------------------------------
 # STRINGS
 # ----------------------------------
+
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1x2m.str Objects/Fences/Chain_Link_Fence_1x2m.str
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1.5x2m.str Objects/Fences/Chain_Link_Fence_1.5x2m.str
 EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2m.str Objects/Fences/Chain_Link_Fence_2x2m.str
 EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m.str Objects/Fences/Chain_Link_Fence_2x2.5m.str
-EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence.str Objects/Fences/Barbed_Wire_Fence.str
-EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_Wide.str Objects/Fences/Barbed_Wire_Fence_Wide.str
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1x1.5m.str Objects/Fences/Barbed_Wire_Fence_1x1.5m.str
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1.5x2m.str Objects/Fences/Barbed_Wire_Fence_1.5x2m.str
 
 # ----------------------------------
 # FORESTS
