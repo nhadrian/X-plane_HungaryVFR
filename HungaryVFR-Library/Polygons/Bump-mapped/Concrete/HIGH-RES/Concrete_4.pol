@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+LAYER_GROUP runways -1
+
+TEXTURE 	Concrete_4.dds
+TEXTURE_NORMAL 	1 Concrete_4_NML.png
+SPECULAR 0.3
+SURFACE concrete
+SCALE 6 6

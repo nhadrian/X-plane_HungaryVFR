@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+LAYER_GROUP runways -1
+
+TEXTURE 	Asphalt_cracked_1.dds
+TEXTURE_NORMAL 	1 Asphalt_cracked_1_NML.png
+SPECULAR 0.30
+SURFACE asphalt
+SCALE 6 6
