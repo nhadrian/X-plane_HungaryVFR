@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.1.1-beta
+# Version: 1.1.2
 
 
 # ----------------------------------
@@ -85,6 +85,11 @@ EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree4-8m.obj Objects/Trees_Hedges
 EXPORT HungaryVFR-Library/Objects/Vehicles/LADA-NIVA_CNL821.obj Objects/Vehicles/LADA-NIVA_CNL821.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/SKODA-FABIA_GOV392.obj Objects/Vehicles/SKODA-FABIA_GOV392.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/VW-POLO_ICX856.obj Objects/Vehicles/VW-POLO_ICX856.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_GSXR.obj Objects/Vehicles/motor_1_GSXR.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_DUCATI_1.obj Objects/Vehicles/motor_1_DUCATI_1.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_DUCATI_2.obj Objects/Vehicles/motor_1_DUCATI_2.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_NINJA.obj Objects/Vehicles/motor_1_NINJA.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_YAMAHA_1.obj Objects/Vehicles/motor_1_YAMAHA_1.obj
 
 # Miscellanous
 # ----------------------------------
