@@ -1,7 +1,7 @@
 HungaryVFR-LHGD-Gödöllõ scenery
 ******************************************************
 
-Verzió szám: 2.0.2
+Verzió szám: 2.0.3
 Lefedett terület: 
 - LHGD - Gödöllõ
 - Gödöllõ település egy része
