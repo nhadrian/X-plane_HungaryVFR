@@ -1,70 +1,75 @@
 HungaryVFR-<ICAO>-<Airport Name> scenery
 HungaryVFR-Scenery-<City name> scenery
 HungaryVFR-Scenery-<Scenery Name> scenery
-******************************************************
-
-Verzió szám: 0.0.1
-Lefedett terület: <tile> / <tájegység neve> / <ICAO és reptér név>
 
 ******************************************************
-A kiadást HungaryVFR Team készítette.
+
+VerziÃ³ szÃ¡m: 0.0.1
+Lefedett terÃ¼let: <tile> / <tÃ¡jegysÃ©g neve> / <ICAO Ã©s reptÃ©r nÃ©v>
+
+******************************************************
+A kiadÃ¡st HungaryVFR Team kÃ©szÃ­tette.
 
 HungaryVFR Team tagok:
-- 
-- 
+- ekre
 - nhadrian
-…
+- TakÃ¡cs GÃ¡bor
+- Kardosi SÃ¡ndor
+- Hampel Gyula AndrÃ¡s
+- Borovszky PÃ©ter
 
-Kapcsolat: hungaryvfr@gmail.com
+Kapcsolat: hungaryvfr7@gmail.com
 ******************************************************
 
-***** TELEPÍTÉS *****
+***** TELEPÃTÃ‰S *****
 
-Másold a zip tartalmát az "X-Plane folder/Custom Scenery" könyvtárba.
+MÃ¡sold a zip tartalmÃ¡t az "X-Plane folder/Custom Scenery" kÃ¶nyvtÃ¡rba.
 
-***** KOMPATIBILITÁS *****
+***** helyes scenery.ini sorrend *****
 
-X-Plane verzió: X-Plane 10.50+ kiadáshoz
-Kompatibilitás más kiegészítõkkel: igen
-Ismert kompatibilitási problémák: nincs
+A scenery.ini file felÃ©pÃ­tÃ©sÃ©rÅ‘l Ã©s a helyes sorrend kialakÃ­tÃ¡sÃ¡rÃ³l a 'HungaryVFR_scenery_ini.pdf' -ben talÃ¡lhatÃ³ rÃ©szletes leÃ­rÃ¡s.
 
-***** SZÜKSÉGES KIEGÉSZÍTÕK *****
+***** KOMPATIBILITÃS *****
 
-A kiegészítõ helyes mûködéséhez az alábbi kiegészítõkre van szükség. 
-A kiegészítõket az "X-Plane folder/Custom Scenery" alá kell másolni.
+MinimÃ¡lis X-Plane verziÃ³: X-Plane 10.50+ kiadÃ¡s
+Javasolt X-Plane verziÃ³: X-plane 11.02+ kiadÃ¡s
+KompatibilitÃ¡s mÃ¡s kiegÃ©szÃ­tÅ‘kkel: igen
+Ismert kompatibilitÃ¡si problÃ©mÃ¡k: nincs
+
+***** SZÃœKSÃ‰GES KIEGÃ‰SZÃTÅK *****
+
+A kiegÃ©szÃ­tÅ‘ helyes mÅ±kÃ¶dÃ©sÃ©hez az alÃ¡bbi kiegÃ©szÃ­tÅ‘kre van szÃ¼ksÃ©g. 
+A kiegÃ©szÃ­tÅ‘ket az "X-Plane folder/Custom Scenery" alÃ¡ kell mÃ¡solni.
+(Javasolt a Library Installer hasznÃ¡lata, Ã­gy mindig a legfrissebb verziÃ³ kerÃ¼l telepÃ­tÃ©sre.)
 
 - <library name> (http://<library link>)
 - <library name> (http://<library link>)
 - <library name> (http://<library link>)
 
-***** SCENERY.ini *****
+***** JASAVOLT KIEGÃ‰SZÃTÅK *****
 
-A kiegészítõ helyes mûködéséhez fontos a SCENERY.ini tartalmának helyes sorrendbe rendezése. A SCENERY.ini file-ról részletes információk az alábbi linken:
+- HD Mesh Scenery V3 by AlpilotX: http://www.alpilotx.net/downloads/x-plane-10-hd-mesh-scenery-v3/
+- X-plane Library installer: https://forums.x-plane.org/index.php?/files/file/30252-x-plane-library-installer/
+- Enhanced Europe 1.2: https://forums.x-plane.org/index.php?/files/file/34930-enhanced-europe/
+
+***** SCENERY_packs.ini *****
+
+A kiegÃ©szÃ­tÅ‘ helyes mÅ±kÃ¶dÃ©sÃ©hez fontos a SCENERY.ini tartalmÃ¡nak helyes sorrendbe rendezÃ©se. 
+
+A SCENERY.ini file-rÃ³l rÃ©szletes informÃ¡ciÃ³k az alÃ¡bbi linken:
 https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2992536
 
-Javasolt sorrend:
-//ezt ki kell dolgozni
+A leÃ­rÃ¡s magyar fordÃ­tÃ¡sa a 'HungaryVFR_scenery_packs_ini.pdf'-ben talÃ¡lhatÃ³.
 
-***** KÖSZÖNETNYILVÁNÍTÁS*****
+***** KÃ–SZÃ–NETNYILVÃNÃTÃS*****
 
-- Az épületek 3d modelljeiért és textúráiért köszönet <credits>
-- Az Ortophoto-kért köszönet  <credits>
-- … <credits>
-
-
+- Az Ã©pÃ¼letek 3d modelljeiÃ©rt Ã©s textÃºrÃ¡iÃ©rt kÃ¶szÃ¶net <credits>
+- Az Ortophoto-kÃ©rt kÃ¶szÃ¶net  <credits>
+- â€¦ <credits>
 
 
 
 ----------------------------------------------------------------------------------------------------------------------------
-
-
-Hungary VFR - <Scenery Name> for X-Plane 10.50+
-Area covered by this scenery: <tile> / <area name> / <ICAO and the name of the airport>
-
-Installation: Copy zip contents to "X-Plane folder/Custom Scenery" folder.
-OpensceneryX (http://www.opensceneryx.com/) and R2 Library (http://r2.xpl.cz/) is required for this scenery!
-
-The 3d models and their textures are from the <credits>
 
 
 
