@@ -4546,7 +4546,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="JB_Hangar81.obj"/>
             <point heading="141.83" latitude="47.573107067" longitude="19.331091777"/>
-            <obj_placement custom_msl="1" msl="219.000" resource="Objects/buildings/JB_Hangar81.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="1" msl="218.000" resource="Objects/buildings/JB_Hangar81.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4488" parent_id="4484">
             <sources/>
@@ -23521,15 +23521,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="19.331660"/>
-        <pref name="map/north" value="47.573575"/>
+        <pref name="map/east" value="19.331938"/>
+        <pref name="map/north" value="47.573776"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="3"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.572743"/>
+        <pref name="map/south" value="47.572542"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="19.330508"/>
+        <pref name="map/west" value="19.330230"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -23606,8 +23606,8 @@
         <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="322"/>
         <pref name="window/main_split2" value="1315"/>
-        <pref name="window/prev_split" value="663"/>
-        <pref name="window/prop_split" value="431"/>
+        <pref name="window/prev_split" value="673"/>
+        <pref name="window/prop_split" value="441"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
