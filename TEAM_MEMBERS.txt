@@ -2,3 +2,13 @@ HungaryVFR X-plane Scenery Development Team
 
 - Gergely Debreceni
 - nhadrian (nhadrian@gmail.com)
+  - scenery building
+  - object building
+  - texture drawing
+- Takács Gábor (Taki, gabor@ori.hu)
+  - general 3D modelling
+  - advanced Photoshop tricks
+  - website building (backend, frontend both - if needed)
+- Sandor Kardosi
+  - scenery building
+- Borovszky Péter
