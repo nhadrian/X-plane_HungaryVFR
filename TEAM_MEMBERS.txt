@@ -11,4 +11,5 @@ HungaryVFR X-plane Scenery Development Team
   - website building (backend, frontend both - if needed)
 - Sandor Kardosi
   - scenery building
+- Hampel Gyula András
 - Borovszky Péter
