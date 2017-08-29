@@ -1,2 +1,379 @@
-- <library name> (http://<library link>)
-- <library name> (http://<library link>)
+
+Az eddigi legfrissebb X-Plane Library Installer v3.5-ös verziója tartalmazza azon mappákat,
+amelyek által könyebben lehet fejleszteni scenery-ket.
+A mappák olyan lehetőségeket biztosítanak a szerkesztés folyamán, amivel már a meglévő objektumokból, poligonokból tudunk elhelyezni
+az új, vagy a régi scenery-n.
+
+Ezeket igyekszem leírni, hogy miben mit találunk és miket érdemes feltenni.
+
+Mivel ingyenesen elérhető minden, ezért az első lépés, hogy be kell regisztrálni az x-plane.org fórum oldalára.
+
+https://forums.x-plane.org/index.php?/register/
+
+Miután ez megtörtént letölthetjük magát az installer programot.
+Igazából a legfrissebb verzió, a v3.5 3,5 gigabyte-os.
+
+https://forums.x-plane.org/index.php?/files/file/30252-x-plane-library-installer/
+
+Inkább érdemes egyenkét letölteni azokat a mappákat, amiket használni fogunk, hogy semmiben ne legyen hiány.
+Nem tartom bölcs dolognak azt. hogy csak az ff library, ru scenery és az Open X scenery legyen letöltve a gépünkre,
+mert a szerkesztések folyamáőn lesznek hiányosságok, amiket a többivel tudunk pótolni.
+
+Ezek a mappák a következőek:
+
+https://forums.x-plane.org/index.php?/forums/topic/90776-master-list-of-libraries/
+
+Minden egyes mappát a Custom Scenery mappa alá kell kicsomagolni.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3D People Library:
+
+A gyűjtemény 353 féle embert tartalmaz, 3D poligonformátumban.
+Ezek folyamatosan frissülnek, amiket nyomon lehet követni.
+
+https://forums.x-plane.org/index.php?/files/file/26611-3d-people-library/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+BS2001 Object Library 1.1:
+
+Ez a kiváló gyűjtemény tartalmazza az európai repülőtéri objektumokat és az európai közúti tárgyakat.
+Nem csak tárgyakat, hanem reklám feklületeket is tartalmaz, amelyek szabadon felhasználhatóak és szerkeszthetőek a Fimp, vagy Paintshop segítségével.
+
+https://forums.x-plane.org/index.php?/files/file/28045-bs2001-object-library/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CDB-Library v2.4
+
+Olyan 2D-s emberekeet, 3D-s objektumokat, amelyek karibi házakat és épületeket, minőségi textúrákat, újra épített hangárokat, épületeket és GSE tárgyakat tartalmaz.
+Ilyenek pl az autók, buszok, hajók, néhány 3D-s fa, polygonok az aszfalton, árnyékok, animált fű, repülőtéri antennák és tárgyak, 3D-s állatok és háziállatok.
+
+https://forums.x-plane.org/index.php?/files/file/27907-cdb-library/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Cemetery library 1
+
+Kis tárgyak gyűjteménye, amely csomag tartalmazza az emlék helyek és temetők tárgyait.
+
+https://forums.x-plane.org/index.php?/files/file/24521-cemetery-library/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Custom Traffic for Europe Library v1.11
+
+Ez a csomag tartalmaz néhány autót és vonatot.
+Új buszokat és színes alapértelmezett autókat.
+Testre szabhatóak a rendőr-, mentő- és tűzoltóautók.
+
+https://forums.x-plane.org/index.php?/files/file/21719-custom-traffic-for-europe-library/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Library - European Vehicles (static) v1.01
+
+Statikus járművek elhelyezésére szolgáló mappa tartalmaz autókat és buszokat.
+
+https://forums.x-plane.org/index.php?/files/file/24708-library-european-vehicles-static/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The FAIB AIrcraft Library v4.0
+
+Ez a mappa tartalmazza azokat a repülőgépeket, amiket eltudunk helyezni a WED használatával az adott repülőtéren.
+Tartalmazza a közepes hatótávolságú repülőgépeket (B732-től a B739-ig, A318-A321-ig és megtalálható benne e B744 és B748 is).
+
+https://forums.x-plane.org/index.php?/files/file/29079-the-faib-aircraft-library/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+FF Library
+
+Ez a mappa a német épületek homlokzatait tartalmazza.
+
+https://forums.x-plane.org/index.php?/files/file/12708-fflibrary/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+FF Library - extended LOD version
+
+Az előző mappa kiegészített, kibővitett csomagja, amivel a távolba is el lehet nézni némi frame rate használatával.
+
+https://forums.x-plane.org/index.php?/files/file/12836-ff-library-extended-lod-version/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+FJS Scenery Library v1.7
+
+Ez a mappa kimondottan a repülőtéri elemeket tartalmazza, tornyok, hangáérak, épületek, terminálok.
+
+https://forums.x-plane.org/index.php?/files/file/28594-fjs_scenery_library/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Flag of the USA States: Real Flag II
+
+Minden olyan zászlót tartalmaz 3D animációval, amelyek megtalálhatóak az USA területén.
+
+https://forums.x-plane.org/index.php?/files/file/17092-flags-of-the-usa-states-real-flag-ii/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Flags of the World: Real Flag II
+
+A mappa a világ 215 országának a zászlaját tartalmazza.
+
+https://forums.x-plane.org/index.php?/files/file/17090-flags-of-the-world-real-flag-ii/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Flyby Planes Library 4.0
+
+A mappa 173 repülőgépet, helikoptereket és vitorlázógépet tartalmaz.
+Gyakorlatilag forgalmat eredményez a frepülőtereken abban az értelemben, hogy nem terheli a framet, ellentétben a World Trafic-al szemben.
+
+https://forums.x-plane.org/index.php?/files/file/28295-flyby-planes-library/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The-Fruit-Stand Aircraft Library 3.0
+
+A mappa tartalmazza Az A300B, A306, A310, A342, A343, A345, A346, A388 repülőgépeket, amelyeknek 95 %-ban 455 festést tartalmaz.
+
+https://forums.x-plane.org/index.php?/files/file/27545-the-fruit-stand-aircraft-library/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+German Traffic Library 1.05
+
+A mappa tartalmazza a német utak vonatait és járműveit.
+
+https://forums.x-plane.org/index.php?/files/file/19282-german-traffic-library/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ground Textures Library 1.2
+
+Különféle, a Földön elhelyezhető textúrákat tartalmazza.
+
+https://forums.x-plane.org/index.php?/files/file/29461-ground-textures-library/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The Handy Objects Library 6.1
+
+A mappa rengeteg textúrát, homlokzatot és rengeteg tárgyat tartalmaz.
+
+https://forums.x-plane.org/index.php?/files/file/24261-the-handy-objects-library/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Hard Surface Library
+
+A könyvtár fixálja az adott repülőtér felületét, az átlátszó, a felszíni és a felszín alatti tárgyakat.
+
+https://forums.x-plane.org/index.php?/files/file/13129-hard-surface-library/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+JB Library.zip 1.1
+
+Ez a mappa, 3 mappát tartalmaz, kitűnő szabványos tájcsomaggal.
+
+Hangárak,
+Házak,
+Objektumok.
+
+https://forums.x-plane.org/index.php?/files/file/26531-jb_libraryzip/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Madagascar Scenery Library
+
+Két mappát tartalmaz.
+1 Bush Airfields textúrák.
+2 Erdők textúrát.
+
+http://shadetreemicro.com/index.php/scenery/madagascar
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Mister X Library and static aircraft extension 1.51
+
+Az egyik legfontosabb kiegészítő, azoknak, akik fejlesztésre adják a fejüket.
+
+Tartalmazza:
+
+Repülőtéri járművek és földi textúrák,
+Taxik,
+Vegetációs tételek (fű, fa),
+Vegyes autók,
+Teherautók,
+Csónakok és hajók,
+3D emberek.
+
+https://forums.x-plane.org/index.php?/files/file/28167-misterx-library-and-static-aircraft-extension/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+NAPS Library 3.0
+
+Jelenleg nem érhető el, tőlem elkérhető, örömmel odaadom bárkinek.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+North American Serviced Aircraft Library Part 1
+
+A mappa, az amerikai repülőgépek statikus földi kiszolgálóit tartalmazza.
+
+https://forums.x-plane.org/index.php?/files/file/15363-north-american-serviced-aircraft-library-part-1/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+North American Serviced Aircraft Library Part 2 1.1
+
+A mappa ugyan az, mint az előző tartalma, csak kiegészítve.
+
+https://forums.x-plane.org/index.php?/files/file/15365-north-american-serviced-aircraft-library-part-2/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+North American Serviced Aircraft Library Part 3 1.1
+
+Az előző két mappa frissített kiegészítője.
+
+https://forums.x-plane.org/index.php?/files/file/15386-north-american-serviced-aircraft-library-part-3/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+OpenX Scenery 2.1.1
+
+A másik nagyon fontos kiegészítő azoknak, akik feljeszteni, szerkeszteni szeretnének.
+Magas szintű látvány elemeket tartalmaz ez a gyűjtemény.
+
+https://forums.x-plane.org/index.php?/files/file/2226-opensceneryx/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Pavement paintings library (PPlibrary) 1.2.1
+
+A repülőtéren megtalálható aszfalt festéseket tartalmazza, tiszta és koszos verzióban.
+
+https://forums.x-plane.org/index.php?/files/file/37088-pavement-paintings-library-pplibrary/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+People Library 1.11
+
+A repülőtéren megtalálható személyzetet és utasokat tartalmazza.
+
+http://www.x-plane.at/drupal/sites/www.x-plane.at/files/PEOPLE_LIB/People_LIB%201.11.zip
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+pm_library Objects For Scenery 2.5
+
+A mappa tájkép objektumokat tartalmaz.
+
+https://forums.x-plane.org/index.php?/files/file/29185-pm_library-objects-for-scenery/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RD Library v1.30
+
+Repülőtéri elemeket tartalmaz.
+
+http://rdesignx.weebly.com/freeware.html
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RE_Library - airport buildings and related objects 1.8
+
+Mindenféle repülőtéri földi elemet tartalmaz a mappa (hangárak, adók, tornyok, terminálok, egyéb járművek).
+
+https://forums.x-plane.org/index.php?/files/file/24722-re_library-airport-buildings-and-related-objects/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RescueX Library - the new scenery package for helo pilots
+
+A mappa, a komplett helikopter leszállóhelyeket tartalmazza.
+
+https://forums.x-plane.org/index.php?/files/file/20800-rescuex-library-the-new-scenery-package-for-helo-pilots/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ru Scenery
+
+Ez a mappa kimondottan az orosz kivitele azon épületeknek, repülőknek és objektumoknak, amit az adott régió használ.
+
+http://ruscenery.x-air.ru/
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+R2Library
+
+Az adott tereptárgyakat tartalmazza, nem csak a repülőtereken, hanem azon kívül is.
+
+http://r2.xpl.cz/
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Sea Life Library 1.0
+
+A tengerben fellelhető állatokat tartalmazza animált kivitelben.
+
+https://forums.x-plane.org/index.php?/files/file/28296-sea-life-library/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Static GA Aircraft New Zealand 1.1
+
+8 különféle modell és textúra, ZK felirattal festve.
+
+https://forums.x-plane.org/index.php?/files/file/27150-static-ga-aircraft-new-zealand/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Vehicle Library Extension 1.2
+
+Ez a mappa teszi reálisabbá az autópályákat, ahol autók és kamionok, teherautók haladnak.
+
+https://forums.x-plane.org/index.php?/files/file/16812-vehicle-library-extension/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Waves Library 1.1
+
+Az óceánok és az vízpartok animált hullájait tartalmazza a mappa.
+
+https://forums.x-plane.org/index.php?/files/file/25439-waves-library/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+XAirportScenery 1.1
+
+Ez a mappa lehetőséget nyújt a 70-es és a 80-as évek repülőtereinek a készítésében.
+
+https://forums.x-plane.org/index.php?/files/file/17534-xairportscenery/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prefab scenery for 25000 airports (with exclusions) 7.0
+
+Ez a mappa tartalmazza azon 25000 repülőtér megjelenését, amiben láthatjuk a kifutópályákat, taxiutak vonalait, jelőléseit, díszletek, épületek, hangárak, repülőgépek, és azok fényei.
+
+https://forums.x-plane.org/index.php?/files/file/27582-prefab-scenery-for-25000-airports-with-exclusions/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+AutoGate plugin 1.72
+
+Ez a mappa tartalmazza azt, hogy amikor odaállunk az adott repülőtér kapulyához és van automata csatlakozás, akkor a repülőtéren ránk állítják a kaput.
+
+https://forums.x-plane.org/index.php?/files/file/5038-autogate-plugin/&do=download&csrfKey=ce700c4776aa40a7235a763785619b0e
+
+
+
