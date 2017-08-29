@@ -151,7 +151,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="385"/>
+                <sel id="392"/>
             </selection>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4098" parent_id="4090">
@@ -4046,7 +4046,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="45.00" latitude="47.572935411" longitude="19.330945398"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/vegetation/tree14m2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ForestPlacement" id="4432" parent_id="2974">
             <sources/>
@@ -4063,7 +4063,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="64.06" latitude="47.572765690" longitude="19.330682895"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/vegetation/tree14m2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4443" parent_id="4433">
             <sources/>
@@ -4078,7 +4078,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="41.05" latitude="47.572848969" longitude="19.330862584"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/vegetation/tree14m2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4445" parent_id="4433">
             <sources/>
@@ -4093,7 +4093,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="245.90" latitude="47.572905894" longitude="19.330889147"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/vegetation/tree14m2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4446" parent_id="4433">
             <sources/>
@@ -4108,7 +4108,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="205.41" latitude="47.572527726" longitude="19.330644385"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/vegetation/tree14m2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4447" parent_id="4433">
             <sources/>
@@ -4123,7 +4123,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="298.55" latitude="47.572772507" longitude="19.330785963"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/vegetation/tree14m2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4451" parent_id="4433">
             <sources/>
@@ -4138,7 +4138,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="167.47" latitude="47.572637081" longitude="19.330492268"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/vegetation/tree14m2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ForestRing" id="4454" parent_id="4453">
             <sources/>
@@ -4163,7 +4163,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="90.00" latitude="47.572581210" longitude="19.330657895"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/vegetation/tree14m2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4455" parent_id="4454">
             <sources/>
@@ -4178,7 +4178,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="323.13" latitude="47.572606510" longitude="19.330593832"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/vegetation/tree14m2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4456" parent_id="4454">
             <sources/>
@@ -4193,7 +4193,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="172.18" latitude="47.572560127" longitude="19.330571956"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/vegetation/tree14m2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4457" parent_id="4454">
             <sources/>
@@ -4208,7 +4208,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="183.81" latitude="47.572483173" longitude="19.330736021"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/vegetation/tree14m2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4458" parent_id="4454">
             <sources/>
@@ -4223,7 +4223,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="217.69" latitude="47.572414652" longitude="19.330746958"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/vegetation/tree14m2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4459" parent_id="4454">
             <sources/>
@@ -4238,7 +4238,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="275.57" latitude="47.572481064" longitude="19.330651645"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/vegetation/tree14m2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4460" parent_id="4454">
             <sources/>
@@ -4253,7 +4253,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="51.34" latitude="47.572677610" longitude="19.330456475"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/vegetation/tree14m2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4461" parent_id="4454">
             <sources/>
@@ -4268,7 +4268,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="84.05" latitude="47.572672224" longitude="19.330545866"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/vegetation/tree14m2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4463" parent_id="4454">
             <sources/>
@@ -4283,7 +4283,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="tree14m2.obj"/>
             <point heading="237.80" latitude="47.572722469" longitude="19.330589144"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/forests/trees/tree14m2.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/vegetation/tree14m2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4464" parent_id="4454">
             <sources/>
@@ -4546,7 +4546,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="JB_Hangar81.obj"/>
             <point heading="141.83" latitude="47.573107067" longitude="19.331091777"/>
-            <obj_placement custom_msl="1" msl="222.000" resource="Objects/buildings/JB_Hangar81.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="1" msl="219.000" resource="Objects/buildings/JB_Hangar81.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="4488" parent_id="4484">
             <sources/>
@@ -23521,15 +23521,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="19.333183"/>
-        <pref name="map/north" value="47.574826"/>
+        <pref name="map/east" value="19.331660"/>
+        <pref name="map/north" value="47.573575"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="3"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.572011"/>
+        <pref name="map/south" value="47.572743"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="19.329288"/>
+        <pref name="map/west" value="19.330508"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -23606,8 +23606,8 @@
         <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="322"/>
         <pref name="window/main_split2" value="1315"/>
-        <pref name="window/prev_split" value="643"/>
-        <pref name="window/prop_split" value="411"/>
+        <pref name="window/prev_split" value="663"/>
+        <pref name="window/prop_split" value="431"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
