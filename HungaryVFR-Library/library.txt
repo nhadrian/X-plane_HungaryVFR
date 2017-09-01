@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.1.2
+# Version: 1.1.3
 
 
 # ----------------------------------
@@ -24,6 +24,7 @@ EXPORT HungaryVFR-Library/Objects/Airplanes/PIRAT_HA-4368.obj Objects/Airplanes/
 EXPORT HungaryVFR-Library/Objects/Airplanes/PZL-101_HA-SBL.obj Objects/Airplanes/PZL-101_HA-SBL.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/PZL-101_HA-PYC.obj Objects/Airplanes/PZL-101_HA-PYC.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/TRIKE_nosign.obj Objects/Airplanes/TRIKE_nosign.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/C152_HA-JON.obj Objects/Airplanes/C152_HA-JON.obj
 
 # Buildings
 # ----------------------------------
