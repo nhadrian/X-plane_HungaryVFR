@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+
+LAYER_GROUP 	taxiways +1
+TEXTURE concrete_1L.dds
+TEXTURE_NORMAL 1 concrete_1L_NML.png
+SPECULAR 0.3
+SURFACE concrete
+SCALE 37.5 37.5

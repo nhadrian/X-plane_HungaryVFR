@@ -1,7 +1,7 @@
 A
 850
 DRAPED_POLYGON
-LAYER_GROUP runways -1
+LAYER_GROUP 	taxiways +1
 
 TEXTURE 	Asphalt_tarmac_1.dds
 TEXTURE_NORMAL 	1 Asphalt_tarmac_1_NML.png

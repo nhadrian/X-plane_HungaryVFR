@@ -28,4 +28,5 @@ Ismert kompatibilitási problémák: nincs
 
 ***** KÖSZÖNETNYILVÁNÍTÁS*****
 
-- Néhány objektum alapján más, ingyenes kiegészítõkben található objektumok képezik, melyek további optimalizáláson vagy átalakításon mentek keresztül. Köszönet érte a fejlesztõknek!!!
+- Néhány objektum alapján más, ingyenes kiegészítõkben található objektumok képezik, melyek további optimalizáláson vagy átalakításon mentek keresztül. 
+Köszönet érte a fejlesztõknek!!!
