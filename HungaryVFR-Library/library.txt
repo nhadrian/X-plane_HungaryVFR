@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.2.0
+# Version: 1.2.1
 
 # ----------------------------------
 # AGP
@@ -136,11 +136,28 @@ EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_DUCATI_1.obj Objects/Vehicles
 EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_DUCATI_2.obj Objects/Vehicles/motor_1_DUCATI_2.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_NINJA.obj Objects/Vehicles/motor_1_NINJA.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_YAMAHA_1.obj Objects/Vehicles/motor_1_YAMAHA_1.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_GSXR_active.obj Objects/Vehicles/motor_1_GSXR_active.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_DUCATI_1_active.obj Objects/Vehicles/motor_1_DUCATI_1_active.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_DUCATI_2_active.obj Objects/Vehicles/motor_1_DUCATI_2_active.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_NINJA_active.obj Objects/Vehicles/motor_1_NINJA_active.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_YAMAHA_1_active.obj Objects/Vehicles/motor_1_YAMAHA_1_active.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Octavia_POLICE_Active.obj Objects/Vehicles/Octavia_POLICE_Active_ALERT.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Octavia_POLICE_Active.obj Objects/Vehicles/Octavia_POLICE_Active_NORMAL.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_ambulance.obj Objects/Vehicles/Ford_Transit_ambulance.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_ambulance_ACTIVE_ALERT.obj Objects/Vehicles/Ford_Transit_ambulance_ACTIVE_ALERT.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_ambulance_ACTIVE_NORMAL.obj Objects/Vehicles/Ford_Transit_ambulance_ACTIVE_NORMAL.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_white_STATIC.obj Objects/Vehicles/Ford_Transit_white_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_white_ACTIVE.obj Objects/Vehicles/Ford_Transit_white_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_red_STATIC.obj Objects/Vehicles/Ford_Transit_red_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_red_ACTIVE.obj Objects/Vehicles/Ford_Transit_red_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_white_GLS_STATIC.obj Objects/Vehicles/Ford_Transit_white_GLS_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_white_GLS_ACTIVE.obj Objects/Vehicles/Ford_Transit_white_GLS_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_green_Post_STATIC.obj Objects/Vehicles/Ford_Transit_green_Post_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_green_Post_ACTIVE.obj Objects/Vehicles/Ford_Transit_green_Post_ACTIVE.obj
 
 # Miscellanous
 # ----------------------------------
+EXPORT HungaryVFR-Library/Objects/Misc/10space.obj Objects/Misc/10space.obj
 
 # ----------------------------------
 # POLYGONS
@@ -265,9 +282,19 @@ REGION_RECT 16 45 23 49
 REGION Hungary
 
 #Static cars
+EXPORT_EXTEND lib/cars/car_static.obj Objects/Vehicles/Ford_Transit_white_STATIC.obj
+EXPORT_EXTEND lib/cars/car_static.obj Objects/Vehicles/Ford_Transit_red_STATIC.obj
 
 #Active cars
 EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/Octavia_POLICE_Active_NORMAL.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/Ford_Transit_ambulance_ACTIVE_NORMAL.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/Ford_Transit_white_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/Ford_Transit_green_Post_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/Ford_Transit_white_GLS_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/Ford_Transit_red_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/motor_1_NINJA_active.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/motor_1_DUCATI_1_active.obj
 
 #Police, Ambulance
-EXPORT_RATIO 5 lib/cars/police_car.obj Objects/Vehicles/Octavia_POLICE_Active_ALERT.obj
+EXPORT lib/cars/police_car.obj Objects/Vehicles/Octavia_POLICE_Active_ALERT.obj
+EXPORT lib/cars/police_car.obj Objects/Vehicles/Ford_Transit_ambulance_ACTIVE_ALERT.obj

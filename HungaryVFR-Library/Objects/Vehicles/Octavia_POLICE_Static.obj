@@ -3,7 +3,7 @@ I
 OBJ
 
 
-TEXTURE		Octavia.png
+TEXTURE		Octavia.dds
 TEXTURE_NORMAL  Octavia_NML.png
 SLOPE_LIMIT -20  20   -15  15
 TILTED 
