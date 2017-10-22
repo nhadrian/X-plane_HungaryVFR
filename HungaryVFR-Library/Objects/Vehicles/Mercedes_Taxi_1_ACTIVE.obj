@@ -2,7 +2,8 @@ I
 800
 OBJ
 
-TEXTURE Mercedes_Taxi_1.pngddsTaxi_NML.png
+TEXTURE Mercedes_Taxi_1.dds
+TEXTURE_NORMAL Mercedes_Taxi_NML.png
 TEXTURE_LIT Mercedes_Taxi_LIT.png
 GLOBAL_no_blend 0.5
 GLOBAL_specular 1.0
