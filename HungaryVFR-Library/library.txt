@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.3.0
+# Version: 1.3.0.1
 
 # ----------------------------------
 # AGP
@@ -325,6 +325,9 @@ EXPORT_RATIO 0.01 lib/cars/police_car.obj Objects/Vehicles/Octavia_POLICE_Active
 EXPORT_RATIO 0.1 lib/cars/police_car.obj Objects/Vehicles/Ford_Transit_ambulance_ACTIVE_ALERT.obj
 
 ############# Objects for Pest State ################
+
+# autogen billboard - HungaryVFR
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj Objects/Misc/billboard-900x360-HVFR.obj
 
 REGION_DEFINE Pest
 REGION_RECT  18 47 20 48
