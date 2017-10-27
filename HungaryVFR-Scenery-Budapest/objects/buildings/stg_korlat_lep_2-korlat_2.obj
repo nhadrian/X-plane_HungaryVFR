@@ -1,0 +1,26 @@
+I
+800	# Converted by FS2XPlane 3.26
+OBJ
+
+# object stg_korlat_lep_2 in file stegek_lib.bgl
+
+TEXTURE		korlat_2.dds
+TEXTURE_LIT	korlat_2_LIT.dds
+POINT_COUNTS	4 0 0 6
+
+
+VT	   2.990    2.280    0.901	 1.000  0.000 -0.000	0.0000 2.0700
+VT	   2.990    2.280   -0.899	 1.000  0.000 -0.000	2.0200 2.0700
+VT	   2.990    1.180   -0.899	 1.000  0.000 -0.000	2.0200 0.0000
+VT	   2.990    1.180    0.901	 1.000  0.000 -0.000	0.0000 0.0000
+
+IDX	0
+IDX	1
+IDX	2
+IDX	2
+IDX	3
+IDX	0
+
+ATTR_no_blend
+
+TRIS	0 6
