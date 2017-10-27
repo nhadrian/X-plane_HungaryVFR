@@ -3,9 +3,10 @@ I
 OBJ
 
 TEXTURE Mercedes_Police_2.dds
-TEXTURE_NORMAL Mercedes_Police_NML.png
+TEXTURE_NORMAL Mercedes_Police_Metal_NML.png
+NORMAL_METALNESS
 GLOBAL_no_blend 0.5
-GLOBAL_specular 1.0
+GLOBAL_specular 0.7
 GLOBAL_tint 0.3
 SLOPE_LIMIT -20 20 -15 15
 TILTED
@@ -281,5 +282,5 @@ IDX 211
 IDX 210
 IDX 209
 ATTR_LOD 0.000000 3000.000000
-
+ATTR_shiny_rat 0.8
 TRIS 0 525
