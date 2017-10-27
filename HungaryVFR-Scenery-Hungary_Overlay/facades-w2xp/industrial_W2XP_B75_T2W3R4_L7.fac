@@ -1,0 +1,42 @@
+A
+800
+FACADE
+# GRADED
+
+TEXTURE Industrial_WallT2_Roof4.png
+TEXTURE_LIT Industrial_WallsB_Roof1_LIT.png
+
+RING 1
+TWO_SIDED 0
+NO_BLEND 0.500000
+
+LOD 0.000000 7000.000000
+
+TEX_SIZE 2048 2048
+FLOORS_MIN 1
+FLOORS_MAX 5
+
+ROOF_SCALE 0 2048 1024 512 2048 1024 170 85
+
+# Wall from 0 to 200 metres in length
+WALL 0 300
+SCALE 170 170
+BASEMENT_DEPTH 10
+BOTTOM 835 883
+MIDDLE 883 911
+MIDDLE 911 944
+MIDDLE 944 1014
+TOP    1014 1023
+
+# From left to right, wall is split into 5 sections
+# Left bit is from 0 to 29, and then there are several centre parts to use of various length
+# Finally there is the right bit
+LEFT 0 62
+CENTRE 62 154
+CENTRE 154 218
+CENTER 218 372
+CENTER 372 527
+CENTER 527 682
+CENTER 682 836
+CENTER 836 927
+RIGHT 927 990

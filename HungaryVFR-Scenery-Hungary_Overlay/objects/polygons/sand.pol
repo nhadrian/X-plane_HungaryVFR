@@ -1,0 +1,9 @@
+A
+850
+DRAPED_POLYGON
+
+TEXTURE sand.png	
+
+SCALE 50 50
+SURFACE dirt
+LAYER_GROUP terrain 0
