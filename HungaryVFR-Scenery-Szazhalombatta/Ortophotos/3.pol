@@ -1,6 +1,7 @@
 A
 850
 DRAPED_POLYGON
+DECAL_LIB lib/g10/decals/grass_and_asphalt_green_key2.dcl
 LAYER_GROUP airports -1
 
 TEXTURE_NOWRAP 3.dds

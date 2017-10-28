@@ -72,9 +72,7 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection>
-                <sel id="1874"/>
-            </selection>
+            <selection/>
         </object>
         <object class="WED_ObjPlacement" id="514" parent_id="177">
             <sources/>
@@ -11816,7 +11814,7 @@
                 <child id="1800"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Water1.pol"/>
-            <polygon_placement heading="-45.0" resource="Polygons/Ground textures/Water1.pol"/>
+            <polygon_placement heading="-45.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1802" parent_id="1800">
             <sources/>
@@ -12035,7 +12033,7 @@
                 <child id="1834"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Water1.pol"/>
-            <polygon_placement heading="0.0" resource="Polygons/Ground textures/Water1.pol"/>
+            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1836" parent_id="1834">
             <sources/>
@@ -12083,7 +12081,7 @@
                 <child id="1840"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Water1.pol"/>
-            <polygon_placement heading="0.0" resource="Polygons/Ground textures/Water1.pol"/>
+            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1842" parent_id="1840">
             <sources/>
@@ -12120,7 +12118,7 @@
                 <child id="1847"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Water1.pol"/>
-            <polygon_placement heading="0.0" resource="Polygons/Ground textures/Water1.pol"/>
+            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol"/>
         </object>
         <object class="WED_Ring" id="1847" parent_id="1846">
             <sources/>
@@ -12179,7 +12177,7 @@
                 <child id="1852"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Water1.pol"/>
-            <polygon_placement heading="0.0" resource="Polygons/Ground textures/Water1.pol"/>
+            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1854" parent_id="1852">
             <sources/>
@@ -12405,15 +12403,15 @@
         </pref>
         <pref name="doc/export_target" value="1"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.935506"/>
-        <pref name="map/north" value="47.337271"/>
+        <pref name="map/east" value="19.019782"/>
+        <pref name="map/north" value="47.353584"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.336004"/>
+        <pref name="map/south" value="47.244620"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.933480"/>
+        <pref name="map/west" value="18.801074"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -12438,7 +12436,7 @@
         <pref name="map_Objects_Object" value="Objects/Buildings/batta_water_tower.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
-        <pref name="map_Polygons_Resource" value="Polygons/Ground textures/Water1.pol"/>
+        <pref name="map_Polygons_Resource" value="HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol"/>
         <pref name="map_Polygons_Use Texture Map" value="0"/>
         <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
         <pref name="map_Ramp Start_Airlines" value=""/>
@@ -12487,13 +12485,13 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="997"/>
+        <pref name="window/height" value="1458"/>
         <pref name="window/main_split" value="380"/>
-        <pref name="window/main_split2" value="1515"/>
-        <pref name="window/prev_split" value="601"/>
-        <pref name="window/prop_split" value="413"/>
-        <pref name="window/width" value="1920"/>
-        <pref name="window/x_loc" value="-8"/>
-        <pref name="window/y_loc" value="-8"/>
+        <pref name="window/main_split2" value="2409"/>
+        <pref name="window/prev_split" value="224"/>
+        <pref name="window/prop_split" value="459"/>
+        <pref name="window/width" value="2814"/>
+        <pref name="window/x_loc" value="27"/>
+        <pref name="window/y_loc" value="12"/>
     </prefs>
 </doc>

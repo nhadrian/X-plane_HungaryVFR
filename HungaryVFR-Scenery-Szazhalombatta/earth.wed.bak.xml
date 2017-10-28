@@ -112,8 +112,6 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="1875"/>
-                <child id="1874"/>
                 <child id="604"/>
                 <child id="130"/>
                 <child id="129"/>
@@ -850,6 +848,7 @@
                 <child id="1770"/>
                 <child id="1767"/>
                 <child id="1761"/>
+                <child id="1875"/>
             </children>
             <hierarchy hidden="0" locked="1" name="Exclusion zones"/>
         </object>
@@ -11815,7 +11814,7 @@
                 <child id="1800"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Water1.pol"/>
-            <polygon_placement heading="-45.0" resource="Polygons/Ground textures/Water1.pol"/>
+            <polygon_placement heading="-45.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1802" parent_id="1800">
             <sources/>
@@ -12003,6 +12002,7 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="1874"/>
                 <child id="127"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Objects"/>
@@ -12011,6 +12011,7 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="1879"/>
                 <child id="1801"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Polygons"/>
@@ -12033,7 +12034,7 @@
                 <child id="1834"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Water1.pol"/>
-            <polygon_placement heading="0.0" resource="Polygons/Ground textures/Water1.pol"/>
+            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1836" parent_id="1834">
             <sources/>
@@ -12081,7 +12082,7 @@
                 <child id="1840"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Water1.pol"/>
-            <polygon_placement heading="0.0" resource="Polygons/Ground textures/Water1.pol"/>
+            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1842" parent_id="1840">
             <sources/>
@@ -12118,7 +12119,7 @@
                 <child id="1847"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Water1.pol"/>
-            <polygon_placement heading="0.0" resource="Polygons/Ground textures/Water1.pol"/>
+            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol"/>
         </object>
         <object class="WED_Ring" id="1847" parent_id="1846">
             <sources/>
@@ -12177,7 +12178,7 @@
                 <child id="1852"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Water1.pol"/>
-            <polygon_placement heading="0.0" resource="Polygons/Ground textures/Water1.pol"/>
+            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1854" parent_id="1852">
             <sources/>
@@ -12349,7 +12350,7 @@
             <hierarchy hidden="0" locked="0" name="End"/>
             <point latitude="47.298384048" longitude="18.903026222"/>
         </object>
-        <object class="WED_ObjPlacement" id="1874" parent_id="4">
+        <object class="WED_ObjPlacement" id="1874" parent_id="1831">
             <sources/>
             <viewers/>
             <children/>
@@ -12357,7 +12358,7 @@
             <point heading="246.97" latitude="47.336788000" longitude="18.934457000"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/batta_water_tower.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ExclusionZone" id="1875" parent_id="4">
+        <object class="WED_ExclusionZone" id="1875" parent_id="128">
             <sources/>
             <viewers/>
             <children>
@@ -12385,11 +12386,50 @@
             <hierarchy hidden="0" locked="0" name="End"/>
             <point latitude="47.336626006" longitude="18.934705624"/>
         </object>
+        <object class="WED_Ring" id="1878" parent_id="1879">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1880"/>
+                <child id="1881"/>
+                <child id="1882"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Polygon 1 Outer Ring"/>
+        </object>
+        <object class="WED_PolygonPlacement" id="1879" parent_id="1833">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1878"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Water_1.pol"/>
+            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="1880" parent_id="1878">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="-0.000074430" ctrl_latitude_lo="0.000074430" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="-0.000000000" latitude="47.312051264" longitude="18.857503121" split="0"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="1881" parent_id="1878">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000111646" ctrl_latitude_lo="-0.000111646" ctrl_longitude_hi="0.000054852" ctrl_longitude_lo="-0.000054852" latitude="47.308553035" longitude="18.858325905" split="0"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="1882" parent_id="1878">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.313874810" longitude="18.866608600" split="0"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
             <item value="128"/>
-            <item value="129"/>
             <item value="130"/>
             <item value="177"/>
             <item value="603"/>
@@ -12399,21 +12439,20 @@
             <item value="1323"/>
             <item value="1325"/>
             <item value="1350"/>
-            <item value="1831"/>
             <item value="1833"/>
             <item value="1870"/>
         </pref>
         <pref name="doc/export_target" value="1"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.935506"/>
-        <pref name="map/north" value="47.337271"/>
+        <pref name="map/east" value="18.976971"/>
+        <pref name="map/north" value="47.340875"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.336004"/>
+        <pref name="map/south" value="47.288328"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.933480"/>
+        <pref name="map/west" value="18.871411"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -12438,7 +12477,7 @@
         <pref name="map_Objects_Object" value="Objects/Buildings/batta_water_tower.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
-        <pref name="map_Polygons_Resource" value="Polygons/Ground textures/Water1.pol"/>
+        <pref name="map_Polygons_Resource" value="HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol"/>
         <pref name="map_Polygons_Use Texture Map" value="0"/>
         <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
         <pref name="map_Ramp Start_Airlines" value=""/>
@@ -12487,13 +12526,13 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="997"/>
+        <pref name="window/height" value="1458"/>
         <pref name="window/main_split" value="380"/>
-        <pref name="window/main_split2" value="1515"/>
-        <pref name="window/prev_split" value="601"/>
-        <pref name="window/prop_split" value="413"/>
-        <pref name="window/width" value="1920"/>
-        <pref name="window/x_loc" value="-8"/>
-        <pref name="window/y_loc" value="-8"/>
+        <pref name="window/main_split2" value="2409"/>
+        <pref name="window/prev_split" value="224"/>
+        <pref name="window/prop_split" value="459"/>
+        <pref name="window/width" value="2814"/>
+        <pref name="window/x_loc" value="27"/>
+        <pref name="window/y_loc" value="12"/>
     </prefs>
 </doc>
