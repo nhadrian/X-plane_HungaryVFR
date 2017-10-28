@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+LAYER_GROUP 	taxiways +1
+
+TEXTURE 	Asphalt_2.dds
+TEXTURE_NORMAL 	1 Asphalt_2_NML.png
+SPECULAR 0.3
+SURFACE asphalt
+SCALE 4 4

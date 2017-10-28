@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+
+LAYER_GROUP airports -1
+
+TEXTURE Grass_1.dds
+SCALE 256 256
+SURFACE grass
+

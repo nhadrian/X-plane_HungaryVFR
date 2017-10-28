@@ -1,0 +1,354 @@
+A
+800
+LIBRARY
+
+# HungaryVFR-Library
+# Version: 1.3.2.1
+
+# ----------------------------------
+# AGP
+# ----------------------------------
+
+EXPORT HungaryVFR-Library/Objects/Misc/Row_of_Cars_10.agp Objects/Misc/Row_of_Cars_10.agp
+
+# ----------------------------------
+# OBJECTS
+# ----------------------------------
+
+# Airplanes
+# ----------------------------------
+EXPORT HungaryVFR-Library/Objects/Airplanes/AN-2_HA-MAR.obj Objects/Airplanes/AN-2_HA-MAR.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/AN-2_HA-YHF.obj Objects/Airplanes/AN-2_HA-YHF.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/GOBE_HA-5397.obj Objects/Airplanes/GOBE_HA-5355.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/LI-2_HA-LIX.obj Objects/Airplanes/LI-2_HA-LIX.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/TCMELAK_HA-MFC.obj Objects/Airplanes/TCMELAK_HA-MFC.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/WILGA_HA-SEM.obj Objects/Airplanes/WILGA_HA-SEM.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/TRIKE_nosign.obj Objects/Airplanes/TRIKE_blank.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/C152_HA-JON.obj Objects/Airplanes/C152_HA-JON.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/TB20_HA-VES.obj Objects/Airplanes/TB20_HA-VES.obj
+
+# Buildings
+# ----------------------------------
+
+# Fences
+# ----------------------------------
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2m.obj Objects/Fences/Chain_Link_Fence_2x2m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2m_2panel.obj Objects/Fences/Chain_Link_Fence_2x2m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2m_5panel.obj Objects/Fences/Chain_Link_Fence_2x2m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2m_10panel.obj Objects/Fences/Chain_Link_Fence_2x2m_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2m_20panel.obj Objects/Fences/Chain_Link_Fence_2x2m_20panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m.obj Objects/Fences/Chain_Link_Fence_2x2.5m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m.obj Objects/Fences/Chain_Link_Fence_2x3m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m_2panel.obj Objects/Fences/Chain_Link_Fence_2x2.5m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m_5panel.obj Objects/Fences/Chain_Link_Fence_2x2.5m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m_10panel.obj Objects/Fences/Chain_Link_Fence_2x2.5m_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m_20panel.obj Objects/Fences/Chain_Link_Fence_2x2.5m_20panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1x2m.obj Objects/Fences/Chain_Link_Fence_1x2m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1x2m_2panel.obj Objects/Fences/Chain_Link_Fence_1x2m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1x2m_5panel.obj Objects/Fences/Chain_Link_Fence_1x2m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1x2m_10panel.obj Objects/Fences/Chain_Link_Fence_1x2m_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1x2m_20panel.obj Objects/Fences/Chain_Link_Fence_1x2m_20panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1.5x2m.obj Objects/Fences/Chain_Link_Fence_1x2m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1.5x2m_2panel.obj Objects/Fences/Chain_Link_Fence_1.5x2m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1.5x2m_5panel.obj Objects/Fences/Chain_Link_Fence_1.5x2m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1.5x2m_10panel.obj Objects/Fences/Chain_Link_Fence_1.5x2m_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1.5x2m_20panel.obj Objects/Fences/Chain_Link_Fence_1.5x2m_20panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1x1.5m.obj Objects/Fences/Barbed_Wire_Fence_1.5x1m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1x1.5m_2panel.obj Objects/Fences/Barbed_Wire_Fence_1x1.5m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1x1.5m_5panel.obj Objects/Fences/Barbed_Wire_Fence_1x1.5m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1x1.5m_10panel.obj Objects/Fences/Barbed_Wire_Fence_1x1.5m_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1x1.5m_20panel.obj Objects/Fences/Barbed_Wire_Fence_1x1.5m_20panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1.5x2m.obj Objects/Fences/Barbed_Wire_Fence_1.5x2m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1.5x2m_2panel.obj Objects/Fences/Barbed_Wire_Fence_1.5x2m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1.5x2m_5panel.obj Objects/Fences/Barbed_Wire_Fence_1.5x2m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1.5x2m_10panel.obj Objects/Fences/Barbed_Wire_Fence_1.5x2m_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1.5x2m_20panel.obj Objects/Fences/Barbed_Wire_Fence_1.5x2m_20panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Brick_wall_2x3m.obj Objects/Fences/Brick_wall_2x3m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Brick_wall_2x3m_2panel.obj Objects/Fences/Brick_wall_2x3m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Brick_wall_2x3m_5panel.obj Objects/Fences/Brick_wall_2x3m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Brick_wall_2x3m_10panel.obj Objects/Fences/Brick_wall_2x3m_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Concrete_wall_2x3m.obj Objects/Fences/Concrete_wall_2x3m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Concrete_wall_2x3m_2panel.obj Objects/Fences/Concrete_wall_2x3m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Concrete_wall_2x3m_5panel.obj Objects/Fences/Concrete_wall_2x3m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Concrete_wall_2x3m_10panel.obj Objects/Fences/Concrete_wall_2x3m_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Concrete_wall_2x3m_chainlink.obj Objects/Fences/Concrete_wall_2x3m_chainlink.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Concrete_wall_2x3m_chainlink_2panel.obj Objects/Fences/Concrete_wall_2x3m_chainlink_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Concrete_wall_2x3m_chainlink_5panel.obj Objects/Fences/Concrete_wall_2x3m_chainlink_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Concrete_wall_2x3m_chainlink_10panel.obj Objects/Fences/Concrete_wall_2x3m_chainlink_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m_rusted.obj Objects/Fences/Chain_Link_Fence_2x3m_rusted.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m_rusted_2panel.obj Objects/Fences/Chain_Link_Fence_2x3m_rusted_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m_rusted_5panel.obj Objects/Fences/Chain_Link_Fence_2x3m_rusted_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m_rusted_10panel.obj Objects/Fences/Chain_Link_Fence_2x3m_rusted_10panel.obj
+
+# Trees, hedges
+# ----------------------------------
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree1-12m.obj Objects/Trees_Hedges/Tree1-12m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree1-11m.obj Objects/Trees_Hedges/Tree1-11m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree1-10m.obj Objects/Trees_Hedges/Tree1-10m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree1-8m.obj Objects/Trees_Hedges/Tree1-8m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree2-12m.obj Objects/Trees_Hedges/Tree2-12m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree2-10m.obj Objects/Trees_Hedges/Tree2-10m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree2-9m.obj Objects/Trees_Hedges/Tree2-9m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree2-7m.obj Objects/Trees_Hedges/Tree2-7m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree3-12m.obj Objects/Trees_Hedges/Tree3-12m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree3-11m.obj Objects/Trees_Hedges/Tree3-11m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree3-9m.obj Objects/Trees_Hedges/Tree3-9m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree3-7m.obj Objects/Trees_Hedges/Tree3-7m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree4-14m.obj Objects/Trees_Hedges/Tree4-14m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree4-12m.obj Objects/Trees_Hedges/Tree4-12m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree4-10m.obj Objects/Trees_Hedges/Tree4-10m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree4-8m.obj Objects/Trees_Hedges/Tree4-8m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Birch-1-17m.obj Objects/Trees_Hedges/Birch-1-17m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Birch-1-18m.obj Objects/Trees_Hedges/Birch-1-18m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Birch-1-19m.obj Objects/Trees_Hedges/Birch-1-19m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Birch-1-20m.obj Objects/Trees_Hedges/Birch-1-20m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Birch-2-17m.obj Objects/Trees_Hedges/Birch-2-17m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Birch-3-17m.obj Objects/Trees_Hedges/Birch-3-17m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-1_13m.obj Objects/Trees_Hedges/Tree_NHA-1_13m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-1_15m.obj Objects/Trees_Hedges/Tree_NHA-1_15m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-1_16m.obj Objects/Trees_Hedges/Tree_NHA-1_16m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-1_17m.obj Objects/Trees_Hedges/Tree_NHA-1_17m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-1_20m.obj Objects/Trees_Hedges/Tree_NHA-1_20m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-1_22m.obj Objects/Trees_Hedges/Tree_NHA-1_22m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-1_23m.obj Objects/Trees_Hedges/Tree_NHA-1_23m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-1_27m.obj Objects/Trees_Hedges/Tree_NHA-1_27m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-2_13m.obj Objects/Trees_Hedges/Tree_NHA-2_13m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-2_16m.obj Objects/Trees_Hedges/Tree_NHA-2_16m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-2_18m.obj Objects/Trees_Hedges/Tree_NHA-2_18m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-2_20m.obj Objects/Trees_Hedges/Tree_NHA-2_20m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-2_23m.obj Objects/Trees_Hedges/Tree_NHA-2_23m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-3_13m.obj Objects/Trees_Hedges/Tree_NHA-3_13m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-3_16m.obj Objects/Trees_Hedges/Tree_NHA-3_16m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-3_20m.obj Objects/Trees_Hedges/Tree_NHA-3_20m.obj
+
+# Vehicles
+# ----------------------------------
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_GSXR.obj Objects/Vehicles/motor_1_GSXR.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_DUCATI_1.obj Objects/Vehicles/motor_1_DUCATI_1.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_DUCATI_2.obj Objects/Vehicles/motor_1_DUCATI_2.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_NINJA.obj Objects/Vehicles/motor_1_NINJA.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_YAMAHA_1.obj Objects/Vehicles/motor_1_YAMAHA_1.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_GSXR_active.obj Objects/Vehicles/motor_1_GSXR_active.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_DUCATI_1_active.obj Objects/Vehicles/motor_1_DUCATI_1_active.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_DUCATI_2_active.obj Objects/Vehicles/motor_1_DUCATI_2_active.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_NINJA_active.obj Objects/Vehicles/motor_1_NINJA_active.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_YAMAHA_1_active.obj Objects/Vehicles/motor_1_YAMAHA_1_active.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Octavia_POLICE_Active_ALERT.obj Objects/Vehicles/Octavia_POLICE_Active_ALERT.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Octavia_POLICE_Active_NORMAL.obj Objects/Vehicles/Octavia_POLICE_Active_NORMAL.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Octavia_POLICE_Static.obj Objects/Vehicles/Octavia_POLICE_Static.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_ambulance.obj Objects/Vehicles/Ford_Transit_ambulance.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_ambulance_ACTIVE_ALERT.obj Objects/Vehicles/Ford_Transit_ambulance_ACTIVE_ALERT.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_ambulance_ACTIVE_NORMAL.obj Objects/Vehicles/Ford_Transit_ambulance_ACTIVE_NORMAL.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_white_STATIC.obj Objects/Vehicles/Ford_Transit_white_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_white_ACTIVE.obj Objects/Vehicles/Ford_Transit_white_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_white_no_windows_STATIC.obj Objects/Vehicles/Ford_Transit_white_no_windows_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_white_no_windows_ACTIVE.obj Objects/Vehicles/Ford_Transit_white_no_windows_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_red_STATIC.obj Objects/Vehicles/Ford_Transit_red_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_red_ACTIVE.obj Objects/Vehicles/Ford_Transit_red_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_white_GLS_STATIC.obj Objects/Vehicles/Ford_Transit_white_GLS_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_white_GLS_ACTIVE.obj Objects/Vehicles/Ford_Transit_white_GLS_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_green_Post_STATIC.obj Objects/Vehicles/Ford_Transit_green_Post_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ford_Transit_green_Post_ACTIVE.obj Objects/Vehicles/Ford_Transit_green_Post_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_VOLAN_1_ACTIVE.obj Objects/Vehicles/Bus_VOLAN_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_VOLAN_2_ACTIVE.obj Objects/Vehicles/Bus_VOLAN_2_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_VOLAN_3_ACTIVE.obj Objects/Vehicles/Bus_VOLAN_3_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_VOLAN_1_STATIC.obj Objects/Vehicles/Bus_VOLAN_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_VOLAN_2_STATIC.obj Objects/Vehicles/Bus_VOLAN_2_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_VOLAN_3_STATIC.obj Objects/Vehicles/Bus_VOLAN_3_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_BKV_1_ACTIVE.obj Objects/Vehicles/Bus_BKV_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_BKV_1_STATIC.obj Objects/Vehicles/Bus_BKV_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_Euro_1_ACTIVE.obj Objects/Vehicles/Bus_Euro_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_Euro_2_ACTIVE.obj Objects/Vehicles/Bus_Euro_2_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_Euro_3_ACTIVE.obj Objects/Vehicles/Bus_Euro_3_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_Euro_4_ACTIVE.obj Objects/Vehicles/Bus_Euro_4_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_Euro_5_ACTIVE.obj Objects/Vehicles/Bus_Euro_5_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_Euro_1_STATIC.obj Objects/Vehicles/Bus_Euro_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_Euro_2_STATIC.obj Objects/Vehicles/Bus_Euro_2_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_Euro_3_STATIC.obj Objects/Vehicles/Bus_Euro_3_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_Euro_4_STATIC.obj Objects/Vehicles/Bus_Euro_4_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_Euro_5_STATIC.obj Objects/Vehicles/Bus_Euro_5_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Taxi_1_ACTIVE.obj Objects/Vehicles/Mercedes_Taxi_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Taxi_1_STATIC.obj Objects/Vehicles/Mercedes_Taxi_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Taxi_black_ACTIVE.obj Objects/Vehicles/Mercedes_Taxi_black_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Taxi_black_STATIC.obj Objects/Vehicles/Mercedes_Taxi_black_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Taxi_black_2_ACTIVE.obj Objects/Vehicles/Mercedes_Taxi_black_2_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Taxi_black_2_STATIC.obj Objects/Vehicles/Mercedes_Taxi_black_2_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Police_ACTIVE_ALERT.obj Objects/Vehicles/Mercedes_Police_ACTIVE_ALERT.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Police_ACTIVE_NORMAL.obj Objects/Vehicles/Mercedes_Police_ACTIVE_NORMAL.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Police_STATIC.obj Objects/Vehicles/Mercedes_Police_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Police_2_ACTIVE_ALERT.obj Objects/Vehicles/Mercedes_Police_2_ACTIVE_ALERT.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Police_2_ACTIVE_NORMAL.obj Objects/Vehicles/Mercedes_Police_2_ACTIVE_NORMAL.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Police_2_STATIC.obj Objects/Vehicles/Mercedes_Police_2_STATIC.obj
+
+# Miscellanous
+# ----------------------------------
+EXPORT HungaryVFR-Library/Objects/Misc/10space.obj Objects/Misc/10space.obj
+
+# ----------------------------------
+# POLYGONS
+# ----------------------------------
+EXPORT HungaryVFR-Library/Polygons/Plain/Grass_1.pol Polygons/Plain/Grass_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol Polygons/Bump-mapped/Water/Water_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_2.pol Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_Cracked_1.pol Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_Cracked_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_Tarmac_1.pol Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_Tarmac_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_2.pol Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_Cracked_1.pol Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_Cracked_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_Tarmac_1.pol Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_Tarmac_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/XP-remake/Concrete_1D.pol Polygons/Bump-mapped/Concrete/XP-remake/Concrete_1D.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/XP-remake/Concrete_1L.pol Polygons/Bump-mapped/Concrete/XP-remake/Concrete_1L.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/XP-remake/Concrete_2D.pol Polygons/Bump-mapped/Concrete/XP-remake/Concrete_2D.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/XP-remake/Concrete_2L.pol Polygons/Bump-mapped/Concrete/XP-remake/Concrete_2L.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/XP-remake/Concrete_3D.pol Polygons/Bump-mapped/Concrete/XP-remake/Concrete_3D.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/XP-remake/Concrete_3L.pol Polygons/Bump-mapped/Concrete/XP-remake/Concrete_3L.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/XP-remake/Concrete_4D.pol Polygons/Bump-mapped/Concrete/XP-remake/Concrete_4D.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/XP-remake/Concrete_4L.pol Polygons/Bump-mapped/Concrete/XP-remake/Concrete_4L.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/XP-remake/Concrete_5D.pol Polygons/Bump-mapped/Concrete/XP-remake/Concrete_5D.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/XP-remake/Concrete_5L.pol Polygons/Bump-mapped/Concrete/XP-remake/Concrete_5L.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/XP-remake/Concrete_6D.pol Polygons/Bump-mapped/Concrete/XP-remake/Concrete_6D.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/XP-remake/Concrete_6L.pol Polygons/Bump-mapped/Concrete/XP-remake/Concrete_6L.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_1.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_2.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_3.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_3.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_4.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_4.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_5.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_5.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_cracked_1.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_cracked_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_dirty_1.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_dirty_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_light_1.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_light_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_old_1.pol Polygons/Bump-mapped/Concrete/HIGH-RES/Concrete_old_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_1.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_2.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_3.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_3.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_4.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_4.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_5.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_5.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_cracked_1.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_cracked_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_dirty_1.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_dirty_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_light_1.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_light_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_old_1.pol Polygons/Bump-mapped/Concrete/LOW-RES/Concrete_old_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Grass_1.pol Polygons/Bump-mapped/Grass/HIGH-RES/Grass_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Grass_2.pol Polygons/Bump-mapped/Grass/HIGH-RES/Grass_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Grass_3.pol Polygons/Bump-mapped/Grass/HIGH-RES/Grass_3.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Grass_4.pol Polygons/Bump-mapped/Grass/HIGH-RES/Grass_4.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Grass_5.pol Polygons/Bump-mapped/Grass/HIGH-RES/Grass_5.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Grass_6.pol Polygons/Bump-mapped/Grass/HIGH-RES/Grass_6.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Dirt_grass_1.pol Polygons/Bump-mapped/Grass/HIGH-RES/Dirt_grass_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/LOW-RES/Grass_1.pol Polygons/Bump-mapped/Grass/LOW-RES/Grass_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/LOW-RES/Grass-2.pol Polygons/Bump-mapped/Grass/LOW-RES/Grass_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/LOW-RES/Grass_3.pol Polygons/Bump-mapped/Grass/LOW-RES/Grass_3.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/LOW-RES/Grass_4.pol Polygons/Bump-mapped/Grass/LOW-RES/Grass_4.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/LOW-RES/Grass_5.pol Polygons/Bump-mapped/Grass/LOW-RES/Grass_5.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/LOW-RES/Grass_6.pol Polygons/Bump-mapped/Grass/LOW-RES/Grass_6.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/LOW-RES/Dirt_grass_1.pol Polygons/Bump-mapped/Grass/LOW-RES/Dirt_grass_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_2.pol Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_cracked_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_cracked_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Mud_dry_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Mud_dry_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Sand_cracked_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_2.pol Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_cracked_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_cracked_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Mud_dry_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Mud_dry_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Sand_cracked_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Dirt_road_1.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Dirt_road_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Gravel_1.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Gravel_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Paving_1.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Paving_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Stone_road_1.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Stone_road_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Dirt_road_1.pol Polygons/Bump-mapped/Pavement/LOW-RES/Dirt_road_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Gravel_1.pol Polygons/Bump-mapped/Pavement/LOW-RES/Gravel_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Paving_1.pol Polygons/Bump-mapped/Pavement/LOW-RES/Paving_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Stone_road_1.pol Polygons/Bump-mapped/Pavement/LOW-RES/Stone_road_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/HIGH-RES/Cracks_old_1.pol Polygons/Bump-mapped/Surface_damages/HIGH-RES/Cracks_old_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/HIGH-RES/Tar_marks_1.pol Polygons/Bump-mapped/Surface_damages/HIGH-RES/Tar_marks_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/HIGH-RES/Tar_marks_2.pol Polygons/Bump-mapped/Surface_damages/HIGH-RES/Tar_marks_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/HIGH-RES/Tar_marks_heavy_1.pol Polygons/Bump-mapped/Surface_damages/HIGH-RES/Tar_marks_heavy_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Cracks_old_1.pol Polygons/Bump-mapped/Surface_damages/LOW-RES/Cracks_old_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_1.pol Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_2.pol Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_heavy_1.pol Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_heavy_1.pol
+
+# ----------------------------------
+# STRINGS
+# ----------------------------------
+
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1x2m.str Objects/Fences/Chain_Link_Fence_1x2m.str
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_1.5x2m.str Objects/Fences/Chain_Link_Fence_1.5x2m.str
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2m.str Objects/Fences/Chain_Link_Fence_2x2m.str
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m.str Objects/Fences/Chain_Link_Fence_2x2.5m.str
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m.str Objects/Fences/Chain_Link_Fence_2x3m.str
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1x1.5m.str Objects/Fences/Barbed_Wire_Fence_1x1.5m.str
+EXPORT HungaryVFR-Library/Objects/Fences/Barbed_Wire_Fence_1.5x2m.str Objects/Fences/Barbed_Wire_Fence_1.5x2m.str
+EXPORT HungaryVFR-Library/Objects/Fences/Brick_wall_2x3m.str Objects/Fences/Brick_wall_2x3m.str
+EXPORT HungaryVFR-Library/Objects/Fences/Concrete_wall_2x3m.str Objects/Fences/Concrete_wall_2x3m.str
+EXPORT HungaryVFR-Library/Objects/Fences/Concrete_wall_2x3m_chainlink.str Objects/Fences/Concrete_wall_2x3m_chainlink.str
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m_rusted.str Objects/Fences/Chain_Link_Fence_2x3m_rusted.str
+
+# ----------------------------------
+# FORESTS
+# ----------------------------------
+
+EXPORT HungaryVFR-Library/Forests/broad_tmp_dry_10x10.for Forests/broad_tmp_dry_10x10.for
+EXPORT HungaryVFR-Library/Forests/shrub.for Forests/shrub.for
+
+# ----------------------------------
+# LINES
+# ----------------------------------
+EXPORT HungaryVFR-Library/Lines/White_line_solid_1.lin Lines/White_line_solid_1.lin
+EXPORT HungaryVFR-Library/Lines/White_line_broken_1.lin Lines/White_line_broken_1.lin
+EXPORT HungaryVFR-Library/Lines/White_line_solid_for_spline_1.lin Lines/White_line_solid_for_spline_1.lin
+
+# ----------------------------------
+# AUTOGEN OVERRIDES
+# ----------------------------------
+
+############# Objects for Hungary ################
+
+REGION_DEFINE Hungary
+REGION_BITMAP region_hungary.png
+
+REGION Hungary
+
+#Static cars
+EXPORT_EXTEND lib/cars/car_static.obj Objects/Vehicles/Ford_Transit_white_STATIC.obj
+EXPORT_EXTEND lib/cars/car_static.obj Objects/Vehicles/Ford_Transit_red_STATIC.obj
+
+#Active cars
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/Octavia_POLICE_Active_NORMAL.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/Ford_Transit_ambulance_ACTIVE_NORMAL.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/Ford_Transit_white_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/Ford_Transit_white_no_windows_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/Ford_Transit_green_Post_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/Ford_Transit_white_GLS_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/Ford_Transit_red_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/motor_1_NINJA_active.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/motor_1_DUCATI_1_active.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Octavia_POLICE_Active_NORMAL.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Ford_Transit_ambulance_ACTIVE_NORMAL.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Ford_Transit_white_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Ford_Transit_white_no_windows_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Ford_Transit_green_Post_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Ford_Transit_white_GLS_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Ford_Transit_red_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Bus_VOLAN_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Bus_VOLAN_2_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Bus_VOLAN_3_ACTIVE.obj
+
+#Police, Ambulance
+EXPORT_RATIO 0.01 lib/cars/police_car.obj Objects/Vehicles/Octavia_POLICE_Active_ALERT.obj
+EXPORT_RATIO 0.01 lib/cars/police_car.obj Objects/Vehicles/Mercedes_Police_ACTIVE_ALERT.obj
+EXPORT_RATIO 0.01 lib/cars/police_car.obj Objects/Vehicles/Mercedes_Police_2_ACTIVE_ALERT.obj
+EXPORT_RATIO 0.1 lib/cars/police_car.obj Objects/Vehicles/Ford_Transit_ambulance_ACTIVE_ALERT.obj
+
+############# Objects for Pest State ################
+
+REGION_DEFINE Pest
+REGION_RECT  18 47 20 48
+
+REGION Pest
+
+#Static cars
+EXPORT_EXTEND lib/cars/car_static.obj Objects/Vehicles/Mercedes_Taxi_1_STATIC.obj
+
+#Active cars
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Mercedes_Taxi_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/Mercedes_Taxi_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Bus_BKV_1_ACTIVE.obj
