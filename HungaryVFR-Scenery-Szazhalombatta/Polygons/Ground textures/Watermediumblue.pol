@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+
+TEXTURE Watermediumblue.png
+SCALE 10 10 
+
+LAYER_GROUP taxiways 1
+
+ SURFACE Watermediumblue
