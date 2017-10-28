@@ -1,0 +1,26 @@
+I
+800	# Converted by FS2XPlane 3.26
+OBJ
+
+# object stg_hid_magas in file stegek_lib.bgl
+
+TEXTURE		feher3.dds
+TEXTURE_LIT	feher3_LIT.dds
+POINT_COUNTS	4 0 0 6
+
+
+VT	  -1.960    1.400   -1.000	 0.090  0.996 -0.000	7.8361 0.9995
+VT	  -1.960    1.400    1.000	 0.090  0.996 -0.000	7.8361 0.0005
+VT	 -21.960    3.200    1.000	 0.090  0.996 -0.000	0.0039 0.0005
+VT	 -21.960    3.200   -1.000	 0.090  0.996 -0.000	0.0039 0.9995
+
+IDX	0
+IDX	1
+IDX	2
+IDX	2
+IDX	3
+IDX	0
+
+ATTR_no_blend
+
+TRIS	0 6

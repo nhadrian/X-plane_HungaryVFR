@@ -1,0 +1,25 @@
+I
+800	# Converted by FS2XPlane 3.26
+OBJ
+
+# object t1643 in file ujtablak_lib.bgl
+
+TEXTURE		jelek1.dds
+POINT_COUNTS	4 0 0 6
+
+
+VT	   0.040    3.607   -0.334	 1.000  0.000 -0.000	0.1761 0.4674
+VT	   0.040    2.939   -0.334	 1.000  0.000 -0.000	0.1761 0.4071
+VT	   0.040    2.939    0.334	 1.000  0.000 -0.000	0.0983 0.4071
+VT	   0.040    3.607    0.334	 1.000  0.000 -0.000	0.0983 0.4674
+
+IDX	0
+IDX	1
+IDX	2
+IDX	2
+IDX	3
+IDX	0
+
+ATTR_no_blend
+
+TRIS	0 6

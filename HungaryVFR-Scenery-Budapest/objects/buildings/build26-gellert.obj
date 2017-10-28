@@ -1,0 +1,26 @@
+I
+800	# Converted by FS2XPlane 3.26
+OBJ
+
+# object build26 in file buildspest_lib.bgl
+
+TEXTURE		gellert.dds
+TEXTURE_LIT	gellert_LIT.dds
+POINT_COUNTS	4 0 0 6
+
+
+VT	  -6.144   29.427  -48.771	 0.000  0.000 -1.000	1.0000 0.0000
+VT	   6.144   29.427  -48.771	 0.000  0.000 -1.000	0.0000 0.0000
+VT	   6.144   32.427  -48.771	 0.000  0.000 -1.000	0.0000 1.0000
+VT	  -6.144   32.427  -48.771	 0.000  0.000 -1.000	1.0000 1.0000
+
+IDX	0
+IDX	1
+IDX	2
+IDX	2
+IDX	3
+IDX	0
+
+ATTR_no_blend
+
+TRIS	0 6

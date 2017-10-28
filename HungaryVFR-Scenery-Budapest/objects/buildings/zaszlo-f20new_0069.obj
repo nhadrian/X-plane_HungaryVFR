@@ -1,0 +1,26 @@
+I
+800	# Converted by FS2XPlane 3.26
+OBJ
+
+# object zaszlo in file budapest-lib-fsx.bgl scaled x0.69
+
+TEXTURE		f20new.dds
+TEXTURE_LIT	f20new_LIT.dds
+POINT_COUNTS	4 0 0 6
+
+
+VT	   0.641    5.596   -0.133	-0.339 -0.001 -0.941	0.6699 0.2695
+VT	   0.682    8.318   -0.157	-0.357 -0.005 -0.934	0.4805 0.2695
+VT	   0.042    8.984   -0.025	-0.352 -0.004 -0.936	0.4805 0.3086
+VT	   0.043    6.262   -0.026	-0.333  0.000 -0.943	0.6699 0.3086
+
+IDX	0
+IDX	1
+IDX	2
+IDX	2
+IDX	3
+IDX	0
+
+ATTR_no_blend
+
+TRIS	0 6

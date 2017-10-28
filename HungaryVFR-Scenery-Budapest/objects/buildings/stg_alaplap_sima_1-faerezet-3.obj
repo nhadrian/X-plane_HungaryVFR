@@ -1,0 +1,26 @@
+I
+800	# Converted by FS2XPlane 3.26
+OBJ
+
+# object stg_alaplap_sima_1 in file stegek_lib.bgl
+
+TEXTURE		faerezet-3.dds
+TEXTURE_LIT	faerezet-3_LIT.dds
+POINT_COUNTS	4 0 0 6
+
+
+VT	   3.500    1.200   10.010	 0.000  1.000 -0.000	0.0030 0.0005
+VT	  -3.000    1.200   10.000	 0.000  1.000 -0.000	0.0060 0.9995
+VT	  -3.000    1.200  -10.000	 0.000  1.000 -0.000	5.9970 0.9995
+VT	   3.500    1.200  -10.000	 0.000  1.000 -0.000	5.9970 0.0005
+
+IDX	0
+IDX	1
+IDX	2
+IDX	2
+IDX	3
+IDX	0
+
+ATTR_no_blend
+
+TRIS	0 6
