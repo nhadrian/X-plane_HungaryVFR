@@ -1,7 +1,7 @@
 HungaryVFR-Scenery-Aerials
 ******************************************************
 
-Verzió szám: 0.0.2
+Verzió szám: 0.0.3
 Lefedett terület:
 	- Hungarian radio towers
 	- Hungarian windfarms
