@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+
+TEXTURE Sandrocky.png
+SCALE 3 3 
+
+LAYER_GROUP taxiways 1
+ 
+SURFACE Sandrocky
