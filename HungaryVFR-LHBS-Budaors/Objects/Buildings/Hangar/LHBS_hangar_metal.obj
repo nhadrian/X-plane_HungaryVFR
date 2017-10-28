@@ -2,7 +2,7 @@ I
 800
 OBJ
 
-TEXTURE LHBS_hangar.png
+TEXTURE LHBS_hangar.dds
 TEXTURE_NORMAL LHBS_hangar_NML.png
 NORMAL_METALNESS
 GLOBAL_specular 0.6

@@ -1,0 +1,9 @@
+I
+850
+DRAPED_POLYGON
+DECAL_LIB lib/g10/decals/grass_dirt_and_RGB_LF.dcl
+
+TEXTURE_NOWRAP		LHBS_grass_2.dds
+SCALE		128 128
+LAYER_GROUP	runways +1
+SURFACE		grass
