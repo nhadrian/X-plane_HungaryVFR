@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.3.2.1
+# Version: 1.3.3.1
 
 # ----------------------------------
 # AGP
@@ -179,6 +179,20 @@ EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Police_STATIC.obj Objects/Ve
 EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Police_2_ACTIVE_ALERT.obj Objects/Vehicles/Mercedes_Police_2_ACTIVE_ALERT.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Police_2_ACTIVE_NORMAL.obj Objects/Vehicles/Mercedes_Police_2_ACTIVE_NORMAL.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Police_2_STATIC.obj Objects/Vehicles/Mercedes_Police_2_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_White_1_ACTIVE.obj Objects/Vehicles/Truck_White_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_White_1_STATICE.obj Objects/Vehicles/Truck_White_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Silver_1_ACTIVE.obj Objects/Vehicles/Truck_Silver_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Silver_1_STATICE.obj Objects/Vehicles/Truck_Silver_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Orange_1_ACTIVE.obj Objects/Vehicles/Truck_Orange_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Orange_1_STATICE.obj Objects/Vehicles/Truck_Orange_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Yellow_1_ACTIVE.obj Objects/Vehicles/Truck_Yellow_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Yellow_1_STATICE.obj Objects/Vehicles/Truck_Yellow_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Red_1_ACTIVE.obj Objects/Vehicles/Truck_Red_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Red_1_STATICE.obj Objects/Vehicles/Truck_Red_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Blue_1_ACTIVE.obj Objects/Vehicles/Truck_Blue_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Blue_1_STATICE.obj Objects/Vehicles/Truck_Blue_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_White_2_ACTIVE.obj Objects/Vehicles/Truck_White_2_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_White_2_STATICE.obj Objects/Vehicles/Truck_White_2_STATIC.obj
 
 # Miscellanous
 # ----------------------------------
