@@ -3486,8 +3486,6 @@ ATTR_shiny_rat 0.85
 TRIS 0 1926
 
 #Trailer
-ATTR_LOD 0 500
-ATTR_shiny_rat 0.85
 TRIS 1926 3486
 
 #Far LOD

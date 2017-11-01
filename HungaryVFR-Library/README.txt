@@ -28,4 +28,8 @@ Ismert kompatibilitási problémák: nincs
 
 ***** KÖSZÖNETNYILVÁNÍTÁS*****
 
-- Néhány objektum alapján más, ingyenes kiegészítõkben található objektumok képezik, melyek további optimalizáláson vagy átalakításon mentek keresztül. Köszönet érte a fejlesztõknek!!!
+Néhány objektum alapját más, ingyenes kiegészítõkben található objektumok képezik, melyek további optimalizáláson vagy átalakításon mentek keresztül a céljaink érdekében. 
+Hálás köszönet érte a fejlesztõknek:
+- MixterX-nek a polygonokért és objektumokért
+- Scottish Wings-nek (The Handy Objects Library) a BKV busz alapjáért
+- Almik-nek az objektumokért (Ruscenery)
