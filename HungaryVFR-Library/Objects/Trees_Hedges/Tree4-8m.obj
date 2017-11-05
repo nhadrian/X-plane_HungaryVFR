@@ -3,8 +3,6 @@ A
 OBJ
 
 TEXTURE		autogen_trees_ALB.png
-EXPORT lib/g10/forests/autogen_tree4.obj forests/objects/Tree4-4.obj
-EXPORT lib/g10/forests/autogen_tree_any.obj forests/objects/Tree4-4.obj
 GLOBAL_tint 0.3  0.0
 GLOBAL_no_blend 0.500000
 POINT_COUNTS	20 0 0 30
@@ -34,6 +32,5 @@ IDX10	0 1 2 0 2 3 4 5 6 4
 IDX10	6 7 8 9 10 8 10 11 12 13
 IDX10	14 12 14 15 16 17 18 16 18 19
 
-ATTR_LOD	0 10000
-# Image: //textures/autogen_trees_ALB.png
+ATTR_LOD 0.000000 4000.000000
 TRIS	0 30

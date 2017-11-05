@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.3.4
+# Version: 1.3.5
 
 # ----------------------------------
 # AGP
@@ -39,6 +39,9 @@ EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2m_10panel.obj Objec
 EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2m_20panel.obj Objects/Fences/Chain_Link_Fence_2x2m_20panel.obj
 EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m.obj Objects/Fences/Chain_Link_Fence_2x2.5m.obj
 EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m.obj Objects/Fences/Chain_Link_Fence_2x3m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m_2panel.obj Objects/Fences/Chain_Link_Fence_2x3m_2panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m_5panel.obj Objects/Fences/Chain_Link_Fence_2x3m_5panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m_10panel.obj Objects/Fences/Chain_Link_Fence_2x3m_10panel.obj
 EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m_2panel.obj Objects/Fences/Chain_Link_Fence_2x2.5m_2panel.obj
 EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m_5panel.obj Objects/Fences/Chain_Link_Fence_2x2.5m_5panel.obj
 EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x2.5m_10panel.obj Objects/Fences/Chain_Link_Fence_2x2.5m_10panel.obj
@@ -180,19 +183,35 @@ EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Police_2_ACTIVE_ALERT.obj Ob
 EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Police_2_ACTIVE_NORMAL.obj Objects/Vehicles/Mercedes_Police_2_ACTIVE_NORMAL.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Police_2_STATIC.obj Objects/Vehicles/Mercedes_Police_2_STATIC.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_White_1_ACTIVE.obj Objects/Vehicles/Truck_White_1_ACTIVE.obj
-EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_White_1_STATICE.obj Objects/Vehicles/Truck_White_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_White_1_STATIC.obj Objects/Vehicles/Truck_White_1_STATIC.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Silver_1_ACTIVE.obj Objects/Vehicles/Truck_Silver_1_ACTIVE.obj
-EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Silver_1_STATICE.obj Objects/Vehicles/Truck_Silver_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Silver_1_STATIC.obj Objects/Vehicles/Truck_Silver_1_STATIC.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Orange_1_ACTIVE.obj Objects/Vehicles/Truck_Orange_1_ACTIVE.obj
-EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Orange_1_STATICE.obj Objects/Vehicles/Truck_Orange_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Orange_1_STATIC.obj Objects/Vehicles/Truck_Orange_1_STATIC.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Yellow_1_ACTIVE.obj Objects/Vehicles/Truck_Yellow_1_ACTIVE.obj
-EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Yellow_1_STATICE.obj Objects/Vehicles/Truck_Yellow_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Yellow_1_STATIC.obj Objects/Vehicles/Truck_Yellow_1_STATIC.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Red_1_ACTIVE.obj Objects/Vehicles/Truck_Red_1_ACTIVE.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Red_1_STATICE.obj Objects/Vehicles/Truck_Red_1_STATIC.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Blue_1_ACTIVE.obj Objects/Vehicles/Truck_Blue_1_ACTIVE.obj
-EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Blue_1_STATICE.obj Objects/Vehicles/Truck_Blue_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Blue_1_STATIC.obj Objects/Vehicles/Truck_Blue_1_STATIC.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_White_2_ACTIVE.obj Objects/Vehicles/Truck_White_2_ACTIVE.obj
-EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_White_2_STATICE.obj Objects/Vehicles/Truck_White_2_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_White_2_STATIC.obj Objects/Vehicles/Truck_White_2_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Tanker_Blue_1_ACTIVE.obj Objects/Vehicles/Truck_Tanker_Blue_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Tanker_Blue_1_STATIC.obj Objects/Vehicles/Truck_Tanker_Blue_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Tanker_Green_1_ACTIVE.obj Objects/Vehicles/Truck_Tanker_Green_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Tanker_Green_1_STATIC.obj Objects/Vehicles/Truck_Tanker_Green_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Tanker_Red_1_ACTIVE.obj Objects/Vehicles/Truck_Tanker_Red_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Tanker_Red_1_STATIC.obj Objects/Vehicles/Truck_Tanker_Red_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Tanker_Black_1_ACTIVE.obj Objects/Vehicles/Truck_Tanker_Black_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Tanker_Black_1_STATIC.obj Objects/Vehicles/Truck_Tanker_Black_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Tanker_Silver_1_ACTIVE.obj Objects/Vehicles/Truck_Tanker_Silver_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Tanker_Silver_1_STATIC.obj Objects/Vehicles/Truck_Tanker_Silver_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Tanker_Yellow_1_ACTIVE.obj Objects/Vehicles/Truck_Tanker_Yellow_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Tanker_Yellow_1_STATIC.obj Objects/Vehicles/Truck_Tanker_Yellow_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Alone_Silver_1_ACTIVE.obj Objects/Vehicles/Truck_Alone_Silver_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Alone_Silver_1_STATIC.obj Objects/Vehicles/Truck_Alone_Silver_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Alone_Orange_1_ACTIVE.obj Objects/Vehicles/Truck_Alone_Orange_1_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Alone_Orange_1_STATIC.obj Objects/Vehicles/Truck_Alone_Orange_1_STATIC.obj
 
 # Miscellanous
 # ----------------------------------
