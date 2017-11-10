@@ -3,7 +3,6 @@ I
 OBJ
 
 TEXTURE		bus_yangon.png
-TEXTURE_LIT	bus_yangon_LIT.png
 POINT_COUNTS	1257 0 0 2766
 
 VT	  -1.2300    1.5785   -6.0852	 0.000  0.000 -1.000	 0.5091  0.4178
@@ -1547,6 +1546,7 @@ IDX	1256
 IDX	1253
 IDX	1254
 
+ATTR_LOD 0 1500
 TRIS	0 2766
 
 # Built with SketchUp 15.3.331. Exported with SketchUp2XPlane 1.70.

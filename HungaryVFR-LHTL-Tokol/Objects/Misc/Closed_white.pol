@@ -3,6 +3,7 @@ A
 DRAPED_POLYGON
 
 TEXTURE_NOWRAP Closed_white.png
+DECAL_LIB lib/g10/decals/apt_concrete.dcl
 SCALE 5 5
 SURFACE concrete
 LAYER_GROUP markings +1
