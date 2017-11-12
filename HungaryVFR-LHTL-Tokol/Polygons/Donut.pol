@@ -1,0 +1,9 @@
+A
+850
+DRAPED_POLYGON
+LAYER_GROUP runways +1
+
+TEXTURE_NOWRAP 	Donut.png
+
+SURFACE concrete
+SCALE 60 60

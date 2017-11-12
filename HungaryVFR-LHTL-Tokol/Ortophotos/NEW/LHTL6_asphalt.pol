@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+DECAL_LIB lib/g10/decals/AG_concrete.dcl
+
+LAYER_GROUP airports -1
+TEXTURE_NOWRAP LHTL6_asphalt.dds
+SCALE 25 25 
+SURFACE grass
+
