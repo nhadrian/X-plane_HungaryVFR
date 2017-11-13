@@ -1,7 +1,7 @@
 HungaryVFR-LHTL-Tököl scenery
 ******************************************************
 
-Verzió szám: 3.1.0 Beta2
+Verzió szám: 3.1.0 Beta3
 Lefedett terület: LHTL - Tököl
 
 ******************************************************
