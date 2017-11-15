@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.3.6
+# Version: 1.3.7
 
 # ----------------------------------
 # AGP
@@ -26,6 +26,8 @@ EXPORT HungaryVFR-Library/Objects/Airplanes/WILGA_HA-SEM.obj Objects/Airplanes/W
 EXPORT HungaryVFR-Library/Objects/Airplanes/TRIKE_nosign.obj Objects/Airplanes/TRIKE_blank.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/C152_HA-JON.obj Objects/Airplanes/C152_HA-JON.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/TB20_HA-VES.obj Objects/Airplanes/TB20_HA-VES.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/MIG21_Metal.obj Objects/Airplanes/MIG21_Metal.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/MIG21_Camu.obj Objects/Airplanes/MIG21_Camu.obj
 
 # Buildings
 # ----------------------------------
