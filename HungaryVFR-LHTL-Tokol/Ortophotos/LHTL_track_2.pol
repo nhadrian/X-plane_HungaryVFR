@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+#DECAL_LIB lib/g10/decals/AG_concrete.dcl
+
+LAYER_GROUP markings +3
+TEXTURE_NOWRAP LHTL_track_2.dds
+SCALE 25 25 
+SURFACE concrete
+
