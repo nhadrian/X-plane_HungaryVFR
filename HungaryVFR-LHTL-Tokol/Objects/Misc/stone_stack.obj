@@ -5,6 +5,7 @@ OBJ
 
 TEXTURE		stone_1.dds
 TEXTURE_NORMAL	stone_1_NML.png
+GLOBAL_no_shadow
 TILTED
 
 POINT_COUNTS	489 0 0 864
