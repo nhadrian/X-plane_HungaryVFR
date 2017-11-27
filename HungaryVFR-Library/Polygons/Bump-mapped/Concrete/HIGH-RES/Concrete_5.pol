@@ -1,7 +1,7 @@
 A
 850
 DRAPED_POLYGON
-LAYER_GROUP runways -1
+LAYER_GROUP taxiways +1
 
 TEXTURE 	Concrete_5.dds
 TEXTURE_NORMAL 	1 Concrete_5_NML.png
