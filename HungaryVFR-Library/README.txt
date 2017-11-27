@@ -1,16 +1,10 @@
 HungaryVFR-Library
 ******************************************************
 
-Ez a Library a HungaryVFR Team által elkészített Scenery-khez készült, többségében Magyarországra jellemzõ objektumokat tartalmaz. A legtöbb HungaryVFR helyes mûködéséhez szükséges!!!
+Ez a Library a HungaryVFR Team által elkészített Scenery-khez készült, többségében Magyarországra jellemzõ objektumokat tartalmaz. A legtöbb HungaryVFR kiegészítõ helyes mûködéséhez szükséges!!!
 
 ******************************************************
 A kiadást HungaryVFR Team készítette.
-
-HungaryVFR Team tagok:
-- 
-- 
-- nhadrian
-…
 
 Kapcsolat: hungaryvfr7@gmail.com
 ******************************************************
