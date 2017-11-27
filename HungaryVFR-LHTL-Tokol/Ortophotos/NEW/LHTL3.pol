@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+DECAL_LIB lib/g10/decals/grass_and_shrubs.dcl
+
+LAYER_GROUP airports -1
+TEXTURE_NOWRAP LHTL3.dds
+SCALE 25 25 
+SURFACE grass
+
