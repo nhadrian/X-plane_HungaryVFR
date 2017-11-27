@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.3.7
+# Version: 1.3.9
 
 # ----------------------------------
 # AGP
@@ -84,6 +84,8 @@ EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m_rusted.obj Object
 EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m_rusted_2panel.obj Objects/Fences/Chain_Link_Fence_2x3m_rusted_2panel.obj
 EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m_rusted_5panel.obj Objects/Fences/Chain_Link_Fence_2x3m_rusted_5panel.obj
 EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m_rusted_10panel.obj Objects/Fences/Chain_Link_Fence_2x3m_rusted_10panel.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Concrete_border_1x3m.obj Objects/Fences/Concrete_border_1x3m.obj
+EXPORT HungaryVFR-Library/Objects/Fences/Concrete_border_1x3m.str Objects/Fences/Concrete_border_1x3m.str
 
 # Trees, hedges
 # ----------------------------------
@@ -351,6 +353,8 @@ EXPORT HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m_rusted.str Object
 
 EXPORT HungaryVFR-Library/Forests/broad_tmp_dry_10x10.for Forests/broad_tmp_dry_10x10.for
 EXPORT HungaryVFR-Library/Forests/shrub.for Forests/shrub.for
+EXPORT HungaryVFR-Library/Forests/3Dgrass_green.for Forests/3Dgrass_green.for
+EXPORT HungaryVFR-Library/Forests/3Dgrass_dry.for Forests/3Dgrass_dry.for
 
 # ----------------------------------
 # LINES
