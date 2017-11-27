@@ -245,6 +245,10 @@ IDX 189
 IDX 188
 IDX 124
 
+LIGHT_PARAM full_custom_halo_night	34.2	6.1135	-3.5804 	1.0	0.541	0.230 	0.7	3000	0	-1	0.3	0.6
+LIGHT_PARAM full_custom_halo_night	15.17	6.1135	-3.5804 	1.0	0.541	0.230 	0.7	3000	0	-1	0.3	0.6
+LIGHT_PARAM full_custom_halo_night	44.78	6.1135	-9.16811 	1.0	0.541	0.230 	0.7	3000	0.3	-1	0	0.6
+
 ATTR_LOD 0 5000
 ATTR_shiny_rat 0.8
 TRIS	0 408
