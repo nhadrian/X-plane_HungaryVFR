@@ -7,12 +7,6 @@ Lefedett terület: LHGY - Gyöngyös, Pipishegy
 ******************************************************
 A kiadást HungaryVFR Team készítette.
 
-HungaryVFR Team tagok:
-- 
-- 
-- nhadrian
-…
-
 Kapcsolat: hungaryvfr@gmail.com
 ******************************************************
 
@@ -22,7 +16,7 @@ Másold a zip tartalmát az "X-Plane folder/Custom Scenery" könyvtárba.
 
 ***** KOMPATIBILITÁS *****
 
-X-Plane verzió: X-Plane 10.50+ kiadáshoz
+X-Plane verzió: X-Plane 11.00+ kiadáshoz (XP 10.40+ alatt elõfordulhatnak hibaüzenetek, textúra hibák)
 Kompatibilitás más kiegészítõkkel: igen
 Ismert kompatibilitási problémák: nincs
 
@@ -31,6 +25,7 @@ Ismert kompatibilitási problémák: nincs
 A kiegészítõ helyes mûködéséhez az alábbi kiegészítõkre van szükség. 
 A kiegészítõket az "X-Plane folder/Custom Scenery" alá kell másolni.
 
+- HungaryVFR Library
 - OpenSceneryX (http://www.opensceneryx.com/)
 - 3D people (http://forums.x-plane.org/index.php?/files/file/26611-3d-people-library/)
 
@@ -39,8 +34,6 @@ A kiegészítõket az "X-Plane folder/Custom Scenery" alá kell másolni.
 A kiegészítõ helyes mûködéséhez fontos a SCENERY.ini tartalmának helyes sorrendbe rendezése. A SCENERY.ini file-ról részletes információk az alábbi linken:
 https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2992536
 
-Javasolt sorrend:
-//ezt ki kell dolgozni
 
 ***** KÖSZÖNETNYILVÁNÍTÁS*****
 
