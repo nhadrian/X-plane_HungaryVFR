@@ -41,5 +41,4 @@ https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2
 
 ***** KÖSZÖNETNYILVÁNÍTÁS*****
 
-- Az alap elkészítéséért köszönet Ron Somerville-nek, valamint Maróy Ákosnak.
 - A Scenery az alábbi library-kbõl tartalmaz módosított odjektumokat: CDB-library, Ruscenery, Misterx, OpensceneryX. Hálás köszönet a fejlesztõknek!!!
