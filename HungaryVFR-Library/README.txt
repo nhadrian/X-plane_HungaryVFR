@@ -27,3 +27,5 @@ Hálás köszönet érte a fejlesztõknek:
 - MixterX-nek a polygonokért és objektumokért
 - Scottish Wings-nek (The Handy Objects Library) a BKV busz alapjáért
 - Almik-nek az objektumokért (Ruscenery)
+
+- Pár textúra a Textures.com adatbázisából származó képeken alapul. Bármilyen további felhasználásuk vagy terjesztésük esetén a Textures.com általános feltételei érvényesek!!!
