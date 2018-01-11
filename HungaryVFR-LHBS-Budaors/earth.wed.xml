@@ -115,9 +115,7 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection>
-                <sel id="605"/>
-            </selection>
+            <selection/>
         </object>
         <object class="WED_AirportChain" id="514" parent_id="504">
             <sources/>
@@ -5491,8 +5489,8 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="hungary.obj"/>
-            <point heading="0.00" latitude="47.447831811" longitude="18.984672482"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/hungary.obj" show_level="1 Default"/>
+            <point heading="90.00" latitude="47.447831811" longitude="18.984672482"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="HungaryVFR-Library/Objects/Misc/Flag_Hungary.obj" show_level="1 Default"/>
         </object>
         <object class="WED_Ring" id="4497" parent_id="4496">
             <sources/>
@@ -12971,8 +12969,8 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="hungary.obj"/>
-            <point heading="0.00" latitude="47.447934644" longitude="18.985011065"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="objects/misc/hungary.obj" show_level="1 Default"/>
+            <point heading="90.00" latitude="47.447934644" longitude="18.985011065"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="HungaryVFR-Library/Objects/Misc/Flag_Hungary.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="9384" parent_id="9467">
             <sources/>
@@ -45862,15 +45860,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.995401"/>
-        <pref name="map/north" value="47.457828"/>
+        <pref name="map/east" value="18.986090"/>
+        <pref name="map/north" value="47.448450"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="4"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.441523"/>
+        <pref name="map/south" value="47.447146"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.964461"/>
+        <pref name="map/west" value="18.983616"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -45892,7 +45890,7 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="opensceneryx/lines/airport/structures/drain_linear_concrete.lin"/>
-        <pref name="map_Objects_Object" value="HungaryVFR-Library/Objects/Airplanes/GOBE_HA-5397.obj"/>
+        <pref name="map_Objects_Object" value="HungaryVFR-Library/Objects/Misc/Flag_Hungary.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_2.pol"/>
@@ -45947,8 +45945,8 @@
         <pref name="window/height" value="1475"/>
         <pref name="window/main_split" value="381"/>
         <pref name="window/main_split2" value="2320"/>
-        <pref name="window/prev_split" value="521"/>
-        <pref name="window/prop_split" value="548"/>
+        <pref name="window/prev_split" value="531"/>
+        <pref name="window/prop_split" value="558"/>
         <pref name="window/width" value="2879"/>
         <pref name="window/x_loc" value="52"/>
         <pref name="window/y_loc" value="52"/>
