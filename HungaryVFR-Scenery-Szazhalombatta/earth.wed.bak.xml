@@ -72,7 +72,9 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection/>
+            <selection>
+                <sel id="1878"/>
+            </selection>
         </object>
         <object class="WED_ObjPlacement" id="514" parent_id="177">
             <sources/>
@@ -97,7 +99,7 @@
             <children/>
             <hierarchy name="choices"/>
             <keys>
-                <key id="0" name="airport"/>
+                <key id="1878" name="airport"/>
             </keys>
         </object>
         <object class="WED_ObjPlacement" id="515" parent_id="177">
@@ -118,6 +120,7 @@
                 <child id="128"/>
                 <child id="1350"/>
                 <child id="1316"/>
+                <child id="1878"/>
             </children>
             <hierarchy hidden="0" locked="0" name="world"/>
         </object>
@@ -12011,7 +12014,6 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="1879"/>
                 <child id="1801"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Polygons"/>
@@ -12386,45 +12388,23 @@
             <hierarchy hidden="0" locked="0" name="End"/>
             <point latitude="47.336626006" longitude="18.934705624"/>
         </object>
-        <object class="WED_Ring" id="1878" parent_id="1879">
+        <object class="WED_Airport" id="1878" parent_id="4">
             <sources/>
             <viewers/>
             <children>
-                <child id="1880"/>
-                <child id="1881"/>
-                <child id="1882"/>
+                <child id="1879"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygon 1 Outer Ring"/>
+            <hierarchy hidden="0" locked="0" name="[H] MOL Heliport Százhalombatta"/>
+            <airport always_flatten="0" drive_on_left="0" elevation="0.0" has_atc="1" icao="LHML1" kind="Heliport" scenery_id="-1"/>
+            <meta_data/>
         </object>
-        <object class="WED_PolygonPlacement" id="1879" parent_id="1833">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="1878"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Water_1.pol"/>
-            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol"/>
-        </object>
-        <object class="WED_SimpleBezierBoundaryNode" id="1880" parent_id="1878">
+        <object class="WED_Helipad" id="1879" parent_id="1878">
             <sources/>
             <viewers/>
             <children/>
-            <hierarchy hidden="0" locked="0" name="Node 1"/>
-            <point ctrl_latitude_hi="-0.000074430" ctrl_latitude_lo="0.000074430" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="-0.000000000" latitude="47.312051264" longitude="18.857503121" split="0"/>
-        </object>
-        <object class="WED_SimpleBezierBoundaryNode" id="1881" parent_id="1878">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Node 2"/>
-            <point ctrl_latitude_hi="0.000111646" ctrl_latitude_lo="-0.000111646" ctrl_longitude_hi="0.000054852" ctrl_longitude_lo="-0.000054852" latitude="47.308553035" longitude="18.858325905" split="0"/>
-        </object>
-        <object class="WED_SimpleBezierBoundaryNode" id="1882" parent_id="1878">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Node 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.313874810" longitude="18.866608600" split="0"/>
+            <hierarchy hidden="0" locked="0" name="H1"/>
+            <point heading="323.98" latitude="47.288335228" length="13.7" longitude="18.896198977" width="13.1"/>
+            <helipad lights="Yellow" markings="Default" roughness="0.00" shoulder="None" surface="Asphalt"/>
         </object>
     </objects>
     <prefs>
@@ -12442,17 +12422,17 @@
             <item value="1833"/>
             <item value="1870"/>
         </pref>
-        <pref name="doc/export_target" value="1"/>
+        <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.976971"/>
-        <pref name="map/north" value="47.340875"/>
+        <pref name="map/east" value="18.897165"/>
+        <pref name="map/north" value="47.288894"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.288328"/>
+        <pref name="map/south" value="47.287810"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.871411"/>
+        <pref name="map/west" value="18.895529"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -12526,13 +12506,13 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="1458"/>
+        <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="380"/>
-        <pref name="window/main_split2" value="2409"/>
-        <pref name="window/prev_split" value="224"/>
-        <pref name="window/prop_split" value="459"/>
-        <pref name="window/width" value="2814"/>
-        <pref name="window/x_loc" value="27"/>
-        <pref name="window/y_loc" value="12"/>
+        <pref name="window/main_split2" value="1458"/>
+        <pref name="window/prev_split" value="244"/>
+        <pref name="window/prop_split" value="457"/>
+        <pref name="window/width" value="1920"/>
+        <pref name="window/x_loc" value="-8"/>
+        <pref name="window/y_loc" value="-8"/>
     </prefs>
 </doc>
