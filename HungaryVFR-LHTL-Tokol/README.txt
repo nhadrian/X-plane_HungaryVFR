@@ -1,7 +1,7 @@
 HungaryVFR-LHTL-Tököl scenery
 ******************************************************
 
-Verzió szám: 3.2.0 Beta2
+Verzió szám: 3.2.0.1
 Lefedett terület: LHTL - Tököl
 
 ******************************************************
@@ -32,7 +32,8 @@ A kiegészítõket az "X-Plane folder/Custom Scenery" alá kell másolni.
 - CDB Library 
 - Ruscenery Library
 - MisterX Library
-- NAPS Library
+- FF-library
+- Handyobjects
 
 ***** SCENERY.ini *****
 
