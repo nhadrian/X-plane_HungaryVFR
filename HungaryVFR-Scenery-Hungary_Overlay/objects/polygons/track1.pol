@@ -1,0 +1,9 @@
+A
+850
+DRAPED_POLYGON
+
+TEXTURE track1.png	
+
+SCALE 2 2
+SURFACE dirt
+LAYER_GROUP terrain 0
