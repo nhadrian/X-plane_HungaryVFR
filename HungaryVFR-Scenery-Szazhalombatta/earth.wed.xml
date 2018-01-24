@@ -850,6 +850,8 @@
                 <child id="1767"/>
                 <child id="1761"/>
                 <child id="1875"/>
+                <child id="2174"/>
+                <child id="2171"/>
             </children>
             <hierarchy hidden="0" locked="1" name="Exclusion zones"/>
         </object>
@@ -12003,6 +12005,8 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="2170"/>
+                <child id="2169"/>
                 <child id="1874"/>
                 <child id="127"/>
             </children>
@@ -12404,6 +12408,78 @@
             <point heading="323.98" latitude="47.288335228" length="13.7" longitude="18.896198977" width="13.1"/>
             <helipad lights="None" markings="Default" roughness="0.00" shoulder="None" surface="Asphalt"/>
         </object>
+        <object class="WED_ObjPlacement" id="2169" parent_id="1831">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="makovecz_templom.obj"/>
+            <point heading="0.00" latitude="47.317717379" longitude="18.908175759"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/makovecz_templom.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2170" parent_id="1831">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="reformatus.obj"/>
+            <point heading="-1.36" latitude="47.316985537" longitude="18.910980282"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/reformatus.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ExclusionZone" id="2171" parent_id="128">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2172"/>
+                <child id="2173"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 1"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+                <exclusion value="Forests"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2172" parent_id="2171">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.317925604" longitude="18.907883478"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2173" parent_id="2171">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.317408499" longitude="18.908583076"/>
+        </object>
+        <object class="WED_ExclusionZone" id="2174" parent_id="128">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2175"/>
+                <child id="2176"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 2"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+                <exclusion value="Forests"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2175" parent_id="2174">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.317226621" longitude="18.910587187"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2176" parent_id="2174">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.316627492" longitude="18.911181582"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
@@ -12422,21 +12498,21 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.896580"/>
-        <pref name="map/north" value="47.288565"/>
+        <pref name="map/east" value="19.037336"/>
+        <pref name="map/north" value="47.358608"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.288030"/>
+        <pref name="map/south" value="47.253179"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.895773"/>
+        <pref name="map/west" value="18.830915"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
         <pref name="map_Boundary_Lights" value=""/>
         <pref name="map_Boundary_Markings" value=""/>
-        <pref name="map_Exclusions_Exclusions" value="110,111,112,113,114,115,116,117"/>
+        <pref name="map_Exclusions_Exclusions" value="110,111,112"/>
         <pref name="map_Facades_Height" value="10.000000"/>
         <pref name="map_Facades_Resource" value="lib/g10/US/industrial/light/IL90x90x0v1.fac"/>
         <pref name="map_Forests_Density" value="1.000000"/>
@@ -12452,7 +12528,7 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="CDB-Library/Airport/paviment/asphalt_line.lin"/>
-        <pref name="map_Objects_Object" value="Objects/Buildings/batta_water_tower.obj"/>
+        <pref name="map_Objects_Object" value="Objects/Buildings/reformatus.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol"/>
@@ -12504,12 +12580,12 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="997"/>
+        <pref name="window/height" value="1645"/>
         <pref name="window/main_split" value="380"/>
-        <pref name="window/main_split2" value="1458"/>
-        <pref name="window/prev_split" value="254"/>
-        <pref name="window/prop_split" value="467"/>
-        <pref name="window/width" value="1920"/>
+        <pref name="window/main_split2" value="2610"/>
+        <pref name="window/prev_split" value="264"/>
+        <pref name="window/prop_split" value="801"/>
+        <pref name="window/width" value="3072"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
     </prefs>
