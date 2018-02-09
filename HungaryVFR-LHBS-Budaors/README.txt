@@ -1,7 +1,7 @@
 HungaryVFR-LHBS-Budaörs scenery
 ******************************************************
 
-Verzió szám: 3.1.0.2
+Verzió szám: 3.1.0.3
 Lefedett terület: LHBS - Budaörs
 
 ******************************************************
