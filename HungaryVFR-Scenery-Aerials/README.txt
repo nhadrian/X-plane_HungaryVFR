@@ -1,7 +1,7 @@
 HungaryVFR-Scenery-Aerials
 ******************************************************
 
-Verzió szám: 0.0.3
+Verzió szám: 0.0.4
 Lefedett terület:
 	- Hungarian radio towers
 	- Hungarian windfarms
@@ -28,6 +28,7 @@ A kiegészítõ helyes mûködéséhez az alábbi kiegészítõkre van szükség.
 A kiegészítõket az "X-Plane folder/Custom Scenery" alá kell másolni.
 
 - HungaryVFR Library
+- NAPS Library
 
 ***** SCENERY.ini *****
 
