@@ -36,14 +36,6 @@
             <point heading="90.00" latitude="47.280007255" longitude="18.892604808"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/1000_tank.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="561" parent_id="177">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="1000_tank.obj"/>
-            <point heading="0.00" latitude="47.281963199" longitude="18.895253364"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/1000_tank.obj" show_level="1 Default"/>
-        </object>
         <object class="WED_SimpleBoundaryNode" id="113" parent_id="111">
             <sources/>
             <viewers/>
@@ -59,14 +51,20 @@
             <point heading="0.00" latitude="47.276732411" longitude="18.892562976"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/5000_tank.obj" show_level="1 Default"/>
         </object>
+        <object class="WED_ObjPlacement" id="561" parent_id="177">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="1000_tank.obj"/>
+            <point heading="0.00" latitude="47.281963199" longitude="18.895253364"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/1000_tank.obj" show_level="1 Default"/>
+        </object>
         <object class="WED_Select" id="2" parent_id="1">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection>
-                <sel id="1878"/>
-            </selection>
+            <selection/>
         </object>
         <object class="WED_ObjPlacement" id="514" parent_id="177">
             <sources/>
@@ -122,14 +120,6 @@
             <point heading="0.00" latitude="47.290453901" longitude="18.902837894"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/10000_tank.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="559" parent_id="177">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="1000_tank.obj"/>
-            <point heading="0.00" latitude="47.281753139" longitude="18.895450962"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/1000_tank.obj" show_level="1 Default"/>
-        </object>
         <object class="WED_ExclusionZone" id="111" parent_id="128">
             <sources/>
             <viewers/>
@@ -151,12 +141,12 @@
             <point heading="0.00" latitude="47.276735925" longitude="18.893702429"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/5000_tank.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="560" parent_id="177">
+        <object class="WED_ObjPlacement" id="559" parent_id="177">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="1000_tank.obj"/>
-            <point heading="0.00" latitude="47.281889042" longitude="18.895759422"/>
+            <point heading="0.00" latitude="47.281753139" longitude="18.895450962"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/1000_tank.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="112" parent_id="111">
@@ -174,6 +164,14 @@
             <point heading="90.00" latitude="47.276310729" longitude="18.892987681"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/5000_tank.obj" show_level="1 Default"/>
         </object>
+        <object class="WED_ObjPlacement" id="560" parent_id="177">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="1000_tank.obj"/>
+            <point heading="0.00" latitude="47.281889042" longitude="18.895759422"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/1000_tank.obj" show_level="1 Default"/>
+        </object>
         <object class="WED_ObjPlacement" id="562" parent_id="177">
             <sources/>
             <viewers/>
@@ -182,14 +180,6 @@
             <point heading="0.00" latitude="47.282099101" longitude="18.895553368"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/1000_tank.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="597" parent_id="177">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="500_tank.obj"/>
-            <point heading="0.00" latitude="47.285370200" longitude="18.892292049"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/500_tank.obj" show_level="1 Default"/>
-        </object>
         <object class="WED_SimpleBoundaryNode" id="149" parent_id="147">
             <sources/>
             <viewers/>
@@ -197,12 +187,12 @@
             <hierarchy hidden="0" locked="0" name="End"/>
             <point latitude="47.320591257" longitude="18.919359030"/>
         </object>
-        <object class="WED_ObjPlacement" id="598" parent_id="177">
+        <object class="WED_ObjPlacement" id="597" parent_id="177">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="500_tank.obj"/>
-            <point heading="0.00" latitude="47.285263859" longitude="18.892048748"/>
+            <point heading="0.00" latitude="47.285370200" longitude="18.892292049"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/500_tank.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ExclusionZone" id="150" parent_id="128">
@@ -220,12 +210,12 @@
                 <exclusion value="Draped Polygons"/>
             </excluzions>
         </object>
-        <object class="WED_ObjPlacement" id="599" parent_id="177">
+        <object class="WED_ObjPlacement" id="598" parent_id="177">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="500_tank.obj"/>
-            <point heading="0.00" latitude="47.285005713" longitude="18.892658782"/>
+            <point heading="0.00" latitude="47.285263859" longitude="18.892048748"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/500_tank.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="151" parent_id="150">
@@ -235,12 +225,12 @@
             <hierarchy hidden="0" locked="0" name="Start"/>
             <point latitude="47.323154244" longitude="18.917196862"/>
         </object>
-        <object class="WED_ObjPlacement" id="600" parent_id="177">
+        <object class="WED_ObjPlacement" id="599" parent_id="177">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="500_tank.obj"/>
-            <point heading="0.00" latitude="47.284887478" longitude="18.892417673"/>
+            <point heading="0.00" latitude="47.285005713" longitude="18.892658782"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/500_tank.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="152" parent_id="150">
@@ -258,12 +248,12 @@
             <point heading="55.20" latitude="47.278868827" longitude="18.892922416"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/industry_commerce/industrial_new_60x50d.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="601" parent_id="177">
+        <object class="WED_ObjPlacement" id="600" parent_id="177">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="500_tank.obj"/>
-            <point heading="0.00" latitude="47.285169200" longitude="18.892504161"/>
+            <point heading="0.00" latitude="47.284887478" longitude="18.892417673"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/500_tank.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ExclusionZone" id="153" parent_id="128">
@@ -281,12 +271,12 @@
                 <exclusion value="Draped Polygons"/>
             </excluzions>
         </object>
-        <object class="WED_ObjPlacement" id="602" parent_id="177">
+        <object class="WED_ObjPlacement" id="601" parent_id="177">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="500_tank.obj"/>
-            <point heading="0.00" latitude="47.285062860" longitude="18.892252093"/>
+            <point heading="0.00" latitude="47.285169200" longitude="18.892504161"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/500_tank.obj" show_level="1 Default"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="154" parent_id="153">
@@ -303,6 +293,14 @@
             <hierarchy hidden="0" locked="0" name="stadtwerke_kraftwerk.obj"/>
             <point heading="325.41" latitude="47.278068489" longitude="18.890919361"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/industry_commerce/stadtwerke_kraftwerk.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="602" parent_id="177">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="500_tank.obj"/>
+            <point heading="0.00" latitude="47.285062860" longitude="18.892252093"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/500_tank.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ExclusionZone" id="96" parent_id="128">
             <sources/>
@@ -1349,6 +1347,14 @@
                 <child id="608"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Tanks"/>
+        </object>
+        <object class="WED_ObjPlacement" id="689" parent_id="177">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="5000_tank.obj"/>
+            <point heading="0.00" latitude="47.267906244" longitude="18.900992858"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/5000_tank.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="179" parent_id="177">
             <sources/>
@@ -5119,14 +5125,6 @@
             <point heading="0.00" latitude="47.266417205" longitude="18.904381334"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/20000_tank.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="689" parent_id="177">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="5000_tank.obj"/>
-            <point heading="0.00" latitude="47.267906244" longitude="18.900992858"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Tanks/5000_tank.obj" show_level="1 Default"/>
-        </object>
         <object class="WED_ObjPlacement" id="690" parent_id="177">
             <sources/>
             <viewers/>
@@ -7679,24 +7677,24 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="komin_A200_thick.obj"/>
-            <point heading="0.00" latitude="47.329062226" longitude="18.917602121"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Industry/komin_A200_thick.obj" show_level="1 Default"/>
+            <point heading="210.00" latitude="47.329062226" longitude="18.917602121"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/chimney_1.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="1100" parent_id="1325">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="komin_A200_thick.obj"/>
-            <point heading="0.00" latitude="47.328174356" longitude="18.918501183"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Industry/komin_A200_thick.obj" show_level="1 Default"/>
+            <point heading="210.00" latitude="47.328174356" longitude="18.918501183"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/chimney_1.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="1101" parent_id="1325">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="komin_A200.obj"/>
-            <point heading="0.00" latitude="47.326256060" longitude="18.920153797"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/Industry/komin_A200.obj" show_level="1 Default"/>
+            <point heading="210.00" latitude="47.326256060" longitude="18.920153797"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/chimney_2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="1102" parent_id="1325">
             <sources/>
@@ -12385,15 +12383,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="19.086111"/>
-        <pref name="map/north" value="47.383556"/>
+        <pref name="map/east" value="18.948061"/>
+        <pref name="map/north" value="47.338160"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.228231"/>
+        <pref name="map/south" value="47.315719"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.782140"/>
+        <pref name="map/west" value="18.904071"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -12415,7 +12413,7 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="CDB-Library/Airport/paviment/asphalt_line.lin"/>
-        <pref name="map_Objects_Object" value="Objects/Buildings/reformatus.obj"/>
+        <pref name="map_Objects_Object" value="Objects/Buildings/chimney_1.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol"/>
@@ -12470,8 +12468,8 @@
         <pref name="window/height" value="1645"/>
         <pref name="window/main_split" value="380"/>
         <pref name="window/main_split2" value="2610"/>
-        <pref name="window/prev_split" value="274"/>
-        <pref name="window/prop_split" value="811"/>
+        <pref name="window/prev_split" value="304"/>
+        <pref name="window/prop_split" value="841"/>
         <pref name="window/width" value="3072"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
