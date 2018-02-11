@@ -116,7 +116,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="23844"/>
+                <sel id="23850"/>
             </selection>
         </object>
         <object class="WED_AirportChain" id="514" parent_id="504">
@@ -269,7 +269,6 @@
                 <child id="797"/>
                 <child id="798"/>
                 <child id="684"/>
-                <child id="10576"/>
             </children>
             <hierarchy hidden="0" locked="0" name="world"/>
         </object>
@@ -587,15 +586,6 @@
             <hierarchy hidden="0" locked="0" name="Node 2"/>
             <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.449353143" longitude="18.974310922" split="0"/>
         </object>
-        <object class="WED_OverlayImage" id="18" parent_id="10576">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="19"/>
-            </children>
-            <hierarchy hidden="0" locked="1" name="reference_img"/>
-            <overlay_image alpha="1.0" file_path="Reference images\full.jpg"/>
-        </object>
         <object class="WED_Group" id="530" parent_id="10586">
             <sources/>
             <viewers/>
@@ -621,17 +611,6 @@
             <hierarchy hidden="0" locked="0" name="Node 3"/>
             <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.449532130" longitude="18.973906389" split="0"/>
         </object>
-        <object class="WED_Ring" id="19" parent_id="18">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="20"/>
-                <child id="21"/>
-                <child id="22"/>
-                <child id="23"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
-        </object>
         <object class="WED_ObjPlacement" id="531" parent_id="565">
             <sources/>
             <viewers/>
@@ -653,30 +632,6 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 4"/>
             <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.449205937" longitude="18.973583391" split="0"/>
-        </object>
-        <object class="WED_TextureNode" id="20" parent_id="19">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point latitude="47.446805521" longitude="18.969190518"/>
-            <texture_node s="0.0000" t="0.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="21" parent_id="19">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
-            <point latitude="47.455582673" longitude="18.969185164"/>
-            <texture_node s="0.0000" t="1.0000"/>
-        </object>
-        <object class="WED_TextureNode" id="22" parent_id="19">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
-            <point latitude="47.455590487" longitude="18.991416841"/>
-            <texture_node s="1.0000" t="1.0000"/>
         </object>
         <object class="WED_ObjPlacement" id="534" parent_id="565">
             <sources/>
@@ -700,14 +655,6 @@
             <hierarchy hidden="0" locked="0" name="spot.obj"/>
             <point heading="0.00" latitude="47.449266701" longitude="18.973946993"/>
             <obj_placement custom_msl="0" msl="0.000" resource="ruscenery/buildings/spot.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_TextureNode" id="23" parent_id="19">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
-            <point latitude="47.446813335" longitude="18.991422195"/>
-            <texture_node s="1.0000" t="0.0000"/>
         </object>
         <object class="WED_ObjPlacement" id="535" parent_id="565">
             <sources/>
@@ -10124,7 +10071,7 @@
                 <child id="16005"/>
                 <child id="681"/>
             </children>
-            <hierarchy hidden="1" locked="0" name="Exclusion zones"/>
+            <hierarchy hidden="0" locked="0" name="Exclusion zones"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="4780" parent_id="4779">
             <sources/>
@@ -11306,7 +11253,6 @@
                 <child id="10582"/>
                 <child id="3566"/>
                 <child id="3557"/>
-                <child id="3543"/>
                 <child id="2726"/>
                 <child id="1037"/>
                 <child id="1032"/>
@@ -11344,13 +11290,13 @@
                 <child id="13728"/>
                 <child id="13729"/>
                 <child id="13742"/>
-                <child id="13712"/>
                 <child id="13725"/>
                 <child id="13731"/>
                 <child id="13732"/>
                 <child id="13733"/>
                 <child id="13737"/>
                 <child id="13739"/>
+                <child id="23850"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Buildings"/>
         </object>
@@ -22234,14 +22180,6 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 12"/>
             <point latitude="47.447265020" longitude="18.977432921"/>
-        </object>
-        <object class="WED_ObjPlacement" id="3543" parent_id="888">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="StorSml1p1.obj"/>
-            <point heading="2.70" latitude="47.448212072" longitude="18.978443749"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/industrial/light/StorSml1p1.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="3557" parent_id="888">
             <sources/>
@@ -37066,14 +37004,6 @@
             <hierarchy hidden="0" locked="0" name="Node 2"/>
             <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.448830232" longitude="18.986953940" split="0"/>
         </object>
-        <object class="WED_Group" id="10576" parent_id="4">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="18"/>
-            </children>
-            <hierarchy hidden="1" locked="1" name="Reference images"/>
-        </object>
         <object class="WED_Group" id="10582" parent_id="888">
             <sources/>
             <viewers/>
@@ -37705,14 +37635,6 @@
             <hierarchy hidden="0" locked="0" name="Single_Red.obj"/>
             <point heading="271.97" latitude="47.447877565" longitude="18.978926337"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Misc/Single_Red.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="13712" parent_id="888">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="lib/g10/US/industrial/light/StorSml1p1.obj"/>
-            <point heading="2.70" latitude="47.448211833" longitude="18.978443294"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/industrial/light/StorSml1p1.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="13714" parent_id="888">
             <sources/>
@@ -49977,6 +49899,14 @@
             <hierarchy hidden="0" locked="0" name="Node 5"/>
             <point latitude="47.447961779" longitude="18.983229221"/>
         </object>
+        <object class="WED_ObjPlacement" id="23850" parent_id="888">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="lhbs_kisepulet.obj"/>
+            <point heading="-2.70" latitude="47.448203188" longitude="18.978698258"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/lhbs_kisepulet.obj" show_level="1 Default"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
@@ -50014,12 +49944,10 @@
             <item value="10340"/>
             <item value="10394"/>
             <item value="10508"/>
-            <item value="10576"/>
             <item value="10582"/>
             <item value="10583"/>
             <item value="10584"/>
             <item value="10585"/>
-            <item value="10586"/>
             <item value="10587"/>
             <item value="10588"/>
             <item value="10589"/>
@@ -50035,15 +49963,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.991578"/>
-        <pref name="map/north" value="47.457815"/>
+        <pref name="map/east" value="18.982037"/>
+        <pref name="map/north" value="47.449726"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="4"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.444075"/>
+        <pref name="map/south" value="47.445796"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.972905"/>
+        <pref name="map/west" value="18.974671"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -50065,8 +49993,8 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="opensceneryx/lines/airport/structures/drain_linear_concrete.lin"/>
-        <pref name="map_Objects_Object" value="HungaryVFR-Library/Objects/Misc/Flag_Hungary.obj"/>
-        <pref name="map_Objects_Show with" value="564"/>
+        <pref name="map_Objects_Object" value="Objects/Buildings/lhbs_kisepulet.obj"/>
+        <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_2.pol"/>
         <pref name="map_Polygons_Use Texture Map" value="0"/>
@@ -50117,12 +50045,12 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="998"/>
+        <pref name="window/height" value="1645"/>
         <pref name="window/main_split" value="381"/>
-        <pref name="window/main_split2" value="1361"/>
-        <pref name="window/prev_split" value="541"/>
-        <pref name="window/prop_split" value="448"/>
-        <pref name="window/width" value="1920"/>
+        <pref name="window/main_split2" value="2513"/>
+        <pref name="window/prev_split" value="573"/>
+        <pref name="window/prop_split" value="791"/>
+        <pref name="window/width" value="3072"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
     </prefs>
