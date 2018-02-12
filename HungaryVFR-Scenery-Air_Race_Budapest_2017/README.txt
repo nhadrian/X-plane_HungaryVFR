@@ -1,8 +1,8 @@
-HungaryVFR-LHTL-Tököl scenery
+HungaryVFR-Scenery-Air_Race_Budapest_2017
 ******************************************************
 
-Verzió szám: 3.2.0.2
-Lefedett terület: LHTL - Tököl
+Verzió szám: 1.1.0
+Lefedett terület: Scenery - Air Race Budapest 2017
 
 ******************************************************
 A kiadást HungaryVFR Team készítette.
@@ -25,21 +25,19 @@ Ismert kompatibilitási problémák: nincs
 
 A kiegészítõ helyes mûködéséhez az alábbi kiegészítõkre van szükség. 
 A kiegészítõket az "X-Plane folder/Custom Scenery" alá kell másolni.
+- Air Race Plugin (https://forums.x-plane.org/index.php?/files/file/27222-air-race-plugin/)
 
+***** AJÁNLOTT KIEGÉSZÍTÕK *****
+- HungaryVFR-LHTL-Tokol Scenery
+- HungaryVFR-Scenery-Budapest
 - HungaryVFR Library
-- OpenSceneryX Library
-- R2-library
-- CDB Library 
-- Ruscenery Library
-- MisterX Library
-- FF-library
-- Handyobjects
 
 ***** SCENERY.ini *****
 
 A kiegészítõ helyes mûködéséhez fontos a SCENERY.ini tartalmának helyes sorrendbe rendezése. A SCENERY.ini file-ról részletes információk az alábbi linken:
 https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2992536
 
-***** KÖSZÖNETNYILVÁNÍTÁS*****
+***** FUTTATÁS *****
+A kiegészítõ telepítése esetén külön repülõtérként definiálásra kerül a 'Base - Air Race Budapest 2017' nevû repülõtér, a kijelölt pálya szakasszal, az eseményhez készült dokumentáció a kiegészítõben megtalálható. A Race Airport-ról felszállva be kell tölteni a verseny pályát az Air Race plugin-be, errõl a plugin Manual-jában találhatóak bõvebb információk. 
+Sok sikert!!!
 
-- A Scenery az alábbi library-kbõl tartalmaz módosított odjektumokat: CDB-library, Ruscenery, Misterx, OpensceneryX. Hálás köszönet a fejlesztõknek!!!
