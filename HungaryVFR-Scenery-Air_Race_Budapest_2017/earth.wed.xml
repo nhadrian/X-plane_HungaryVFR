@@ -16,23 +16,15 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Redbull_1.obj"/>
-            <point heading="322.10" latitude="47.353763739" longitude="18.971918755"/>
+            <point heading="322.10" latitude="47.353654098" longitude="18.971892168"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_4.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_TextureNode" id="9" parent_id="6">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point latitude="47.354718501" longitude="18.977869407"/>
-            <texture_node s="1.0000" t="1.0000"/>
         </object>
         <object class="WED_ObjPlacement" id="73" parent_id="71">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Redbull_1.obj"/>
-            <point heading="142.03" latitude="47.353422533" longitude="18.971516648"/>
+            <point heading="142.03" latitude="47.353322410" longitude="18.971518157"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_1.obj" show_level="1 Default"/>
         </object>
         <object class="WED_Select" id="2" parent_id="1">
@@ -47,23 +39,15 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Redbull_1.obj"/>
-            <point heading="322.10" latitude="47.353849835" longitude="18.971819325"/>
+            <point heading="322.10" latitude="47.353740194" longitude="18.971792738"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_3.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_TextureNode" id="10" parent_id="6">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point latitude="47.354720481" longitude="18.968145261"/>
-            <texture_node s="0.0000" t="1.0000"/>
         </object>
         <object class="WED_ObjPlacement" id="74" parent_id="71">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Redbull_1.obj"/>
-            <point heading="142.03" latitude="47.353938671" longitude="18.970923295"/>
+            <point heading="142.03" latitude="47.353838548" longitude="18.970924804"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_3.obj" show_level="1 Default"/>
         </object>
         <object class="WED_KeyObjects" id="3" parent_id="1">
@@ -72,7 +56,7 @@
             <children/>
             <hierarchy name="choices"/>
             <keys>
-                <key id="0" name="airport"/>
+                <key id="80" name="airport"/>
             </keys>
         </object>
         <object class="WED_ObjPlacement" id="67" parent_id="71">
@@ -80,17 +64,15 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Redbull_1.obj"/>
-            <point heading="322.10" latitude="47.354193736" longitude="18.971423710"/>
+            <point heading="322.10" latitude="47.354084095" longitude="18.971397123"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_3.obj" show_level="1 Default"/>
         </object>
         <object class="WED_Group" id="4" parent_id="1">
             <sources/>
             <viewers/>
             <children>
-                <child id="49"/>
-                <child id="11"/>
-                <child id="62"/>
-                <child id="71"/>
+                <child id="1915"/>
+                <child id="80"/>
             </children>
             <hierarchy hidden="0" locked="0" name="world"/>
         </object>
@@ -99,37 +81,18 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Redbull_1.obj"/>
-            <point heading="322.10" latitude="47.354107640" longitude="18.971523139"/>
+            <point heading="322.10" latitude="47.353997999" longitude="18.971496552"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_4.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_Ring" id="6" parent_id="11">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="7"/>
-                <child id="8"/>
-                <child id="9"/>
-                <child id="10"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
         </object>
         <object class="WED_ObjPlacement" id="70" parent_id="71">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Redbull_1.obj"/>
-            <point heading="322.10" latitude="47.354021499" longitude="18.971621447"/>
+            <point heading="322.10" latitude="47.353911858" longitude="18.971594860"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_1.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_TextureNode" id="7" parent_id="6">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point latitude="47.351231807" longitude="18.968138324"/>
-            <texture_node s="0.0000" t="0.0000"/>
-        </object>
-        <object class="WED_Group" id="71" parent_id="4">
+        <object class="WED_Group" id="71" parent_id="80">
             <sources/>
             <viewers/>
             <children>
@@ -152,37 +115,20 @@
             </children>
             <hierarchy hidden="0" locked="0" name="Hangars"/>
         </object>
-        <object class="WED_TextureNode" id="8" parent_id="6">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point latitude="47.351229827" longitude="18.977862470"/>
-            <texture_node s="1.0000" t="0.0000"/>
-        </object>
         <object class="WED_ObjPlacement" id="72" parent_id="71">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Redbull_1.obj"/>
-            <point heading="142.03" latitude="47.353766434" longitude="18.971121032"/>
+            <point heading="142.03" latitude="47.353666311" longitude="18.971122541"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_1.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_OverlayImage" id="11" parent_id="4">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="6"/>
-            </children>
-            <hierarchy hidden="1" locked="1" name="_Ortophotos\LHTL.PNG"/>
-            <overlay_image alpha="1.0" file_path="_Ortophotos\LHTL.PNG"/>
         </object>
         <object class="WED_ObjPlacement" id="75" parent_id="71">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Redbull_1.obj"/>
-            <point heading="142.03" latitude="47.353594770" longitude="18.971318911"/>
+            <point heading="142.03" latitude="47.353494647" longitude="18.971320420"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_3.obj" show_level="1 Default"/>
         </object>
         <object class="WED_Ring" id="44" parent_id="49">
@@ -196,6 +142,13 @@
             </children>
             <hierarchy hidden="0" locked="0" name="Image Boundary"/>
         </object>
+        <object class="WED_RunwayNode" id="1900" parent_id="1899">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.352970585" longitude="18.972292473"/>
+        </object>
         <object class="WED_TextureNode" id="45" parent_id="44">
             <sources/>
             <viewers/>
@@ -203,6 +156,13 @@
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
             <point latitude="47.495982204" longitude="19.033899942"/>
             <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_RunwayNode" id="1901" parent_id="1899">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.349459259" longitude="18.976260945"/>
         </object>
         <object class="WED_TextureNode" id="46" parent_id="44">
             <sources/>
@@ -212,6 +172,16 @@
             <point latitude="47.495982204" longitude="19.052811546"/>
             <texture_node s="1.0000" t="0.0000"/>
         </object>
+        <object class="WED_RampPosition" id="1902" parent_id="80">
+            <sources/>
+            <viewers>
+                <viewer id="1903"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start Apron"/>
+            <point heading="142.92" latitude="47.353178394" longitude="18.972063315"/>
+            <ramp_start airlines="" ramp_op_type="None" traffic="8" type="Misc" width="A"/>
+        </object>
         <object class="WED_TextureNode" id="47" parent_id="44">
             <sources/>
             <viewers/>
@@ -219,6 +189,26 @@
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
             <point latitude="47.515122712" longitude="19.052811546"/>
             <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TaxiRoute" id="1903" parent_id="80">
+            <sources>
+                <source id="1902"/>
+                <source id="1904"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="None" vehicle_class="Aircraft" width="A"/>
+            <departures>
+                <runway value="14"/>
+                <runway value="32"/>
+            </departures>
+            <arrivals>
+                <runway value="14"/>
+                <runway value="32"/>
+            </arrivals>
+            <ils_holds/>
         </object>
         <object class="WED_TextureNode" id="48" parent_id="44">
             <sources/>
@@ -228,7 +218,17 @@
             <point latitude="47.515122712" longitude="19.033899942"/>
             <texture_node s="0.0000" t="1.0000"/>
         </object>
-        <object class="WED_OverlayImage" id="49" parent_id="4">
+        <object class="WED_TaxiRouteNode" id="1904" parent_id="80">
+            <sources/>
+            <viewers>
+                <viewer id="1903"/>
+                <viewer id="1905"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N_stop"/>
+            <point latitude="47.352805216" longitude="18.972476389"/>
+        </object>
+        <object class="WED_OverlayImage" id="49" parent_id="1915">
             <sources/>
             <viewers/>
             <children>
@@ -236,6 +236,20 @@
             </children>
             <hierarchy hidden="1" locked="1" name="_Ortophotos\Racetrack.png"/>
             <overlay_image alpha="1.0" file_path="_Ortophotos\Racetrack.png"/>
+        </object>
+        <object class="WED_TaxiRoute" id="1905" parent_id="80">
+            <sources>
+                <source id="1904"/>
+                <source id="1906"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="14/32"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="14/32" vehicle_class="Aircraft" width="A"/>
+            <departures/>
+            <arrivals/>
+            <ils_holds/>
         </object>
         <object class="WED_ObjPlacement" id="51" parent_id="62">
             <sources/>
@@ -293,7 +307,16 @@
             <point heading="183.29" latitude="47.508147861" longitude="19.042186102"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/P-1.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_Group" id="62" parent_id="4">
+        <object class="WED_Group" id="1915" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="49"/>
+                <child id="62"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Development tools"/>
+        </object>
+        <object class="WED_Group" id="62" parent_id="1915">
             <sources/>
             <viewers/>
             <children>
@@ -305,14 +328,14 @@
                 <child id="52"/>
                 <child id="51"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Pylons"/>
+            <hierarchy hidden="1" locked="0" name="Pylons"/>
         </object>
         <object class="WED_ObjPlacement" id="63" parent_id="71">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Redbull_1.obj"/>
-            <point heading="322.10" latitude="47.353591708" longitude="18.972116110"/>
+            <point heading="322.10" latitude="47.353482067" longitude="18.972089523"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="64" parent_id="71">
@@ -320,7 +343,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Redbull_1.obj"/>
-            <point heading="322.10" latitude="47.353677598" longitude="18.972017062"/>
+            <point heading="322.10" latitude="47.353567957" longitude="18.971990475"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_1.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="69" parent_id="71">
@@ -328,7 +351,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Redbull_1.obj"/>
-            <point heading="322.10" latitude="47.353935609" longitude="18.971720494"/>
+            <point heading="322.10" latitude="47.353825968" longitude="18.971693907"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="76" parent_id="71">
@@ -336,7 +359,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Redbull_1.obj"/>
-            <point heading="142.03" latitude="47.353852576" longitude="18.971022725"/>
+            <point heading="142.03" latitude="47.353752453" longitude="18.971024234"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_4.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="77" parent_id="71">
@@ -344,7 +367,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Redbull_1.obj"/>
-            <point heading="142.03" latitude="47.353508675" longitude="18.971418340"/>
+            <point heading="142.03" latitude="47.353408552" longitude="18.971419849"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_4.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="78" parent_id="71">
@@ -352,7 +375,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Redbull_1.obj"/>
-            <point heading="142.03" latitude="47.353680544" longitude="18.971220080"/>
+            <point heading="142.03" latitude="47.353580421" longitude="18.971221589"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_2.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="79" parent_id="71">
@@ -360,8 +383,52 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Redbull_1.obj"/>
-            <point heading="142.03" latitude="47.353336643" longitude="18.971615695"/>
+            <point heading="142.03" latitude="47.353236520" longitude="18.971617204"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_2.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Airport" id="80" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="71"/>
+                <child id="1905"/>
+                <child id="1906"/>
+                <child id="1903"/>
+                <child id="1904"/>
+                <child id="1902"/>
+                <child id="1899"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Base - Red Bull Air Race Budapest 2017"/>
+            <airport always_flatten="0" drive_on_left="0" elevation="0.0" has_atc="0" icao="xxxx" kind="Airport" scenery_id="-1"/>
+            <meta_data>
+                <meta_data_entry pair="city,Tököl"/>
+                <meta_data_entry pair="country,Hungary"/>
+                <meta_data_entry pair="datum_lat,47.345555556"/>
+                <meta_data_entry pair="datum_lon,18.980833333"/>
+                <meta_data_entry pair="region_code,LH"/>
+                <meta_data_entry pair="state,Pest"/>
+                <meta_data_entry pair="transition_alt,1700"/>
+            </meta_data>
+        </object>
+        <object class="WED_Runway" id="1899" parent_id="80">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1900"/>
+                <child id="1901"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="14/32"/>
+            <line width="40.00"/>
+            <runway REIL1="None" REIL2="None" TDZL1="0" TDZL2="0" app_lites1="None" app_lites2="None" blastpad1="0.0" blastpad2="0.0" center_lites="0" displaced1="0.0" displaced2="0.0" distance_signs="0" edge_lites="None" markings1="None" markings2="None" roughness="0.00" shoulder="None" surface="Transparent"/>
+        </object>
+        <object class="WED_TaxiRouteNode" id="1906" parent_id="80">
+            <sources/>
+            <viewers>
+                <viewer id="1905"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N_stop"/>
+            <point latitude="47.349656170" longitude="18.976039532"/>
         </object>
     </objects>
     <prefs>
@@ -371,15 +438,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.974967"/>
-        <pref name="map/north" value="47.357674"/>
+        <pref name="map/east" value="18.978991"/>
+        <pref name="map/north" value="47.357334"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="3"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.349179"/>
+        <pref name="map/south" value="47.345434"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.966806"/>
+        <pref name="map/west" value="18.967572"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -402,15 +469,15 @@
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="MisterX_Library/Airport/Taxilines/EdgeLine.lin"/>
         <pref name="map_Objects_Object" value="Objects/Redbull_1.obj"/>
-        <pref name="map_Objects_Show with" value="558"/>
+        <pref name="map_Objects_Show with" value="564"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="gt_library/Asphalt.pol"/>
         <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
         <pref name="map_Ramp Start_Airlines" value=""/>
-        <pref name="map_Ramp Start_Equipment Type" value="129,130"/>
+        <pref name="map_Ramp Start_Equipment Type" value="132"/>
         <pref name="map_Ramp Start_Ramp Operation Type" value="530"/>
         <pref name="map_Ramp Start_Ramp Start Type" value="139"/>
-        <pref name="map_Ramp Start_Size" value="527"/>
+        <pref name="map_Ramp Start_Size" value="523"/>
         <pref name="map_Runway_Appch" value="42"/>
         <pref name="map_Runway_Center" value="0"/>
         <pref name="map_Runway_Dist" value="0"/>
@@ -419,7 +486,7 @@
         <pref name="map_Runway_REIL" value="10"/>
         <pref name="map_Runway_Rough" value="0.000000"/>
         <pref name="map_Runway_Shoulder" value="56"/>
-        <pref name="map_Runway_Surface" value="27"/>
+        <pref name="map_Runway_Surface" value="33"/>
         <pref name="map_Runway_TDZL" value="0"/>
         <pref name="map_Sealane_Buoys" value="1"/>
         <pref name="map_Sign_Size" value="18"/>
@@ -451,11 +518,11 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="997"/>
+        <pref name="window/height" value="998"/>
         <pref name="window/main_split" value="322"/>
         <pref name="window/main_split2" value="1046"/>
-        <pref name="window/prev_split" value="543"/>
-        <pref name="window/prop_split" value="627"/>
+        <pref name="window/prev_split" value="563"/>
+        <pref name="window/prop_split" value="647"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
