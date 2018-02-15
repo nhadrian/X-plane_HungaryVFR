@@ -1,7 +1,7 @@
 ﻿HungaryVFR-LHBP Liszt Ferenc international airport
 ******************************************************
 
-Verzió szám: 2.0.4 
+Verzió szám: 2.0.5 
 Lefedett terület: LHBP - Budapest
 
 ******************************************************
