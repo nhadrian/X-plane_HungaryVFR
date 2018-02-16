@@ -1,7 +1,7 @@
 HungaryVFR-Scenery-Air_Race_Budapest_2017
 ******************************************************
 
-Verzió szám: 1.1.0
+Verzió szám: 1.1.1
 Lefedett terület: Scenery - Air Race Budapest 2017
 
 ******************************************************
