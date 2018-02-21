@@ -73,6 +73,7 @@
             <children>
                 <child id="1915"/>
                 <child id="80"/>
+                <child id="71"/>
             </children>
             <hierarchy hidden="0" locked="0" name="world"/>
         </object>
@@ -92,7 +93,7 @@
             <point heading="322.10" latitude="47.353911858" longitude="18.971594860"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Redbull_1.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_Group" id="71" parent_id="80">
+        <object class="WED_Group" id="71" parent_id="4">
             <sources/>
             <viewers/>
             <children>
@@ -390,7 +391,6 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="71"/>
                 <child id="1905"/>
                 <child id="1906"/>
                 <child id="1903"/>
@@ -438,15 +438,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="18.978991"/>
-        <pref name="map/north" value="47.357334"/>
+        <pref name="map/east" value="18.978362"/>
+        <pref name="map/north" value="47.356846"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="3"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.345434"/>
+        <pref name="map/south" value="47.346429"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.967572"/>
+        <pref name="map/west" value="18.968366"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -469,7 +469,7 @@
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="MisterX_Library/Airport/Taxilines/EdgeLine.lin"/>
         <pref name="map_Objects_Object" value="Objects/Redbull_1.obj"/>
-        <pref name="map_Objects_Show with" value="564"/>
+        <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="gt_library/Asphalt.pol"/>
         <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
@@ -521,8 +521,8 @@
         <pref name="window/height" value="998"/>
         <pref name="window/main_split" value="322"/>
         <pref name="window/main_split2" value="1046"/>
-        <pref name="window/prev_split" value="563"/>
-        <pref name="window/prop_split" value="647"/>
+        <pref name="window/prev_split" value="583"/>
+        <pref name="window/prop_split" value="667"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
