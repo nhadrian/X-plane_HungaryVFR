@@ -2,7 +2,7 @@
 ******************************************************
 
 Build XML Verzió szám: 2.0.2
-Build dátum: 2018. február 12.
+Build dátum: 2018. február 21.
 Lefedett terület: Magyarország
 
 ******************************************************
