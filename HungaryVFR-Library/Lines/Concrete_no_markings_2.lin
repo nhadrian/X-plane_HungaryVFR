@@ -1,0 +1,11 @@
+A
+850
+LINE_PAINT
+
+TEXTURE Concrete_no_markings_2.png
+DECAL_LIB lib/g10/decals/apt_concrete.dcl
+TEX_WIDTH 64
+SCALE 7 7
+S_OFFSET  	0	 0	32	 64
+
+LAYER_GROUP taxiways +1

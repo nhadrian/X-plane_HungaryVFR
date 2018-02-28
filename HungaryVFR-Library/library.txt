@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.4.3
+# Version: 1.4.4
 
 # ----------------------------------
 # AGP
@@ -366,6 +366,10 @@ EXPORT HungaryVFR-Library/Forests/3Dgrass_dry.for Forests/3Dgrass_dry.for
 EXPORT HungaryVFR-Library/Lines/White_line_solid_1.lin Lines/White_line_solid_1.lin
 EXPORT HungaryVFR-Library/Lines/White_line_broken_1.lin Lines/White_line_broken_1.lin
 EXPORT HungaryVFR-Library/Lines/White_line_solid_for_spline_1.lin Lines/White_line_solid_for_spline_1.lin
+EXPORT HungaryVFR-Library/Lines/Concrete_no_markings_1.lin Lines/Concrete_no_markings_1.lin
+EXPORT HungaryVFR-Library/Lines/Concrete_no_markings_2.lin Lines/Concrete_no_markings_2.lin
+EXPORT HungaryVFR-Library/Lines/Asphalt_white_line_1.lin Lines/Asphalt_white_line_1.lin
+EXPORT HungaryVFR-Library/Lines/Asphalt_no_markings_1.lin Lines/Asphalt_no_markings_1.lin
 
 # ----------------------------------
 # AUTOGEN OVERRIDES
