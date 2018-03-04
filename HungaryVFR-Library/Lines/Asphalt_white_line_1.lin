@@ -3,7 +3,7 @@ A
 LINE_PAINT
 
 TEXTURE Asphalt_white_line_1.png
-DECAL_LIB lib/g10/decals/apt_concrete.dcl
+DECAL_LIB lib/g10/decals/apt_asphalt.dcl
 TEX_WIDTH 64
 SCALE 7 3.5
 S_OFFSET  	0	 0	 32	 64
