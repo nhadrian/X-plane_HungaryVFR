@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.4.4
+# Version: 1.4.5
 
 # ----------------------------------
 # AGP
@@ -370,6 +370,8 @@ EXPORT HungaryVFR-Library/Lines/Concrete_no_markings_1.lin Lines/Concrete_no_mar
 EXPORT HungaryVFR-Library/Lines/Concrete_no_markings_2.lin Lines/Concrete_no_markings_2.lin
 EXPORT HungaryVFR-Library/Lines/Asphalt_white_line_1.lin Lines/Asphalt_white_line_1.lin
 EXPORT HungaryVFR-Library/Lines/Asphalt_no_markings_1.lin Lines/Asphalt_no_markings_1.lin
+EXPORT HungaryVFR-Library/Lines/Mud_road_1.lin Lines/Mud_road_1.lin
+EXPORT HungaryVFR-Library/Lines/Gravel_road_1.lin Lines/Gravel_road_1.lin
 
 # ----------------------------------
 # AUTOGEN OVERRIDES
