@@ -1,7 +1,7 @@
 ﻿HungaryVFR-Scenery-Budapest
 ******************************************************
 
-Version: 1.0.14
+Version: 1.0.15
 Covered area: Budapest
 
 ******************************************************
@@ -45,3 +45,4 @@ https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2
 ***** CREDITS *****
 
 - The scenery contains modified objects from these libraries: Hungarian SketchUp community, R2-library, Misterx, OpensceneryX. 
+- Traffic on bridges are made with GroundTraffic plugin from Marginal. Thanks!

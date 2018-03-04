@@ -1,7 +1,7 @@
 ﻿HungaryVFR-Scenery-Budapest
 ******************************************************
 
-Verzió szám: 1.0.14
+Verzió szám: 1.0.15
 Lefedett terület: Budapest
 
 ******************************************************
@@ -44,3 +44,4 @@ https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2
 ***** KÖSZÖNETNYILVÁNÍTÁS*****
 
 - A Scenery az alábbi library-kből tartalmaz módosított odjektumokat: Hungarian SketchUp community, R2-library, Misterx, OpensceneryX. Hálás köszönet a fejlesztőknek!!!
+- A hidakon lévő forgalom Marginal GroundTraffic pluginjével készültek, köszönet érte!
