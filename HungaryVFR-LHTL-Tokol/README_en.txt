@@ -4,7 +4,7 @@ HungaryVFR-LHTL-Tököl airport scenery
 
 
 
-Version: 3.2.0.3
+Version: 3.2.0.4
 
 Covered area: LHTL - Tököl
 
