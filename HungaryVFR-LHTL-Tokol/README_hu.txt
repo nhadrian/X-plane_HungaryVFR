@@ -84,3 +84,4 @@ Kérjük figyelmesen olvassa végig a 'Scenery_order.pdf' leírást a helyes sorrend 
 
 - A Scenery az alábbi library-kbõl tartalmaz módosított odjektumokat, a készítõk jóváhagyásával: CDB-library, Ruscenery, Misterx, OpensceneryX. 
 Hálás köszönet a fejlesztõknek!!!
+- A repülõtéri forgalom Marginal GroundTraffic pluginjével készült, köszönet érte!

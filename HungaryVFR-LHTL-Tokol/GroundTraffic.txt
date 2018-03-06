@@ -1,7 +1,7 @@
 #debug
 
 #Left car
-route 65 0 0 Objects/Vehicles/Camaro_Race_Red.obj
+route 65 0 0 Objects/Vehicles/Supra_Red.obj
 47.346855414 18.973817116
 pause 10 set hungaryvfr/LHTL/racesync rise linear 11
 47.346860965 18.973698743

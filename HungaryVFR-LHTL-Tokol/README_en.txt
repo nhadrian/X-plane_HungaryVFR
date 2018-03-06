@@ -68,3 +68,4 @@ Please read 'Scenery_order.pdf' carefully for proper scenery arrangement in 'sce
 
 - The scenery contains modified objects from these libraries with approval of the authors: CDB-library, Ruscenery, Misterx, OpensceneryX. 
 Grateful thanks for the Developers !!!
+- Traffic on the airport is made by GroundTraffic plugin from Marginal. Thanks!
