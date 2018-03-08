@@ -1,1 +1,0 @@
-racesync = create_dataref("hungaryvfr/LHTL/racesync","number",racesyncSHIFTfunc)
