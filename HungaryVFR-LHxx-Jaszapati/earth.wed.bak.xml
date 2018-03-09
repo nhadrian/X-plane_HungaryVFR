@@ -58,9 +58,7 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection>
-                <sel id="2726"/>
-            </selection>
+            <selection/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1538" parent_id="1533">
             <sources/>
@@ -2622,7 +2620,7 @@
                 <child id="2360"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Asphalt.pol"/>
-            <polygon_placement heading="0.0" resource="gt_library/Asphalt.pol"/>
+            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_2.pol"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1732" parent_id="1729">
             <sources/>
@@ -5383,6 +5381,7 @@
                 <exclusion value="Objects"/>
                 <exclusion value="Facades"/>
                 <exclusion value="Forests"/>
+                <exclusion value="Road Networks"/>
             </excluzions>
         </object>
         <object class="WED_SimpleBoundaryNode" id="2710" parent_id="2709">
@@ -5390,7 +5389,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="47.523655673" longitude="20.157308386"/>
+            <point latitude="47.523724065" longitude="20.157171368"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="2711" parent_id="2709">
             <sources/>
@@ -5419,14 +5418,14 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="47.524322298" longitude="20.158013185"/>
+            <point latitude="47.524322298" longitude="20.158030972"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="2714" parent_id="2712">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="End"/>
-            <point latitude="47.523415951" longitude="20.159800248"/>
+            <point latitude="47.523379913" longitude="20.159800248"/>
         </object>
         <object class="WED_Group" id="2715" parent_id="4">
             <sources/>
@@ -5460,6 +5459,7 @@
                 <exclusion value="Objects"/>
                 <exclusion value="Facades"/>
                 <exclusion value="Forests"/>
+                <exclusion value="Road Networks"/>
             </excluzions>
         </object>
         <object class="WED_SimpleBoundaryNode" id="2717" parent_id="2716">
@@ -5467,7 +5467,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="47.522970406" longitude="20.155676584"/>
+            <point latitude="47.521036354" longitude="20.155747731"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="2718" parent_id="2716">
             <sources/>
@@ -5488,6 +5488,7 @@
                 <exclusion value="Objects"/>
                 <exclusion value="Facades"/>
                 <exclusion value="Forests"/>
+                <exclusion value="Road Networks"/>
             </excluzions>
         </object>
         <object class="WED_SimpleBoundaryNode" id="2720" parent_id="2719">
@@ -5571,15 +5572,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="20.178963"/>
-        <pref name="map/north" value="47.534818"/>
+        <pref name="map/east" value="20.160174"/>
+        <pref name="map/north" value="47.522470"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.507167"/>
+        <pref name="map/south" value="47.520625"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="20.143624"/>
+        <pref name="map/west" value="20.156802"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -5602,11 +5603,11 @@
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="opensceneryx/lines/airport/taxisign_parts/border_yellow.lin"/>
         <pref name="map_Objects_Object" value="Objects/Airplanes/tcmelak_HA-MFC.obj"/>
-        <pref name="map_Objects_Show with" value="558"/>
+        <pref name="map_Objects_Show with" value="564"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
-        <pref name="map_Polygons_Resource" value="gt_library/Sandygravel.pol"/>
+        <pref name="map_Polygons_Resource" value="HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_2.pol"/>
         <pref name="map_Polygons_Use Texture Map" value="0"/>
-        <pref name="map_Polygons_Use Texture Map - Orthophoto" value="1"/>
+        <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
         <pref name="map_Ramp Start_Airlines" value=""/>
         <pref name="map_Ramp Start_Equipment Type" value=""/>
         <pref name="map_Ramp Start_Ramp Operation Type" value="531"/>
@@ -5653,12 +5654,12 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="0"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="997"/>
+        <pref name="window/height" value="1645"/>
         <pref name="window/main_split" value="396"/>
-        <pref name="window/main_split2" value="1322"/>
-        <pref name="window/prev_split" value="781"/>
-        <pref name="window/prop_split" value="483"/>
-        <pref name="window/width" value="1920"/>
+        <pref name="window/main_split2" value="2474"/>
+        <pref name="window/prev_split" value="737"/>
+        <pref name="window/prop_split" value="826"/>
+        <pref name="window/width" value="3072"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
     </prefs>
