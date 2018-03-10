@@ -80,3 +80,7 @@ please read the plugin's readme for more details.
 After take off from Race Airport load the race track into Air Race plugin, for further informations please read the plugin manual. 
 Good luck!!!
 
+
+
+***** LICENSE ***** 
+This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/
