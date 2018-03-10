@@ -7,7 +7,7 @@ Lefedett terület: LHGY - Gyöngyös, Pipishegy
 ******************************************************
 A kiadást HungaryVFR Team készítette.
 
-Kapcsolat: hungaryvfr@gmail.com
+Kapcsolat: hungaryvfr7@gmail.com
 ******************************************************
 
 ***** TELEPÍTÉS *****
@@ -25,9 +25,12 @@ Ismert kompatibilitási problémák: nincs
 A kiegészítõ helyes mûködéséhez az alábbi kiegészítõkre van szükség. 
 A kiegészítõket az "X-Plane folder/Custom Scenery" alá kell másolni.
 
-- HungaryVFR Library
-- OpenSceneryX (http://www.opensceneryx.com/)
-- 3D people (http://forums.x-plane.org/index.php?/files/file/26611-3d-people-library/)
+- HungaryVFR Library (1.4.3 or newer)
+- OpenSceneryX Library (v2.1.1 - 16/05/2016)
+- 3D people (v3.9 - 13/01/2016)
+- world models (v0.8.0 - 25/04/2016)
+- ff_library (v1.0 - 01/02/2011)
+- Handy Objects (v6.6 - 09/02/2018)
 
 ***** SCENERY.ini *****
 
@@ -39,3 +42,6 @@ https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2
 
 - Az egyedi épületek 3d modelljeiért és textúráiért köszönet a hazai SketchUp közösségnek, Clidey-nek, Papirzacsinak és az LHSimulations csapatának!!!
 - A Scenery az alábbi library-kbõl tartalmaz módosított odjektumokat: Ruscenery, world models, European vehicles library, MisterX. Köszönet a fejlesztõknek!!!
+
+***** LICENSZ ***** 
+This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/
