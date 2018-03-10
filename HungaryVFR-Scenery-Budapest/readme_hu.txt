@@ -30,11 +30,13 @@ Ismert kompatibilitási problémák: nincs
 A kiegészítő helyes működéséhez az alábbi kiegészítőkre van szükség. 
 A kiegészítőket az "X-Plane folder/Custom Scenery" alá kell másolni.
 
-- HungaryVFR Library
-- OpenSceneryX Library
-- R2-library
-- RD library
-- ruscenery
+- HungaryVFR Library (1.4.3 or newer)
+- OpenSceneryX Library (v2.1.1 - 16/05/2016)
+- R2-library (Version 2 - 12/2/2016)
+- RD library (1.30 - 16/05/2016)
+- Ruscenery (v2.1.8 - 05/05/2013)
+- world models (v0.8.0 - 25/04/2016)
+- ff_library (v1.0 - 01/02/2011)
 
 ***** SCENERY.ini *****
 
@@ -45,3 +47,6 @@ https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2
 
 - A Scenery az alábbi library-kből tartalmaz módosított odjektumokat: Hungarian SketchUp community, R2-library, Misterx, OpensceneryX. Hálás köszönet a fejlesztőknek!!!
 - A hidakon lévő forgalom Marginal GroundTraffic pluginjével készültek, köszönet érte!
+
+***** LICENSZ ***** 
+This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/
