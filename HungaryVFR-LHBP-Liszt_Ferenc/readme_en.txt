@@ -11,6 +11,7 @@ Members of HungaryVFR Team:
 - nhadrian
 - ekre
 
+
 Contact: hungaryvfr7@gmail.com
 ******************************************************
 
@@ -32,14 +33,23 @@ Copy the libraries into "X-Plane folder/Custom Scenery" folder.
 - HungaryVFR Library (1.4.3 or newer)
 - OpenSceneryX Library (v2.1.1 - 16/05/2016)
 - R2-library (Version 2 - 12/2/2016)
+- Ruscenery Library (v2.1.8 - 05/05/2013)
+- world models (0.8.0 - 25/04/2016)
+- FF-library (v1.0 - 01/02/2011)
 
 ***** SCENERY_PACKS.ini *****
 
-For the correct operation your 'scenery_packs.ini' must be correct.
-Please read 'Scenery_order.pdf' carefully for proper scenery arrangement in 'scenery_packs.ini'!!!
+For the correct operation your SCENERY_PACKS.ini must be correct, if the scenery should not show up, 
+try editing the scenery_packs.ini file inside the Custom Scenery folder.
+More information about proper SCENERY_PACKS.ini order:
+https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2992536
 
 ***** CREDITS *****
 
 - Special thanks for Károly Nagy (CptCharlesG) for the quite detailed gateway scenery
-- Thanks to: Mityu HSG320, HAPET for 3D objects and textures
-- The scenery contains modified objects from these libraries with approval of the authors: Hungarian SketchUp community, R2-library, Misterx, OpensceneryX.
+- Thanks to: Mityu HSG320, HAPET
+- The scenery contains modified objects from these libraries: Hungarian SketchUp community, R2-library, Misterx, OpensceneryX.
+
+***** LICENSE ***** 
+This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/
+
