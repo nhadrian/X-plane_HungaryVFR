@@ -29,11 +29,13 @@ Known compatibility problems: none
 Libraries listed below are required: 
 Copy the libraries into "X-Plane folder/Custom Scenery" folder.
 
-- HungaryVFR Library
-- OpenSceneryX Library
-- R2-library
-- RD library
-- ruscenery
+- HungaryVFR Library (1.4.3 or newer)
+- OpenSceneryX Library (v2.1.1 - 16/05/2016)
+- R2-library (Version 2 - 12/2/2016)
+- RD library (1.30 - 16/05/2016)
+- Ruscenery (v2.1.8 - 05/05/2013)
+- world models (v0.8.0 - 25/04/2016)
+- ff_library (v1.0 - 01/02/2011)
 
 ***** SCENERY_PACKS.ini *****
 
@@ -46,3 +48,6 @@ https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2
 
 - The scenery contains modified objects from these libraries: Hungarian SketchUp community, R2-library, Misterx, OpensceneryX. 
 - Traffic on bridges are made with GroundTraffic plugin from Marginal. Thanks!
+
+***** LICENSE ***** 
+This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/
