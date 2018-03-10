@@ -61,3 +61,6 @@ https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2
 ***** CREDITS *****
 
 - The scenery contains modified objects from these libraries: OSM database, R2-library, Misterx, OpensceneryX.
+
+***** LICENSE ***** 
+This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/
