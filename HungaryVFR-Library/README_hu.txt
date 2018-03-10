@@ -61,3 +61,6 @@ Hálás köszönet érte a fejlesztõknek:
 - Pár textúra a Textures.com adatbázisából származó képeken alapul. 
 
 Bármilyen további felhasználásuk vagy terjesztésük esetén a Textures.com általános feltételei érvényesek!!!
+
+***** LICENSZ ***** 
+This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/
