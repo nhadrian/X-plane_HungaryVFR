@@ -9,7 +9,7 @@ Lefedett terület:
 ******************************************************
 A kiadást HungaryVFR Team készítette.
 
-Kapcsolat: hungaryvfr@gmail.com
+Kapcsolat: hungaryvfr7@gmail.com
 ******************************************************
 
 ***** TELEPÍTÉS *****
@@ -37,3 +37,6 @@ https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2
 
 ***** KÖSZÖNETNYILVÁNÍTÁS *****
 - A rádió tornyok elhelyezéséhez a www.fdmx.hu adatbázisát használtuk, köszönet érte!
+
+***** LICENSZ ***** 
+This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/
