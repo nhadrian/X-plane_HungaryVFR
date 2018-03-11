@@ -3,7 +3,7 @@ A
 DRAPED_POLYGON
 
 TEXTURE Asphalt.png
+DECAL_LIB lib/g10/decals/apt_asphalt.dcl
 SCALE 5 5 
 LAYER_GROUP taxiways 1
- 
 SURFACE Asphalt
