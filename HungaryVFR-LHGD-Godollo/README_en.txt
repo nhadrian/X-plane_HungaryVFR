@@ -1,7 +1,7 @@
 HungaryVFR-LHGD-Gödöllõ airport scenery
 ******************************************************
 
-Version: 2.0.6
+Version: 2.0.7
 Covered area: 
 LHGD - Gödöllõ
 Part of Gödöllõ City
