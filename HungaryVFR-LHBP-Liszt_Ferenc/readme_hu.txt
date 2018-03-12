@@ -1,7 +1,7 @@
 ﻿HungaryVFR-LHBP Liszt Ferenc international airport
 ******************************************************
 
-Verzió szám: 2.0.9
+Verzió szám: 2.0.10
 Lefedett terület: LHBP - Budapest
 
 ******************************************************
@@ -10,6 +10,7 @@ A kiadást HungaryVFR Team készítette.
 HungaryVFR Team tagok:
 - nhadrian
 - ekre
+- pborovszky
 
 
 Kapcsolat: hungaryvfr7@gmail.com
@@ -45,7 +46,7 @@ https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2
 ***** KÖSZÖNETNYILVÁNÍTÁS*****
 
 - Külön köszönet Nagy Károlynak (CptCharlesG) a részletes gateway reptérért
-- Köszönet továbbá: Mityu HSG320, HAPET
+- Köszönet továbbá: Mityu HSG320, pborovszky
 - A Scenery az alábbi library-kből tartalmaz módosított odjektumokat: Hungarian SketchUp community, R2-library, Misterx, OpensceneryX. Hálás köszönet a fejlesztőknek!!!
 
 ***** LICENSZ ***** 

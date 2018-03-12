@@ -10,6 +10,7 @@ Made by HungaryVFR Team.
 Members of HungaryVFR Team:
 - nhadrian
 - ekre
+- pborovszky
 
 
 Contact: hungaryvfr7@gmail.com
@@ -47,7 +48,7 @@ https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2
 ***** CREDITS *****
 
 - Special thanks for Károly Nagy (CptCharlesG) for the quite detailed gateway scenery
-- Thanks to: Mityu HSG320, HAPET
+- Thanks to: Mityu HSG320, pborobszky
 - The scenery contains modified objects from these libraries: Hungarian SketchUp community, R2-library, Misterx, OpensceneryX.
 
 ***** LICENSE ***** 
