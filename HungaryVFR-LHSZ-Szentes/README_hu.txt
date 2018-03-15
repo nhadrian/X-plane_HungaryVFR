@@ -31,13 +31,16 @@ A kiegészítõ helyes mûködéséhez az alábbi kiegészítõkre van szükség.
 A kiegészítõket az "X-Plane folder/Custom Scenery" alá kell másolni.
 
 - HungaryVFR Library (1.4.3 or newer)
-- OpenSceneryX (http://www.opensceneryx.com/)
+- R2-library (Version 2 - 12/2/2016)
 - handyobjects (http://forums.x-plane.org/index.php?/files/file/24261-the-handy-objects-library/)
 - ruscenery (http://ruscenery.x-air.ru/)
+- CDB Library (v2.4 - 12/13/2016)
+- MisterX Library (v1.2 - 03/06/2016)
 - world models (v0.8.0 - 25/04/2016)
 - ff_library (v1.0 - 01/02/2011)
 - 3D people (v3.9 - 13/01/2016)
 - RD Library (v1.3 - 16/05/2016)
+
 
 ***** SCENERY.ini *****
 
@@ -47,8 +50,7 @@ https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2
 
 ***** KÖSZÖNETNYILVÁNÍTÁS*****
 
-- Köszönet Kókai "Clidey" Tibornak!
-- A Scenery az alábbi library-kbõl tartalmaz módosított odjektumokat: Misterx, handyobjects, R2-library, CDB-library, Ruscenery, world models, european vehicles library, misterx library, rd-library. Köszönet a fejlesztõknek!!!
+- Köszönet a BS2001 Object Libraryért, valamint a Flags-World libraryért!
 
 ***** LICENSZ ***** 
 This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/
