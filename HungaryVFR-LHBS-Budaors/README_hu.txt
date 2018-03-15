@@ -12,7 +12,7 @@ HungaryVFR Team tagok:
 - ekre
 
 
-Kapcsolat: hungaryvfr@gmail.com
+Kapcsolat: hungaryvfr7@gmail.com
 ******************************************************
 
 ***** TELEPÍTÉS *****
