@@ -11,8 +11,6 @@ fireworks4 = createGlobalPropertyf("hungaryvfr/Budapest/Fireworks4", 0.00000)
 fireworks5 = createGlobalPropertyf("hungaryvfr/Budapest/Fireworks5", 0.00000)
 fireworks6 = createGlobalPropertyf("hungaryvfr/Budapest/Fireworks6", 0.00000)
 
-dist = createGlobalPropertyf("hungaryvfr/Budapest/dist", 0.00000)
-
 planeLat = globalPropertyf("sim/flightmodel/position/latitude")
 planeLon = globalPropertyf("sim/flightmodel/position/longitude")
 planeElev = globalPropertyf("sim/flightmodel/position/elevation")
@@ -56,28 +54,41 @@ function update()
   local Time = get(time)
   local Timer = get(timer)
 
-  if Time > (Timer + 0.1) then
+  if Time > (Timer + 0.05) then
     set(timer, Time)
 
     if get(month) == 8 then
       if get(day) == 20 then
         if get(hours) > 20 then
+       
+          ------------------- Distance and Gain calculations ----------------------
+          local Lat2 = math.rad(47.5060890) 
+          local Lon2 = math.rad(19.0423500)
+          local Lat1 = math.rad(get(planeLat))
+          local Lon1 = math.rad(get(planeLon))
+ 
+          local Elev = get(planeElev) - 150
+          local R = 6378.137
 
-          set(fireworks, 1)
+	  local dLat = (Lat2 - Lat1)
+	  local dLon = (Lon2 - Lon1)
 
-        local Lat1 = 47.5060890
-        local Lon1 = 19.0423500
-        local Lat2 = get(planeLat)
-        local Lon2 = get(planeLon)
-        local Elev = get(planeElev) - 150
-        local R = 6378.137
-	local dLat = (Lat1 * math.pi / 180 - Lat2 * math.pi / 180)
-	local dLon = (Lon1 * math.pi / 180 - Lon2 * math.pi / 180)
-        local a = math.sin(dLat/2) * math.sin(dLat/2) + math.cos(Lat1 * math.pi / 180) * math.cos(Lat2 * math.pi / 180) * math.sin(dLon / 2) * math.sin(dLon / 2)
-        local c = 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
-        set(dist, (R * c * 1000))	
+          local a = math.sin(dLat/2) * math.sin(dLat/2) + math.cos(Lat1 * math.pi / 180) * math.cos(Lat2 * math.pi / 180) * math.sin(dLon / 2) * math.sin(dLon / 2)
+          local c = 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
+         
+          local Dist = math.sqrt((R * c * 1000)^2 + Elev^2)
+          local Gain = 1250 - Dist / 3
 
-       local Dist = math.sqrt( get(dist)^2 + Elev^2) / 300
+          if Gain < 0 then 
+            Gain = 0 
+          else 
+            if Gain > 1000 then
+              Gain = 1000
+            end
+          end
+          --------------------- End ------------------------------------------------          
+
+          sasl.al.setMasterGain(Gain)
 
           local Fireworks1 = get(fireworks1)  
           local Fireworks2 = get(fireworks2)		  
@@ -85,49 +96,48 @@ function update()
           local Fireworks4 = get(fireworks4)          
      	  local Fireworks5 = get(fireworks5)		  
           local Fireworks6 = get(fireworks6)
-		  
+	  
+          set(fireworks, 1)
 	  
           if Fireworks1 > 0.05 then
-            set(fireworks1, (Fireworks1 - 0.05))
+            set(fireworks1, (Fireworks1 - 0.025))
           else
             set(fireworks1, 0)
           end
 
           if Fireworks2 > 0.05 then
-            set(fireworks2, (Fireworks2 - 0.05))
+            set(fireworks2, (Fireworks2 - 0.025))
           else
             set(fireworks2, 0)
           end
 
           if Fireworks3 > 0.05 then
-            set(fireworks3, (Fireworks3 - 0.05))
+            set(fireworks3, (Fireworks3 - 0.025))
           else
             set(fireworks3, 0)
           end
 
           if Fireworks4 > 0.05 then
-            set(fireworks4, (Fireworks4 - 0.05))
+            set(fireworks4, (Fireworks4 - 0.025))
           else
             set(fireworks4, 0)
           end
 
           if Fireworks5 > 0.05 then  
-            set(fireworks5, (Fireworks5 - 0.05))
+            set(fireworks5, (Fireworks5 - 0.025))
           else
             set(fireworks5, 0)
           end
 
           if Fireworks6 > 0.05 then  
-            set(fireworks6, (Fireworks6 - 0.05))
+            set(fireworks6, (Fireworks6 - 0.025))
           else
             set(fireworks6, 0)
           end
 
           if Time > (get(period1) + get(prevTime1)) then
             if Fireworks1 == 0 then            
-              sasl.al.setSampleRelative(fws1, 0)
-              sasl.al.setSamplePosition(fws1, 0, 0, 0)
-              sasl.al.setSampleMaxDistance(fws1, Dist)
+              sasl.al.setSampleRelative(fws1, 1)
               sasl.al.playSample(fws1)
               set(fireworks1, 1)
               set(period1, Time)
@@ -137,21 +147,17 @@ function update()
 
           if Time > (get(period2) + get(prevTime2)) then
             if Fireworks2 == 0 then            
-              sasl.al.setSampleRelative(fws2, 0)
-              sasl.al.setSamplePosition(fws2, 0, 0, 0)
-              sasl.al.setSampleMaxDistance(fws2, Dist)
+              sasl.al.setSampleRelative(fws2, 1)
               sasl.al.playSample(fws2)
               set(fireworks2, 1)
               set(period2, Time)
-              set(prevTime2, math.random(1,10))			
+              set(prevTime2, math.random(1,8))			
             end			
           end
 
           if Time > (get(period3) + get(prevTime3)) then
             if Fireworks3 == 0 then            
-              sasl.al.setSampleRelative(fws3, 0)
-              sasl.al.setSamplePosition(fws3, 0, 0, 0)
-              sasl.al.setSampleMaxDistance(fws3, Dist)
+              sasl.al.setSampleRelative(fws3, 1)
               sasl.al.playSample(fws3)
               set(fireworks3, 1)
               set(period3, Time)
@@ -161,21 +167,17 @@ function update()
 
           if Time > (get(period4) + get(prevTime4)) then
             if Fireworks4 == 0 then
-              sasl.al.setSampleRelative(fws4, 0)
-              sasl.al.setSamplePosition(fws4, 0, 0, 0)
-              sasl.al.setSampleMaxDistance(fws4, Dist)
+              sasl.al.setSampleRelative(fws4, 1)
               sasl.al.playSample(fws4)
               set(fireworks4, 1)
               set(period4, Time)
-              set(prevTime4, math.random(1,10))			
+              set(prevTime4, math.random(1,8))			
             end			
           end
 
           if Time > (get(period5) + get(prevTime5)) then
             if Fireworks5 == 0 then     
-              sasl.al.setSampleRelative(fws5, 0)
-              sasl.al.setSamplePosition(fws5, 0, 0, 0)
-              sasl.al.setSampleMaxDistance(fws5, Dist)
+              sasl.al.setSampleRelative(fws5, 1)
               sasl.al.playSample(fws5)
               set(fireworks5, 1)
               set(period5, Time)
@@ -185,13 +187,11 @@ function update()
 
           if Time > (get(period6) + get(prevTime6)) then
             if Fireworks6 == 0 then            
-              sasl.al.setSampleRelative(fws6, 0)
-             sasl.al.setSamplePosition(fws6, 0, 0, 0)
-              sasl.al.setSampleMaxDistance(fws6, Dist)
+              sasl.al.setSampleRelative(fws6, 1)
               sasl.al.playSample(fws6)
               set(fireworks6, 1)
               set(period6, Time)
-              set(prevTime6, math.random(1,10))			
+              set(prevTime6, math.random(1,8))			
             end			
           end
 
