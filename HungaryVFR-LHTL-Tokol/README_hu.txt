@@ -1,20 +1,13 @@
 HungaryVFR-LHTL-Tököl scenery
-
 ******************************************************
 
-
-
-Verzió szám: 3.2.0.5
+Verzió szám: 3.2.0.6
 
 Lefedett terület: LHTL - Tököl
-
-
 
 ******************************************************
 
 A kiadást HungaryVFR Team készítette.
-
-
 
 HungaryVFR tagok:
 - ekre
@@ -24,19 +17,11 @@ Kapcsolat: hungaryvfr7@gmail.com
 
 ******************************************************
 
-
-
 ***** TELEPÍTÉS *****
-
-
 
 Másold a zip tartalmát az "X-Plane folder/Custom Scenery" könyvtárba.
 
-
-
 ***** KOMPATIBILITÁS *****
-
-
 
 X-Plane verzió: X-Plane 11.00+ kiadáshoz (XP 10.40+ alatt elõfordulhatnak hibaüzenetek, textúra hibák)
 
@@ -44,11 +29,7 @@ Kompatibilitás más kiegészítõkkel: igen
 
 Ismert kompatibilitási problémák: nincs
 
-
-
 ***** SZÜKSÉGES KIEGÉSZÍTÕK *****
-
-
 
 A kiegészítõ helyes mûködéséhez az alábbi kiegészítõkre van szükség. 
 
@@ -64,14 +45,10 @@ A kiegészítõket az "X-Plane folder/Custom Scenery" alá kell másolni.
 - Handyobjects (v6.6 - 09/02/2018)
 - world models (v0.8.0 - 25/04/2016)
 
-
-
 ***** SCENERY_PACKS.ini *****
 
 A kiegészítõ helyes mûködéséhez fontos a SCENERY_PACKS.ini tartalmának helyes sorrendbe rendezése. 
 Kérjük figyelmesen olvassa végig a 'Scenery_order.pdf' leírást a helyes sorrend létrehozásához.
-
-
 
 ***** KÖSZÖNETNYILVÁNÍTÁS*****
 
