@@ -1212,7 +1212,7 @@
                 <child id="2511"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Sandygravel.pol"/>
-            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Gravel_1.pol"/>
+            <polygon_placement heading="0.0" resource="gt_library/Sandygravel.pol"/>
         </object>
         <object class="WED_Group" id="1489" parent_id="2726">
             <sources/>
@@ -2620,7 +2620,7 @@
                 <child id="2360"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Asphalt.pol"/>
-            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_2.pol"/>
+            <polygon_placement heading="0.0" resource="gt_library/Asphalt.pol"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1732" parent_id="1729">
             <sources/>
@@ -4487,7 +4487,7 @@
                 <child id="2555"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Sandygravel.pol"/>
-            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Gravel_1.pol"/>
+            <polygon_placement heading="0.0" resource="gt_library/Sandygravel.pol"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="2557" parent_id="2555">
             <sources/>
@@ -5545,7 +5545,7 @@
                 <child id="1489"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Jaszapati"/>
-            <airport always_flatten="0" drive_on_left="0" elevation="0.0" has_atc="1" icao="LHJA" kind="Airport" scenery_id="-1"/>
+            <airport always_flatten="1" drive_on_left="0" elevation="0.0" has_atc="1" icao="LHJA" kind="Airport" scenery_id="-1"/>
             <meta_data>
                 <meta_data_entry pair="city,Jászapáti"/>
                 <meta_data_entry pair="country,Hungary"/>
@@ -5568,19 +5568,18 @@
             <item value="2664"/>
             <item value="2684"/>
             <item value="2715"/>
-            <item value="2726"/>
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="20.162605"/>
-        <pref name="map/north" value="47.524451"/>
+        <pref name="map/east" value="20.165837"/>
+        <pref name="map/north" value="47.529236"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.520516"/>
+        <pref name="map/south" value="47.517164"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="20.155414"/>
+        <pref name="map/west" value="20.150406"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -5605,9 +5604,9 @@
         <pref name="map_Objects_Object" value="Objects/Airplanes/tcmelak_HA-MFC.obj"/>
         <pref name="map_Objects_Show with" value="564"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
-        <pref name="map_Polygons_Resource" value="HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Gravel_1.pol"/>
+        <pref name="map_Polygons_Resource" value="gt_library/Sandygravel.pol"/>
         <pref name="map_Polygons_Use Texture Map" value="0"/>
-        <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
+        <pref name="map_Polygons_Use Texture Map - Orthophoto" value="1"/>
         <pref name="map_Ramp Start_Airlines" value=""/>
         <pref name="map_Ramp Start_Equipment Type" value=""/>
         <pref name="map_Ramp Start_Ramp Operation Type" value="531"/>
@@ -5654,12 +5653,12 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="0"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="1645"/>
+        <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="396"/>
-        <pref name="window/main_split2" value="2474"/>
-        <pref name="window/prev_split" value="747"/>
-        <pref name="window/prop_split" value="841"/>
-        <pref name="window/width" value="3072"/>
+        <pref name="window/main_split2" value="1322"/>
+        <pref name="window/prev_split" value="811"/>
+        <pref name="window/prop_split" value="512"/>
+        <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
     </prefs>
