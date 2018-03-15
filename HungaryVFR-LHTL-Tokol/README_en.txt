@@ -1,14 +1,9 @@
 HungaryVFR-LHTL-Tököl airport scenery
-
 ******************************************************
 
-
-
-Version: 3.2.0.5
+Version: 3.2.0.6
 
 Covered area: LHTL - Tököl
-
-
 
 ******************************************************
 
@@ -21,8 +16,6 @@ Members of HungaryVFR Team:
 Contact: hungaryvfr7@gmail.com
 
 ******************************************************
-
-
 
 ***** INSTALLATION *****
 
@@ -49,15 +42,10 @@ Copy the libraries into "X-Plane folder/Custom Scenery" folder.
 - Handyobjects (v6.6 - 09/02/2018)
 - world models (v0.8.0 - 25/04/2016)
 
-
-
 ***** SCENERY_PACKS.ini *****
-
-
 
 For the correct operation your 'scenery_packs.ini' must be correct.
 Please read 'Scenery_order.pdf' carefully for proper scenery arrangement in 'scenery_packs.ini'!!!
-
 
 ***** CREDITS *****
 
