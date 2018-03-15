@@ -1,0 +1,8 @@
+I
+850	
+DRAPED_POLYGON
+
+TEXTURE		Hard_Surface.png
+SCALE		512 512
+SURFACE concrete
+LAYER_GROUP airports -1
