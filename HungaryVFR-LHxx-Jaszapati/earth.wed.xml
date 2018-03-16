@@ -58,7 +58,9 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection/>
+            <selection>
+                <sel id="2512"/>
+            </selection>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1538" parent_id="1533">
             <sources/>
@@ -1212,7 +1214,7 @@
                 <child id="2511"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Sandygravel.pol"/>
-            <polygon_placement heading="0.0" resource="gt_library/Sandygravel.pol"/>
+            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Gravel_1.pol"/>
         </object>
         <object class="WED_Group" id="1489" parent_id="2726">
             <sources/>
@@ -2620,7 +2622,7 @@
                 <child id="2360"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Asphalt.pol"/>
-            <polygon_placement heading="0.0" resource="gt_library/Asphalt.pol"/>
+            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_cracked_1.pol"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="1732" parent_id="1729">
             <sources/>
@@ -4487,7 +4489,7 @@
                 <child id="2555"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Sandygravel.pol"/>
-            <polygon_placement heading="0.0" resource="gt_library/Sandygravel.pol"/>
+            <polygon_placement heading="0.0" resource="HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Gravel_1.pol"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="2557" parent_id="2555">
             <sources/>
@@ -5557,7 +5559,6 @@
     <prefs>
         <pref name="PropertyPane0/Closed">
             <item value="1449"/>
-            <item value="1489"/>
             <item value="1490"/>
             <item value="1639"/>
             <item value="1655"/>
@@ -5571,15 +5572,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="20.165837"/>
-        <pref name="map/north" value="47.529236"/>
+        <pref name="map/east" value="20.157899"/>
+        <pref name="map/north" value="47.522508"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.517164"/>
+        <pref name="map/south" value="47.521514"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="20.150406"/>
+        <pref name="map/west" value="20.156628"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -5656,8 +5657,8 @@
         <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="396"/>
         <pref name="window/main_split2" value="1322"/>
-        <pref name="window/prev_split" value="811"/>
-        <pref name="window/prop_split" value="512"/>
+        <pref name="window/prev_split" value="831"/>
+        <pref name="window/prop_split" value="532"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
