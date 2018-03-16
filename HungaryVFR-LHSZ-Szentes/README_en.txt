@@ -10,6 +10,7 @@ Made by HungaryVFR Team.
 Members of HungaryVFR Team:
 - nhadrian
 - ekre
+- teroitin
 
 
 Contact: hungaryvfr7@gmail.com
