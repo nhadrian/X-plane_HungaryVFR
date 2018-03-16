@@ -10,6 +10,7 @@ A kiadást HungaryVFR Team készítette.
 HungaryVFR Team tagok:
 - nhadrian
 - ekre
+- teroitin
 
 
 Kapcsolat: hungaryvfr7@gmail.com
