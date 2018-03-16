@@ -127,6 +127,9 @@ EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-2_23m.obj Objects/Trees_
 EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-3_13m.obj Objects/Trees_Hedges/Tree_NHA-3_13m.obj
 EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-3_16m.obj Objects/Trees_Hedges/Tree_NHA-3_16m.obj
 EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-3_20m.obj Objects/Trees_Hedges/Tree_NHA-3_20m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/thuja1_7m.obj Objects/Trees_Hedges/thuja1_7m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/thuja1_8m.obj Objects/Trees_Hedges/thuja1_8m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/thuja1_10m.obj Objects/Trees_Hedges/thuja1_10m.obj
 
 # Vehicles
 # ----------------------------------
