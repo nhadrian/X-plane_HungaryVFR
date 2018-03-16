@@ -52,9 +52,7 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection>
-                <sel id="26"/>
-            </selection>
+            <selection/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="1538" parent_id="1536">
             <sources/>
@@ -150,7 +148,14 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="15478"/>
+                <child id="15475"/>
+                <child id="15472"/>
+                <child id="15469"/>
+                <child id="15466"/>
+                <child id="15463"/>
                 <child id="1190"/>
+                <child id="1200"/>
                 <child id="13"/>
                 <child id="1955"/>
             </children>
@@ -332,6 +337,8 @@
                 <child id="15431"/>
                 <child id="15430"/>
                 <child id="15427"/>
+                <child id="15460"/>
+                <child id="15454"/>
                 <child id="19"/>
                 <child id="1960"/>
                 <child id="22"/>
@@ -547,7 +554,7 @@
             <hierarchy hidden="0" locked="0" name="Start"/>
             <point latitude="47.660101347" longitude="18.004874691"/>
         </object>
-        <object class="WED_Group" id="26" parent_id="15453">
+        <object class="WED_Group" id="26" parent_id="1190">
             <sources/>
             <viewers/>
             <children>
@@ -891,6 +898,14 @@
             <point heading="359.84" latitude="47.373688678" longitude="18.982528897"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/108m_radio_tower_rope.obj" show_level="1 Default"/>
         </object>
+        <object class="WED_TextureNode" id="1288" parent_id="1286">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point latitude="47.626481420" longitude="17.949251813"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
         <object class="WED_ObjPlacement" id="266" parent_id="15453">
             <sources/>
             <viewers/>
@@ -898,6 +913,14 @@
             <hierarchy hidden="0" locked="0" name="Lakihegy-kisebb"/>
             <point heading="0.00" latitude="47.373688678" longitude="18.984051938"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/180m_radio_tower_rope.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_TextureNode" id="1290" parent_id="1286">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="47.696006127" longitude="17.822623121"/>
+            <texture_node s="0.0000" t="1.0000"/>
         </object>
         <object class="WED_Group" id="1189" parent_id="1190">
             <sources/>
@@ -926,6 +949,7 @@
             <viewers/>
             <children>
                 <child id="1189"/>
+                <child id="26"/>
                 <child id="1241"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Objects"/>
@@ -952,6 +976,17 @@
             <hierarchy hidden="0" locked="0" name="End"/>
             <point latitude="47.621343767" longitude="18.119773340"/>
         </object>
+        <object class="WED_Ring" id="1193" parent_id="1198">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1194"/>
+                <child id="1195"/>
+                <child id="1196"/>
+                <child id="1197"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
         <object class="WED_SimpleBoundaryNode" id="1705" parent_id="1704">
             <sources/>
             <viewers/>
@@ -959,12 +994,28 @@
             <hierarchy hidden="0" locked="0" name="Start"/>
             <point latitude="47.622851416" longitude="18.107617262"/>
         </object>
+        <object class="WED_TextureNode" id="1194" parent_id="1193">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point latitude="47.621836240" longitude="18.049656828"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
         <object class="WED_SimpleBoundaryNode" id="1706" parent_id="1704">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="End"/>
             <point latitude="47.621909135" longitude="18.109016369"/>
+        </object>
+        <object class="WED_TextureNode" id="1195" parent_id="1193">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point latitude="47.621836240" longitude="18.160864925"/>
+            <texture_node s="1.0000" t="0.0000"/>
         </object>
         <object class="WED_ExclusionZone" id="1707" parent_id="13">
             <sources/>
@@ -979,6 +1030,14 @@
                 <exclusion value="Facades"/>
             </excluzions>
         </object>
+        <object class="WED_TextureNode" id="1196" parent_id="1193">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point latitude="47.692554923" longitude="18.160944308"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
         <object class="WED_SimpleBoundaryNode" id="1708" parent_id="1707">
             <sources/>
             <viewers/>
@@ -986,12 +1045,29 @@
             <hierarchy hidden="0" locked="0" name="Start"/>
             <point latitude="47.615033735" longitude="18.116089822"/>
         </object>
+        <object class="WED_TextureNode" id="1197" parent_id="1193">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="47.692554923" longitude="18.049736211"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
         <object class="WED_SimpleBoundaryNode" id="1709" parent_id="1707">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="End"/>
             <point latitude="47.614091454" longitude="18.117488929"/>
+        </object>
+        <object class="WED_OverlayImage" id="1198" parent_id="1200">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1193"/>
+            </children>
+            <hierarchy hidden="1" locked="1" name="Reference_images\Kisigmand.png"/>
+            <overlay_image alpha="1.0" file_path="Reference_images\Kisigmand.png"/>
         </object>
         <object class="WED_ExclusionZone" id="1710" parent_id="13">
             <sources/>
@@ -1005,6 +1081,20 @@
                 <exclusion value="Objects"/>
                 <exclusion value="Facades"/>
             </excluzions>
+        </object>
+        <object class="WED_Group" id="1200" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1256"/>
+                <child id="1198"/>
+                <child id="1291"/>
+                <child id="1379"/>
+                <child id="1326"/>
+                <child id="1429"/>
+                <child id="1448"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Reference images"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="1712" parent_id="1710">
             <sources/>
@@ -1482,6 +1572,58 @@
             <point heading="0.00" latitude="47.221913000" longitude="16.911618000"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_white.obj" show_level="1 Default"/>
         </object>
+        <object class="WED_Ring" id="1251" parent_id="1256">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1252"/>
+                <child id="1253"/>
+                <child id="1254"/>
+                <child id="1255"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="1252" parent_id="1251">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point latitude="47.177801251" longitude="16.842812974"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1253" parent_id="1251">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point latitude="47.177801251" longitude="16.923500005"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1254" parent_id="1251">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point latitude="47.229249812" longitude="16.923500005"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1255" parent_id="1251">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="47.229249812" longitude="16.842812974"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="1256" parent_id="1200">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1251"/>
+            </children>
+            <hierarchy hidden="1" locked="1" name="Reference_images\Ikervar.png"/>
+            <overlay_image alpha="1.0" file_path="Reference_images\Ikervar.png"/>
+        </object>
         <object class="WED_ObjPlacement" id="1257" parent_id="1276">
             <sources/>
             <viewers/>
@@ -1643,6 +1785,42 @@
             <point heading="0.00" latitude="47.676950000" longitude="17.859275000"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_green.obj" show_level="1 Default"/>
         </object>
+        <object class="WED_Ring" id="1286" parent_id="1291">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1287"/>
+                <child id="1288"/>
+                <child id="1289"/>
+                <child id="1290"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="1287" parent_id="1286">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point latitude="47.626481420" longitude="17.822623121"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1289" parent_id="1286">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point latitude="47.696006127" longitude="17.949251813"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="1291" parent_id="1200">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1286"/>
+            </children>
+            <hierarchy hidden="1" locked="1" name="Reference_images\Bony.png"/>
+            <overlay_image alpha="1.0" file_path="Reference_images\Bony.png"/>
+        </object>
         <object class="WED_ObjPlacement" id="1296" parent_id="1310">
             <sources/>
             <viewers/>
@@ -1792,6 +1970,58 @@
             <hierarchy hidden="0" locked="0" name="WindTbn2m5_100_red.obj"/>
             <point heading="0.00" latitude="47.670682000" longitude="18.047957000"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Ring" id="1321" parent_id="1326">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1322"/>
+                <child id="1323"/>
+                <child id="1324"/>
+                <child id="1325"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="1322" parent_id="1321">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point latitude="47.634284104" longitude="17.938688412"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1323" parent_id="1321">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point latitude="47.634247792" longitude="18.071125204"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1324" parent_id="1321">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point latitude="47.713796706" longitude="18.071125204"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1325" parent_id="1321">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="47.713833018" longitude="17.938688412"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="1326" parent_id="1200">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1321"/>
+            </children>
+            <hierarchy hidden="1" locked="1" name="Reference_images\Acs.png"/>
+            <overlay_image alpha="1.0" file_path="Reference_images\Acs.png"/>
         </object>
         <object class="WED_ObjPlacement" id="1327" parent_id="1358">
             <sources/>
@@ -2069,6 +2299,58 @@
             <hierarchy hidden="0" locked="0" name="WindTbn2m5_100_white.obj"/>
             <point heading="0.00" latitude="47.904414000" longitude="17.232683000"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_white.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Ring" id="1374" parent_id="1379">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1375"/>
+                <child id="1376"/>
+                <child id="1377"/>
+                <child id="1378"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="1375" parent_id="1374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point latitude="47.857915211" longitude="17.154475184"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1376" parent_id="1374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point latitude="47.857846439" longitude="17.272073908"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1377" parent_id="1374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point latitude="47.914724671" longitude="17.272086273"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1378" parent_id="1374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="47.914793443" longitude="17.154487548"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="1379" parent_id="1200">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1374"/>
+            </children>
+            <hierarchy hidden="1" locked="1" name="Reference_images\Level.png"/>
+            <overlay_image alpha="1.0" file_path="Reference_images\Level.png"/>
         </object>
         <object class="WED_ObjPlacement" id="1380" parent_id="1415">
             <sources/>
@@ -2392,6 +2674,58 @@
             <point heading="0.00" latitude="47.554781000" longitude="16.758470000"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_red.obj" show_level="1 Default"/>
         </object>
+        <object class="WED_Ring" id="1424" parent_id="1429">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1425"/>
+                <child id="1426"/>
+                <child id="1427"/>
+                <child id="1428"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="1425" parent_id="1424">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point latitude="47.543032150" longitude="16.737794526"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1426" parent_id="1424">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point latitude="47.543032150" longitude="16.782204382"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1427" parent_id="1424">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point latitude="47.580011287" longitude="16.782222396"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1428" parent_id="1424">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="47.580011287" longitude="16.737812540"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="1429" parent_id="1200">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1424"/>
+            </children>
+            <hierarchy hidden="1" locked="1" name="Reference_images\Sopronkovesd.PNG"/>
+            <overlay_image alpha="1.0" file_path="Reference_images\Sopronkovesd.PNG"/>
+        </object>
         <object class="WED_ObjPlacement" id="1431" parent_id="1439">
             <sources/>
             <viewers/>
@@ -2470,6 +2804,58 @@
             <hierarchy hidden="0" locked="0" name="WindTbn2m5_100_green.obj"/>
             <point heading="0.00" latitude="47.812514000" longitude="17.178452000"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Buildings/windfarms/WindTbn2m5_100_green.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Ring" id="1443" parent_id="1448">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1444"/>
+                <child id="1445"/>
+                <child id="1446"/>
+                <child id="1447"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="1444" parent_id="1443">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point latitude="47.804585128" longitude="17.139708547"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1445" parent_id="1443">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point latitude="47.804585128" longitude="17.182162308"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1446" parent_id="1443">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point latitude="47.819167224" longitude="17.182162308"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="1447" parent_id="1443">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="47.819167224" longitude="17.139708547"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="1448" parent_id="1200">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="1443"/>
+            </children>
+            <hierarchy hidden="1" locked="1" name="Reference_images\Mosonszolnok.PNG"/>
+            <overlay_image alpha="1.0" file_path="Reference_images\Mosonszolnok.PNG"/>
         </object>
         <object class="WED_ObjPlacement" id="1449" parent_id="1457">
             <sources/>
@@ -6979,7 +7365,7 @@
                 <child id="15397"/>
             </children>
             <hierarchy hidden="0" locked="0" name="MiniRoad.lin"/>
-            <line_placement closed="0" resource="NAPS_library/NAPS_LINS/NAPS_Road_Lins/MiniRoad.lin"/>
+            <line_placement closed="0" resource="HungaryVFR-Library/Lines/Asphalt_no_markings_1.lin"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="15390" parent_id="15389">
             <sources/>
@@ -7046,7 +7432,7 @@
                 <child id="15401"/>
             </children>
             <hierarchy hidden="0" locked="0" name="MiniRoad.lin"/>
-            <line_placement closed="0" resource="NAPS_library/NAPS_LINS/NAPS_Road_Lins/MiniRoad.lin"/>
+            <line_placement closed="0" resource="HungaryVFR-Library/Lines/Asphalt_no_markings_1.lin"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="15399" parent_id="15398">
             <sources/>
@@ -7431,14 +7817,231 @@
                 <child id="15403"/>
                 <child id="15398"/>
                 <child id="15389"/>
-                <child id="26"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Tököl"/>
+        </object>
+        <object class="WED_ExclusionZone" id="15454" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="15455"/>
+                <child id="15456"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 1"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="15455" parent_id="15454">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.372204810" longitude="19.003755841"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="15456" parent_id="15454">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.372024382" longitude="19.004017346"/>
+        </object>
+        <object class="WED_ExclusionZone" id="15460" parent_id="13">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="15461"/>
+                <child id="15462"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 3"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="15461" parent_id="15460">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.372917623" longitude="19.002897107"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="15462" parent_id="15460">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.372739195" longitude="19.003195696"/>
+        </object>
+        <object class="WED_ExclusionZone" id="15463" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="15464"/>
+                <child id="15465"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 4"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="15464" parent_id="15463">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.373910868" longitude="19.003059575"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="15465" parent_id="15463">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.373640253" longitude="19.003428421"/>
+        </object>
+        <object class="WED_ExclusionZone" id="15466" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="15467"/>
+                <child id="15468"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 5"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="15467" parent_id="15466">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.372168109" longitude="19.005027966"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="15468" parent_id="15466">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.371906892" longitude="19.005489546"/>
+        </object>
+        <object class="WED_ExclusionZone" id="15469" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="15470"/>
+                <child id="15471"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 6"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="15470" parent_id="15469">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.372437891" longitude="19.006254630"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="15471" parent_id="15469">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.372686262" longitude="19.006539166"/>
+        </object>
+        <object class="WED_ExclusionZone" id="15472" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="15473"/>
+                <child id="15474"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 7"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="15473" parent_id="15472">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.373350011" longitude="19.006709887"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="15474" parent_id="15472">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.373658334" longitude="19.006387413"/>
+        </object>
+        <object class="WED_ExclusionZone" id="15475" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="15476"/>
+                <child id="15477"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 8"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="15476" parent_id="15475">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.374352059" longitude="19.005438962"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="15477" parent_id="15475">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.374082277" longitude="19.006008033"/>
+        </object>
+        <object class="WED_ExclusionZone" id="15478" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="15479"/>
+                <child id="15480"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 9"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="15479" parent_id="15478">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="47.374463397" longitude="19.004117453"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="15480" parent_id="15478">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="47.374210744" longitude="19.004547417"/>
         </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
             <item value="13"/>
+            <item value="26"/>
+            <item value="1200"/>
             <item value="1240"/>
             <item value="1241"/>
             <item value="1276"/>
@@ -7452,19 +8055,18 @@
             <item value="1955"/>
             <item value="1959"/>
             <item value="2046"/>
-            <item value="15453"/>
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="19.219163"/>
-        <pref name="map/north" value="47.493049"/>
+        <pref name="map/east" value="19.007772"/>
+        <pref name="map/north" value="47.375007"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.272285"/>
+        <pref name="map/south" value="47.370935"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="18.815052"/>
+        <pref name="map/west" value="19.001670"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -7487,7 +8089,7 @@
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="NAPS_library/NAPS_LINS/NAPS_Road_Lins/MiniRoad.lin"/>
         <pref name="map_Objects_Object" value="HungaryVFR-Library/Objects/Fences/Chain_Link_Fence_2x3m_10panel.obj"/>
-        <pref name="map_Objects_Show with" value="558"/>
+        <pref name="map_Objects_Show with" value="564"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="lib/g10/terrain10/broad_hot_wet_fl.pol"/>
         <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
@@ -7536,12 +8138,12 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="1645"/>
+        <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="380"/>
-        <pref name="window/main_split2" value="2471"/>
-        <pref name="window/prev_split" value="559"/>
-        <pref name="window/prop_split" value="926"/>
-        <pref name="window/width" value="3072"/>
+        <pref name="window/main_split2" value="1450"/>
+        <pref name="window/prev_split" value="569"/>
+        <pref name="window/prop_split" value="420"/>
+        <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
     </prefs>
