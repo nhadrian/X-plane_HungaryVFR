@@ -2,7 +2,7 @@
 ******************************************************
 
 Build XML Verzió szám: 2.0.2
-Build dátum: 2018. február 23.
+Build dátum: 2018. március 16.
 Lefedett terület: Magyarország
 
 ******************************************************
@@ -63,6 +63,3 @@ https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2
 ***** KÖSZÖNETNYILVÁNÍTÁS*****
 
 - A Scenery az alábbi library-kből tartalmaz módosított odjektumokat: OSM database, R2-library, Misterx, OpensceneryX. Hálás köszönet a fejlesztőknek!!!
-
-***** LICENSZ ***** 
-This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/
