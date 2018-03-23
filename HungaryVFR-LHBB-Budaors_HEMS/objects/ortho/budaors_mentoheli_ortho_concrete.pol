@@ -1,0 +1,11 @@
+A
+850
+DRAPED_POLYGON
+DECAL_LIB lib/g10/decals/AG_concrete.dcl
+
+LAYER_GROUP airports -1
+TEXTURE_NOWRAP budaors_mentoheli_ortho_concrete.png
+
+SURFACE grass
+SCALE		128 128
+LOAD_CENTER 47.45458  018.90726 2305 2165
