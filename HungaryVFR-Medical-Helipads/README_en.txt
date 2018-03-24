@@ -1,7 +1,7 @@
 HungaryVFR-Medical-Helipads scenery
 ******************************************************
 
-Version: 0.0.3
+Version: 0.0.4
 Covered area: Hungary
 
 BP13 [H] Szent János Kórház
