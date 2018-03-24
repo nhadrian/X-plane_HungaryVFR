@@ -48,6 +48,7 @@ https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2
 ***** CREDITS *****
 
 - Special thanks for Károly Nagy (CptCharlesG) for the quite detailed gateway scenery
+- Thanks to Marc "DLH560" Westhofen, he masked out the planes from the orthos
 - Thanks to: Mityu HSG320, pborobszky
 - The scenery contains modified objects from these libraries: Hungarian SketchUp community, R2-library, Misterx, OpensceneryX.
 
