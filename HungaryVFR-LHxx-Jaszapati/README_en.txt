@@ -1,7 +1,7 @@
 HungaryVFR-LHxx-Jászapáti scenery
 ******************************************************
 
-Version: 1.0.0
+Version: 1.0.1
 Covered area: Small agricultural airport near Jászapáti without ICAO code
 
 ******************************************************
