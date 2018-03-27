@@ -1,8 +1,8 @@
 ﻿HungaryVFR-Scenery-Hungary Overlay
 ******************************************************
 
-Build XML Verzió szám: 2.0.2
-Build dátum: 2018. március 16.
+Build XML Verzió szám: 2.0.3
+Build dátum: 2018. március 27.
 Lefedett terület: Magyarország
 
 ******************************************************
