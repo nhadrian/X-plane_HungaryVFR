@@ -1,7 +1,7 @@
 HungaryVFR-LHBB-Budaörs HEMS base scenery
 ******************************************************
 
-Verzió szám: 3.1.0.0
+Verzió szám: 3.2
 Lefedett terület: LHBB - Budaörs HEMS base
 
 ******************************************************
