@@ -1,7 +1,7 @@
 ﻿HungaryVFR-LHBP Liszt Ferenc international airport
 ******************************************************
 
-Version: 2.1.0
+Version: 2.1.1
 Covered area: LHBP - Budapest
 
 ******************************************************
