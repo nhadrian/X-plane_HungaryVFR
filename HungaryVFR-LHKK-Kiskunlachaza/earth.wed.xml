@@ -45,7 +45,8 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="64262"/>
+                <sel id="65029"/>
+                <sel id="65034"/>
             </selection>
         </object>
         <object class="WED_AirportNode" id="514" parent_id="507">
@@ -122,7 +123,7 @@
                 <child id="17"/>
                 <child id="991"/>
             </children>
-            <hierarchy hidden="0" locked="1" name="Kiskunlacháza"/>
+            <hierarchy hidden="0" locked="0" name="Kiskunlacháza"/>
             <airport always_flatten="1" drive_on_left="0" elevation="97.5" has_atc="1" icao="LHKK" kind="Airport" scenery_id="55429"/>
             <meta_data>
                 <meta_data_entry pair="city,Budapest"/>
@@ -137,6 +138,15 @@
                 <meta_data_entry pair="transition_alt,"/>
                 <meta_data_entry pair="transition_level,"/>
             </meta_data>
+        </object>
+        <object class="WED_Taxiway" id="517" parent_id="15">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="518"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="New Taxiway 23"/>
+            <taxiway heading="29.88" roughness="0.00" surface="Concrete"/>
         </object>
         <object class="WED_Group" id="6" parent_id="5">
             <sources/>
@@ -163,6 +173,7 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="65021"/>
                 <child id="63621"/>
                 <child id="18"/>
             </children>
@@ -321,9 +332,9 @@
                 <child id="19"/>
                 <child id="20"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="15/33"/>
+            <hierarchy hidden="0" locked="0" name="13/31"/>
             <line width="45.00"/>
-            <runway REIL1="None" REIL2="None" TDZL1="0" TDZL2="0" app_lites1="None" app_lites2="None" blastpad1="827.0" blastpad2="85.0" center_lites="0" displaced1="396.0" displaced2="394.0" distance_signs="0" edge_lites="None" markings1="Non-Precision (UK)" markings2="Non-Precision (UK)" roughness="0.00" shoulder="None" surface="Transparent"/>
+            <runway REIL1="None" REIL2="None" TDZL1="0" TDZL2="0" app_lites1="None" app_lites2="None" blastpad1="827.0" blastpad2="85.0" center_lites="0" displaced1="396.0" displaced2="394.0" distance_signs="0" edge_lites="None" markings1="None" markings2="None" roughness="0.00" shoulder="None" surface="Transparent"/>
         </object>
         <object class="WED_RunwayNode" id="19" parent_id="18">
             <sources/>
@@ -4725,15 +4736,6 @@
             <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.178131220" longitude="19.067014210" split="0"/>
             <markings/>
         </object>
-        <object class="WED_Taxiway" id="517" parent_id="15">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="518"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="New Taxiway 23"/>
-            <taxiway heading="29.88" roughness="0.00" surface="Concrete"/>
-        </object>
         <object class="WED_AirportChain" id="518" parent_id="517">
             <sources/>
             <viewers/>
@@ -8677,20 +8679,20 @@
             </sources>
             <viewers/>
             <children/>
-            <hierarchy hidden="0" locked="0" name="15/33"/>
+            <hierarchy hidden="0" locked="0" name="13/31"/>
             <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
-            <taxi_route oneway="0" runway="15/33" vehicle_class="Aircraft" width="E"/>
+            <taxi_route oneway="0" runway="13/31" vehicle_class="Aircraft" width="E"/>
             <departures>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </departures>
             <arrivals>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </arrivals>
             <ils_holds>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </ils_holds>
         </object>
         <object class="WED_TaxiRoute" id="953" parent_id="13">
@@ -8700,20 +8702,20 @@
             </sources>
             <viewers/>
             <children/>
-            <hierarchy hidden="0" locked="0" name="15/33"/>
+            <hierarchy hidden="0" locked="0" name="13/31"/>
             <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
-            <taxi_route oneway="0" runway="15/33" vehicle_class="Aircraft" width="E"/>
+            <taxi_route oneway="0" runway="13/31" vehicle_class="Aircraft" width="E"/>
             <departures>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </departures>
             <arrivals>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </arrivals>
             <ils_holds>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </ils_holds>
         </object>
         <object class="WED_TaxiRoute" id="954" parent_id="13">
@@ -8723,20 +8725,20 @@
             </sources>
             <viewers/>
             <children/>
-            <hierarchy hidden="0" locked="0" name="15/33"/>
+            <hierarchy hidden="0" locked="0" name="13/31"/>
             <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
-            <taxi_route oneway="0" runway="15/33" vehicle_class="Aircraft" width="E"/>
+            <taxi_route oneway="0" runway="13/31" vehicle_class="Aircraft" width="E"/>
             <departures>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </departures>
             <arrivals>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </arrivals>
             <ils_holds>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </ils_holds>
         </object>
         <object class="WED_TaxiRoute" id="955" parent_id="13">
@@ -8918,12 +8920,12 @@
             <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
             <taxi_route oneway="0" runway="None" vehicle_class="Aircraft" width="A"/>
             <departures>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </departures>
             <arrivals>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </arrivals>
             <ils_holds/>
         </object>
@@ -8938,12 +8940,12 @@
             <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
             <taxi_route oneway="0" runway="None" vehicle_class="Aircraft" width="A"/>
             <departures>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </departures>
             <arrivals>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </arrivals>
             <ils_holds/>
         </object>
@@ -8972,12 +8974,12 @@
             <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
             <taxi_route oneway="0" runway="None" vehicle_class="Aircraft" width="A"/>
             <departures>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </departures>
             <arrivals>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </arrivals>
             <ils_holds/>
         </object>
@@ -9020,12 +9022,12 @@
             <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
             <taxi_route oneway="0" runway="None" vehicle_class="Aircraft" width="A"/>
             <departures>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </departures>
             <arrivals>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </arrivals>
             <ils_holds/>
         </object>
@@ -9040,12 +9042,12 @@
             <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
             <taxi_route oneway="0" runway="None" vehicle_class="Aircraft" width="A"/>
             <departures>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </departures>
             <arrivals>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </arrivals>
             <ils_holds/>
         </object>
@@ -9074,12 +9076,12 @@
             <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
             <taxi_route oneway="0" runway="None" vehicle_class="Aircraft" width="A"/>
             <departures>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </departures>
             <arrivals>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </arrivals>
             <ils_holds/>
         </object>
@@ -9164,12 +9166,12 @@
             <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
             <taxi_route oneway="0" runway="None" vehicle_class="Aircraft" width="A"/>
             <departures>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </departures>
             <arrivals>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </arrivals>
             <ils_holds/>
         </object>
@@ -9184,12 +9186,12 @@
             <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
             <taxi_route oneway="0" runway="None" vehicle_class="Aircraft" width="A"/>
             <departures>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </departures>
             <arrivals>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </arrivals>
             <ils_holds/>
         </object>
@@ -9204,12 +9206,12 @@
             <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
             <taxi_route oneway="0" runway="None" vehicle_class="Aircraft" width="A"/>
             <departures>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </departures>
             <arrivals>
-                <runway value="15"/>
-                <runway value="33"/>
+                <runway value="13"/>
+                <runway value="31"/>
             </arrivals>
             <ils_holds/>
         </object>
@@ -12170,7 +12172,7 @@
                 <child id="62889"/>
             </children>
             <hierarchy hidden="0" locked="1" name="LHKK_1.dds"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_1.dds" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="62895" parent_id="62900">
             <sources/>
@@ -12222,7 +12224,7 @@
                 <child id="62895"/>
             </children>
             <hierarchy hidden="0" locked="1" name="LHKK_2.dds"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_2.dds" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_2.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="62901" parent_id="62906">
             <sources/>
@@ -12274,7 +12276,7 @@
                 <child id="62901"/>
             </children>
             <hierarchy hidden="0" locked="1" name="LHKK_3.dds"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_3.dds" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_3.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="62907" parent_id="62912">
             <sources/>
@@ -12326,7 +12328,7 @@
                 <child id="62907"/>
             </children>
             <hierarchy hidden="0" locked="1" name="LHKK_4.dds"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_4.dds" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_4.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="62913" parent_id="62918">
             <sources/>
@@ -12378,7 +12380,7 @@
                 <child id="62913"/>
             </children>
             <hierarchy hidden="0" locked="1" name="LHKK_5.dds"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_5.dds" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_5.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="62919" parent_id="62924">
             <sources/>
@@ -12430,7 +12432,7 @@
                 <child id="62919"/>
             </children>
             <hierarchy hidden="0" locked="1" name="LHKK_6.dds"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_6.dds" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_6.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="62925" parent_id="62930">
             <sources/>
@@ -12482,7 +12484,7 @@
                 <child id="62925"/>
             </children>
             <hierarchy hidden="0" locked="1" name="LHKK_7.dds"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_7.dds" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_7.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="62931" parent_id="62936">
             <sources/>
@@ -12534,7 +12536,7 @@
                 <child id="62931"/>
             </children>
             <hierarchy hidden="0" locked="1" name="LHKK_8.dds"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_8.dds" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_8.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="62937" parent_id="62942">
             <sources/>
@@ -12586,7 +12588,7 @@
                 <child id="62937"/>
             </children>
             <hierarchy hidden="0" locked="1" name="LHKK_9.dds"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_9.dds" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_9.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="62943" parent_id="62948">
             <sources/>
@@ -12638,7 +12640,7 @@
                 <child id="62943"/>
             </children>
             <hierarchy hidden="0" locked="1" name="LHKK_10.dds"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_10.dds" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_10.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="62949" parent_id="62954">
             <sources/>
@@ -12690,7 +12692,7 @@
                 <child id="62949"/>
             </children>
             <hierarchy hidden="0" locked="1" name="LHKK_11.dds"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_11.dds" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_11.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="62955" parent_id="62960">
             <sources/>
@@ -12742,7 +12744,7 @@
                 <child id="62955"/>
             </children>
             <hierarchy hidden="0" locked="1" name="LHKK_12.dds"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_12.dds" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_12.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="62961" parent_id="62966">
             <sources/>
@@ -12794,7 +12796,7 @@
                 <child id="62961"/>
             </children>
             <hierarchy hidden="0" locked="1" name="LHKK_13.dds"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_13.dds" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_13.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="62967" parent_id="62972">
             <sources/>
@@ -12846,7 +12848,7 @@
                 <child id="62967"/>
             </children>
             <hierarchy hidden="0" locked="1" name="LHKK_14.dds"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_14.dds" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_14.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="62973" parent_id="62978">
             <sources/>
@@ -12898,7 +12900,7 @@
                 <child id="62973"/>
             </children>
             <hierarchy hidden="0" locked="1" name="LHKK_15.dds"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_15.dds" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Orthophotos\LHKK_15.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ForestRing" id="62980" parent_id="62981">
             <sources/>
@@ -18220,6 +18222,14 @@
                 <child id="64041"/>
                 <child id="64047"/>
                 <child id="64053"/>
+                <child id="64988"/>
+                <child id="64982"/>
+                <child id="65000"/>
+                <child id="64994"/>
+                <child id="65006"/>
+                <child id="64977"/>
+                <child id="65034"/>
+                <child id="65029"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Runway Textures"/>
         </object>
@@ -29406,36 +29416,507 @@
             <point heading="142.02" latitude="47.178212346" longitude="19.070167681"/>
             <obj_placement custom_msl="0" msl="0.000" resource="Objects/Misc/Straw_Bale.obj" show_level="1 Default"/>
         </object>
+        <object class="WED_Ring" id="64976" parent_id="64977">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="64978"/>
+                <child id="64979"/>
+                <child id="64980"/>
+                <child id="64981"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Orthophoto 1 Outer Ring"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="64977" parent_id="63621">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="64976"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="skids.pol"/>
+            <draped_orthophoto heading="-42.0" length="154.12" resource="Polygons/skids.pol" tex_bottom="0.000" tex_left="0.000" tex_right="1.000" tex_top="1.000" width="5.03"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="64978" parent_id="64976">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.183856705" longitude="19.065213619" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="64979" parent_id="64976">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.183826258" longitude="19.065164262" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="64980" parent_id="64976">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.182795745" longitude="19.066529663" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="64981" parent_id="64976">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.182826193" longitude="19.066579020" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="64982" parent_id="63621">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="64983"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="skids.pol"/>
+            <draped_orthophoto heading="-42.0" length="154.12" resource="Polygons/skids.pol" tex_bottom="0.000" tex_left="0.000" tex_right="1.000" tex_top="1.000" width="5.03"/>
+        </object>
+        <object class="WED_Ring" id="64983" parent_id="64982">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="64984"/>
+                <child id="64985"/>
+                <child id="64986"/>
+                <child id="64987"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Orthophoto 1 Outer Ring"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="64984" parent_id="64983">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.183963582" longitude="19.065072094" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="64985" parent_id="64983">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.183933134" longitude="19.065022737" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="64986" parent_id="64983">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.182902622" longitude="19.066388140" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="64987" parent_id="64983">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.182933069" longitude="19.066437498" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="64988" parent_id="63621">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="64989"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="skids.pol"/>
+            <draped_orthophoto heading="-42.0" length="154.12" resource="Polygons/skids.pol" tex_bottom="0.000" tex_left="0.000" tex_right="1.000" tex_top="1.000" width="5.03"/>
+        </object>
+        <object class="WED_Ring" id="64989" parent_id="64988">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="64990"/>
+                <child id="64991"/>
+                <child id="64992"/>
+                <child id="64993"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Orthophoto 1 Outer Ring"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="64990" parent_id="64989">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.183997123" longitude="19.065126808" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="64991" parent_id="64989">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.183966675" longitude="19.065077451" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="64992" parent_id="64989">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.182936163" longitude="19.066442855" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="64993" parent_id="64989">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.182966610" longitude="19.066492213" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="64994" parent_id="63621">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="64995"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="skids.pol"/>
+            <draped_orthophoto heading="-42.0" length="154.12" resource="Polygons/skids.pol" tex_bottom="0.000" tex_left="0.000" tex_right="1.000" tex_top="1.000" width="5.03"/>
+        </object>
+        <object class="WED_Ring" id="64995" parent_id="64994">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="64996"/>
+                <child id="64997"/>
+                <child id="64998"/>
+                <child id="64999"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Orthophoto 1 Outer Ring"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="64996" parent_id="64995">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.183890246" longitude="19.065268333" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="64997" parent_id="64995">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.183859799" longitude="19.065218976" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="64998" parent_id="64995">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.182829286" longitude="19.066584378" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="64999" parent_id="64995">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.182859734" longitude="19.066633735" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="65000" parent_id="63621">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="65001"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="skids.pol"/>
+            <draped_orthophoto heading="-42.0" length="56.52" resource="Polygons/skids.pol" tex_bottom="0.000" tex_left="0.000" tex_right="1.000" tex_top="1.000" width="5.03"/>
+        </object>
+        <object class="WED_Ring" id="65001" parent_id="65000">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="65002"/>
+                <child id="65003"/>
+                <child id="65004"/>
+                <child id="65005"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Orthophoto 1 Outer Ring"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="65002" parent_id="65001">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.184391967" longitude="19.064604865" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="65003" parent_id="65001">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.184361519" longitude="19.064555507" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="65004" parent_id="65001">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.183983551" longitude="19.065055921" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="65005" parent_id="65001">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.184013999" longitude="19.065105279" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="65006" parent_id="63621">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="65007"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="skids.pol"/>
+            <draped_orthophoto heading="-42.0" length="56.50" resource="Polygons/skids.pol" tex_bottom="0.000" tex_left="0.000" tex_right="1.000" tex_top="1.000" width="5.03"/>
+        </object>
+        <object class="WED_Ring" id="65007" parent_id="65006">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="65008"/>
+                <child id="65009"/>
+                <child id="65010"/>
+                <child id="65011"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Orthophoto 1 Outer Ring"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="65008" parent_id="65007">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.184358426" longitude="19.064550150" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="65009" parent_id="65007">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.184327978" longitude="19.064500792" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="65010" parent_id="65007">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.183950121" longitude="19.065000858" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="65011" parent_id="65007">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.183980568" longitude="19.065050216" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_StringPlacement" id="65015" parent_id="65021">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="65016"/>
+                <child id="65017"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="tyre_mixed_2high.str"/>
+            <string_placement closed="0" resource="HungaryVFR-Library/Objects/Misc/tyre_mixed_2high.str" spacing="1.0"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="65016" parent_id="65015">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.184350745" longitude="19.064565076" split="0"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="65017" parent_id="65015">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.183989955" longitude="19.065043599" split="0"/>
+        </object>
+        <object class="WED_StringPlacement" id="65018" parent_id="65021">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="65019"/>
+                <child id="65020"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="tyre_mixed.str"/>
+            <string_placement closed="0" resource="HungaryVFR-Library/Objects/Misc/tyre_mixed.str" spacing="1.0"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="65019" parent_id="65018">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.183990871" longitude="19.065042213" split="0"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="65020" parent_id="65018">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.183507491" longitude="19.065680206" split="0"/>
+        </object>
+        <object class="WED_Group" id="65021" parent_id="11">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="65015"/>
+                <child id="65018"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Objects"/>
+        </object>
+        <object class="WED_Ring" id="65028" parent_id="65029">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="65030"/>
+                <child id="65031"/>
+                <child id="65032"/>
+                <child id="65033"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Orthophoto 4 Outer Ring"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="65029" parent_id="63621">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="65028"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="rway_line2.pol"/>
+            <draped_orthophoto heading="47.8" length="43.45" resource="Polygons/Custom_RWY/rway_line2.pol" tex_bottom="0.000" tex_left="0.000" tex_right="1.000" tex_top="1.000" width="0.79"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="65030" parent_id="65028">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.177275143" longitude="19.074339111" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="65031" parent_id="65028">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.177280387" longitude="19.074332059" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="65032" parent_id="65028">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.177017856" longitude="19.073905861" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="65033" parent_id="65028">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.177012612" longitude="19.073912914" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="65034" parent_id="63621">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="65035"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="rway_line2.pol"/>
+            <draped_orthophoto heading="47.8" length="43.45" resource="Polygons/Custom_RWY/rway_line2.pol" tex_bottom="0.000" tex_left="0.000" tex_right="1.000" tex_top="1.000" width="0.79"/>
+        </object>
+        <object class="WED_Ring" id="65035" parent_id="65034">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="65036"/>
+                <child id="65037"/>
+                <child id="65038"/>
+                <child id="65039"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Orthophoto 4 Outer Ring"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="65036" parent_id="65035">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.172034166" longitude="19.081295452" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="65037" parent_id="65035">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.172039410" longitude="19.081288401" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="65038" parent_id="65035">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.171776879" longitude="19.080862245" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="65039" parent_id="65035">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.171771635" longitude="19.080869296" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
-            <item value="5"/>
             <item value="6"/>
             <item value="9"/>
             <item value="10"/>
-            <item value="11"/>
             <item value="13"/>
             <item value="15"/>
             <item value="16"/>
             <item value="17"/>
             <item value="991"/>
-            <item value="62876"/>
             <item value="63472"/>
+            <item value="63473"/>
             <item value="63474"/>
-            <item value="63499"/>
             <item value="63621"/>
             <item value="64262"/>
+            <item value="65021"/>
         </pref>
         <pref name="doc/export_target" value="4"/>
-        <pref name="map/east" value="19.070240"/>
-        <pref name="map/north" value="47.182084"/>
+        <pref name="map/east" value="19.094811"/>
+        <pref name="map/north" value="47.182654"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="4"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.170350"/>
+        <pref name="map/south" value="47.164240"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="19.050949"/>
+        <pref name="map/west" value="19.064542"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -29457,12 +29938,12 @@
         <pref name="map_Hole_Markings" value=""/>
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
-        <pref name="map_Lines_Resource" value="lib/airport/lines/25_road_dash_wide.lin"/>
-        <pref name="map_Objects_Object" value="Objects/Misc/Straw_Bale.obj"/>
+        <pref name="map_Lines_Resource" value="lib/airport/lines/20_road_edge.lin"/>
+        <pref name="map_Objects_Object" value="HungaryVFR-Library/Objects/Misc/tyre_white_2high.obj"/>
         <pref name="map_Objects_Show with" value="564"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
-        <pref name="map_Polygons_Resource" value="Polygons/Water1.pol"/>
-        <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
+        <pref name="map_Polygons_Resource" value="Polygons/Custom_RWY/rway_line2.pol"/>
+        <pref name="map_Polygons_Use Texture Map - Orthophoto" value="1"/>
         <pref name="map_Ramp Start_Airlines" value=""/>
         <pref name="map_Ramp Start_Equipment Type" value=""/>
         <pref name="map_Ramp Start_Ramp Operation Type" value="530"/>
@@ -29482,7 +29963,7 @@
         <pref name="map_Sign_Size" value="18"/>
         <pref name="map_Sign_Style" value="23"/>
         <pref name="map_Sign_Text" value="{@L}A"/>
-        <pref name="map_Strings_Resource" value="lib/airport/lights/slow/101_centerline_twy_GG.str"/>
+        <pref name="map_Strings_Resource" value="HungaryVFR-Library/Objects/Misc/tyre_mixed.str"/>
         <pref name="map_Strings_Spacing" value="5.000000"/>
         <pref name="map_Taxi Routes_Allowed Vehicles" value="144"/>
         <pref name="map_Taxi Routes_Arrival" value=""/>
@@ -29511,8 +29992,8 @@
         <pref name="window/height" value="1117"/>
         <pref name="window/main_split" value="231"/>
         <pref name="window/main_split2" value="1533"/>
-        <pref name="window/prev_split" value="587"/>
-        <pref name="window/prop_split" value="672"/>
+        <pref name="window/prev_split" value="627"/>
+        <pref name="window/prop_split" value="712"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>

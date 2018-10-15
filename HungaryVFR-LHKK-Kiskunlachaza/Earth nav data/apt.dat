@@ -14,7 +14,7 @@ I
 1302 transition_alt 
 1302 transition_level 
 1302 flatten 1
-100 45.00 15 0 0.00 0 0 0 15  47.17987790  019.07049886  396  827 4 0 0 0 33  47.16930496  019.08452949  394   85 4 0 0 0
+100 45.00 15 0 0.00 0 0 0 13  47.17987790  019.07049886  396  827 0 0 0 0 31  47.16930496  019.08452949  394   85 0 0 0 0
 110 2 0.00 92.5000 New Taxiway 11
 111  47.18243680  019.07305086
 111  47.18193178  019.07371898
@@ -915,18 +915,18 @@ I
 1201  47.17787768  019.06617216 both 33 C2_stop
 1201  47.17559240  019.07179223 both 34 C2_stop
 1201  47.17150519  019.07461850 both 35 C2_stop
-1202 14 19 twoway runway 15/33
-1204 departure 15,33
-1204 arrival 15,33
-1204 ils 15,33
-1202 15 14 twoway runway 15/33
-1204 departure 15,33
-1204 arrival 15,33
-1204 ils 15,33
-1202 28 15 twoway runway 15/33
-1204 departure 15,33
-1204 arrival 15,33
-1204 ils 15,33
+1202 14 19 twoway runway 13/31
+1204 departure 13,31
+1204 arrival 13,31
+1204 ils 13,31
+1202 15 14 twoway runway 13/31
+1204 departure 13,31
+1204 arrival 13,31
+1204 ils 13,31
+1202 28 15 twoway runway 13/31
+1204 departure 13,31
+1204 arrival 13,31
+1204 ils 13,31
 1202 1 6 twoway taxiway_A B2
 1202 3 7 twoway taxiway_A B2
 1202 6 9 twoway taxiway_A B2
@@ -940,41 +940,41 @@ I
 1202 13 12 twoway taxiway_A B2
 1202 0 13 twoway taxiway_A B2
 1202 16 14 twoway taxiway_A B1
-1204 departure 15,33
-1204 arrival 15,33
+1204 departure 13,31
+1204 arrival 13,31
 1202 16 15 twoway taxiway_A B1
-1204 departure 15,33
-1204 arrival 15,33
+1204 departure 13,31
+1204 arrival 13,31
 1202 17 18 twoway taxiway_A B1
 1202 18 16 twoway taxiway_A B1
-1204 departure 15,33
-1204 arrival 15,33
+1204 departure 13,31
+1204 arrival 13,31
 1202 10 11 twoway taxiway_A B1
 1202 11 17 twoway taxiway_A B1
 1202 20 19 twoway taxiway_A A1
-1204 departure 15,33
-1204 arrival 15,33
+1204 departure 13,31
+1204 arrival 13,31
 1202 21 20 twoway taxiway_A A1
-1204 departure 15,33
-1204 arrival 15,33
+1204 departure 13,31
+1204 arrival 13,31
 1202 22 23 twoway taxiway_A A1
 1202 23 21 twoway taxiway_A A1
-1204 departure 15,33
-1204 arrival 15,33
+1204 departure 13,31
+1204 arrival 13,31
 1202 24 22 twoway taxiway_A A1
 1202 25 24 twoway taxiway_A A1
 1202 26 25 twoway taxiway_A C1
 1202 27 26 twoway taxiway_A C1
 1202 10 27 twoway taxiway_A C1
 1202 29 28 twoway taxiway_A C2
-1204 departure 15,33
-1204 arrival 15,33
+1204 departure 13,31
+1204 arrival 13,31
 1202 30 29 twoway taxiway_A C2
-1204 departure 15,33
-1204 arrival 15,33
+1204 departure 13,31
+1204 arrival 13,31
 1202 31 30 twoway taxiway_A C2
-1204 departure 15,33
-1204 arrival 15,33
+1204 departure 13,31
+1204 arrival 13,31
 1202 32 31 twoway taxiway_A C2
 1202 35 10 twoway taxiway_A C2
 1202 33 32 twoway taxiway_A C2

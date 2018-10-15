@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+
+LAYER_GROUP runways +3
+TEXTURE_NOWRAP rway_line2.dds
+DECAL_LIB lib/g10/decals/apt_concrete.dcl
+SCALE 25 25 
+SURFACE grass
+
