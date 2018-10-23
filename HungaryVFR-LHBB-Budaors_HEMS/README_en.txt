@@ -1,7 +1,7 @@
 HungaryVFR-LHBB-Budaörs HEMS base scenery
 ******************************************************
 
-Version: 3.1.0.0
+Version: 3.2
 Covered area: LHBB - Budaörs HEMS base
 
 ******************************************************
