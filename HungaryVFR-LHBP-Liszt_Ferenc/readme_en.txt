@@ -1,7 +1,7 @@
 ﻿HungaryVFR-LHBP Liszt Ferenc international airport
 ******************************************************
 
-Version: 2.0.9
+Version: 2.1.1
 Covered area: LHBP - Budapest
 
 ******************************************************
@@ -36,6 +36,7 @@ Copy the libraries into "X-Plane folder/Custom Scenery" folder.
 - R2-library (Version 2 - 12/2/2016)
 - Ruscenery Library (v2.1.8 - 05/05/2013)
 - world models (0.8.0 - 25/04/2016)
+- RE_Library
 - FF-library (v1.0 - 01/02/2011)
 
 ***** SCENERY_PACKS.ini *****
@@ -49,7 +50,8 @@ https://www.avsim.com/forums/topic/442579-understanding-scenery-order/#comment-2
 
 - Special thanks for Károly Nagy (CptCharlesG) for the quite detailed gateway scenery
 - Thanks to Marc "DLH560" Westhofen, he masked out the planes from the orthos
-- Thanks to: Mityu HSG320, pborobszky
+- Thanks to Roland HSG781, he made the autogate jetways, marshalls and safedocks
+- Thanks to Mityu HSG320, pborobszky
 - The scenery contains modified objects from these libraries: Hungarian SketchUp community, R2-library, Misterx, OpensceneryX.
 
 ***** LICENSE ***** 
