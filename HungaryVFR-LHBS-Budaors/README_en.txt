@@ -1,7 +1,7 @@
 HungaryVFR-LHBS-Budaörs airport scenery
 ******************************************************
 
-Version: 3.1.0.4
+Version: 3.1.0.5
 Covered area: LHBS - Budaörs
 
 ******************************************************
