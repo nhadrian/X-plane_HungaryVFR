@@ -76,9 +76,7 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection>
-                <sel id="74588"/>
-            </selection>
+            <selection/>
         </object>
         <object class="WED_AirportNode" id="65538" parent_id="702">
             <sources/>
@@ -66530,6 +66528,8 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="74596"/>
+                <child id="74595"/>
                 <child id="74584"/>
                 <child id="74583"/>
                 <child id="74582"/>
@@ -66915,6 +66915,22 @@
             <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.177094557" longitude="19.074053665" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
+        <object class="WED_ObjPlacement" id="74595" parent_id="74552">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Emlekmu2.obj"/>
+            <point heading="229.09" latitude="47.174841357" longitude="19.070337981"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Misc/Emlekmu2.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="74596" parent_id="74552">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Emlekmu1.obj"/>
+            <point heading="230.46" latitude="47.174747013" longitude="19.070430540"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="Objects/Misc/Emlekmu1.obj" show_level="1 Default"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
@@ -66945,15 +66961,15 @@
             <item value="74552"/>
         </pref>
         <pref name="doc/export_target" value="4"/>
-        <pref name="map/east" value="19.074989"/>
-        <pref name="map/north" value="47.177453"/>
+        <pref name="map/east" value="19.072585"/>
+        <pref name="map/north" value="47.176412"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="4"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.176868"/>
+        <pref name="map/south" value="47.172688"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="19.073815"/>
+        <pref name="map/west" value="19.066346"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -66976,7 +66992,7 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="HungaryVFR-Library/Lines/Gravel_road_1.lin"/>
-        <pref name="map_Objects_Object" value="lib/g10/US/industrial/light/StorSml1p1.obj"/>
+        <pref name="map_Objects_Object" value="Objects/Misc/Emlekmu1.obj"/>
         <pref name="map_Objects_Show with" value="564"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="HungaryVFR-Library/Polygons/Custom_RWY/White_circle.pol"/>
@@ -67026,12 +67042,12 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="1645"/>
+        <pref name="window/height" value="817"/>
         <pref name="window/main_split" value="231"/>
-        <pref name="window/main_split2" value="2517"/>
-        <pref name="window/prev_split" value="439"/>
-        <pref name="window/prop_split" value="765"/>
-        <pref name="window/width" value="3072"/>
+        <pref name="window/main_split2" value="1214"/>
+        <pref name="window/prev_split" value="449"/>
+        <pref name="window/prop_split" value="334"/>
+        <pref name="window/width" value="1600"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
     </prefs>
