@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+
+TEXTURE_NOWRAP I_white3.png
+DECAL_LIB lib/g10/decals/apt_concrete.dcl
+SCALE 5 5
+SURFACE concrete
+LAYER_GROUP markings +1
+
