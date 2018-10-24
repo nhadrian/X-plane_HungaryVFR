@@ -59,6 +59,7 @@
                 <child id="894"/>
                 <child id="900"/>
                 <child id="903"/>
+                <child id="74588"/>
             </children>
             <hierarchy hidden="0" locked="1" name="Markings"/>
         </object>
@@ -75,7 +76,9 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection/>
+            <selection>
+                <sel id="74588"/>
+            </selection>
         </object>
         <object class="WED_AirportNode" id="65538" parent_id="702">
             <sources/>
@@ -18802,8 +18805,8 @@
             <children>
                 <child id="63622"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Group" id="63621" parent_id="11">
             <sources/>
@@ -18942,8 +18945,8 @@
             <children>
                 <child id="63628"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63628" parent_id="63627">
             <sources/>
@@ -18994,8 +18997,8 @@
             <children>
                 <child id="63634"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63634" parent_id="63633">
             <sources/>
@@ -19046,8 +19049,8 @@
             <children>
                 <child id="63640"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63640" parent_id="63639">
             <sources/>
@@ -19098,8 +19101,8 @@
             <children>
                 <child id="63646"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63646" parent_id="63645">
             <sources/>
@@ -19150,8 +19153,8 @@
             <children>
                 <child id="63652"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63652" parent_id="63651">
             <sources/>
@@ -19202,8 +19205,8 @@
             <children>
                 <child id="63658"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63658" parent_id="63657">
             <sources/>
@@ -19254,8 +19257,8 @@
             <children>
                 <child id="63664"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63664" parent_id="63663">
             <sources/>
@@ -19306,8 +19309,8 @@
             <children>
                 <child id="63670"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63670" parent_id="63669">
             <sources/>
@@ -19358,8 +19361,8 @@
             <children>
                 <child id="63676"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63676" parent_id="63675">
             <sources/>
@@ -19410,8 +19413,8 @@
             <children>
                 <child id="63682"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63682" parent_id="63681">
             <sources/>
@@ -19462,8 +19465,8 @@
             <children>
                 <child id="63688"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63688" parent_id="63687">
             <sources/>
@@ -19514,8 +19517,8 @@
             <children>
                 <child id="63694"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63694" parent_id="63693">
             <sources/>
@@ -19566,8 +19569,8 @@
             <children>
                 <child id="63700"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63700" parent_id="63699">
             <sources/>
@@ -19618,8 +19621,8 @@
             <children>
                 <child id="63706"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63706" parent_id="63705">
             <sources/>
@@ -19670,8 +19673,8 @@
             <children>
                 <child id="63712"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63712" parent_id="63711">
             <sources/>
@@ -19722,8 +19725,8 @@
             <children>
                 <child id="63718"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63718" parent_id="63717">
             <sources/>
@@ -19774,8 +19777,8 @@
             <children>
                 <child id="63724"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63724" parent_id="63723">
             <sources/>
@@ -19826,8 +19829,8 @@
             <children>
                 <child id="63730"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63730" parent_id="63729">
             <sources/>
@@ -19878,8 +19881,8 @@
             <children>
                 <child id="63736"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63736" parent_id="63735">
             <sources/>
@@ -19930,8 +19933,8 @@
             <children>
                 <child id="63742"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63742" parent_id="63741">
             <sources/>
@@ -19982,8 +19985,8 @@
             <children>
                 <child id="63748"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_blaspad.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63748" parent_id="63747">
             <sources/>
@@ -20034,8 +20037,8 @@
             <children>
                 <child id="63754"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_thr1.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_thr1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_thr1.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_thr1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63754" parent_id="63753">
             <sources/>
@@ -20086,8 +20089,8 @@
             <children>
                 <child id="63760"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_thr1.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_thr1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_thr1.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_thr1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63760" parent_id="63759">
             <sources/>
@@ -20138,8 +20141,8 @@
             <children>
                 <child id="63766"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63766" parent_id="63765">
             <sources/>
@@ -20190,8 +20193,8 @@
             <children>
                 <child id="63772"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63772" parent_id="63771">
             <sources/>
@@ -20242,8 +20245,8 @@
             <children>
                 <child id="63778"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63778" parent_id="63777">
             <sources/>
@@ -20294,8 +20297,8 @@
             <children>
                 <child id="63784"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63784" parent_id="63783">
             <sources/>
@@ -20346,8 +20349,8 @@
             <children>
                 <child id="63790"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63790" parent_id="63789">
             <sources/>
@@ -20398,8 +20401,8 @@
             <children>
                 <child id="63796"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63796" parent_id="63795">
             <sources/>
@@ -20450,8 +20453,8 @@
             <children>
                 <child id="63802"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63802" parent_id="63801">
             <sources/>
@@ -20502,8 +20505,8 @@
             <children>
                 <child id="63808"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63808" parent_id="63807">
             <sources/>
@@ -20554,8 +20557,8 @@
             <children>
                 <child id="63814"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63814" parent_id="63813">
             <sources/>
@@ -20606,8 +20609,8 @@
             <children>
                 <child id="63820"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63820" parent_id="63819">
             <sources/>
@@ -20658,8 +20661,8 @@
             <children>
                 <child id="63826"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63826" parent_id="63825">
             <sources/>
@@ -20710,8 +20713,8 @@
             <children>
                 <child id="63832"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63832" parent_id="63831">
             <sources/>
@@ -20762,8 +20765,8 @@
             <children>
                 <child id="63838"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63838" parent_id="63837">
             <sources/>
@@ -20814,8 +20817,8 @@
             <children>
                 <child id="63844"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63844" parent_id="63843">
             <sources/>
@@ -20866,8 +20869,8 @@
             <children>
                 <child id="63850"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63850" parent_id="63849">
             <sources/>
@@ -20918,8 +20921,8 @@
             <children>
                 <child id="63856"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63856" parent_id="63855">
             <sources/>
@@ -20970,8 +20973,8 @@
             <children>
                 <child id="63862"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63862" parent_id="63861">
             <sources/>
@@ -21022,8 +21025,8 @@
             <children>
                 <child id="63868"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63868" parent_id="63867">
             <sources/>
@@ -21074,8 +21077,8 @@
             <children>
                 <child id="63874"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63874" parent_id="63873">
             <sources/>
@@ -21126,8 +21129,8 @@
             <children>
                 <child id="63880"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63880" parent_id="63879">
             <sources/>
@@ -21178,8 +21181,8 @@
             <children>
                 <child id="63886"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63886" parent_id="63885">
             <sources/>
@@ -21230,8 +21233,8 @@
             <children>
                 <child id="63892"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63892" parent_id="63891">
             <sources/>
@@ -21282,8 +21285,8 @@
             <children>
                 <child id="63898"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63898" parent_id="63897">
             <sources/>
@@ -21334,8 +21337,8 @@
             <children>
                 <child id="63904"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63904" parent_id="63903">
             <sources/>
@@ -21386,8 +21389,8 @@
             <children>
                 <child id="63910"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63910" parent_id="63909">
             <sources/>
@@ -21438,8 +21441,8 @@
             <children>
                 <child id="63916"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63916" parent_id="63915">
             <sources/>
@@ -21490,8 +21493,8 @@
             <children>
                 <child id="63922"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63922" parent_id="63921">
             <sources/>
@@ -21542,8 +21545,8 @@
             <children>
                 <child id="63928"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_line.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63928" parent_id="63927">
             <sources/>
@@ -21594,8 +21597,8 @@
             <children>
                 <child id="63934"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_tdz1.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_Ring" id="63934" parent_id="63933">
             <sources/>
@@ -21662,8 +21665,8 @@
             <children>
                 <child id="63940"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_tdz1.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68035" parent_id="72341">
             <sources/>
@@ -21762,8 +21765,8 @@
             <children>
                 <child id="63946"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_tdz1.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68041" parent_id="72341">
             <sources/>
@@ -21862,8 +21865,8 @@
             <children>
                 <child id="63952"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_tdz1.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68047" parent_id="72341">
             <sources/>
@@ -21962,8 +21965,8 @@
             <children>
                 <child id="63958"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_tdz1.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68053" parent_id="72341">
             <sources/>
@@ -22062,8 +22065,8 @@
             <children>
                 <child id="63964"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_tdz1.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68059" parent_id="72341">
             <sources/>
@@ -22162,8 +22165,8 @@
             <children>
                 <child id="63970"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_tdz1.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68065" parent_id="72341">
             <sources/>
@@ -22262,8 +22265,8 @@
             <children>
                 <child id="63976"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_tdz1.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68071" parent_id="72341">
             <sources/>
@@ -22362,8 +22365,8 @@
             <children>
                 <child id="63982"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_tdz1.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68077" parent_id="72341">
             <sources/>
@@ -22462,8 +22465,8 @@
             <children>
                 <child id="63988"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_tdz1.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68083" parent_id="72341">
             <sources/>
@@ -22562,8 +22565,8 @@
             <children>
                 <child id="63994"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_tdz1.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68089" parent_id="72341">
             <sources/>
@@ -22662,8 +22665,8 @@
             <children>
                 <child id="64000"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_tdz1.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68095" parent_id="72341">
             <sources/>
@@ -22762,8 +22765,8 @@
             <children>
                 <child id="64006"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_tdz1.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68101" parent_id="72341">
             <sources/>
@@ -22862,8 +22865,8 @@
             <children>
                 <child id="64012"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_semi.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_semi.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_semi.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_semi.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68107" parent_id="72341">
             <sources/>
@@ -22962,8 +22965,8 @@
             <children>
                 <child id="64018"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_semi.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_semi.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_semi.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_semi.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68113" parent_id="72341">
             <sources/>
@@ -23062,8 +23065,8 @@
             <children>
                 <child id="64024"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_fdmk.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_fdmk.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_fdmk.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_fdmk.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68119" parent_id="72341">
             <sources/>
@@ -23162,8 +23165,8 @@
             <children>
                 <child id="64030"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_fdmk.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_fdmk.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_fdmk.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_fdmk.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68125" parent_id="72341">
             <sources/>
@@ -23262,8 +23265,8 @@
             <children>
                 <child id="64036"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_fdmk.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_fdmk.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_fdmk.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_fdmk.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68131" parent_id="72341">
             <sources/>
@@ -23362,8 +23365,8 @@
             <children>
                 <child id="64042"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_31.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_31.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_31.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_31.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68137" parent_id="72341">
             <sources/>
@@ -23462,8 +23465,8 @@
             <children>
                 <child id="64048"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_13.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_13.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_13.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_13.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68143" parent_id="72341">
             <sources/>
@@ -23562,8 +23565,8 @@
             <children>
                 <child id="64054"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="Polygons/Custom_RWY/rway_space.pol"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="Polygons/Custom_RWY/rway_space.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+            <hierarchy hidden="0" locked="0" name="HungaryVFR-Library/Polygons/Custom_RWY/rway_space.pol"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_space.pol" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ObjPlacement" id="68149" parent_id="72341">
             <sources/>
@@ -25484,7 +25487,7 @@
                 <child id="65028"/>
             </children>
             <hierarchy hidden="0" locked="0" name="rway_line2.pol"/>
-            <draped_orthophoto heading="47.8" length="43.45" resource="Polygons/Custom_RWY/rway_line2.pol" tex_bottom="0.000" tex_left="0.000" tex_right="1.000" tex_top="1.000" width="0.79"/>
+            <draped_orthophoto heading="47.8" length="43.45" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line2.pol" tex_bottom="0.000" tex_left="0.000" tex_right="1.000" tex_top="1.000" width="0.79"/>
         </object>
         <object class="WED_TextureBezierNode" id="65030" parent_id="65028">
             <sources/>
@@ -25525,7 +25528,7 @@
                 <child id="65035"/>
             </children>
             <hierarchy hidden="0" locked="0" name="rway_line2.pol"/>
-            <draped_orthophoto heading="47.8" length="43.45" resource="Polygons/Custom_RWY/rway_line2.pol" tex_bottom="0.000" tex_left="0.000" tex_right="1.000" tex_top="1.000" width="0.79"/>
+            <draped_orthophoto heading="47.8" length="43.45" resource="HungaryVFR-Library/Polygons/Custom_RWY/rway_line2.pol" tex_bottom="0.000" tex_left="0.000" tex_right="1.000" tex_top="1.000" width="0.79"/>
         </object>
         <object class="WED_Ring" id="65035" parent_id="65034">
             <sources/>
@@ -66860,6 +66863,58 @@
             <point heading="37.61" latitude="47.172624576" longitude="19.069950120"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Medium.obj" show_level="1 Default"/>
         </object>
+        <object class="WED_Ring" id="74587" parent_id="74588">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="74589"/>
+                <child id="74590"/>
+                <child id="74591"/>
+                <child id="74592"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Orthophoto 1 Outer Ring"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="74588" parent_id="9">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="74587"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="White_circle.pol"/>
+            <draped_orthophoto heading="-41.5" length="15.64" resource="HungaryVFR-Library/Polygons/Custom_RWY/White_circle.pol" tex_bottom="0.000" tex_left="0.000" tex_right="1.000" tex_top="1.000" width="15.64"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="74589" parent_id="74587">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.176990417" longitude="19.074189267" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="74590" parent_id="74587">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.177082590" longitude="19.074342474" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="74591" parent_id="74587">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.177186730" longitude="19.074206872" split="0"/>
+            <texture_node s="1.0000" sc_hi="-0.0090" sc_lo="0.0090" t="1.0000" tc_hi="-0.0085" tc_lo="0.0085"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="74592" parent_id="74587">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.177094557" longitude="19.074053665" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
@@ -66890,15 +66945,15 @@
             <item value="74552"/>
         </pref>
         <pref name="doc/export_target" value="4"/>
-        <pref name="map/east" value="19.088960"/>
-        <pref name="map/north" value="47.190197"/>
+        <pref name="map/east" value="19.074989"/>
+        <pref name="map/north" value="47.177453"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="4"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.163842"/>
+        <pref name="map/south" value="47.176868"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="19.053314"/>
+        <pref name="map/west" value="19.073815"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -66924,8 +66979,8 @@
         <pref name="map_Objects_Object" value="lib/g10/US/industrial/light/StorSml1p1.obj"/>
         <pref name="map_Objects_Show with" value="564"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
-        <pref name="map_Polygons_Resource" value="lib/g10/terrain10/any_cld_dry_fl.pol"/>
-        <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
+        <pref name="map_Polygons_Resource" value="HungaryVFR-Library/Polygons/Custom_RWY/White_circle.pol"/>
+        <pref name="map_Polygons_Use Texture Map - Orthophoto" value="1"/>
         <pref name="map_Ramp Start_Airlines" value=""/>
         <pref name="map_Ramp Start_Equipment Type" value=""/>
         <pref name="map_Ramp Start_Ramp Operation Type" value="530"/>
@@ -66971,12 +67026,12 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="817"/>
+        <pref name="window/height" value="1645"/>
         <pref name="window/main_split" value="231"/>
-        <pref name="window/main_split2" value="1045"/>
-        <pref name="window/prev_split" value="429"/>
-        <pref name="window/prop_split" value="341"/>
-        <pref name="window/width" value="1600"/>
+        <pref name="window/main_split2" value="2517"/>
+        <pref name="window/prev_split" value="439"/>
+        <pref name="window/prop_split" value="765"/>
+        <pref name="window/width" value="3072"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
     </prefs>
