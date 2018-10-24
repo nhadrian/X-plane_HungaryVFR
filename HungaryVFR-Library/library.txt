@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.4.6.1
+# Version: 1.5.0
 
 # ----------------------------------
 # AGP
@@ -337,6 +337,28 @@ EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Cracks_ol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_1.pol Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_2.pol Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_2.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_heavy_1.pol Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_heavy_1.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_13.pol Polygons/Custom_RWY/rway_13.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_14.pol Polygons/Custom_RWY/rway_14.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_31.pol Polygons/Custom_RWY/rway_31.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_32.pol Polygons/Custom_RWY/rway_32.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol Polygons/Custom_RWY/rway_blaspad.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_dis2.pol Polygons/Custom_RWY/rway_dis2.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_dis3.pol Polygons/Custom_RWY/rway_dis3.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_fdmk.pol Polygons/Custom_RWY/rway_fdmk.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol Polygons/Custom_RWY/rway_line.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_line2.pol Polygons/Custom_RWY/rway_line2.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_semi.pol Polygons/Custom_RWY/rway_semi.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_space.pol Polygons/Custom_RWY/rway_space.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz_uk.pol Polygons/Custom_RWY/rway_tdz_uk.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol Polygons/Custom_RWY/rway_tdz1.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz3.pol Polygons/Custom_RWY/rway_tdz3.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_thr1.pol Polygons/Custom_RWY/rway_thr1.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/White_circle.pol Polygons/Custom_RWY/White_circle.pol
+
+# ----------------------------------
+# DECALS
+# ----------------------------------
+EXPORT HungaryVFR-Library/Decals/Concrete.dcl Decals/Concrete.dcl
 
 # ----------------------------------
 # STRINGS
