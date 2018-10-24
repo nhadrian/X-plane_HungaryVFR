@@ -3,8 +3,9 @@ A
 DRAPED_POLYGON
 
 TEXTURE_NOWRAP I_white2.png
-DECAL_LIB lib/g10/decals/apt_concrete.dcl
+DECAL_LIB HungaryVFR-Library/Decals/Concrete.dcl
 SCALE 5 5
+SPECULAR 0.5
 SURFACE concrete
 LAYER_GROUP markings +1
 
