@@ -5,7 +5,7 @@ LAYER_GROUP taxiways +1
 
 TEXTURE 	Concrete_cracked_1.dds
 TEXTURE_NORMAL 	1 Concrete_cracked_1_NML.png
-SPECULAR 0.3
+SPECULAR 0.35
 DECAL_LIB HungaryVFR-Library/Decals/Concrete.dcl
 SURFACE concrete
 SCALE 7 7

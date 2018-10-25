@@ -5,7 +5,7 @@ LAYER_GROUP taxiways +1
 
 TEXTURE 	Concrete_5.dds
 TEXTURE_NORMAL 	1 Concrete_5_NML.png
-SPECULAR 0.35
+SPECULAR 0.4
 DECAL_LIB HungaryVFR-Library/Decals/Concrete.dcl
 SURFACE concrete
 SCALE 4 4
