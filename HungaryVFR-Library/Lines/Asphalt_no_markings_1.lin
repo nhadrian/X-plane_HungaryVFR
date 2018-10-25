@@ -3,9 +3,10 @@ A
 LINE_PAINT
 
 TEXTURE Asphalt_no_markings_1.png
+TEXTURE_NORMAL 1 Asphalt_no_markings_1_NML.png
 DECAL_LIB HungaryVFR-Library/Decals/Asphalt.dcl
 TEX_WIDTH 64
-SPECULAR 0.2
+SPECULAR 0.4
 SCALE 7 3.5
 S_OFFSET  	0	 0	 32	 64
 

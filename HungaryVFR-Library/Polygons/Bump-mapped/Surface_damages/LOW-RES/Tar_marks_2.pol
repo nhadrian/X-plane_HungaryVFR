@@ -1,7 +1,7 @@
 A
 850
 DRAPED_POLYGON
-LAYER_GROUP markings -1
+LAYER_GROUP markings +1
 
 TEXTURE Tar_marks_2.dds
 TEXTURE_NORMAL 1 Tar_marks_2_NML.png
