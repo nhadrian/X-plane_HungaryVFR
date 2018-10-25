@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.5.0
+# Version: 1.5.1
 
 # ----------------------------------
 # AGP
@@ -359,6 +359,7 @@ EXPORT HungaryVFR-Library/Polygons/Custom_RWY/White_circle.pol Polygons/Custom_R
 # DECALS
 # ----------------------------------
 EXPORT HungaryVFR-Library/Decals/Concrete.dcl Decals/Concrete.dcl
+EXPORT HungaryVFR-Library/Decals/Asphalt.dcl Decals/Asphalt.dcl
 
 # ----------------------------------
 # STRINGS

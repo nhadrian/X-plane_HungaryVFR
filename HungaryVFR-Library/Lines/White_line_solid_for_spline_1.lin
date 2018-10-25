@@ -3,9 +3,10 @@ A
 LINE_PAINT
 
 TEXTURE Lines_02.png
-DECAL_LIB lib/g10/decals/apt_concrete.dcl
+DECAL_LIB HungaryVFR-Library/Decals/Concrete.dcl
 TEX_WIDTH 64
 
+SPECULAR 0.4
 SCALE 0.8	0.8
 S_OFFSET 0		 16	32	48
 

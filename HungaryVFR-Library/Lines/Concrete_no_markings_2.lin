@@ -3,8 +3,9 @@ A
 LINE_PAINT
 
 TEXTURE Concrete_no_markings_2.png
-DECAL_LIB lib/g10/decals/apt_concrete.dcl
+DECAL_LIB HungaryVFR-Library/Decals/Concrete.dcl
 TEX_WIDTH 64
+SPECULAR 0.2
 SCALE 7 7
 S_OFFSET  	0	 0	32	 64
 
