@@ -5,6 +5,7 @@ DRAPED_POLYGON
 LAYER_GROUP 	taxiways +1
 TEXTURE concrete_6D.dds
 TEXTURE_NORMAL 1 concrete_6D_NML.png
-SPECULAR 0.3
+SPECULAR 0.45
+DECAL_LIB HungaryVFR-Library/Decals/Concrete.dcl
 SURFACE concrete
 SCALE 25 25

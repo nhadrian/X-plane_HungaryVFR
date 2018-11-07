@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+
+TEXTURE Muddy.png
+TEXTURE_NORMAL 2 Muddy_NML.png
+LOD 10000
+SCALE 30 30
+#DECAL_LIB lib/g10/decals/grass_and_stony_dirt_1.dcl
+LAYER_GROUP runways -5

@@ -3,8 +3,10 @@ A
 LINE_PAINT
 
 TEXTURE Mud_road_1.png
+TEXTURE_NORMAL 1 Mud_road_1_NML.png
 DECAL_LIB lib/g10/decals/flinty_dirt_3.dcl
 TEX_WIDTH 64
+SPECULAR 0.25
 SCALE 6 6
 S_OFFSET  	0	 0	 32	 64
 

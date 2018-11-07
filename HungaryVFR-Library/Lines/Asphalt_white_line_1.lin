@@ -3,8 +3,10 @@ A
 LINE_PAINT
 
 TEXTURE Asphalt_white_line_1.png
-DECAL_LIB lib/g10/decals/apt_asphalt.dcl
+TEXTURE_NORMAL 1 Asphalt_white_line_1_NML.png
+DECAL_LIB HungaryVFR-Library/Decals/Asphalt.dcl
 TEX_WIDTH 64
+SPECULAR 0.35
 SCALE 7 3.5
 S_OFFSET  	0	 0	 32	 64
 

@@ -5,6 +5,6 @@ LAYER_GROUP runways -1
 
 TEXTURE 	Paving_1.dds
 TEXTURE_NORMAL 	1 Paving_1_NML.png
-SPECULAR 0.3
+SPECULAR 0.45
 SURFACE concrete
 SCALE 3 3
