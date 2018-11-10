@@ -1707,10 +1707,10 @@ IDX 0
 IDX 1
 IDX 2
 
-ATTR_shiny_rat 0.7
 ATTR_LOD 0 400
+ATTR_shiny_rat 0.7
 TRIS 0 2658
 
-ATTR_shiny_rat 0.7
 ATTR_LOD 400 2000
+ATTR_shiny_rat 0.7
 TRIS 2658 1926
