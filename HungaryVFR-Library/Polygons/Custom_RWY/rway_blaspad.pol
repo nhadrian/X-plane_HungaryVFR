@@ -1,0 +1,11 @@
+A
+850
+DRAPED_POLYGON
+
+LAYER_GROUP runways +2
+TEXTURE_NOWRAP rway_blaspad.dds
+DECAL_LIB HungaryVFR-Library/Decals/Concrete.dcl
+SPECULAR 0.4
+SCALE 25 25 
+SURFACE concrete
+

@@ -5,5 +5,5 @@ LAYER_GROUP markings +1
 
 TEXTURE Tar_marks_heavy_1.dds
 TEXTURE_NORMAL 1 Tar_marks_heavy_1_NML.png
-SPECULAR 0.1
+SPECULAR 0.2
 SCALE 15 15

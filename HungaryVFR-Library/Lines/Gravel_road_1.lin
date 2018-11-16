@@ -1,0 +1,13 @@
+A
+850
+LINE_PAINT
+
+TEXTURE Gravel_road_1.png
+TEXTURE_NORMAL 1 Gravel_road_1_NML.png
+DECAL_LIB lib/g10/decals/stony_dirt_1.dcl
+TEX_WIDTH 64
+SPECULAR 0.35
+SCALE 6 6
+S_OFFSET  	0	 0	 32	 64
+
+LAYER_GROUP taxiways +1

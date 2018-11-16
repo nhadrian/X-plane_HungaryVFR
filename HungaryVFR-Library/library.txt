@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.3.9
+# Version: 1.5.2
 
 # ----------------------------------
 # AGP
@@ -127,6 +127,9 @@ EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-2_23m.obj Objects/Trees_
 EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-3_13m.obj Objects/Trees_Hedges/Tree_NHA-3_13m.obj
 EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-3_16m.obj Objects/Trees_Hedges/Tree_NHA-3_16m.obj
 EXPORT HungaryVFR-Library/Objects/Trees_Hedges/Tree_NHA-3_20m.obj Objects/Trees_Hedges/Tree_NHA-3_20m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/thuja1_7m.obj Objects/Trees_Hedges/thuja1_7m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/thuja1_8m.obj Objects/Trees_Hedges/thuja1_8m.obj
+EXPORT HungaryVFR-Library/Objects/Trees_Hedges/thuja1_10m.obj Objects/Trees_Hedges/thuja1_10m.obj
 
 # Vehicles
 # ----------------------------------
@@ -216,6 +219,7 @@ EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Alone_Silver_1_ACTIVE.obj Objec
 EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Alone_Silver_1_STATIC.obj Objects/Vehicles/Truck_Alone_Silver_1_STATIC.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Alone_Orange_1_ACTIVE.obj Objects/Vehicles/Truck_Alone_Orange_1_ACTIVE.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Truck_Alone_Orange_1_STATIC.obj Objects/Vehicles/Truck_Alone_Orange_1_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ferrari_STATIC.obj Objects/Vehicles/Ferrari_STATIC.obj
 
 # Miscellanous
 # ----------------------------------
@@ -248,6 +252,9 @@ EXPORT HungaryVFR-Library/Objects/Misc/tyre_mixed.str Objects/Misc/tyre_mixed.st
 EXPORT HungaryVFR-Library/Objects/Misc/tyre_mixed_2high.str Objects/Misc/tyre_mixed_2high.str
 EXPORT HungaryVFR-Library/Objects/Misc/tyre_mixed_4high.str Objects/Misc/tyre_mixed_4high.str
 EXPORT HungaryVFR-Library/Objects/Misc/tyre_mixed_6high.str Objects/Misc/tyre_mixed_6high.str
+EXPORT HungaryVFR-Library/Objects/Misc/Tent_Redbull.obj Objects/Misc/Tent_redbull.obj
+EXPORT HungaryVFR-Library/Objects/Misc/Tent_GoFast.obj Objects/Misc/Tent_gofast.obj
+EXPORT HungaryVFR-Library/Objects/Misc/Flag_Hungary.obj Objects/Misc/Flag_Hungary.obj
 
 # ----------------------------------
 # POLYGONS
@@ -309,6 +316,8 @@ EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_2.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_cracked_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_cracked_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Mud_dry_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Mud_dry_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Sand_cracked_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Dirt_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Mud.pol Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Mud.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Mud_orig.pol Polygons/Bump-mapped/Mud-Sand-Dirt/HIGH-RES/Mud_orig.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_2.pol Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_2.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_cracked_1.pol Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Dirt_cracked_1.pol
@@ -330,6 +339,29 @@ EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Cracks_ol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_1.pol Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_2.pol Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_2.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_heavy_1.pol Polygons/Bump-mapped/Surface_damages/LOW-RES/Tar_marks_heavy_1.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_13.pol Polygons/Custom_RWY/rway_13.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_14.pol Polygons/Custom_RWY/rway_14.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_31.pol Polygons/Custom_RWY/rway_31.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_32.pol Polygons/Custom_RWY/rway_32.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_blaspad.pol Polygons/Custom_RWY/rway_blaspad.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_dis2.pol Polygons/Custom_RWY/rway_dis2.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_dis3.pol Polygons/Custom_RWY/rway_dis3.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_fdmk.pol Polygons/Custom_RWY/rway_fdmk.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol Polygons/Custom_RWY/rway_line.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_line2.pol Polygons/Custom_RWY/rway_line2.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_semi.pol Polygons/Custom_RWY/rway_semi.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_space.pol Polygons/Custom_RWY/rway_space.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz_uk.pol Polygons/Custom_RWY/rway_tdz_uk.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol Polygons/Custom_RWY/rway_tdz1.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz3.pol Polygons/Custom_RWY/rway_tdz3.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_thr1.pol Polygons/Custom_RWY/rway_thr1.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/White_circle.pol Polygons/Custom_RWY/White_circle.pol
+
+# ----------------------------------
+# DECALS
+# ----------------------------------
+EXPORT HungaryVFR-Library/Decals/Concrete.dcl Decals/Concrete.dcl
+EXPORT HungaryVFR-Library/Decals/Asphalt.dcl Decals/Asphalt.dcl
 
 # ----------------------------------
 # STRINGS
@@ -362,6 +394,15 @@ EXPORT HungaryVFR-Library/Forests/3Dgrass_dry.for Forests/3Dgrass_dry.for
 EXPORT HungaryVFR-Library/Lines/White_line_solid_1.lin Lines/White_line_solid_1.lin
 EXPORT HungaryVFR-Library/Lines/White_line_broken_1.lin Lines/White_line_broken_1.lin
 EXPORT HungaryVFR-Library/Lines/White_line_solid_for_spline_1.lin Lines/White_line_solid_for_spline_1.lin
+EXPORT HungaryVFR-Library/Lines/Concrete_no_markings_1.lin Lines/Concrete_no_markings_1.lin
+EXPORT HungaryVFR-Library/Lines/Concrete_no_markings_2.lin Lines/Concrete_no_markings_2.lin
+EXPORT HungaryVFR-Library/Lines/Asphalt_white_line_1.lin Lines/Asphalt_white_line_1.lin
+EXPORT HungaryVFR-Library/Lines/Asphalt_no_markings_1.lin Lines/Asphalt_no_markings_1.lin
+EXPORT HungaryVFR-Library/Lines/Mud_road_1.lin Lines/Mud_road_1.lin
+EXPORT HungaryVFR-Library/Lines/mud_Edge.lin Lines/mud_Edge.lin
+EXPORT HungaryVFR-Library/Lines/mud_Edge_narrow.lin Lines/mud_Edge_narrow.lin
+EXPORT HungaryVFR-Library/Lines/Mud_road_1.lin Lines/Mud_road_1.lin
+EXPORT HungaryVFR-Library/Lines/Gravel_road_1.lin Lines/Gravel_road_1.lin
 
 # ----------------------------------
 # AUTOGEN OVERRIDES

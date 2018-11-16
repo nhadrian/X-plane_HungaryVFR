@@ -5,6 +5,6 @@ LAYER_GROUP runways -1
 
 TEXTURE 	Dirt_grass_1.dds
 TEXTURE_NORMAL 	1 Dirt_grass_1_NML.png
-SPECULAR 0.6
+SPECULAR 0.45
 SURFACE dirt
 SCALE 4 4

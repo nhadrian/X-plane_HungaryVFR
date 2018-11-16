@@ -5,6 +5,7 @@ LAYER_GROUP 	taxiways +1
 
 TEXTURE 	Asphalt_2.dds
 TEXTURE_NORMAL 	1 Asphalt_2_NML.png
-SPECULAR 0.3
+DECAL_LIB HungaryVFR-Library/Decals/Asphalt.dcl
+SPECULAR 0.35
 SURFACE asphalt
 SCALE 4 4
