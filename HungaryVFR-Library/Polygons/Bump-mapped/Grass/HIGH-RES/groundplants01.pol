@@ -1,0 +1,13 @@
+A
+850
+DRAPED_POLYGON
+#DECAL_LIB lib/g10/decals/grass_and_stony_dirt_1.dcl
+
+TEXTURE_NOWRAP ivy1.png
+TEXTURE_NORMAL 1 ivy1_nml.png
+
+GLOBAL_specular 0.1
+
+LAYER_GROUP markings +4
+SCALE 60 60	
+SURFACE gravel
