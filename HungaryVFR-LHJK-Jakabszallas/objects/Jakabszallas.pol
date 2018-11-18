@@ -1,0 +1,8 @@
+I
+850
+DRAPED_POLYGON
+
+TEXTURE_NOWRAP	Jakabszallas.png
+DECAL_LIB lib/g10/decals/grass_and_shrubs.dcl
+LAYER_GROUP airports -1
+SCALE	25 25

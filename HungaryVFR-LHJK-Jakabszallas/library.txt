@@ -1,0 +1,24 @@
+A
+
+800
+
+LIBRARY
+
+
+
+EXPORT khamsin_Pacific_Islands/objects/light_parking_omni.obj opensceneryx/placeholder.obj
+EXPORT khamsin_Pacific_Islands/objects/R2_Library/zelen/stromy/str_jehl07.obj opensceneryx/placeholder.obj
+EXPORT R2_Library/doprava/vozidla/s105-blue.obj opensceneryx/placeholder.obj
+EXPORT R2_Library/doprava/vozidla/s105-red.obj opensceneryx/placeholder.obj
+EXPORT R2_Library/doprava/vozidla/s105-green.obj opensceneryx/placeholder.obj
+EXPORT R2_Library/letiste/palivo/stojan-palivo.obj opensceneryx/placeholder.obj
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan_maly.obj opensceneryx/placeholder.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_12m.obj opensceneryx/placeholder.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_16m.obj opensceneryx/placeholder.obj
+EXPORT R2_Library/zelen/stromy/str_bor01.obj opensceneryx/placeholder.obj
+EXPORT R2_Library/zelen/stromy/str_jehl17.obj opensceneryx/placeholder.obj
+EXPORT R2_Library/zelen/stromy/str_bor08.obj opensceneryx/placeholder.obj
+EXPORT R2_Library/zelen/stromy/str_jehl16.obj opensceneryx/placeholder.obj
+EXPORT R2_Library/zelen/stromy/str_jehl18.obj opensceneryx/placeholder.obj
+EXPORT R2_Library/zelen/stromy/str_jehl11.obj opensceneryx/placeholder.obj
+EXPORT R2_Library/zelen/stromy/str_jehl07.obj opensceneryx/placeholder.obj
