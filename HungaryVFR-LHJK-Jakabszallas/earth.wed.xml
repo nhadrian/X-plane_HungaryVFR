@@ -43,7 +43,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="4021"/>
+                <sel id="75"/>
             </selection>
         </object>
         <object class="WED_ObjPlacement" id="514" parent_id="58">
@@ -100,7 +100,6 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="3751"/>
                 <child id="5"/>
                 <child id="46"/>
             </children>
@@ -545,6 +544,18 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="4047"/>
+                <child id="4049"/>
+                <child id="4046"/>
+                <child id="4045"/>
+                <child id="4044"/>
+                <child id="4042"/>
+                <child id="4041"/>
+                <child id="4040"/>
+                <child id="4039"/>
+                <child id="4038"/>
+                <child id="4037"/>
+                <child id="4036"/>
                 <child id="57"/>
                 <child id="59"/>
                 <child id="60"/>
@@ -598,7 +609,6 @@
                 <child id="108"/>
                 <child id="109"/>
                 <child id="110"/>
-                <child id="111"/>
                 <child id="112"/>
                 <child id="113"/>
                 <child id="114"/>
@@ -2556,14 +2566,17 @@
                 <child id="2066"/>
                 <child id="2067"/>
                 <child id="2068"/>
-                <child id="2069"/>
+                <child id="4033"/>
+                <child id="4032"/>
+                <child id="4035"/>
+                <child id="4034"/>
+                <child id="4031"/>
                 <child id="2070"/>
                 <child id="2071"/>
                 <child id="2072"/>
                 <child id="2073"/>
                 <child id="2074"/>
                 <child id="2075"/>
-                <child id="2076"/>
                 <child id="2077"/>
                 <child id="2078"/>
                 <child id="2079"/>
@@ -3500,7 +3513,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="lib/airport/Common_Elements/Miscellaneous/Round_Trash_Can.obj"/>
-            <point heading="48.00" latitude="46.749116407" longitude="19.605549516"/>
+            <point heading="48.00" latitude="46.749116144" longitude="19.605553101"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Miscellaneous/Round_Trash_Can.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="75" parent_id="58">
@@ -3508,7 +3521,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="lib/airport/Common_Elements/Miscellaneous/Square_Trash_Can.obj"/>
-            <point heading="48.00" latitude="46.749147402" longitude="19.605547131"/>
+            <point heading="48.00" latitude="46.749149156" longitude="19.605550332"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Miscellaneous/Square_Trash_Can.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="76" parent_id="58">
@@ -3789,14 +3802,6 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="lib/airport/aircraft/GA/Cessna_172.obj"/>
             <point heading="322.00" latitude="46.749163615" longitude="19.605782692"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/GA/Cessna_172.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="111" parent_id="58">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="lib/airport/aircraft/GA/Cessna_172.obj"/>
-            <point heading="322.00" latitude="46.749552720" longitude="19.604770352"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/GA/Cessna_172.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="112" parent_id="58">
@@ -19415,14 +19420,6 @@
             <point heading="-38.33" latitude="46.750048032" longitude="19.604245153"/>
             <obj_placement custom_msl="0" msl="0.000" resource="opensceneryx/objects/vehicles/boats_ships/fishing/7.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="2069" parent_id="58">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="opensceneryx/objects/aircraft/props/ga/dr221/blue_3.obj"/>
-            <point heading="146.00" latitude="46.749678130" longitude="19.604696441"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="opensceneryx/objects/aircraft/props/ga/dr221/blue_3.obj" show_level="1 Default"/>
-        </object>
         <object class="WED_ObjPlacement" id="2070" parent_id="58">
             <sources/>
             <viewers/>
@@ -19470,14 +19467,6 @@
             <hierarchy hidden="0" locked="0" name="R2_Library/letiste/palivo/stojan-palivo.obj"/>
             <point heading="146.00" latitude="46.749212730" longitude="19.604811837"/>
             <obj_placement custom_msl="0" msl="0.000" resource="R2_Library/letiste/palivo/stojan-palivo.obj" show_level="1 Default"/>
-        </object>
-        <object class="WED_ObjPlacement" id="2076" parent_id="58">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="opensceneryx/objects/aircraft/jets/military/mig-19.obj"/>
-            <point heading="232.00" latitude="46.748851282" longitude="19.606073091"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="opensceneryx/objects/aircraft/jets/military/mig-19.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="2077" parent_id="58">
             <sources/>
@@ -32767,6 +32756,7 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="3751"/>
                 <child id="3739"/>
                 <child id="3596"/>
             </children>
@@ -32835,7 +32825,7 @@
             </children>
             <hierarchy hidden="0" locked="0" name="Orthophoto 124 Outer Ring"/>
         </object>
-        <object class="WED_DrapedOrthophoto" id="3751" parent_id="4">
+        <object class="WED_DrapedOrthophoto" id="3751" parent_id="3737">
             <sources/>
             <viewers/>
             <children>
@@ -35076,25 +35066,161 @@
             <hierarchy hidden="0" locked="0" name="Node 9"/>
             <point latitude="46.752603351" longitude="19.598975859"/>
         </object>
+        <object class="WED_ObjPlacement" id="4031" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="C152_HA-JON.obj"/>
+            <point heading="-215.80" latitude="46.749667526" longitude="19.604153575"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="HungaryVFR-Library/Objects/Airplanes/C152_HA-JON.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4032" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="AN-2_HA-MAR.obj"/>
+            <point heading="-36.63" latitude="46.749456562" longitude="19.604594971"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="HungaryVFR-Library/Objects/Airplanes/AN-2_HA-MAR.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4033" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="AN-2_HA-YHF.obj"/>
+            <point heading="-35.10" latitude="46.749339452" longitude="19.604360738"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="HungaryVFR-Library/Objects/Airplanes/AN-2_HA-YHF.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4034" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="GOBE_HA-5397.obj"/>
+            <point heading="128.05" latitude="46.743990090" longitude="19.609095776"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="HungaryVFR-Library/Objects/Airplanes/GOBE_HA-5397.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4035" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="MIG21_Metal.obj"/>
+            <point heading="220.99" latitude="46.748882444" longitude="19.606094526"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="HungaryVFR-Library/Objects/Airplanes/MIG21_Metal.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4036" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="TB20_HA-VES.obj"/>
+            <point heading="-130.24" latitude="46.749546782" longitude="19.604781803"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="HungaryVFR-Library/Objects/Airplanes/TB20_HA-VES.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4037" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="TCMELAK_HA-MFC.obj"/>
+            <point heading="185.02" latitude="46.749669967" longitude="19.604678292"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="HungaryVFR-Library/Objects/Airplanes/TCMELAK_HA-MFC.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4038" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="TRIKE_nosign.obj"/>
+            <point heading="36.69" latitude="46.749049492" longitude="19.605301101"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="HungaryVFR-Library/Objects/Airplanes/TRIKE_nosign.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4039" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="WILGA_HA-SEM.obj"/>
+            <point heading="-35.72" latitude="46.748881610" longitude="19.604756839"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="HungaryVFR-Library/Objects/Airplanes/WILGA_HA-SEM.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4040" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="theBoltons_drew.obj"/>
+            <point heading="57.99" latitude="46.749126712" longitude="19.605533450"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="objects/theBoltons_drew.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4041" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="woman_bikini2.obj"/>
+            <point heading="19.29" latitude="46.749131201" longitude="19.605528960"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="3D_people_library/woman_bikini2.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4042" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="woman_bikini3.obj"/>
+            <point heading="81.16" latitude="46.749122806" longitude="19.605536993"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="3D_people_library/woman_bikini3.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4044" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="woman_wrap.obj"/>
+            <point heading="-13.37" latitude="46.749133650" longitude="19.605520975"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="3D_people_library/woman_wrap.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4045" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="woman_sitting_arm_raised.obj"/>
+            <point heading="-147.65" latitude="46.749112339" longitude="19.605538891"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="3D_people_library/woman_sitting_arm_raised.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4046" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="woman_sitting_2.obj"/>
+            <point heading="127.06" latitude="46.749122079" longitude="19.605578635"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="3D_people_library/woman_sitting_2.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4047" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="woman_red_sitting.obj"/>
+            <point heading="64.13" latitude="46.749128658" longitude="19.605551075"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="3D_people_library/woman_red_sitting.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4049" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="woman_deck_chair.obj"/>
+            <point heading="66.80" latitude="46.749123303" longitude="19.605558311"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="3D_people_library/woman_deck_chair.obj" show_level="1 Default"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
             <item value="5"/>
             <item value="48"/>
-            <item value="58"/>
+            <item value="2926"/>
             <item value="3256"/>
             <item value="3310"/>
         </pref>
         <pref name="doc/export_target" value="4"/>
-        <pref name="map/east" value="19.601405"/>
-        <pref name="map/north" value="46.753089"/>
+        <pref name="map/east" value="19.605606"/>
+        <pref name="map/north" value="46.749166"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="4"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="46.750181"/>
+        <pref name="map/south" value="46.749072"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="19.597942"/>
+        <pref name="map/west" value="19.605494"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -35117,7 +35243,7 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="objects/monoblau/Stones/stone_edge.lin"/>
-        <pref name="map_Objects_Object" value="handyobjects/gatesandfences/hedge_10m.obj"/>
+        <pref name="map_Objects_Object" value="3D_people_library/woman_bikini3.obj"/>
         <pref name="map_Objects_Show with" value="564"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="FlyAgi_Components/TerraMaxx/Seasonal_Airfield_Snow_Edge_01.pol"/>
@@ -35170,8 +35296,8 @@
         <pref name="window/height" value="1117"/>
         <pref name="window/main_split" value="462"/>
         <pref name="window/main_split2" value="1441"/>
-        <pref name="window/prev_split" value="820"/>
-        <pref name="window/prop_split" value="619"/>
+        <pref name="window/prev_split" value="840"/>
+        <pref name="window/prop_split" value="639"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>

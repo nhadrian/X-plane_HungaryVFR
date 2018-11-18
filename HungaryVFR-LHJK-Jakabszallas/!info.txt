@@ -2,3 +2,4 @@ handyobjects
 cdb
 r2_lib
 flyagi_vegetation
+3d_people
