@@ -1,8 +1,8 @@
 ﻿HungaryVFR-Scenery-Hungary Overlay
 ******************************************************
 
-Build XML version: 2.0.3
-Build date: 2018. march 27.
+Build XML version: 2.0.4
+Build date: 2018. nov 24.
 Covered area: Hungary
 
 ******************************************************
