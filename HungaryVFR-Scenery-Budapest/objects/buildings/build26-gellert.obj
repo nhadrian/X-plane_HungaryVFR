@@ -22,5 +22,7 @@ IDX	3
 IDX	0
 
 ATTR_no_blend
+ATTR_LOD 0.000000 4000.000000
+ATTR_shiny_rat 0.2
 
 TRIS	0 6
