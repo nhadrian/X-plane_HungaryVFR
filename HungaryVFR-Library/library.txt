@@ -264,6 +264,13 @@ EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Water/Water_1.pol Polygons/Bump-m
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_2.pol Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_2.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_Cracked_1.pol Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_Cracked_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_Tarmac_1.pol Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_Tarmac_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_cracked_2.pol Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_cracked_2.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_cracked_3.pol Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_cracked_3.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_cracked_4.pol Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_cracked_4.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_cracked_5.pol Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_cracked_5.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_cracked_5_overlay.pol Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_cracked_5_overlay.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_cracked_6.pol Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_cracked_6.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_cracked_7.pol Polygons/Bump-mapped/Asphalt/HIGH-RES/Asphalt_cracked_7.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_2.pol Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_2.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_Cracked_1.pol Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_Cracked_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_Tarmac_1.pol Polygons/Bump-mapped/Asphalt/LOW-RES/Asphalt_Tarmac_1.pol
@@ -303,6 +310,7 @@ EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Grass_3.pol Polygo
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Grass_4.pol Polygons/Bump-mapped/Grass/HIGH-RES/Grass_4.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Grass_5.pol Polygons/Bump-mapped/Grass/HIGH-RES/Grass_5.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Grass_6.pol Polygons/Bump-mapped/Grass/HIGH-RES/Grass_6.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/groundplants01.pol Polygons/Bump-mapped/Grass/HIGH-RES/groundplants01.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/HIGH-RES/Dirt_grass_1.pol Polygons/Bump-mapped/Grass/HIGH-RES/Dirt_grass_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/LOW-RES/Grass_1.pol Polygons/Bump-mapped/Grass/LOW-RES/Grass_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Grass/LOW-RES/Grass-2.pol Polygons/Bump-mapped/Grass/LOW-RES/Grass_2.pol

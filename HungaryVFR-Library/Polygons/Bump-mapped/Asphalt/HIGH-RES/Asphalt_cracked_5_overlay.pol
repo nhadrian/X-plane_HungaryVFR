@@ -1,0 +1,11 @@
+A
+850
+DRAPED_POLYGON
+LAYER_GROUP 	roads +5
+
+TEXTURE_NOWRAP 	Asphalt_cracked_1_overlay.png
+TEXTURE_NORMAL 	2 Asphalt_cracked_1_overlay_NML.png
+#DECAL_LIB HungaryVFR-Library/Decals/Asphalt.dcl
+SPECULAR 1
+SURFACE asphalt
+SCALE 6 6
