@@ -1,10 +1,11 @@
 HungaryVFR-Scenery-Aerials
 ******************************************************
 
-Version: 0.0.4.2
+Version: 0.0.4.3
 Covered area:
 	- Hungarian radio towers
 	- Hungarian windfarms
+	- Dam
 
 ******************************************************
 Made by HungaryVFR Team.
