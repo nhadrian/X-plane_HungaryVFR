@@ -320,10 +320,10 @@ IDX10 9 4 5 6 0 3 1 0 1 2
 
 ATTR_LOD 0.000000 15000.000000
 ATTR_shiny_rat 0.15
-ATTR_hard 
+ATTR_hard
 ATTR_no_blend
 TRIS 240 300
 
-ATTR_no_hard 
+ATTR_no_hard
 ATTR_draped
 TRIS 0 240
