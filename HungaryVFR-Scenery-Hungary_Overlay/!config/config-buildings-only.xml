@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xst>
+    <facadeSets>
+        <facadeSet identifier="simheaven_red">./resources/facades-osm2xp/osm2xpFacadeSetDescriptor.xml</facadeSet>
+        <facadeSet identifier="simheaven_black">./resources/facades-BlackRoofs/osm2xpFacadeSetDescriptor.xml</facadeSet>
+        <facadeSet identifier="w2xp">./resources/facades-w2xp/osm2xpFacadeSetDescriptor.xml</facadeSet>
+    </facadeSets>
+
+    <!-- Number of generator processors to spawn, set this to the number of CPU cores you have to speed up generation. Also make sure
+         your system has enough memory to support it-->
+    <processor-threads>2</processor-threads>
+
+    <!-- Enable these even if using smart-exclusions, unless you want absolutely no exclusions at all -->
+    <exclude-objects>false</exclude-objects>
+    <exclude-forests>false</exclude-forests>
+    <exclude-facades>false</exclude-facades>
+
+    <!-- The location of the world models folder, this by default will check inside your X-Plane directory -->
+    <!--<world-models-location>./resources/world-models</world-models-location>-->
+
+    <!-- There seems to be bug in X-Plane when facades go over a certain height, setting this will force the facades greater than this height
+        to be turned into objects -->
+    <facade-height-limit>200</facade-height-limit>
+
+    <!-- Make sure you enable this if generating roads -->
+    <exclude-network>false</exclude-network>
+
+    <!-- Show debugging messages, e.g. Memory used, counts, etc -->
+    <debug-messages>false</debug-messages>
+
+    <!-- EXPERIMENTAL road support (If using, ensure you enable network exclusions -->
+    <create-road-network>false</create-road-network>
+
+    <!-- Clip out all trees from an airport, (Buildings aren't clipped out, as in some cases these are wanted -->
+    <clip-airports>false</clip-airports>
+
+    <!-- Clip roads out of forests, airports, fields, etc.. -->
+    <!-- N.B. This will not generate roads, but will read them from OSM -->
+    <clip-roads>false</clip-roads>
+
+    <!-- Location to store temporary files during generation (Recommend placing his on a fast SSD disk) -->
+    <temporary-file-path>./</temporary-file-path>
+
+
+    <!-- Enable debug will save an image in each scenery folder with locations of forests and tree exclusions
+         Coloured areas will contain objects and exclusions, black area contain no data
+    -->
+    <enable-debug-image>false</enable-debug-image>
+
+    <facade-lod>12000</facade-lod>
+
+    <!-- Enable regions, without regions will will be ignored -->
+    <region-enabled>true</region-enabled>
+
+    <smart-exclusions>true</smart-exclusions>
+    <building-exclusion-range>5</building-exclusion-range>
+    <buildings-per-grid>5</buildings-per-grid>
+
+    <forest-exclusion-range>1000</forest-exclusion-range>
+
+    <!-- Lower this if DSF Tool Fails on a particular tile -->
+    <random-placement-limit>900000</random-placement-limit>
+
+    <!-- Place Lights on the top tall buildings -->
+    <obstacle-lights>true</obstacle-lights>
+
+    <!-- Compress textures from generated models use DDS, It's a good idea to keep this enabled -->
+    <compress-textures>true</compress-textures>
+
+    <!-- Create facades for OSM 3D models, i.e. This doesn't work if the building has a min_height -->
+    <generate-roof-wall-colors>true</generate-roof-wall-colors>
+
+    <!-- Create models for OSM 3D models and building parts -->
+    <enable-osm-3d>true</enable-osm-3d>
+
+    <!-- Load countries from Shape File and use ISO code for the region identifier !-->
+    <region-identifiers>
+        <region-identifier type="shapefile">
+            <identifier>ISO_A2</identifier>
+            <file>./resources/ne_10m_admin_0_countries/ne_10m_admin_0_countries.shp</file>
+            <priority>1</priority>
+        </region-identifier>
+
+        <region-identifier type="csv">
+            <file>./resources/regions.csv</file>
+            <priority>0</priority>
+        </region-identifier>
+
+        <!-- UK Counties -->
+        <region-identifier type="shapefile">
+            <identifier>LAD13NM</identifier>
+            <file>./resources/uk_counties/LAD_DEC_2013_GB_BGC.shp</file>
+            <priority>1</priority>
+        </region-identifier>
+
+
+    </region-identifiers>
+
+    <!-- Libraries used in the CSV files -->
+    <!-- You can disable libraries here, and they will be excluded. N.B. This only works with the CSV files -->
+    <libs>
+        <lib enabled="true">W2XP</lib>
+        <!-- World Models -->
+        <lib enabled="true">FF</lib>
+        <!-- FF Library -->
+        <lib enabled="true">R2</lib>
+        <!-- R2 Library -->
+        <lib enabled="true">UWESPEED</lib>
+        <!-- Uwespeed's Generic Buildings -->
+        <lib enabled="true">Blacky75</lib>
+        <!-- Blacky75 Buildings in the World Models Library -->
+        <lib enabled="true">OPENSCENERYX</lib>
+        <!-- OpenSceneryX -->
+        <lib enabled="true">XP</lib>
+        <!-- X-Plane default objects -->
+    </libs>
+
+    <rules>
+
+        <!-- Random Seeds, for randomally switching some rules !-->
+        <random-seed>
+            <min>0</min>
+            <max>100</max>
+            <identifier>farming</identifier>
+        </random-seed>
+
+        <!-- Area Trackers, track the following areas for reference in later rules -->
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=residential
+            </filter>
+            <identifier>residential</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+
+        <!-- Node trackers, for tracking city/town and village centres -->
+        <rule type="node-track">
+            <filter type="key-value">
+                place=city
+            </filter>
+            <identifier>city</identifier>
+        </rule>
+
+        <rule type="node-track">
+            <filter type="key-value">
+                place=town
+            </filter>
+            <identifier>town</identifier>
+        </rule>
+
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=school
+            </filter>
+            <identifier>school</identifier>
+        </rule>
+
+        <rule type="node-track">
+            <filter type="key-value">
+                place=suburb
+            </filter>
+            <identifier>suburb</identifier>
+        </rule>
+
+        <rule type="node-track">
+            <filter type="key-value">
+                place=village
+            </filter>
+            <identifier>village</identifier>
+        </rule>
+
+        <!-- Adaptive height rule for buildings without heights. -->
+        <!--<adaptive-height identifier="city_heights">-->
+        <!--<node identifier="village" min_levels="1" max_levels="2" range="1"/>-->
+        <!--<node identifier="city" min_levels="3" max_levels="6" range="2"/>-->
+        <!--</adaptive-height>-->
+
+        <!-- Track churches -->
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=place_of_worship
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>church</identifier>
+        </rule>
+
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=car_wash
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>car_wash</identifier>
+        </rule>
+
+
+        <!-- Track petrol stations -->
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=fuel
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>petrol</identifier>
+        </rule>
+
+        <!-- Track supermarkets -->
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=supermarket
+                shop=supermarket
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>supermarket</identifier>
+        </rule>
+
+        <!-- Track fastfood -->
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=fast_food
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>fast_food</identifier>
+        </rule>
+
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=shop
+                shop=*
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>shop</identifier>
+        </rule>
+
+        <!-- Do not remove this area tracker or rename it as it's used to clip airports -->
+        <rule type="area-track">
+            <filter type="key-value">
+                aerodrome=*
+                aeroway=*
+                highway=service,access=private
+                landuse=airport
+            </filter>
+            <identifier>aeroway</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+
+        <!-- Don't generate anything inside airports -->
+        <rule type="sink">
+            <filter type="key-value">
+                area=aeroway
+            </filter>
+        </rule>
+
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=military
+            </filter>
+            <identifier>military</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=industrial
+            </filter>
+            <identifier>industrial</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=commercial
+            </filter>
+            <identifier>commercial</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=retail
+            </filter>
+            <identifier>retail</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=farmland
+                landuse=farmyard
+                landuse=farm
+                landuse=meadow
+            </filter>
+            <identifier>farm</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+        <!-- Track the cables for stair-lifts/gondolas !-->
+        <!--<rule type="way-track">-->
+        <!--<filter type="key-value">-->
+        <!--aerialway=chair_lift-->
+        <!--aerialway=cable_car-->
+        <!--aerialway=drag_lift-->
+        <!--aerialway=gondola-->
+        <!--</filter>-->
+        <!--<identifier>chair-lift</identifier>-->
+        <!--</rule>-->
+
+        <!-- Track Roads -->
+        <!--<rule type="way-track">-->
+        <!--<filter type="key-value">-->
+        <!--highway=*-->
+        <!--</filter>-->
+        <!--<identifier>highway</identifier>-->
+        <!--</rule>-->
+
+
+
+
+        <rule type="object">
+            <filter type="key-value">
+                building=*,node=petrol
+                amenity=fuel
+            </filter>
+            <restrict-height>false</restrict-height>
+            <min-area>21.0x17.0</min-area>
+            <max-area>28.0x22.0</max-area>
+            <objects>
+                <object>objects/commercial/Petrol_Shell_25x20.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=*,node=car_wash
+                amenity=car_wash
+            </filter>
+            <restrict-height>false</restrict-height>
+            <min-area>23.00x12.00</min-area>
+            <max-area>27.00x16.00</max-area>
+            <objects>
+                <object>objects/commercial/carwash/carwash.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=*,node=petrol
+                amenity=fuel
+            </filter>
+            <restrict-height>false</restrict-height>
+            <min-area>16.0x17.0</min-area>
+            <max-area>21.0x22.0</max-area>
+            <objects>
+                <object>objects/commercial/Petrol_Esso_18x19.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=*,node=fast_food
+                amenity=fast_food
+            </filter>
+            <restrict-height>false</restrict-height>
+            <min-area>22.62x10.96</min-area>
+            <max-area>27.62x13.96</max-area>
+            <objects>
+                <object>objects/commercial/fastfood/burgerking.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=*,node=fast_food
+                amenity=fast_food
+            </filter>
+            <restrict-height>false</restrict-height>
+            <min-area>9.0x27.0</min-area>
+            <max-area>15.0x37.0</max-area>
+            <objects>
+                <object>objects/commercial/fastfood/mcdonalds.obj</object>
+            </objects>
+        </rule>
+
+
+        <!-- Supermarkets -->
+        <rule type="object">
+            <filter type="key-value">
+                building=supermarket
+                building=retail
+                building=hypermarket
+                amenity=supermarket
+                shop=supermarket
+                building=*,node=supermarket
+                building=*,shop=supermarket
+            </filter>
+            <required-level>4</required-level>
+            <tolerance>3.0</tolerance>
+            <circular>false</circular>
+            <best-fit>supermarkets.csv</best-fit>
+        </rule>
+
+
+        <!-- Residential Object Rules !-->
+
+        <rule type="object">
+            <filter type="key-value">
+                building=residential
+                building=house
+                building=terrace
+                building=apartments
+                building=detached
+                building=garage
+                building=yes,area=residential
+                building=yes,area=none
+            </filter>
+            <circular>false</circular>
+            <tolerance>1.0</tolerance>
+            <restrict-height>true</restrict-height>
+            <min-random-height>3</min-random-height>
+            <max-random-height>9</max-random-height>
+            <street-facing>true</street-facing>
+            <tag-rules>./resources/house-tags.csv</tag-rules>
+            <reject-multi-polygon>true</reject-multi-polygon>
+            <max-height>45</max-height>
+            <restrict-shape>false</restrict-shape>
+            <best-fit>residential.csv</best-fit>
+        </rule>
+
+        <!-- Retail -->
+        <rule type="object">
+            <filter type="key-value">
+                building=retail
+                building=*,area=retail
+                amenity=shop
+                shop=*
+                building=*,node=shop
+            </filter>
+            <tolerance>2.0</tolerance>
+            <circular>false</circular>
+            <required-level>4</required-level>
+            <best-fit>retail.csv</best-fit>
+        </rule>
+
+
+        <rule type="object">
+            <filter type="key-value">
+                emergency=fire_hydrant
+                amenity=fire_hydrant
+            </filter>
+            <objects>
+                <object>objects/decorations/hydrant.obj</object>
+            </objects>
+        </rule>
+
+        <!-- Industrial Objects -->
+        <rule type="object">
+            <filter type="key-value">
+                building=industrial,!building:material,!building:colour,!building:color
+                building=commercial,!building:material,!building:colour,!building:color
+                building=warehouse,!building:material,!building:colour,!building:color
+                building=manufacturing,!building:material,!building:colour,!building:color
+                building=manufacture,!building:material,!building:colour,!building:color
+                building=yes,area=industrial,!building:material,!building:colour,!building:color
+                building=yes,area=none,!building:material,!building:colour,!building:color
+                building=yes,area=military,!building:material,!building:colour,!building:color
+            </filter>
+            <tolerance>1.5</tolerance>
+            <circular>false</circular>
+            <restrict-height>false</restrict-height>
+            <restrict-shape>true</restrict-shape>
+            <reject-multi-polygon>true</reject-multi-polygon>
+            <best-fit>industrial.csv</best-fit>
+        </rule>
+
+        <!-- Generic Buildings from the Uwespeed set, only if other buildings from the main house set aren't found -->
+        <rule type="object">
+            <filter type="key-value">
+                building=residential
+                building=house
+                building=terrace
+                building=apartments
+                building=detached
+                building=garage
+                building=yes,area=residential
+                building=yes,area=none
+            </filter>
+            <circular>false</circular>
+            <tolerance>1.0</tolerance>
+            <restrict-height>false</restrict-height>
+            <restrict-shape>true</restrict-shape>
+            <street-facing>true</street-facing>
+            <!--<default-height>city_heights</default-height>-->
+            <reject-multi-polygon>true</reject-multi-polygon>
+            <best-fit>residential_generic.csv</best-fit>
+        </rule>
+
+
+
+
+        <!-- Airport objects !-->
+        <rule type="object">
+            <filter type="key-value">
+                building=*,area=aeroway
+                aeroway=hangar
+                aeroway=terminal
+                building=hangar
+                building=terminal
+            </filter>
+            <tolerance>3.0</tolerance>
+            <circular>false</circular>
+            <best-fit>hangars.csv</best-fit>
+        </rule>
+
+
+        <!-- Commercial Objects -->
+        <rule type="object">
+            <filter type="key-value">
+                building=commercial,!building:material,!building:colour,!building:color
+                building=*,area=commercial,!building:material,!building:colour,!building:color
+                building=yes,area=none,!building:material,!building:colour,!building:color
+                building=public,!building:material,!building:colour,!building:color
+                building=*,area=retail,!building:material,!building:colour,!building:color
+            </filter>
+            <tolerance>1.5</tolerance>
+            <restrict-height>false</restrict-height>
+            <!--<default-height>city_heights</default-height>-->
+            <best-fit>commercial.csv</best-fit>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=barn
+                building=farm
+                building=cowshed
+                building=farm_auxiliary
+                building=sty
+                building=stable
+                building=*,area=farm
+                building=*,area=none
+            </filter>
+            <restrict-height>false</restrict-height>
+            <tolerance>3.5</tolerance>
+            <required-level>3</required-level>
+            <max-height>30</max-height>
+            <best-fit>agriculture.csv</best-fit>
+        </rule>
+
+
+
+
+    </rules>
+</xst>
