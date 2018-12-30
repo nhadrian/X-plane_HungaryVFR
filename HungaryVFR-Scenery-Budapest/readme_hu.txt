@@ -1,7 +1,7 @@
 ﻿HungaryVFR-Scenery-Budapest
 ******************************************************
 
-Verzió szám: 1.0.24
+Verzió szám: 1.0.25
 Lefedett terület: Budapest
 
 ******************************************************
