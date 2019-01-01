@@ -1,0 +1,2670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xst>
+    <facadeSets>
+        <facadeSet identifier="simheaven_red">./resources/facades-osm2xp/osm2xpFacadeSetDescriptor.xml</facadeSet>
+        <facadeSet identifier="simheaven_black">./resources/facades-BlackRoofs/osm2xpFacadeSetDescriptor.xml</facadeSet>
+        <facadeSet identifier="w2xp">./resources/facades-w2xp/osm2xpFacadeSetDescriptor.xml</facadeSet>
+    </facadeSets>
+
+
+    <!-- Enable these even if using smart-exclusions, unless you want absolutely no exclusions at all -->
+    <exclude-objects>true</exclude-objects>
+    <exclude-forests>true</exclude-forests>
+    <exclude-facades>true</exclude-facades>
+    <exclude-beaches>true</exclude-beaches>
+
+    <!-- The location of the world models folder, this by default will check inside your X-Plane directory -->
+    <!--<world-models-location>./resources/world-models</world-models-location>-->
+
+    <!-- There seems to be bug in X-Plane when facades go over a certain height, setting this will force the facades greater than this height
+        to be turned into objects -->
+    <facade-height-limit>200</facade-height-limit>
+
+    <!-- Make sure you enable this if generating roads -->
+    <exclude-network>true</exclude-network>
+
+    <!-- Show debugging messages, e.g. Memory used, counts, etc -->
+    <debug-messages>false</debug-messages>
+
+    <!-- EXPERIMENTAL road support (If using, ensure you enable network exclusions -->
+    <create-road-network>true</create-road-network>
+
+    <!-- Clip out all trees from an airport, (Buildings aren't clipped out, as in some cases these are wanted -->
+    <clip-airports>true</clip-airports>
+
+    <!-- Clip roads out of forests, airports, fields, etc.. -->
+    <!-- N.B. This will not generate roads, but will read them from OSM -->
+    <clip-roads>true</clip-roads>
+
+    <!-- Location to store temporary files during generation (Recommend placing his on a fast SSD disk) -->
+    <temporary-file-path>./</temporary-file-path>
+
+
+    <!-- Enable debug will save an image in each scenery folder with locations of forests and tree exclusions
+         Coloured areas will contain objects and exclusions, black area contain no data
+    -->
+    <enable-debug-image>false</enable-debug-image>
+
+    <facade-lod>12000</facade-lod>
+
+    <!-- Enable regions, without regions will will be ignored -->
+    <region-enabled>true</region-enabled>
+
+    <smart-exclusions>false</smart-exclusions>
+    <building-exclusion-range>150</building-exclusion-range>
+    <buildings-per-grid>5</buildings-per-grid>
+
+    <forest-exclusion-range>1000</forest-exclusion-range>
+
+    <!-- Lower this if DSF Tool Fails on a particular tile -->
+    <random-placement-limit>900000</random-placement-limit>
+
+    <!-- Compress textures from generated models use DDS, It's a good idea to keep this enabled -->
+    <compress-textures>false</compress-textures>
+
+    <!-- Create facades for OSM 3D models, i.e. This doesn't work if the building has a min_height -->
+    <generate-roof-wall-colors>false</generate-roof-wall-colors>
+
+    <!-- Create models for OSM 3D models and building parts -->
+    <enable-osm-3d>true</enable-osm-3d>
+
+    <!-- Load countries from Shape File and use ISO code for the region identifier !-->
+    <region-identifiers>
+        <region-identifier type="shapefile">
+            <identifier>WB_A2</identifier>
+            <file>./resources/ne_10m_admin_0_countries/ne_10m_admin_0_countries.shp</file>
+            <priority>1</priority>
+        </region-identifier>
+
+        <region-identifier type="csv">
+            <file>./resources/regions.csv</file>
+            <priority>0</priority>
+        </region-identifier>
+
+
+    </region-identifiers>
+
+    <!-- Libraries used in the CSV files -->
+    <!-- You can disable libraries here, and they will be excluded. N.B. This only works with the CSV files -->
+    <libs>
+        <lib enabled="true">W2XP</lib>
+        <!-- World Models -->
+        <lib enabled="true">FF</lib>
+        <!-- FF Library -->
+        <lib enabled="true">R2</lib>
+        <!-- R2 Library -->
+        <lib enabled="false">UWESPEED</lib>
+        <!-- Uwespeed's Generic Buildings -->
+        <lib enabled="false">Blacky75</lib>
+        <!-- Blacky75 Buildings in the World Models Library -->
+        <lib enabled="true">OPENSCENERYX</lib>
+        <!-- OpenSceneryX -->
+        <lib enabled="true">XP</lib>
+        <!-- X-Plane default objects -->
+    </libs>
+
+    <rules>
+
+        <!-- Random Seeds, for randomally switching some rules !-->
+        <random-seed>
+            <min>0</min>
+            <max>100</max>
+            <identifier>farming</identifier>
+        </random-seed>
+
+        <!-- Area Trackers, track the following areas for reference in later rules -->
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=residential
+            </filter>
+            <identifier>residential</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+
+        <!-- Node trackers, for tracking city/town and village centres -->
+        <rule type="node-track">
+            <filter type="key-value">
+                place=city
+            </filter>
+            <identifier>city</identifier>
+        </rule>
+
+        <rule type="node-track">
+            <filter type="key-value">
+                place=town
+            </filter>
+            <identifier>town</identifier>
+        </rule>
+
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=school
+            </filter>
+            <identifier>school</identifier>
+        </rule>
+
+        <rule type="node-track">
+            <filter type="key-value">
+                place=suburb
+            </filter>
+            <identifier>suburb</identifier>
+        </rule>
+
+        <rule type="node-track">
+            <filter type="key-value">
+                place=village
+            </filter>
+            <identifier>village</identifier>
+        </rule>
+
+        <!-- Adaptive height rule for buildings without heights. -->
+        <!--<adaptive-height identifier="city_heights">-->
+        <!--<node identifier="village" min_levels="1" max_levels="2" range="1"/>-->
+        <!--<node identifier="city" min_levels="3" max_levels="6" range="2"/>-->
+        <!--</adaptive-height>-->
+
+        <!-- Track churches -->
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=place_of_worship
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>church</identifier>
+        </rule>
+
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=car_wash
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>car_wash</identifier>
+        </rule>
+
+
+        <!-- Track petrol stations -->
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=fuel
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>petrol</identifier>
+        </rule>
+
+        <!-- Track supermarkets -->
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=supermarket
+                shop=supermarket
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>supermarket</identifier>
+        </rule>
+
+        <!-- Track fastfood -->
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=fast_food
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>fast_food</identifier>
+        </rule>
+
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=shop
+                shop=*
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>shop</identifier>
+        </rule>
+
+        <!-- Do not remove this area tracker or rename it as it's used to clip airports -->
+        <rule type="area-track">
+            <filter type="key-value">
+                aerodrome=*
+                aeroway=*
+                highway=service,access=private
+                landuse=airport
+            </filter>
+            <identifier>aeroway</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+
+        <!-- Don't generate anything inside airports -->
+        <rule type="sink">
+            <filter type="key-value">
+                area=aeroway,building=*
+                area=aeroway,natural=wood
+                area=aeroway,landuse=farmland
+                area=aeroway,landuse=farm
+                area=aeroway,landuse=grass
+                area=aeroway,landuse=grassland
+                area=aeroway,natural=grass
+                area=aeroway,landuse=forest
+            </filter>
+        </rule>
+
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=military
+            </filter>
+            <identifier>military</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+        <rule type="area-track">
+            <filter type="key-value">
+                tourism=caravan_site
+            </filter>
+            <identifier>caravan_site</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+        <rule type="area-track">
+            <filter type="key-value">
+                leisure=park
+                landuse=recreation_ground
+                leisure=pitch
+            </filter>
+            <identifier>park</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=industrial
+            </filter>
+            <identifier>industrial</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=commercial
+            </filter>
+            <identifier>commercial</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=retail
+            </filter>
+            <identifier>retail</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=cemetery
+            </filter>
+            <identifier>cemetery</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=allotments
+            </filter>
+            <identifier>allotments</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=farmland
+                landuse=farmyard
+                landuse=farm
+                landuse=meadow
+                landuse=field
+                natural=field
+            </filter>
+            <identifier>farm</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+
+
+        <!-- Used with 3D object builder -->
+        <rule type="facade">
+            <filter type="key-value">
+                building:part=*
+                building=*,building:part=*
+            </filter>
+            <area-type>industrial</area-type>
+        </rule>
+
+        <rule type="sink">
+            <filter type="key-value">
+                building=*,!height
+                building=*,!building:part
+                building=*,height&lt;5,!building:part
+            </filter>
+            <circular>false</circular>
+            <max-area>5</max-area>
+        </rule>
+
+        <!-- Churches !-->
+        <rule type="object">
+            <filter type="key-value">
+                building=church
+                amenity=place_of_worship
+                building=*,node=church
+            </filter>
+            <tolerance>4.0</tolerance>
+            <restrict-height>false</restrict-height>
+            <best-fit>churches.csv</best-fit>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=*,node=petrol
+                amenity=fuel
+            </filter>
+            <restrict-height>false</restrict-height>
+            <min-area>21.0x17.0</min-area>
+            <max-area>28.0x22.0</max-area>
+            <objects>
+                <object>objects/commercial/Petrol_Shell_25x20.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=*,node=car_wash
+                amenity=car_wash
+            </filter>
+            <restrict-height>false</restrict-height>
+            <min-area>23.00x12.00</min-area>
+            <max-area>27.00x16.00</max-area>
+            <objects>
+                <object>objects/commercial/carwash/carwash.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=*,node=petrol
+                amenity=fuel
+            </filter>
+            <restrict-height>false</restrict-height>
+            <min-area>16.0x17.0</min-area>
+            <max-area>21.0x22.0</max-area>
+            <objects>
+                <object>objects/commercial/Petrol_Esso_18x19.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=*,node=fast_food
+                amenity=fast_food
+            </filter>
+            <restrict-height>false</restrict-height>
+            <min-area>22.62x10.96</min-area>
+            <max-area>27.62x13.96</max-area>
+            <objects>
+                <object>objects/commercial/fastfood/burgerking.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=*,node=fast_food
+                amenity=fast_food
+            </filter>
+            <restrict-height>false</restrict-height>
+            <min-area>9.0x27.0</min-area>
+            <max-area>15.0x37.0</max-area>
+            <objects>
+                <object>objects/commercial/fastfood/mcdonalds.obj</object>
+            </objects>
+        </rule>
+
+        <!-- Holiday Parks/Static Homes -->
+        <rule type="facade">
+            <filter type="key-value">
+                building=*,area=caravan_site
+                building=*,area=park
+            </filter>
+            <simplify>0.5</simplify>
+            <min-random-height>3</min-random-height>
+            <max-random-height>3</max-random-height>
+            <facades>
+                <facade>facades/residential/static_home_1.fac</facade>
+                <facade>facades/residential/static_home_2.fac</facade>
+            </facades>
+        </rule>
+
+        <rule type="facade">
+            <filter type="key-value">
+                building=greenhouse
+                building=glasshouse
+            </filter>
+            <simplify>0.5</simplify>
+            <min-random-height>6</min-random-height>
+            <max-random-height>6</max-random-height>
+            <facades>
+                <facade>facades/agricultural/greenhouse_1.fac</facade>
+                <facade>facades/agricultural/greenhouse_2.fac</facade>
+            </facades>
+        </rule>
+
+        <!-- Supermarkets -->
+        <rule type="object">
+            <filter type="key-value">
+                building=supermarket
+                building=retail
+                building=hypermarket
+                amenity=supermarket
+                shop=supermarket
+                building=*,node=supermarket
+                building=*,shop=supermarket
+            </filter>
+            <required-level>4</required-level>
+            <tolerance>3.0</tolerance>
+            <circular>false</circular>
+            <best-fit>supermarkets.csv</best-fit>
+        </rule>
+
+
+        <!-- Residential Object Rules !-->
+
+        <rule type="object">
+            <filter type="key-value">
+                building=residential,!man_made
+                building=house,!man_made
+                building=terrace,!man_made
+                building=apartments,!man_made
+                building=detached,!man_made
+                building=garage,!man_made
+                building=yes,area=residential,!man_made
+                building=yes,area=none,!man_made
+            </filter>
+            <circular>false</circular>
+            <tolerance>1.0</tolerance>
+            <restrict-height>true</restrict-height>
+            <min-random-height>3</min-random-height>
+            <max-random-height>9</max-random-height>
+            <street-facing>true</street-facing>
+            <tag-rules>./resources/house-tags.csv</tag-rules>
+            <reject-multi-polygon>true</reject-multi-polygon>
+            <max-height>22</max-height>
+            <restrict-shape>true</restrict-shape>
+            <best-fit>residential.csv</best-fit>
+        </rule>
+
+        <!-- Residential facades -->
+        <rule type="facade">
+            <filter type="key-value">
+                building=residential
+                building=terrace
+                building=apartments
+                building=detached
+                building=garage
+                building=yes,area=residential
+            </filter>
+            <circular>false</circular>
+            <facade-set>facades/residential.csv</facade-set>
+        </rule>
+
+        <!-- Retail -->
+        <rule type="object">
+            <filter type="key-value">
+                building=retail
+                building=*,area=retail
+                amenity=shop
+                shop=*
+                building=*,node=shop
+            </filter>
+            <tolerance>2.0</tolerance>
+            <circular>false</circular>
+            <required-level>4</required-level>
+            <best-fit>retail.csv</best-fit>
+        </rule>
+
+
+        <rule type="object">
+            <filter type="key-value">
+                emergency=fire_hydrant
+                amenity=fire_hydrant
+            </filter>
+            <objects>
+                <object>objects/decorations/hydrant.obj</object>
+            </objects>
+        </rule>
+
+        <!-- Industrial Objects -->
+        <rule type="object">
+            <filter type="key-value">
+                building=industrial,!building:material,!building:colour,!building:color,!man_made
+                building=commercial,!building:material,!building:colour,!building:color,!man_made
+                building=warehouse,!building:material,!building:colour,!building:color,!man_made
+                building=manufacturing,!building:material,!building:colour,!building:color,!man_made
+                building=manufacture,!building:material,!building:colour,!building:color,!man_made
+                building=yes,area=industrial,!building:material,!building:colour,!building:color,!man_made
+                building=yes,area=none,!building:material,!building:colour,!building:color,!man_made
+                building=yes,area=military,!building:material,!building:colour,!building:color,!man_made
+            </filter>
+            <tolerance>1.5</tolerance>
+            <circular>false</circular>
+            <restrict-height>false</restrict-height>
+            <restrict-shape>true</restrict-shape>
+            <reject-multi-polygon>true</reject-multi-polygon>
+            <best-fit>industrial.csv</best-fit>
+        </rule>
+
+
+        <!-- Chimneys !-->
+        <rule type="object">
+            <filter type="key-value">
+                man_made=chimney,height&lt;30
+                landmark=chimney,height&lt;30
+            </filter>
+            <closed-override>true</closed-override>
+            <required-level>1</required-level>
+            <objects>
+                <object>R2_Library/industrial/kominy/komin_B30.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=chimney,height&gt;30,height&lt;40
+                landmark=chimney,height&gt;30,height&lt;40
+            </filter>
+            <closed-override>true</closed-override>
+            <required-level>1</required-level>
+            <objects>
+                <object>R2_Library/industrial/kominy/komin_C40.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=chimney,height&gt;40,height&lt;50
+                landmark=chimney,height&gt;40,height&lt;50
+            </filter>
+            <closed-override>true</closed-override>
+            <required-level>1</required-level>
+            <objects>
+                <object>R2_Library/industrial/kominy/komin_C50.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=chimney,height&gt;50,height&lt;60
+                landmark=chimney,height&gt;50,height&lt;60
+            </filter>
+            <closed-override>true</closed-override>
+            <required-level>1</required-level>
+            <objects>
+                <object>R2_Library/industrial/kominy/komin_A60.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=chimney,height&gt;60,height&lt;80
+                landmark=chimney,height&gt;60,height&lt;80
+            </filter>
+            <closed-override>true</closed-override>
+            <required-level>1</required-level>
+            <objects>
+                <object>R2_Library/industrial/kominy/komin_A80.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=chimney,height&gt;80,height&lt;100
+                landmark=chimney,height&gt;80,height&lt;100
+            </filter>
+            <closed-override>true</closed-override>
+            <required-level>1</required-level>
+            <objects>
+                <object>R2_Library/industrial/kominy/komin_B100.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=chimney,height&gt;100,height&lt;120
+                landmark=chimney,height&gt;100,height&lt;120
+            </filter>
+            <closed-override>true</closed-override>
+            <required-level>1</required-level>
+            <objects>
+                <object>R2_Library/industrial/kominy/komin_A120.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=chimney,height&gt;120,height&lt;140
+                landmark=chimney,height&gt;120,height&lt;140
+            </filter>
+            <closed-override>true</closed-override>
+            <required-level>1</required-level>
+            <objects>
+                <object>R2_Library/industrial/kominy/komin_B140.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=chimney,height&gt;140,height&lt;160
+                landmark=chimney,height&gt;140,height&lt;160
+            </filter>
+            <closed-override>true</closed-override>
+            <required-level>1</required-level>
+            <objects>
+                <object>R2_Library/industrial/kominy/komin_A160.obj</object>
+            </objects>
+        </rule>
+
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=chimney,height&gt;160,height&lt;180
+                landmark=chimney,height&gt;160,height&lt;180
+            </filter>
+            <closed-override>true</closed-override>
+            <required-level>1</required-level>
+            <objects>
+                <object>R2_Library/industrial/kominy/komin_B180.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=chimney,height&gt;180,height&lt;200
+                landmark=chimney,height&gt;180,height&lt;200
+            </filter>
+            <closed-override>true</closed-override>
+            <required-level>1</required-level>
+            <objects>
+                <object>R2_Library/industrial/kominy/komin_A200.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=chimney,height&gt;200,height&lt;225
+                landmark=chimney,height&gt;200,height&lt;225
+            </filter>
+            <closed-override>true</closed-override>
+            <required-level>1</required-level>
+            <objects>
+                <object>R2_Library/industrial/kominy/komin_B225.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=chimney,height&gt;225,height&lt;250
+                landmark=chimney,height&gt;225,height&lt;250
+            </filter>
+            <closed-override>true</closed-override>
+            <required-level>1</required-level>
+            <objects>
+                <object>R2_Library/industrial/kominy/komin_A250.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=chimney,height&gt;250,height&lt;275
+                landmark=chimney,height&gt;250,height&lt;275
+            </filter>
+            <closed-override>true</closed-override>
+            <required-level>1</required-level>
+            <objects>
+                <object>R2_Library/industrial/kominy/komin_B275.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=chimney,height&gt;275,height&lt;300
+                landmark=chimney,height&gt;275,height&lt;300
+            </filter>
+            <closed-override>true</closed-override>
+            <required-level>1</required-level>
+            <objects>
+                <object>R2_Library/industrial/kominy/komin_B300.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=chimney
+                landmark=chimney
+            </filter>
+            <closed-override>true</closed-override>
+            <required-level>1</required-level>
+            <objects>
+                <object>R2_Library/industrial/kominy/komin_C50.obj</object>
+                <object>R2_Library/industrial/kominy/komin_A60.obj</object>
+                <object>R2_Library/industrial/kominy/komin_A80.obj</object>
+            </objects>
+        </rule>
+
+
+        <rule type="facade">
+            <filter type="key-value">
+                generator:source=solar
+                generator:source=photovoltaic
+                generator:method=photovoltaic
+                generator:source=photovoltaic
+                power_source=photovoltaic
+                power_source=solar
+            </filter>
+            <min-random-height>2</min-random-height>
+            <max-random-height>2</max-random-height>
+
+            <facades>
+                <facade>objects/solar.fac</facade>
+            </facades>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                amenity=church
+                building=church
+            </filter>
+            <min-area>19x10</min-area>
+            <max-area>19x10</max-area>
+            <objects>
+                <object>R2_Library/autogen/kostely/kostel-19m.obj</object>
+            </objects>
+        </rule>
+
+
+        <rule type="object">
+            <filter type="key-value">
+                building=greenhouse
+            </filter>
+            <min-area>30x50</min-area>
+            <max-area>50x50</max-area>
+            <objects>
+                <object>lib/industry_commerce/greenhouse_30x50.obj</object>
+            </objects>
+        </rule>
+
+
+        <rule type="object">
+            <filter type="key-value">
+                amenity=church
+                building=church
+            </filter>
+            <min-area>27x13</min-area>
+            <max-area>27x13</max-area>
+            <objects>
+                <object>R2_Library/autogen/kostely/kostel-27m.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                amenity=church
+                building=church
+            </filter>
+            <min-area>41x20</min-area>
+            <max-area>41x20</max-area>
+            <objects>
+                <object>R2_Library/autogen/kostely/kostel-41m.obj</object>
+            </objects>
+        </rule>
+
+
+        <!-- Airport objects !-->
+        <rule type="object">
+            <filter type="key-value">
+                building=*,area=aeroway
+                aeroway=hangar
+                aeroway=terminal
+                building=hangar
+                building=terminal
+            </filter>
+            <tolerance>3.0</tolerance>
+            <circular>false</circular>
+            <best-fit>hangars.csv</best-fit>
+        </rule>
+
+
+        <!-- Commercial Objects -->
+        <rule type="object">
+            <filter type="key-value">
+                building=commercial,!building:material,!building:colour,!building:color
+                building=*,area=commercial,!building:material,!building:colour,!building:color
+                building=yes,area=none,!building:material,!building:colour,!building:color
+                building=public,!building:material,!building:colour,!building:color
+                building=*,area=retail,!building:material,!building:colour,!building:color
+            </filter>
+            <tolerance>1.5</tolerance>
+            <restrict-height>false</restrict-height>
+            <!--<default-height>city_heights</default-height>-->
+            <best-fit>commercial.csv</best-fit>
+        </rule>
+
+        <!-- Commercial facades -->
+        <rule type="facade">
+            <filter type="key-value">
+                building=commercial
+                building=office
+                building=yes,area=commercial
+            </filter>
+            <circular>false</circular>
+            <facade-set>facades/commercial.csv</facade-set>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=barn
+                building=farm
+                building=cowshed
+                building=farm_auxiliary
+                building=sty
+                building=stable
+                building=*,area=farm
+                building=yes,area=none
+            </filter>
+            <restrict-height>false</restrict-height>
+            <tolerance>3.5</tolerance>
+            <required-level>3</required-level>
+            <max-height>20</max-height>
+            <best-fit>agriculture.csv</best-fit>
+        </rule>
+
+
+
+
+        <!-- Unknown Other Facades -->
+        <!-- Commercial facades -->
+        <rule type="facade">
+            <filter type="key-value">
+                building=*
+            </filter>
+            <circular>false</circular>
+            <facade-set>facades/unknown-tower.csv</facade-set>
+        </rule>
+
+
+        <!-- European Forests -->
+        <!-- Firstly, check for the Mediterrean sub region, and use those trees, otherwise we use the global trees !-->
+
+        <!-- Mediterrean Forests and trees -->
+        <include file="./resources/config-forests-med.xml"/>
+
+
+        <!-- Global European Forests -->
+
+        <rule type="forest">
+            <filter type="key-value">
+                landuse=orchard
+                landuse=plant_nursery
+            </filter>
+            <pass-through>true</pass-through>
+            <density>160</density>
+            <simplify>0.5</simplify>
+            <forests>
+                <forest>lib/g8/orch_wrm_dry.for</forest>
+            </forests>
+        </rule>
+
+        <rule type="forest">
+            <filter type="key-value">
+                natural=wood,type=deciduous
+                landuse=forest,type=deciduous
+                natural=wood,wood=deciduous
+                landuse=forest,wood=deciduous
+                natural=wood,leaf_type=broadleaved
+                natural=wood,leaf_cycle=deciduous
+                landuse=forest,leaf_type=broadleaved
+                landuse=forest,leaf_cycle=deciduous
+            </filter>
+            <simplify>0.5</simplify>
+            <density>255</density>
+            <forests>
+
+                <forest>forests/Europe/broad.for</forest>
+            </forests>
+        </rule>
+
+        <rule type="forest">
+            <filter type="key-value">
+                natural=wood,type=evergreen
+                landuse=forest,type=evergreen
+                natural=wood,wood=evergreen
+                landuse=forest,wood=evergreen
+                wood=coniferous
+                trees=coniferous
+                natural=wood,leaf_type=needleleaved
+                natural=wood,leaf_cycle=evergreen
+                landuse=forest,leaf_type=needleleaved
+                landuse=forest,leaf_cycle=evergreen
+
+            </filter>
+            <simplify>0.5</simplify>
+            <density>255</density>
+            <forests>
+                <forest>lib/g8/coni_cld_dry.for</forest>
+                <forest>lib/g8/coni_cld_wet.for</forest>
+            </forests>
+        </rule>
+
+        <rule type="forest">
+            <filter type="key-value">
+                natural=wood,type=mixed
+                landuse=forest,type=mixed
+                natural=wood,wood=mixed
+                landuse=forest,wood=mixed
+                natural=wood,leaf_type=mixed
+                natural=wood,leaf_cycle=mixed
+                landuse=forest,leaf_type=mixed
+                landuse=forest,leaf_cycle=mixed
+            </filter>
+            <simplify>0.5</simplify>
+            <density>255</density>
+            <forests>
+                <forest>lib/g8/mixed_cld_dry.for</forest>
+                <forest>lib/g8/mixed_cld_wet.for</forest>
+            </forests>
+        </rule>
+
+
+        <!-- Western Europe, show more mixed trees -->
+        <rule type="forest">
+            <filter type="key-value">
+                natural=wood
+                landuse=forest
+            </filter>
+            <simplify>0.5</simplify>
+            <density>255</density>
+            <regions>
+                <region>WEU</region>
+            </regions>
+            <forests>
+                <forest>forests/Europe/broad.for</forest>
+            </forests>
+        </rule>
+
+        <rule type="forest">
+            <filter type="key-value">
+                natural=wood
+                landuse=forest
+            </filter>
+            <simplify>0.5</simplify>
+            <density>255</density>
+            <forests>
+                <forest>lib/g8/broad_cld_dry.for</forest>
+                <forest>lib/g8/coni_cld_dry.for</forest>
+                <forest>lib/g8/mixed_cld_dry.for</forest>
+                <forest>lib/g8/coni_cld_dry.for</forest>
+                <forest>lib/g8/mixed_cld_dry.for</forest>
+                <forest>lib/g8/mixed_cld_wet.for</forest>
+                <forest>forests/Europe/broad.for</forest>
+            </forests>
+        </rule>
+
+
+        <rule type="forest">
+            <filter type="key-value">
+                natural=scrub,leaf_type=broadleaved
+            </filter>
+            <simplify>0.5</simplify>
+            <random-density-min>255</random-density-min>
+            <random-density-max>255</random-density-max>
+            <forests>
+                <forest>forests/Europe/broad-shrub.for</forest>
+            </forests>
+        </rule>
+
+        <rule type="forest">
+            <filter type="key-value">
+                natural=scrub,leaf_type=needleleaved
+            </filter>
+            <simplify>0.5</simplify>
+            <random-density-min>255</random-density-min>
+            <random-density-max>255</random-density-max>
+            <forests>
+                <forest>forests/Europe/needleleaved-shrub.for</forest>
+            </forests>
+        </rule>
+
+        <rule type="forest">
+            <filter type="key-value">
+                natural=scrub,leaf_type=mixed
+            </filter>
+            <simplify>0.5</simplify>
+            <random-density-min>255</random-density-min>
+            <random-density-max>255</random-density-max>
+            <forests>
+                <forest>forests/Europe/mixed-shrub.for</forest>
+            </forests>
+        </rule>
+
+
+        <rule type="forest">
+            <filter type="key-value">
+                natural=scrub
+            </filter>
+            <simplify>0.5</simplify>
+            <random-density-min>80</random-density-min>
+            <random-density-max>120</random-density-max>
+            <forests>
+                <forest>forests/Europe/shrubs.for</forest>
+            </forests>
+        </rule>
+
+
+        <rule type="object">
+            <filter type="key-value">
+                natural=tree,type=conifer
+            </filter>
+            <objects>
+                <object>lib/g10/forests/autogen_tree1.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                natural=tree,type=palm
+            </filter>
+            <objects>
+                <object>lib/g10/forests/autogen_tree1.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="polygon">
+            <filter type="key-value">
+                natural=mud
+            </filter>
+            <polygons>
+                <polygon>objects/polygons/mud.pol</polygon>
+            </polygons>
+        </rule>
+
+        <rule type="polygon">
+            <filter type="key-value">
+                natural=sand
+                natural=beach
+            </filter>
+            <polygons>
+                <polygon>objects/polygons/sand.pol</polygon>
+            </polygons>
+        </rule>
+
+
+        <rule type="random">
+            <filter type="key-value">
+                landuse=residential
+            </filter>
+            <density>2.0</density>
+            <area-densities>
+                <area-density min="0" max="100">6.0</area-density>
+                <area-density min="100" max="500">6.0</area-density>
+                <area-density min="500" max="1000">6.0</area-density>
+                <area-density min="1000" max="2000">5.0</area-density>
+                <area-density min="2000" max="3000">4.0</area-density>
+                <area-density min="3000" max="6000">4.0</area-density>
+                <area-density min="6000" max="8000">4.0</area-density>
+                <area-density min="8000" max="9000">4.0</area-density>
+                <area-density min="9000" max="10000">6.0</area-density>
+                <area-density min="10000" max="15000">6.0</area-density>
+                <area-density min="15000" max="30000">10</area-density>
+                <area-density min="30000">20.0</area-density>
+            </area-densities>
+            <collision-test>true</collision-test>
+            <pass-through>true</pass-through>
+            <forests-on-empty>false</forests-on-empty>
+            <regions>
+                <region>!MED</region>
+            </regions>
+            <forests>
+                <forest>forests/Europe/broad.for</forest>
+            </forests>
+            <objects>
+                <object>objects/forests/trees/tree19m1.obj</object>
+                <object>objects/forests/trees/tree19m2.obj</object>
+                <object>objects/forests/trees/tree19m3.obj</object>
+                <object>objects/forests/trees/tree18m1.obj</object>
+                <object>objects/forests/trees/tree18m2.obj</object>
+                <object>objects/forests/trees/tree17m1.obj</object>
+                <object>objects/forests/trees/tree17m2.obj</object>
+                <object>objects/forests/trees/tree17m3.obj</object>
+                <object>objects/forests/trees/tree16m1.obj</object>
+                <object>objects/forests/trees/tree16m2.obj</object>
+                <object>objects/forests/trees/tree16m3.obj</object>
+                <object>objects/forests/trees/tree15m1.obj</object>
+                <object>objects/forests/trees/tree15m2.obj</object>
+                <object>objects/forests/trees/tree14m1.obj</object>
+                <object>objects/forests/trees/tree14m2.obj</object>
+                <object>objects/forests/trees/tree13m1.obj</object>
+                <object>objects/forests/trees/tree13m2.obj</object>
+                <object>objects/forests/trees/tree12m1.obj</object>
+                <object>objects/forests/trees/tree12m2.obj</object>
+                <object>objects/forests/trees/tree3m.obj</object>
+                <object>objects/forests/trees/tree3p5.obj</object>
+                <object>objects/forests/trees/tree4m.obj</object>
+                <object>objects/forests/trees/tree4p5.obj</object>
+                <object>objects/forests/trees/tree5m.obj</object>
+                <object>objects/forests/trees/tree5m2.obj</object>
+                <object>objects/forests/trees/tree6m.obj</object>
+                <object>objects/forests/trees/tree6p51.obj</object>
+                <object>objects/forests/trees/tree6p52.obj</object>
+                <object>objects/forests/trees/tree7m.obj</object>
+                <object>objects/forests/trees/tree7m2.obj</object>
+                <object>objects/forests/trees/tree7p51.obj</object>
+                <object>objects/forests/trees/tree7p52.obj</object>
+                <object>objects/forests/trees/tree8p51.obj</object>
+                <object>objects/forests/trees/tree8p52.obj</object>
+                <object>objects/forests/trees/tree8p53.obj</object>
+                <object>objects/forests/trees/tree9p51.obj</object>
+                <object>objects/forests/trees/tree9p52.obj</object>
+                <object>objects/forests/trees/tree10p51.obj</object>
+                <object>objects/forests/trees/tree10p52.obj</object>
+            </objects>
+        </rule>
+
+
+        <!-- Street Lights at a distance of 40 metres -->
+        <rule type="line">
+            <filter type="key-value">
+                highway=residential
+            </filter>
+            <min-density>120</min-density>
+            <max-density>120</max-density>
+            <offset>9.5</offset>
+            <pass-through>true</pass-through>
+            <offset-angles>90;270</offset-angles>
+            <angle>180</angle>
+            <objects>
+                <object>lib/g10/streetlights/ResLt1V2.obj</object>
+                <object>lib/g10/streetlights/ResLt1V1.obj</object>
+                <object>lib/g10/streetlights/ResLt3.obj</object>
+                <object>lib/g10/streetlights/ResLt1.obj</object>
+                <object>lib/g10/streetlights/ResShort.obj</object>
+                <object>lib/g10/streetlights/ResLt2.obj</object>
+                <object>lib/g10/streetlights/ResLt2Dim.obj</object>
+                <object>lib/g10/streetlights/ResLt2Dim.obj</object>
+                <object>lib/g10/streetlights/ResLt2Dim.obj</object>
+                <object>lib/g10/streetlights/ResLt2Dim.obj</object>
+                <object>lib/g10/streetlights/ResLt2Dim.obj</object>
+            </objects>
+        </rule>
+
+        <!-- Place a tractor along a track at random -->
+        <rule type="line">
+            <filter type="key-value">
+                highway=track
+            </filter>
+            <pass-through>true</pass-through>
+            <random-execute seed="farming" min="83" max="100"/>
+            <count>1</count>
+            <angle>0</angle>
+            <objects>
+                <object>objects/decorations/tracteur_static.obj</object>
+            </objects>
+        </rule>
+
+        <!-- Add UK red telephone boxes -->
+        <rule type="object">
+            <filter type="key-value">
+                amenity=telephone
+            </filter>
+            <regions>
+                <region>GB</region>
+            </regions>
+            <angle-from-road>true</angle-from-road>
+            <objects>
+                <object>objects/agriculture/phone_uk_old.obj</object>
+            </objects>
+        </rule>
+
+
+        <rule type="line">
+            <filter type="key-value">
+                highway=secondary,area=residential
+                highway=secondary,lit=yes
+                highway=secondary,lit=automatic
+            </filter>
+            <min-density>90</min-density>
+            <max-density>90</max-density>
+            <offset>10.60</offset>
+            <pass-through>true</pass-through>
+            <offset-angles>90;270</offset-angles>
+            <angle>180</angle>
+            <objects>
+                <object>lib/g10/streetlights/HwyLt1BarMnt.obj</object>
+                <object>lib/g10/streetlights/HwyLt2GndMnt.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="line">
+            <filter type="key-value">
+                highway=tertiary,area=residential
+                highway=tertiary,lit=yes
+                highway=tertiary,lit=automatic
+            </filter>
+            <min-density>100</min-density>
+            <max-density>100</max-density>
+            <offset>10.60</offset>
+            <pass-through>true</pass-through>
+            <offset-angles>90;270</offset-angles>
+            <angle>180</angle>
+            <objects>
+                <object>lib/g10/streetlights/HwyLt1BarMnt.obj</object>
+                <object>lib/g10/streetlights/HwyLt2GndMnt.obj</object>
+            </objects>
+        </rule>
+
+        <!-- Create flag objects using the local flag.obj file -->
+        <!-- Please note, this rule will only work if the flag.obj file is part of the resources folder, and not in a library -->
+        <rule type="object">
+            <filter type="key-value">
+                man_made=flagpole,min_height=*
+            </filter>
+            <adjust-height>true</adjust-height>
+            <objects>
+                <object>objects/flag.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=flagpole,!min_height
+            </filter>
+            <objects>
+                <object>objects/flag.obj</object>
+            </objects>
+        </rule>
+
+
+        <!-- For waterways, and water/ponds, buffer by 1.5 meters and place trees around the outside -->
+        <!--<rule type="forest">-->
+            <!--<filter type="key-value">-->
+                <!--waterway=stream-->
+                <!--waterway=riverbed-->
+                <!--waterway=canal-->
+                <!--natural=water,water=pond-->
+                <!--natural=water,water=canal-->
+                <!--natural=water,water=lake-->
+            <!--</filter>-->
+            <!--<simplify>0.5</simplify>-->
+            <!--<perimeter-only>true</perimeter-only>-->
+            <!--<buffer>1.5</buffer>-->
+            <!--<random-density-min>200</random-density-min>-->
+            <!--<random-density-max>255</random-density-max>-->
+            <!--<forests>-->
+                <!--<forest>forests/Europe/broad.for</forest>-->
+            <!--</forests>-->
+        <!--</rule>-->
+
+        <rule type="forest">
+            <filter type="key-value">
+                waterway=ditch
+                waterway=drain
+            </filter>
+            <perimeter-only>true</perimeter-only>
+            <buffer>1.0</buffer>
+            <random-density-min>200</random-density-min>
+            <random-density-max>255</random-density-max>
+            <forests>
+                <forest>forests/Europe/shrubs.for</forest>
+            </forests>
+        </rule>
+
+
+
+        <rule type="forest">
+            <filter type="key-value">
+                natural=water,water=pond
+            </filter>
+            <simplify>0.5</simplify>
+            <buffer>1.5</buffer>
+            <random-density-min>255</random-density-min>
+            <random-density-max>255</random-density-max>
+            <forests>
+                <forest>forests/Europe/shrubs.for</forest>
+            </forests>
+        </rule>
+
+
+        <rule type="line">
+            <filter type="key-value">
+                natural=tree_row
+            </filter>
+            <min-density>20</min-density>
+            <max-density>30</max-density>
+            <objects>
+                <object>objects/forests/trees/tree18m1.obj</object>
+                <object>objects/forests/trees/tree18m2.obj</object>
+                <object>objects/forests/trees/tree17m1.obj</object>
+                <object>objects/forests/trees/tree17m2.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="forest">
+            <filter type="key-value">
+                landuse=farm
+                landuse=farmland
+                natural=meadow
+                landuse=meadow
+                landuse=recreation_ground
+                landuse=village_green
+                natural=grassland
+                landuse=grass
+                landuse=field
+                natural=field
+            </filter>
+            <simplify>0.5</simplify>
+            <perimeter-only>true</perimeter-only>
+            <pass-through>true</pass-through>
+            <random-density-min>170</random-density-min>
+            <random-density-max>235</random-density-max>
+            <skip-airport>true</skip-airport>
+            <regions>
+                <region>!MED</region>
+            </regions>
+            <forests>
+                <forest>forests/Europe/shrubs.for</forest>
+            </forests>
+            <random-execute seed="farming" min="0" max="100"/>
+        </rule>
+
+
+
+
+        <rule type="facade">
+            <filter type="key-value">
+                landuse=farm
+                landuse=farmland
+                landuse=farmyard
+                landuse=field
+                natural=field
+            </filter>
+            <simplify>0.5</simplify>
+            <allow-unclosed>true</allow-unclosed>
+            <close-ring>true</close-ring>
+            <min-random-height>3</min-random-height>
+            <max-random-height>3</max-random-height>
+            <remove-shared-edges>true</remove-shared-edges>
+            <pass-through>true</pass-through>
+            <random-execute seed="farming" min="99" max="100"/>
+            <building>false</building>
+            <no-clip>true</no-clip>
+            <facades>
+                <facade>facades/barriers/wood_fence.fac</facade>
+            </facades>
+        </rule>
+
+
+        <rule type="random">
+            <filter type="key-value">
+                landuse=meadow
+                landuse=farmland
+                landuse=farm
+                landuse=field
+                natural=field
+            </filter>
+            <random-execute seed="farming" min="0" max="15"/>
+            <pass-through>true</pass-through>
+            <density>10</density>
+            <max-area>4000</max-area>
+            <objects>
+                <object>objects/decorations/sheep.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="random">
+            <filter type="key-value">
+                landuse=meadow
+                landuse=farmland
+                landuse=farm
+                landuse=field
+                natural=field
+            </filter>
+            <random-execute seed="farming" min="16" max="30"/>
+            <pass-through>true</pass-through>
+            <density>10</density>
+            <max-area>4000</max-area>
+            <objects>
+                <object>objects/decorations/moose/moosecow.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="random">
+            <filter type="key-value">
+                landuse=farm
+                landuse=farmland
+                landuse=field
+                natural=field
+            </filter>
+            <pass-through>true</pass-through>
+            <collision-test>true</collision-test>
+            <random-execute seed="farming" min="85" max="100"/>
+            <count>1</count>
+            <angle>determine</angle>
+            <objects>
+                <object>objects/decorations/tracteur_static.obj</object>
+            </objects>
+        </rule>
+
+
+
+
+
+        <rule type="forest">
+            <filter type="key-value">
+                landuse=cemetery
+            </filter>
+            <simplify>0.5</simplify>
+            <perimeter-only>true</perimeter-only>
+            <density>150</density>
+            <regions>
+                <region>!MED</region>
+            </regions>
+            <pass-through>yes</pass-through>
+            <forests>
+                <forest>forests/Europe/broad.for</forest>
+            </forests>
+        </rule>
+
+
+
+
+        <!-- Misc objects -->
+
+        <rule type="object">
+            <filter type="key-value">
+                seamark:light:colour=red
+                seamark:light:color=red
+            </filter>
+            <objects>
+                <object>objects/obstacles/red_light.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                seamark:light:colour=green
+                seamark:light:color=green
+            </filter>
+            <objects>
+                <object>objects/obstacles/green_light.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                seamark:light:colour=blue
+                seamark:light:color=blue
+            </filter>
+            <objects>
+                <object>objects/obstacles/blue_light.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                seamark:light:colour=white
+                seamark:light:color=white
+            </filter>
+            <objects>
+                <object>objects/obstacles/white_light.obj</object>
+            </objects>
+        </rule>
+
+
+
+        <rule type="object">
+            <filter type="key-value">
+                power_source=wind,height&lt;101
+                generator:source=wind
+            </filter>
+            <angle>180</angle>
+            <required-level>1</required-level>
+            <objects>
+                <object>objects/obstacles/windfarms/turbine_100.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                power_source=wind,height&lt;121
+                generator:source=wind
+            </filter>
+            <required-level>1</required-level>
+            <angle>180</angle>
+            <objects>
+                <object>objects/obstacles/windfarms/turbine_125.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                leisure=playground
+            </filter>
+            <objects>
+                <object>objects/decorations/spielplatz.obj</object>
+            </objects>
+        </rule>
+
+
+        <rule type="object">
+            <filter type="key-value">
+                power_source=wind,height&lt;151
+                generator:source=wind
+            </filter>
+            <required-level>1</required-level>
+            <angle>180</angle>
+            <objects>
+                <object>objects/obstacles/windfarms/turbine_125.obj</object>
+            </objects>
+        </rule>
+
+
+        <!--Objects-->
+        <rule type="object">
+            <filter type="key-value">
+                power_source=wind
+                generator:source=wind
+            </filter>
+            <angle>180</angle>
+            <objects>
+                <object>objects/obstacles/windfarms/turbine_100.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=lighthouse
+                man_made=light_house
+            </filter>
+            <required-level>2</required-level>
+            <objects>
+                <object>opensceneryx/objects/buildings/marine/lighthouses/1.obj</object>
+            </objects>
+        </rule>
+
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=crane
+            </filter>
+            <required-level>3</required-level>
+            <objects>
+                <object>opensceneryx/objects/buildings/industrial/cranes/1.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=windmill
+            </filter>
+            <angle-from-road>true</angle-from-road>
+            <required-level>3</required-level>
+            <objects>
+                <object>opensceneryx/objects/buildings/commercial/windmills/round.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                landmark=windmill
+            </filter>
+            <required-level>3</required-level>
+            <angle-from-road>true</angle-from-road>
+            <objects>
+                <object>opensceneryx/objects/buildings/commercial/windmills/round.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=water_tower
+            </filter>
+            <required-level>2</required-level>
+            <objects>
+                <object>objects/obstacles/Water_Tower_3.obj</object>
+                <object>objects/obstacles/water_tower/water_tower.obj</object>
+                <object>objects/obstacles/water_tower/water_tower_2.obj</object>
+            </objects>
+        </rule>
+
+        <!-- Cooling towers -->
+        <rule type="object">
+            <filter type="key-value">
+                man_made=tower,tower:type=cooling
+            </filter>
+            <required-level>2</required-level>
+            <objects>
+                <object>R2_Library/autogen/elektrarny/chladici_vez_A50.obj</object>
+            </objects>
+        </rule>
+
+        <!-- Flood lights -->
+        <rule type="object">
+            <filter type="key-value">
+                man_made=tower,tower:type=lighting
+            </filter>
+            <required-level>2</required-level>
+            <objects>
+                <object>lib/g10/streetlights/AreaFloodHighMast.obj</object>
+            </objects>
+        </rule>
+
+        <!-- Puts aerials onto roofs which have min_height -->
+        <rule type="object">
+            <filter type="key-value">
+                man_made=mast,min_height=*
+                man_made=mast,min_height=*
+                man_made=communications_tower,min_height=*
+                man_made=tower,min_height=*
+                man_made=tower,min_height=*
+                communication:mobile_phone=*,min_height=*
+            </filter>
+            <required-level>2</required-level>
+            <adjust-height>true</adjust-height>
+            <objects>
+                <object>objects/cell.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                communication:television=*,height&gt;70
+                communication:radio=*,height&gt;70
+                man_made=mast,height&gt;70
+                man_made=mast,height&gt;70
+                man_made=communications_tower,height&gt;70
+                man_made=tower,height&gt;70
+                man_made=tower,height&gt;70
+            </filter>
+            <required-level>1</required-level>
+            <objects>
+                <object>objects/obstacles/R_Tower_SAT_107m.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                communication:television=*
+                communication:radio=*
+                man_made=communications_tower
+                man_made=mast,height&gt;50
+                man_made=mast,height&gt;50
+                man_made=communications_tower,height&gt;50
+                man_made=tower,height&gt;50
+                man_made=tower,height&gt;50
+
+            </filter>
+            <required-level>1</required-level>
+            <objects>
+                <object>objects/obstacles/GSM-tow.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=mast
+                man_made=communications_tower
+                man_made=tower
+                communication:mobile_phone=*
+                man_made=tower,tower:type=communication
+            </filter>
+            <required-level>2</required-level>
+            <regions>
+                <region>GB</region>
+                <region>FR</region>
+                <region>IE</region>
+                <region>PL</region>
+            </regions>
+            <objects>
+                <object>objects/obstacles/R_Tower_50m.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                man_made=mast
+                man_made=communications_tower
+                man_made=tower
+                communication:mobile_phone=*
+            </filter>
+            <required-level>2</required-level>
+            <objects>
+                <object>opensceneryx/objects/buildings/commercial/cellphone_towers/1.obj</object>
+            </objects>
+        </rule>
+
+     
+
+        <rule type="object">
+            <filter type="key-value">
+                generator:source=nuclear,power=plant
+                man_made=tower,tower:type=cooling
+            </filter>
+            <required-level>2</required-level>
+            <objects>
+                <object>R2_Library/autogen/elektrarny/chladici_vez_A50.obj</object>
+            </objects>
+        </rule>
+
+
+
+
+        <rule type="object">
+            <filter type="key-value">
+                advertising=*
+                man_made=billboard
+            </filter>
+            <angle-from-road>true</angle-from-road>
+            <objects>
+                <object>R2_Library/autogen/reklamy/billboard-900x360.obj</object>
+            </objects>
+        </rule>
+
+
+        <rule type="object">
+            <filter type="key-value">
+                natural=tree
+            </filter>
+            <objects>
+                <object>objects/forests/trees/tree19m1.obj</object>
+                <object>objects/forests/trees/tree19m2.obj</object>
+                <object>objects/forests/trees/tree19m3.obj</object>
+                <object>objects/forests/trees/tree18m1.obj</object>
+                <object>objects/forests/trees/tree18m2.obj</object>
+                <object>objects/forests/trees/tree17m1.obj</object>
+                <object>objects/forests/trees/tree17m2.obj</object>
+                <object>objects/forests/trees/tree17m3.obj</object>
+                <object>objects/forests/trees/tree16m1.obj</object>
+                <object>objects/forests/trees/tree16m2.obj</object>
+                <object>objects/forests/trees/tree16m3.obj</object>
+                <object>objects/forests/trees/tree15m1.obj</object>
+                <object>objects/forests/trees/tree15m2.obj</object>
+                <object>objects/forests/trees/tree14m1.obj</object>
+                <object>objects/forests/trees/tree14m2.obj</object>
+                <object>objects/forests/trees/tree13m1.obj</object>
+                <object>objects/forests/trees/tree13m2.obj</object>
+                <object>objects/forests/trees/tree12m1.obj</object>
+                <object>objects/forests/trees/tree12m2.obj</object>
+                <object>objects/forests/trees/tree3m.obj</object>
+                <object>objects/forests/trees/tree3p5.obj</object>
+                <object>objects/forests/trees/tree4m.obj</object>
+                <object>objects/forests/trees/tree4p5.obj</object>
+                <object>objects/forests/trees/tree5m.obj</object>
+                <object>objects/forests/trees/tree5m2.obj</object>
+                <object>objects/forests/trees/tree6m.obj</object>
+                <object>objects/forests/trees/tree6p51.obj</object>
+                <object>objects/forests/trees/tree6p52.obj</object>
+                <object>objects/forests/trees/tree7m.obj</object>
+                <object>objects/forests/trees/tree7m2.obj</object>
+                <object>objects/forests/trees/tree7p51.obj</object>
+                <object>objects/forests/trees/tree7p52.obj</object>
+                <object>objects/forests/trees/tree8p51.obj</object>
+                <object>objects/forests/trees/tree8p52.obj</object>
+                <object>objects/forests/trees/tree8p53.obj</object>
+                <object>objects/forests/trees/tree9p51.obj</object>
+                <object>objects/forests/trees/tree9p52.obj</object>
+                <object>objects/forests/trees/tree10p51.obj</object>
+                <object>objects/forests/trees/tree10p52.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                highway=street_lamp
+            </filter>
+            <objects>
+                <object>lib/g10/streetlights/ResShort.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="random">
+            <filter type="key-value">
+                landuse=farm
+                landuse=farmland
+                landuse=field
+                natural=field
+            </filter>
+            <random-execute seed="farming" min="20" max="50"/>
+            <pass-through>true</pass-through>
+            <density>10</density>
+            <max-area>4000</max-area>
+            <objects>
+                <object>objects/decorations/hay.obj</object>
+            </objects>
+        </rule>
+
+        <!-- Place a tractor or two onto farmyards -->
+        <rule type="random">
+            <filter type="key-value">
+                landuse=farmyard
+            </filter>
+            <pass-through>true</pass-through>
+            <collision-test>true</collision-test>
+            <count>1</count>
+            <objects>
+                <object>objects/decorations/tracteur_static.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="random">
+            <filter type="key-value">
+                landuse=quarry
+            </filter>
+            <pass-through>true</pass-through>
+            <count>2</count>
+            <objects>
+                <object>opensceneryx/objects/vehicles/construction.obj</object>
+            </objects>
+        </rule>
+
+        <!-- Add random silo -->
+        <rule type="random">
+            <filter type="key-value">
+                landuse=farmyard
+            </filter>
+            <pass-through>true</pass-through>
+            <collision-test>true</collision-test>
+            <random-execute seed="farming" min="0" max="20"/>
+            <count>1</count>
+            <objects>
+                <object>objects/agriculture/silo.obj</object>
+            </objects>
+        </rule>
+        <rule type="random">
+            <filter type="key-value">
+                landuse=farmyard
+            </filter>
+            <pass-through>true</pass-through>
+            <collision-test>true</collision-test>
+            <random-execute seed="farming" min="21" max="40"/>
+            <count>1</count>
+            <objects>
+                <object>objects/agriculture/silo_large.obj</object>
+            </objects>
+        </rule>
+        <rule type="random">
+            <filter type="key-value">
+                landuse=farmyard
+            </filter>
+            <pass-through>true</pass-through>
+            <collision-test>true</collision-test>
+            <random-execute seed="farming" min="41" max="60"/>
+            <count>1</count>
+            <min-area>30x30</min-area>
+            <objects>
+                <object>objects/agriculture/silos_3.obj</object>
+            </objects>
+        </rule>
+        <rule type="random">
+            <filter type="key-value">
+                landuse=farmyard
+            </filter>
+            <pass-through>true</pass-through>
+            <collision-test>true</collision-test>
+            <random-execute seed="farming" min="10" max="40"/>
+            <count>1</count>
+            <min-area>30x30</min-area>
+            <objects>
+                <object>objects/agriculture/AUS_wmill.obj</object>
+            </objects>
+        </rule>
+
+
+
+        <rule type="random">
+            <filter type="key-value">
+                landuse=construction
+            </filter>
+            <density>60</density>
+            <pass-through>true</pass-through>
+            <objects>
+                <object>opensceneryx/objects/buildings/industrial/cranes/1.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="random">
+            <filter type="key-value">
+                landuse=construction
+            </filter>
+            <density>20</density>
+            <pass-through>true</pass-through>
+            <objects>
+                <object>opensceneryx/objects/vehicles/construction.obj</object>
+                <object>opensceneryx/objects/vehicles/construction/diggers/1.obj</object>
+                <object>opensceneryx/objects/vehicles/construction/brooms.obj</object>
+                <object>opensceneryx/objects/vehicles/construction/graders.obj</object>
+                <object>lib/cars/car_or_truck_static.obj</object>
+                <object>lib/cars/car_or_truck_static.obj</object>
+                <object>objects/decorations/CaterpillarVehicle_Fra_static.obj</object>
+            </objects>
+        </rule>
+
+        <!-- Fill Caravan Sites with caravans -->
+
+        <rule type="line">
+            <filter type="key-value">
+                highway=*,area=caravan_site
+            </filter>
+            <offset>14.0</offset>
+            <collision-test>true</collision-test>
+            <track>true</track>
+            <offset-angles>90.0;270.0</offset-angles>
+            <angle>90</angle>
+            <clip-to-area>true</clip-to-area>
+            <pass-through>true</pass-through>
+            <!-- When doing offsets, don't add empty space on opposite side of road -->
+            <spacing-division>false</spacing-division>
+            <objects>
+                <object width="2.0" spacing="3">objects/decorations/caravan.obj</object>
+            </objects>
+        </rule>
+
+
+
+        <!-- Place gravestones in graveyard -->
+
+
+        <!-- Fill parking in industrial areas with trucks -->
+        <rule type="random">
+            <filter type="key-value">
+                amenity=parking,area=industrial
+            </filter>
+            <density>4</density>
+            <angle>determine</angle>
+            <objects>
+                <object>lib/cars/car_or_truck_static.obj</object>
+                <object>lib/cars/car_or_truck_static.obj</object>
+                <object>lib/cars/car_or_truck_static.obj</object>
+                <object>lib/cars/car_or_truck_static.obj</object>
+                <object>lib/cars/car_or_truck_static.obj</object>
+                <object>lib/cars/car_or_truck_static.obj</object>
+                <object>objects/cars/car_mercedes_sprinter.obj</object>
+                <object>objects/cars/cars_ford_transit.obj</object>
+
+            </objects>
+        </rule>
+
+        <rule type="random">
+            <filter type="key-value">
+                amenity=parking
+            </filter>
+            <density>5</density>
+            <angle>determine</angle>
+            <objects>
+                <object>objects/cars/car_mercedes_sprinter.obj</object>
+                <object>objects/cars/cars_ford_transit.obj</object>
+                <object>objects/cars/cars_fiat_panda.obj</object>
+                <object>objects/cars/cars_mercedes_e_class.obj</object>
+                <object>objects/cars/cars_mercedes_truck.obj</object>
+                <object>objects/cars/cars_mercedes_vaneo.obj</object>
+                <object>objects/cars/cars_renault_5_trafic.obj</object>
+                <object>objects/cars/cars_volvo_v40.obj</object>
+                <object>objects/cars/cars_vw_golf.obj</object>
+                <object>objects/cars/cars_vw_polo.obj</object>
+            </objects>
+        </rule>
+
+
+        <rule type="object">
+            <filter type="key-value">
+                building=yes,!building:material,!building:colour,!building:color
+                building=industrial
+                building=tank
+                man_made=tank
+                man_made=storage_tank
+                building=storage_tank
+            </filter>
+            <min-radius>11</min-radius>
+            <max-radius>13</max-radius>
+            <circular>true</circular>
+            <objects>
+                <object>lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Large.obj</object>
+                <object>lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Medium.obj</object>
+            </objects>
+        </rule>
+
+        <!-- Tanks -->
+        <rule type="object">
+            <filter type="key-value">
+                building=yes,!building:material,!building:colour,!building:color
+                building=industrial,!building:material,!building:colour,!building:color
+                building=tank
+                man_made=tank
+                man_made=storage_tank
+                building=storage_tank
+            </filter>
+            <min-radius>4</min-radius>
+            <max-radius>5</max-radius>
+            <circular>true</circular>
+            <objects>
+                <object>objects/industrial/tanks/tank475.obj</object>
+            </objects>
+        </rule>
+		
+        <rule type="object">
+            <filter type="key-value">
+                building=yes,!building:material,!building:colour,!building:color
+                building=industrial,!building:material,!building:colour,!building:color
+                building=tank
+                man_made=tank
+                man_made=storage_tank
+                building=storage_tank
+            </filter>
+            <min-radius>5</min-radius>
+            <max-radius>6</max-radius>
+            <circular>true</circular>
+            <objects>
+                <object>lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Small.obj</object>
+                <object>opensceneryx/objects/buildings/industrial/tanks/1.obj</object>
+            </objects>
+        </rule>
+
+
+        <rule type="object">
+            <filter type="key-value">
+                building=yes,!building:material,!building:colour,!building:color
+                building=industrial,!building:material,!building:colour,!building:color
+                building=tank
+                man_made=tank
+                man_made=storage_tank
+                building=storage_tank
+            </filter>
+            <min-radius>6</min-radius>
+            <max-radius>7</max-radius>
+            <circular>true</circular>
+            <objects>
+                <object>opensceneryx/objects/buildings/industrial/tanks/2.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=yes,!building:material,!building:colour,!building:color
+                building=industrial,!building:material,!building:colour,!building:color
+                building=tank
+                man_made=tank
+                man_made=storage_tank
+                building=storage_tank
+            </filter>
+            <min-radius>7</min-radius>
+            <max-radius>8</max-radius>
+            <circular>true</circular>
+            <objects>
+                <object>opensceneryx/objects/buildings/industrial/tanks/3.obj</object>
+            </objects>
+        </rule>
+
+
+        <rule type="object">
+            <filter type="key-value">
+                building=yes,!building:material,!building:colour,!building:color
+                building=industrial
+                building=tank
+                man_made=tank
+                man_made=storage_tank
+                building=storage_tank
+            </filter>
+            <min-radius>7</min-radius>
+            <max-radius>11</max-radius>
+            <circular>true</circular>
+            <objects>
+                <object>objects/obstacles/fuel_tank_lp/fuel_tank_lp.obj</object>
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=yes,!building:material,!building:colour,!building:color
+                building=industrial
+                building=tank
+                man_made=tank
+                man_made=storage_tank
+                building=storage_tank
+            </filter>
+            <min-radius>7</min-radius>
+            <max-radius>8</max-radius>
+            <circular>true</circular>
+            <objects>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Beton_15.00x15.00x4.00.obj</object>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Silo_2_15.00x15.00x4.00.obj</object>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Silo_15.00x15.00x4.00.obj</object>
+
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=yes,!building:material,!building:colour,!building:color
+                building=industrial
+                building=tank
+                man_made=tank
+                man_made=storage_tank
+                building=storage_tank
+            </filter>
+            <min-radius>10</min-radius>
+            <max-radius>11</max-radius>
+            <circular>true</circular>
+            <objects>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Beton_20.00x20.00x4.00.obj</object>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Silo_2_20.00x20.00x4.00.obj</object>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Silo_20.00x20.00x4.00.obj</object>
+
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=yes,!building:material,!building:colour,!building:color
+                building=industrial
+                building=tank
+                man_made=tank
+                man_made=storage_tank
+                building=storage_tank
+            </filter>
+            <min-radius>12</min-radius>
+            <max-radius>14</max-radius>
+            <circular>true</circular>
+            <objects>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Beton_25.00x25.00x4.00.obj</object>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Silo_2_25.00x25.00x4.00.obj</object>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Silo_25.00x25.00x4.00.obj</object>
+
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=yes,!building:material,!building:colour,!building:color
+                building=industrial
+                building=tank
+                man_made=tank
+                man_made=storage_tank
+                building=storage_tank
+            </filter>
+            <min-radius>14</min-radius>
+            <max-radius>16</max-radius>
+            <circular>true</circular>
+            <objects>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Beton_30.00x30.00x4.00.obj</object>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Silo_2_30.00x30.00x4.00.obj</object>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Silo_30.00x30.00x4.00.obj</object>
+
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=yes,!building:material,!building:colour,!building:color
+                building=industrial
+                building=tank
+                man_made=tank
+                man_made=storage_tank
+                building=storage_tank
+            </filter>
+            <min-radius>16</min-radius>
+            <max-radius>18</max-radius>
+            <circular>true</circular>
+            <objects>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Beton_35.00x35.00x4.00.obj</object>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Silo_35.00x35.00x4.00.obj</object>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Silo_2_35.00x35.00x4.00.obj</object>
+
+            </objects>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                building=yes,!building:material,!building:colour,!building:color
+                building=industrial
+                building=tank
+                man_made=tank
+                man_made=storage_tank
+                building=storage_tank
+            </filter>
+            <min-radius>19</min-radius>
+            <max-radius>22</max-radius>
+            <circular>true</circular>
+            <objects>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Beton_40.00x40.00x4.00.obj</object>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Silo_2_40.00x40.00x4.00.obj</object>
+                <object>objects/industrial/AGR_Biogas/AGR_Biogas_Silo_40.00x40.00x4.00.obj</object>
+
+            </objects>
+        </rule>
+
+
+
+
+        <rule type="facade">
+            <filter type="key-value">
+                building=*,building!=tower,building!=antenna,!building:material,!building:colour,!building:color,height&lt;50
+                building=*,building!=tower,building!=antenna,!building:material,!building:colour,!building:color,building:levels&lt;8
+                building=*,building!=tower,building!=antenna,!building:material,!building:colour,!building:color,!height
+                building=*,building!=tower,building!=antenna,!building:material,!building:colour,!building:color,!building:levels
+                man_made=tank
+                man_made=storage_tank
+                building=storage_tank
+                building=yes,area=industrial,height&lt;50
+                building=*,area=industrial,building:levels&lt;8
+            </filter>
+            <simplify>0.5</simplify>
+            <circular>true</circular>
+            <min-random-height>5</min-random-height>
+            <max-random-height>5</max-random-height>
+            <facades>
+                <facade>objects/tank.fac</facade>
+            </facades>
+        </rule>
+
+        <!-- Generic Rules, these place buildings if all other items fail -->
+
+
+        <!-- Generic Rules, these place buildings if all other items fail -->
+
+        <rule type="facade">
+            <filter type="key-value">
+                building=school
+                building=*,node=school
+            </filter>
+            <simplify>0.5</simplify>
+            <required-level>3</required-level>
+            <min-random-height>3</min-random-height>
+            <max-random-height>6</max-random-height>
+            <facades>
+                <facade>facades-osm2xp/buildingComplexShape1.fac</facade>
+                <facade>facades-osm2xp/buildingComplexShape2.fac</facade>
+            </facades>
+        </rule>
+
+        <rule type="facade">
+            <filter type="key-value">
+                building=house
+                building=residential
+                building=apartments
+                building=terrace
+                building=*,area=residential
+            </filter>
+            <simple>true</simple>
+            <!--<default-height>city_heights</default-height>-->
+            <min-random-height>3</min-random-height>
+            <max-random-height>6</max-random-height>
+            <max-area>30</max-area>
+            <area-type>sloped-residential</area-type>
+            <regions>
+                <region>GB</region>
+                <region>IE</region>
+            </regions>
+            <simplify>0.5</simplify>
+            <distributions>
+                <distribution identifier="simheaven_red" percentage="90"></distribution>
+                <distribution identifier="simheaven_black" percentage="10"></distribution>
+            </distributions>
+        </rule>
+
+        <rule type="facade">
+            <filter type="key-value">
+                building=house
+                building=residential
+                building=apartments
+                building=terrace
+                building=*,area=residential
+            </filter>
+            <simple>true</simple>
+            <!--<default-height>city_heights</default-height>-->
+            <min-random-height>4</min-random-height>
+            <max-random-height>9</max-random-height>
+            <max-area>15</max-area>
+            <area-type>sloped-residential</area-type>
+            <regions>
+                <region>DE</region>
+                <region>NL</region>
+                <region>FR</region>
+            </regions>
+            <simplify>0.5</simplify>
+            <distributions>
+                <distribution identifier="simheaven_red" percentage="40"></distribution>
+                <distribution identifier="simheaven_black" percentage="60"></distribution>
+            </distributions>
+        </rule>
+
+
+        <rule type="facade">
+            <filter type="key-value">
+                building=house
+                building=residential
+                building=apartments
+                building=terrace
+                building=*,area=residential
+            </filter>
+            <simple>true</simple>
+            <!--<default-height>city_heights</default-height>-->
+            <min-random-height>3</min-random-height>
+            <max-random-height>6</max-random-height>
+            <roof-height>3</roof-height>
+            <area-type>sloped-residential</area-type>
+            <regions>
+                <region>DE</region>
+                <region>NL</region>
+                <region>FR</region>
+                <region>GB</region>
+            </regions>
+            <simplify>0.5</simplify>
+            <distributions>
+                <distribution identifier="simheaven_red" percentage="40"></distribution>
+                <distribution identifier="simheaven_black" percentage="60"></distribution>
+            </distributions>
+        </rule>
+
+        <rule type="facade">
+            <filter type="key-value">
+                building=house
+                building=residential
+                building=apartments
+                building=terrace
+                building=*,area=residential
+            </filter>
+            <simple>true</simple>
+            <min-random-height>4</min-random-height>
+            <max-random-height>9</max-random-height>
+            <max-area>15</max-area>
+            <area-type>sloped-residential</area-type>
+            <roof-height>3</roof-height>
+            <simplify>0.5</simplify>
+            <distributions>
+                <distribution identifier="simheaven_red" percentage="80"></distribution>
+                <distribution identifier="simheaven_black" percentage="20"></distribution>
+            </distributions>
+        </rule>
+
+        <rule type="facade">
+            <filter type="key-value">
+                building=house
+                building=residential
+                building=apartments
+                building=terrace
+                building=*,area=residential
+            </filter>
+            <simple>true</simple>
+            <min-random-height>6</min-random-height>
+            <max-random-height>20</max-random-height>
+            <!--<default-height>city_heights</default-height>-->
+            <area-type>sloped-residential</area-type>
+            <roof-height>3</roof-height>
+            <simplify>0.5</simplify>
+            <distributions>
+                <distribution identifier="simheaven_red" percentage="80"></distribution>
+                <distribution identifier="simheaven_black" percentage="20"></distribution>
+            </distributions>
+        </rule>
+
+
+        <rule type="facade">
+            <filter type="key-value">
+                building=*,area=farm
+            </filter>
+            <simplify>0.5</simplify>
+            <required-level>4</required-level>
+            <min-random-height>3</min-random-height>
+            <max-random-height>3</max-random-height>
+            <area-type>industrial</area-type>
+        </rule>
+
+        <rule type="facade">
+            <filter type="key-value">
+                building=industrial
+                building=warehouse
+                building=manufacturing
+                building=manufacture
+                building=*,area=industrial
+            </filter>
+            <simplify>0.5</simplify>
+            <required-level>4</required-level>
+            <min-random-height>6</min-random-height>
+            <max-random-height>9</max-random-height>
+            <area-type>industrial</area-type>
+        </rule>
+
+
+        <rule type="facade">
+            <filter type="key-value">
+                building=*
+            </filter>
+            <simplify>0.5</simplify>
+            <!--<default-height>city_heights</default-height>-->
+            <min-random-height>10</min-random-height>
+            <max-random-height>20</max-random-height>
+            <min-area>30</min-area>
+            <required-level>4</required-level>
+            <area-type>commercial</area-type>
+        </rule>
+
+        <!-- All else fails, use the industrial facade -->
+        <rule type="facade">
+            <filter type="key-value">
+                building=*
+            </filter>
+            <simplify>0.5</simplify>
+            <min-random-height>5</min-random-height>
+            <max-random-height>9</max-random-height>
+            <area-type>industrial</area-type>
+        </rule>
+
+        <!-- Walls and barriers -->
+        <rule type="facade">
+            <filter type="key-value">
+                barrier=wall
+                barrier=city_wall
+            </filter>
+            <allow-unclosed>true</allow-unclosed>
+            <skip-last-point>false</skip-last-point>
+            <close-ring>true</close-ring>
+            <min-random-height>2</min-random-height>
+            <max-random-height>3</max-random-height>
+            <simplify>0.5</simplify>
+            <building>false</building>
+            <facades>
+                <facade>facades/barriers/wall.fac</facade>
+            </facades>
+        </rule>
+
+        <rule type="object">
+            <filter type="key-value">
+                barrier=block
+            </filter>
+            <objects>
+                <object>objects/barriers/block.obj</object>
+            </objects>
+        </rule>
+
+
+        <rule type="forest">
+            <filter type="key-value">
+                barrier=hedge
+            </filter>
+            <simplify>0.5</simplify>
+            <perimeter-only>true</perimeter-only>
+            <pass-through>true</pass-through>
+            <buffer>0.5</buffer>
+            <random-density-min>200</random-density-min>
+            <random-density-max>245</random-density-max>
+            <forests>
+                <forest>forests/Europe/shrubs.for</forest>
+            </forests>
+        </rule>
+
+
+
+        <rule type="facade">
+            <filter type="key-value">
+                barrier=fence
+            </filter>
+            <allow-unclosed>true</allow-unclosed>
+            <skip-last-point>false</skip-last-point>
+            <min-random-height>3</min-random-height>
+            <max-random-height>3</max-random-height>
+            <simplify>0.5</simplify>
+            <building>false</building>
+            <facades>
+                <facade>facades/barriers/fence.fac</facade>
+                <facade>facades/barriers/fence1.fac</facade>
+                <facade>facades/barriers/fence2.fac</facade>
+                <facade>facades/barriers/fence3.fac</facade>
+                <facade>lib/g10/global_objects/fence_res_tall.fac</facade>
+                <facade>lib/g10/global_objects/fence_res_mid.fac</facade>
+            </facades>
+        </rule>
+
+        <rule type="facade">
+            <filter type="key-value">
+                barrier=wire_fence
+            </filter>
+            <allow-unclosed>true</allow-unclosed>
+            <skip-last-point>false</skip-last-point>
+            <min-random-height>2</min-random-height>
+            <max-random-height>3</max-random-height>
+            <simplify>0.5</simplify>
+            <building>false</building>
+            <facades>
+                <facade>facades/barriers/fence2.fac</facade>
+                <facade>facades/barriers/fence3.fac</facade>
+            </facades>
+        </rule>
+
+        <!-- Add piers to unclosed ways. Buffer the object, so it's 2 metres wide if unclosed -->
+        <rule type="facade">
+            <filter type="key-value">
+                man_made=pier
+            </filter>
+            <min-random-height>4</min-random-height>
+            <max-random-height>4</max-random-height>
+            <buffer>5</buffer>
+            <closed>false</closed>
+            <required-level>1</required-level>
+            <facades>
+                <facade>objects/pier.fac</facade>
+            </facades>
+        </rule>
+
+        <!-- Add piers to closed ways. Don't buffer this time -->
+        <rule type="facade">
+            <filter type="key-value">
+                man_made=pier
+            </filter>
+            <min-random-height>4</min-random-height>
+            <max-random-height>4</max-random-height>
+            <closed>true</closed>
+            <required-level>1</required-level>
+            <facades>
+                <facade>objects/pier.fac</facade>
+            </facades>
+        </rule>
+
+
+        <!-- Vector Rules -->
+        <!-- Please note, these are commented out until such a time as X-Plane supports multiple network definitions per DSF Tile
+             If you wish to use a custom road.net file, you will presently need to generate two sceneries, one with the main roads, and a
+             second with your custom roads using a different config.xml file -->
+
+
+        <!-- Power lines, uses definition 220 from X-Plane's roads.net, and only evaluates nodes (power=tower) as each point !-->
+        <rule type="vector">
+            <filter type="key-value">
+                power=line,voltage&lt;l66001
+                power=line,wires=single
+                power=line,cables=3
+            </filter>
+            <node-filter>
+                power=pole
+                power=tower
+            </node-filter>
+            <vector-file>objects/road.net</vector-file>
+            <vector-definition>251</vector-definition>
+            <nodes-as-points>true</nodes-as-points>
+            <pass-through>false</pass-through>
+        </rule>
+
+        <rule type="vector">
+            <filter type="key-value">
+                power=line
+            </filter>
+            <node-filter>
+                power=pole
+                power=tower
+            </node-filter>
+            <vector-file>objects/road.net</vector-file>
+            <vector-definition>250</vector-definition>
+            <nodes-as-points>true</nodes-as-points>
+            <pass-through>false</pass-through>
+        </rule>
+
+        <rule type="vector">
+            <filter type="key-value">
+                aerialway=cable_car
+                aerialway=gondola
+            </filter>
+            <node-filter>
+                aerialway=pylon
+            </node-filter>
+            <vector-file>objects/road.net</vector-file>
+            <vector-definition>252</vector-definition>
+            <nodes-as-points>true</nodes-as-points>
+            <pass-through>false</pass-through>
+        </rule>
+
+        <rule type="vector">
+            <filter type="key-value">
+                aerialway=chair_lift
+            </filter>
+            <node-filter>
+                aerialway=pylon
+            </node-filter>
+            <vector-file>objects/road.net</vector-file>
+            <vector-definition>253</vector-definition>
+            <nodes-as-points>true</nodes-as-points>
+            <pass-through>false</pass-through>
+        </rule>
+
+
+        <rule type="vector">
+            <filter type="key-value">
+                aerialway=drag_lift
+            </filter>
+            <node-filter>
+                aerialway=pylon
+            </node-filter>
+            <vector-file>objects/road.net</vector-file>
+            <vector-definition>254</vector-definition>
+            <nodes-as-points>true</nodes-as-points>
+            <pass-through>false</pass-through>
+        </rule>
+
+
+        <rule type="vector">
+            <filter type="key-value">
+                power=minor_line
+            </filter>
+            <node-filter>
+                power=pole
+                power=tower
+            </node-filter>
+            <vector-file>objects/road.net</vector-file>
+            <vector-definition>251</vector-definition>
+            <nodes-as-points>true</nodes-as-points>
+            <pass-through>false</pass-through>
+        </rule>
+
+
+    </rules>
+</xst>
+

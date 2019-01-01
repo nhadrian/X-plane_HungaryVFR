@@ -50,7 +50,8 @@
     <!-- Enable regions, without regions will will be ignored -->
     <region-enabled>true</region-enabled>
 
-    <building-exclusion-range>100</building-exclusion-range>
+	<!-- <building-exclusion-range>100</building-exclusion-range> -->
+    <building-exclusion-range>125</building-exclusion-range>
     <smart-exclusions>true</smart-exclusions>
     <buildings-per-grid>5</buildings-per-grid>
 
@@ -2695,28 +2696,47 @@
         </rule>
 		
 		
-		<!-- <rule type="forest">
+<!-- 
+		<rule type="forest">
             <filter type="key-value">
                 landuse=farm
-                landuse=farmland
-                natural=meadow
-                landuse=meadow
-                landuse=recreation_ground
-                landuse=village_green
-                natural=grassland
-                landuse=grass
+                landuse=farmland                
                 landuse=field
                 natural=field
-				landuse=farmyard                
+				crop=wheat
             </filter>
-            <density>85</density>
+            <density>100</density>
 			<pass-through>true</pass-through>                      
-            <forests>
-                <forest>HungaryVFR/Forests/3Dgrass_green.for</forest>
-				<forest>HungaryVFR/Forests/3Dgrass_dry.for</forest>
-				<forest>lib/trees/grass.for</forest>				
+            <forests>        							
+				<forest>HungaryVFR/Forests/uv_wheatfield_farm.for</forest>
             </forests>            
-        </rule>	 -->
+        </rule>	 --> 
+		
+<!-- 		<rule type="forest">
+            <filter type="key-value">
+                landuse=farm
+                landuse=farmland                
+                landuse=field
+                natural=field
+				crop=sunflower				     
+            </filter>
+            <density>100</density>
+			<pass-through>true</pass-through>                      
+            <forests>	
+				<forest>FlyAgi_Vegetation/Fruit/Sunflower.for</forest>				
+            </forests>            
+        </rule>			
+		
+		<rule type="forest">
+            <filter type="key-value">
+                landuse=vineyard             
+            </filter>
+            <density>100</density>
+			<pass-through>true</pass-through>                      
+            <forests>	
+				<forest>FlyAgi_Vegetation/Fruit/vine.for</forest>				
+            </forests>            
+        </rule>	 --> 
 				
     </rules>
 </xst>
