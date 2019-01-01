@@ -1,0 +1,157 @@
+<!-- Mediterrean Forests and trees -->
+<xst>
+    <rule type="forest">
+        <filter type="key-value">
+            natural=wood,type=evergreen
+            landuse=forest,type=evergreen
+            natural=wood,wood=evergreen
+            landuse=forest,wood=evergreen
+            wood=coniferous
+            trees=coniferous
+        </filter>
+        <density>255</density>
+        <regions>
+            <region>MED</region>
+        </regions>
+        <forests>
+            <forest>lib/g8/coni_wrm_dry.for</forest>
+            <forest>lib/g8/coni_vhot_dry.for</forest>
+
+        </forests>
+    </rule>
+
+    <rule type="forest">
+        <filter type="key-value">
+            natural=wood
+            landuse=forest
+        </filter>
+        <density>255</density>
+        <regions>
+            <region>MED</region>
+        </regions>
+        <forests>
+            <forest>lib/g8/mixed_vhot_sdry.for</forest>
+            <forest>lib/g8/fruit_vhot_dry.for</forest>
+        </forests>
+    </rule>
+
+    <rule type="forest">
+        <filter type="key-value">
+            natural=scrub
+        </filter>
+        <density>200</density>
+        <regions>
+            <region>MED</region>
+        </regions>
+        <forests>
+            <forest>lib/g8/shrb_vhot_rain.for</forest>
+        </forests>
+    </rule>
+
+    <rule type="random">
+        <filter type="key-value">
+            landuse=residential
+        </filter>
+        <density>2.0</density>
+        <collision-test>true</collision-test>
+        <pass-through>true</pass-through>
+        <regions>
+            <region>MED</region>
+        </regions>
+        <objects>
+            <object>lib/airport/Common_Elements/Miscellaneous/Tree.obj</object>
+        </objects>
+    </rule>
+
+    <rule type="line">
+        <filter type="key-value">
+            waterway=ditch
+        </filter>
+        <min-density>10</min-density>
+        <max-density>11</max-density>
+        <regions>
+            <region>MED</region>
+        </regions>
+        <objects>
+            <object>R2_Library/zelen/stromy/str_krovi01.obj</object>
+        </objects>
+    </rule>
+
+    <rule type="forest">
+        <filter type="key-value">
+            landuse=farm
+            landuse=farmland
+            landuse=farmyard
+        </filter>
+        <perimeter-only>true</perimeter-only>
+        <pass-through>true</pass-through>
+        <random-density-min>50</random-density-min>
+        <random-density-max>200</random-density-max>
+        <regions>
+            <region>MED</region>
+        </regions>
+        <forests>
+            <forest>lib/g8/mixed_vhot_sdry.for</forest>
+            <forest>lib/g8/shrb_vhot_rain.for</forest>
+        </forests>
+    </rule>
+
+    <rule type="forest">
+        <filter type="key-value">
+            landuse=meadow
+            natural=meadow
+        </filter>
+        <perimeter-only>true</perimeter-only>
+        <pass-through>true</pass-through>
+        <random-density-min>50</random-density-min>
+        <random-density-max>200</random-density-max>
+        <regions>
+            <region>MED</region>
+        </regions>
+        <forests>
+            <forest>lib/g8/mixed_vhot_sdry.for</forest>
+        </forests>
+    </rule>
+
+    <rule type="forest">
+        <filter type="key-value">
+            landuse=allotments
+        </filter>
+        <perimeter-only>true</perimeter-only>
+        <pass-through>true</pass-through>
+        <density>200</density>
+        <regions>
+            <region>MED</region>
+        </regions>
+        <forests>
+            <forest>lib/g8/mixed_vhot_sdry.for</forest>
+        </forests>
+    </rule>
+
+    <rule type="forest">
+        <filter type="key-value">
+            landuse=cemetery
+        </filter>
+        <perimeter-only>true</perimeter-only>
+        <density>255</density>
+        <regions>
+            <region>MED</region>
+        </regions>
+        <forests>
+            <forest>lib/g8/sparse_hot_dry.for</forest>
+            <forest>lib/g8/sparse_tr_hot_dry.for</forest>
+        </forests>
+    </rule>
+
+    <rule type="forest">
+        <filter type="key-value">
+            landuse=orchard
+        </filter>
+        <pass-through>true</pass-through>
+        <density>160</density>
+        <forests>
+            <forest>lib/g8/orch_vhot_dry.for</forest>
+            <forest>lib/g8/orch_hot_dry.for</forest>
+        </forests>
+    </rule>
+</xst>

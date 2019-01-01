@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xst>
+    <facadeSets>
+        <facadeSet identifier="simheaven_black">./resources/facades-BlackRoofs/osm2xpFacadeSetDescriptor.xml</facadeSet>
+    </facadeSets>
+
+    <!-- Number of generator processors to spawn, set this to the number of CPU cores you have to speed up generation. Also make sure
+         your system has enough memory to support it-->
+	<processor-threads>2</processor-threads>
+
+    <!-- Enable these even if using smart-exclusions, unless you want absolutely no exclusions at all -->
+	<exclude-objects>true</exclude-objects>
+	<exclude-forests>true</exclude-forests>
+	<exclude-facades>true</exclude-facades>
+
+    <!-- There seems to be bug in X-Plane when facades go over a certain height, setting this will force the facades greater than this height
+        to be turned into objects -->
+    <facade-height-limit>200</facade-height-limit>
+
+    <!-- Make sure you enable this if generating roads -->
+	<exclude-network>true</exclude-network>
+
+    <!-- Show debugging messages, e.g. Memory used, counts, etc -->
+    <debug-messages>false</debug-messages>
+
+    <!-- EXPERIMENTAL road support (If using, ensure you enable network exclusions -->
+	<create-road-network>true</create-road-network>
+
+    <!-- Clip out all trees from an airport, (Buildings aren't clipped out, as in some cases these are wanted -->
+	<clip-airports>true</clip-airports>
+
+    <!-- Clip roads out of forests, airports, fields, etc.. -->
+    <!-- N.B. This will not generate roads, but will read them from OSM -->
+	<clip-roads>true</clip-roads>
+
+    <!-- Location to store temporary files during generation (Recommend placing his on a fast SSD disk) -->
+    <temporary-file-path>./</temporary-file-path>
+
+
+    <!-- Enable debug will save an image in each scenery folder with locations of forests and tree exclusions
+         Coloured areas will contain objects and exclusions, black area contain no data
+    -->
+    <enable-debug-image>false</enable-debug-image>
+
+    <facade-lod>12000</facade-lod>
+
+    <!-- Enable regions, without regions will will be ignored -->
+	<region-enabled>true</region-enabled>
+
+	<smart-exclusions>false</smart-exclusions>
+	<building-exclusion-range>150</building-exclusion-range>
+	<buildings-per-grid>5</buildings-per-grid>
+
+	<forest-exclusion-range>1000</forest-exclusion-range>
+
+    <!-- Lower this if DSF Tool Fails on a particular tile -->
+    <random-placement-limit>900000</random-placement-limit>
+
+    <!-- Place Lights on the top tall buildings -->
+	<obstacle-lights>true</obstacle-lights>
+
+    <!-- Compress textures from generated models use DDS, It's a good idea to keep this enabled -->
+	<compress-textures>false</compress-textures>
+
+    <!-- Create facades for OSM 3D models, i.e. This doesn't work if the building has a min_height -->
+    <generate-roof-wall-colors>false</generate-roof-wall-colors>
+
+    <!-- Create models for OSM 3D models and building parts -->
+	<enable-osm-3d>true</enable-osm-3d>
+
+    <!-- Load countries from Shape File and use ISO code for the region identifier !-->
+    <region-identifiers>
+        <region-identifier type="shapefile">
+            <identifier>ISO_A2</identifier>
+            <file>./resources/ne_10m_admin_0_countries/ne_10m_admin_0_countries.shp</file>
+        </region-identifier>
+        <region-identifier type="csv">
+            <file>./resources/regions.csv</file>
+        </region-identifier>
+
+    </region-identifiers>
+
+    <!-- Libraries used in the CSV files -->
+    <!-- You can disable libraries here, and they will be excluded. N.B. This only works with the CSV files -->
+    <libs>
+        <lib enabled="true">W2XP</lib>  <!-- World Models -->
+        <lib enabled="true">FF</lib>    <!-- FF Library -->
+        <lib enabled="true">R2</lib>    <!-- R2 Library -->
+        <lib enabled="true">UWESPEED</lib>          <!-- Uwespeed's Generic Buildings -->
+        <lib enabled="true">Blacky75</lib>           <!-- Blacky75 Buildings in the World Models Library -->
+        <lib enabled="true">OPENSCENERYX</lib>      <!-- OpenSceneryX -->
+        <lib enabled="true">XP</lib>                <!-- X-Plane default objects -->
+    </libs>
+
+    <rules>
+
+        <!-- Random Seeds, for randomally switching some rules !-->
+        <random-seed>
+            <min>0</min>
+            <max>100</max>
+            <identifier>farming</identifier>
+        </random-seed>
+
+        <!-- Area Trackers, track the following areas for reference in later rules -->
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=residential
+            </filter>
+            <identifier>residential</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+
+
+        <!-- Node trackers, for tracking city/town and village centres -->
+        <rule type="node-track">
+            <filter type="key-value">
+                place=city
+            </filter>
+            <identifier>city</identifier>
+        </rule>
+
+        <rule type="node-track">
+            <filter type="key-value">
+                place=town
+            </filter>
+            <identifier>town</identifier>
+        </rule>
+
+        <rule type="node-track">
+            <filter type="key-value">
+                place=suburb
+            </filter>
+            <identifier>suburb</identifier>
+        </rule>
+
+        <rule type="node-track">
+            <filter type="key-value">
+                place=village
+            </filter>
+            <identifier>village</identifier>
+        </rule>
+
+        <!-- Adaptive height rule for buildings without heights. -->
+        <adaptive-height identifier="city_heights">
+            <node identifier="village" min_levels="1" max_levels="2" range="1" />
+            <node identifier="town" min_levels="1" max_levels="3" range="1" />
+            <node identifier="suburb" min_levels="2" max_levels="3" range="1" />
+            <node identifier="city" min_levels="4" max_levels="6" range="4" />
+        </adaptive-height>
+
+        <!-- Track churches -->
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=place_of_worship
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>church</identifier>
+        </rule>
+
+        <!-- Track petrol stations -->
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=fuel
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>petrol</identifier>
+        </rule>
+
+        <!-- Track supermarkets -->
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=supermarket
+                shop=supermarket
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>supermarket</identifier>
+        </rule>
+
+        <!-- Track fastfood -->
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=fast_food
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>fast_food</identifier>
+        </rule>
+
+        <rule type="node-track">
+            <filter type="key-value">
+                amenity=shop
+                shop=*
+            </filter>
+            <pass-through>true</pass-through>
+            <identifier>shop</identifier>
+        </rule>
+
+        <!-- Do not remove this area tracker or rename it as it's used to clip airports -->
+        <rule type="area-track">
+            <filter type="key-value">
+                aeroway=aerodrome
+                aeroway=runway
+                aeroway=taxiway
+                aeroway=terminal
+            </filter>
+            <identifier>aeroway</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+
+        <!-- Don't generate anything inside airports -->
+        <rule type="sink">
+            <filter type="key-value">
+                area=aeroway
+            </filter>
+        </rule>
+
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=military
+            </filter>
+            <identifier>military</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=industrial
+            </filter>
+            <identifier>industrial</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=commercial
+            </filter>
+            <identifier>commercial</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+
+
+        <rule type="area-track">
+            <filter type="key-value">
+                landuse=retail
+            </filter>
+            <identifier>retail</identifier>
+            <pass-through>yes</pass-through>
+        </rule>
+
+
+        <rule type="facade">
+            <filter type="key-value">
+                building=*
+            </filter>
+            <allow-unclosed>true</allow-unclosed>
+            <min-random-height>6</min-random-height>
+            <max-random-height>9</max-random-height>
+            <simplify>0.5</simplify>
+            <facades>
+                <facade>objects/facades/industrial1.fac</facade>
+            </facades>
+        </rule>
+
+
+
+        <!-- Vector Rules -->
+        <!-- Please note, these are commented out until such a time as X-Plane supports multiple network definitions per DSF Tile
+             If you wish to use a custom road.net file, you will presently need to generate two sceneries, one with the main roads, and a
+             second with your custom roads using a different config.xml file -->
+
+
+        <!-- Power lines, uses definition 220 from X-Plane's roads.net, and only evaluates nodes (power=tower) as each point !-->
+        <rule type="vector">
+            <filter type="key-value">
+                power=line
+                power=tower
+            </filter>
+            <vector-definition>220</vector-definition>
+            <nodes-as-points>true</nodes-as-points>
+            <pass-through>true</pass-through>
+        </rule>
+
+        <!--<rule type="vector">-->
+            <!--<filter type="key-value">-->
+                <!--aerialway=cable_car-->
+                <!--aerialway=gondola-->
+                <!--aerialway=pylon-->
+            <!--</filter>-->
+            <!--<vector-file>objects/road.net</vector-file>-->
+            <!--<vector-definition>252</vector-definition>-->
+            <!--<nodes-as-points>true</nodes-as-points>-->
+            <!--<pass-through>true</pass-through>-->
+        <!--</rule>-->
+
+        <!--<rule type="vector">-->
+            <!--<filter type="key-value">-->
+                <!--aerialway=chair_lift-->
+                <!--aerialway=pylon-->
+            <!--</filter>-->
+            <!--<vector-file>objects/road.net</vector-file>-->
+            <!--<vector-definition>253</vector-definition>-->
+            <!--<nodes-as-points>true</nodes-as-points>-->
+            <!--<pass-through>true</pass-through>-->
+        <!--</rule>-->
+
+
+        <!--<rule type="vector">-->
+            <!--<filter type="key-value">-->
+                <!--aerialway=drag_lift-->
+                <!--aerialway=pylon-->
+            <!--</filter>-->
+            <!--<vector-file>objects/road.net</vector-file>-->
+            <!--<vector-definition>254</vector-definition>-->
+            <!--<nodes-as-points>true</nodes-as-points>-->
+            <!--<pass-through>true</pass-through>-->
+        <!--</rule>-->
+
+
+
+        <!--<rule type="vector">-->
+            <!--<filter type="key-value">-->
+                <!--power=minor_line-->
+                <!--power=tower-->
+                <!--power=pole-->
+            <!--</filter>-->
+            <!--<vector-file>objects/road.net</vector-file>-->
+            <!--<vector-definition>251</vector-definition>-->
+            <!--<nodes-as-points>true</nodes-as-points>-->
+            <!--<pass-through>true</pass-through>-->
+        <!--</rule>-->
+
+
+
+    </rules>
+</xst>
