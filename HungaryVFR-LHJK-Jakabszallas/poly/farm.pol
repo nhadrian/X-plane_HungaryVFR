@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+#DECAL_LIB lib/g10/decals/grass_and_stony_dirt_1.dcl
+
+TEXTURE farm.png
+TEXTURE_NORMAL 2 farm_nml.png
+LAYER_GROUP runways -2
+SCALE 160 160	
+#SURFACE gravel

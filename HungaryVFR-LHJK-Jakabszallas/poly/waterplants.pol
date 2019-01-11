@@ -1,0 +1,9 @@
+A
+850
+DRAPED_POLYGON
+#DECAL_LIB lib/g10/decals/grass_and_stony_dirt_1.dcl
+
+TEXTURE_NOWRAP waterplants.png
+LAYER_GROUP runways 5
+SCALE 48 48	
+SURFACE water
