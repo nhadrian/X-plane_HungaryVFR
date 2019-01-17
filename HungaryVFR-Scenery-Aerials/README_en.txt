@@ -1,7 +1,7 @@
 HungaryVFR-Scenery-Aerials
 ******************************************************
 
-Version: 0.0.4.3
+Version: 0.0.4.4
 Covered area:
 	- Hungarian radio towers
 	- Hungarian windfarms
