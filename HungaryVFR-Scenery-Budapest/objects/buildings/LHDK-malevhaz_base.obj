@@ -158,4 +158,5 @@ IDX	90
 ATTR_no_blend
 
 ATTR_emission_rgb	12.000 0.000 0.000
+ATTR_LOD 0 5000
 TRIS	0 486

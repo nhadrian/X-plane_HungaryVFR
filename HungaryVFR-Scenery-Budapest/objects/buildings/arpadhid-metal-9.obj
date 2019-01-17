@@ -11505,6 +11505,7 @@ LIGHT_NAMED	town_light_omni	 234.3760   40.0640   46.4595
 LIGHT_NAMED	town_light_omni	 229.9475   40.0640   57.0915	
 LIGHT_NAMED	town_light_omni	 271.8630   40.0640   72.3825	
 LIGHT_NAMED	town_light_omni	-181.8060   40.0640 -105.3655	
+ATTR_LOD 0 13000
 TRIS	0 15765
 ANIM_begin
 	# <Chris>
