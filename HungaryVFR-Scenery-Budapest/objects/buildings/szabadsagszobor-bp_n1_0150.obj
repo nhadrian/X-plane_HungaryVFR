@@ -24,5 +24,5 @@ IDX	4
 IDX	5
 
 ATTR_no_blend
-
+ATTR_LOD 0 15000
 TRIS	0 6

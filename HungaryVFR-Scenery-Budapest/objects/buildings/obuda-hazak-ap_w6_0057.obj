@@ -77,5 +77,5 @@ IDX	54
 IDX	55
 
 ATTR_no_blend
-
+ATTR_LOD 0 8000
 TRIS	0 72
