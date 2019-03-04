@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.5.4.3
+# Version: 1.5.4.4
 
 # ----------------------------------
 # AGP
@@ -255,6 +255,7 @@ EXPORT HungaryVFR-Library/Objects/Misc/tyre_mixed_6high.str Objects/Misc/tyre_mi
 EXPORT HungaryVFR-Library/Objects/Misc/Tent_Redbull.obj Objects/Misc/Tent_redbull.obj
 EXPORT HungaryVFR-Library/Objects/Misc/Tent_GoFast.obj Objects/Misc/Tent_gofast.obj
 EXPORT HungaryVFR-Library/Objects/Misc/Flag_Hungary.obj Objects/Misc/Flag_Hungary.obj
+EXPORT HungaryVFR-Library/Objects/Misc/Solar_panel.obj Objects/Misc/Solar_panel.obj
 
 # ----------------------------------
 # POLYGONS
