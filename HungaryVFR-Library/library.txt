@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.5.4.4
+# Version: 1.5.4.6
 
 # ----------------------------------
 # AGP
@@ -28,6 +28,14 @@ EXPORT HungaryVFR-Library/Objects/Airplanes/C152_HA-JON.obj Objects/Airplanes/C1
 EXPORT HungaryVFR-Library/Objects/Airplanes/TB20_HA-VES.obj Objects/Airplanes/TB20_HA-VES.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/MIG21_Metal.obj Objects/Airplanes/MIG21_Metal.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/MIG21_Camu.obj Objects/Airplanes/MIG21_Camu.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HADAL.obj Objects/Airplanes/DV20_HADAL.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HADAS.obj Objects/Airplanes/DV20_HADAS.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HADAT.obj Objects/Airplanes/DV20_HADAT.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HADAU.obj Objects/Airplanes/DV20_HADAU.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DA20_HAAST.obj Objects/Airplanes/DA20_HAAST.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/SF25_Falke_HA1272.obj Objects/Airplanes/SF25_Falke_HA1272.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/SF25_Falke_HA1240.obj Objects/Airplanes/SF25_Falke_HA1240.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/YAK-18_HA-JAJ.obj Objects/Airplanes/YAK-18_HA-JAJ.obj
 
 # Buildings
 # ----------------------------------
