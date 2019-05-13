@@ -1,7 +1,7 @@
 HungaryVFR-LHSZ-Szentes scenery
 ******************************************************
 
-Version: 2.0.0
+Version: 2.0.1
 Covered area: LHSZ - Szentes
 
 ******************************************************
@@ -23,7 +23,7 @@ Copy the contents of the zip into "X-Plane folder/Custom Scenery" directory.
 
 ***** COMPATIBILITY *****
 
-X-Plane version: X-Plane 10.50+
+X-Plane version: X-Plane 11.30+
 Compatibility with other sceneries: yes
 Known compatibility problems: none
 
