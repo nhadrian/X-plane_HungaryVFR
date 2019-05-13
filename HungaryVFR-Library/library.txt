@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.5.4.3
+# Version: 1.5.4.7
 
 # ----------------------------------
 # AGP
@@ -28,6 +28,28 @@ EXPORT HungaryVFR-Library/Objects/Airplanes/C152_HA-JON.obj Objects/Airplanes/C1
 EXPORT HungaryVFR-Library/Objects/Airplanes/TB20_HA-VES.obj Objects/Airplanes/TB20_HA-VES.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/MIG21_Metal.obj Objects/Airplanes/MIG21_Metal.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/MIG21_Camu.obj Objects/Airplanes/MIG21_Camu.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HADAL.obj Objects/Airplanes/DV20_HADAL.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HADAL_ACTIVE.obj Objects/Airplanes/DV20_HADAL_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HADAS.obj Objects/Airplanes/DV20_HADAS.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HADAS_ACTIVE.obj Objects/Airplanes/DV20_HADAS_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HADAT.obj Objects/Airplanes/DV20_HADAT.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HADAT_ACTIVE.obj Objects/Airplanes/DV20_HADAT_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HADAU.obj Objects/Airplanes/DV20_HADAU.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HADAU_ACTIVE.obj Objects/Airplanes/DV20_HADAU_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HASTR.obj Objects/Airplanes/DV20_HASTR.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HASTR_ACTIVE.obj Objects/Airplanes/DV20_HASTR_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HASTQ.obj Objects/Airplanes/DV20_HASTQ.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HASTQ_ACTIVE.obj Objects/Airplanes/DV20_HASTQ_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HADAQ.obj Objects/Airplanes/DV20_HADAQ.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HADAQ_ACTIVE.obj Objects/Airplanes/DV20_HADAQ_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HABAN.obj Objects/Airplanes/DV20_HABAN.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DV20_HABAN_ACTIVE.obj Objects/Airplanes/DV20_HABAN_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/DA20_HAAST.obj Objects/Airplanes/DA20_HAAST.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/SF25_Falke_HA1272.obj Objects/Airplanes/SF25_Falke_HA1272.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/SF25_Falke_HA1272_ACTIVE.obj Objects/Airplanes/SF25_Falke_HA1272_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/SF25_Falke_HA1240.obj Objects/Airplanes/SF25_Falke_HA1240.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/SF25_Falke_HA1240_ACTIVE.obj Objects/Airplanes/SF25_Falke_HA1240_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/YAK-18_HA-JAJ.obj Objects/Airplanes/YAK-18_HA-JAJ.obj
 
 # Buildings
 # ----------------------------------
@@ -177,6 +199,36 @@ EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_Euro_2_STATIC.obj Objects/Vehicle
 EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_Euro_3_STATIC.obj Objects/Vehicles/Bus_Euro_3_STATIC.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_Euro_4_STATIC.obj Objects/Vehicles/Bus_Euro_4_STATIC.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Bus_Euro_5_STATIC.obj Objects/Vehicles/Bus_Euro_5_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik256_Honvedseg_ACTIVE.obj Objects/Vehicles/Ik256_Honvedseg_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik256_Honvedseg_STATIC.obj Objects/Vehicles/Ik256_Honvedseg_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik256_polg_ACTIVE.obj Objects/Vehicles/Ik256_polg_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik256_polg_STATIC.obj Objects/Vehicles/Ik256_polg_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik256_red-red-wh_ACTIVE.obj Objects/Vehicles/Ik256_red-red-wh_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik256_red-red-wh_STATIC.obj Objects/Vehicles/Ik256_red-red-wh_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik256_wh-bl-wh_ACTIVE.obj Objects/Vehicles/Ik256_wh-bl-wh_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik256_wh-bl-wh_STATIC.obj Objects/Vehicles/Ik256_wh-bl-wh_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik256_white_ACTIVE.obj Objects/Vehicles/Ik256_white_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik256_white_STATIC.obj Objects/Vehicles/Ik256_white_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik256_wh-red-wh_ACTIVE.obj Objects/Vehicles/Ik256_wh-red-wh_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik256_wh-red-wh_STATIC.obj Objects/Vehicles/Ik256_wh-red-wh_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik260_BKV_ACTIVE.obj Objects/Vehicles/Ik260_BKV_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik260_BKV_STATIC.obj Objects/Vehicles/Ik260_BKV_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik260_Malev_retro_ACTIVE.obj Objects/Vehicles/Ik260_Malev_retro_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik260_Malev_retro_STATIC.obj Objects/Vehicles/Ik260_Malev_retro_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik260_volan_ACTIVE.obj Objects/Vehicles/Ik260_volan_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik260_volan_STATIC.obj Objects/Vehicles/Ik260_volan_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik280_BKV_ACTIVE.obj Objects/Vehicles/Ik280_BKV_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik280_BKV_STATIC.obj Objects/Vehicles/Ik280_BKV_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik280_light_green_ACTIVE.obj Objects/Vehicles/Ik280_light_green_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik280_light_green_STATIC.obj Objects/Vehicles/Ik280_light_green_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik280_Malev_retro_ACTIVE.obj Objects/Vehicles/Ik280_Malev_retro_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik280_Malev_retro_STATIC.obj Objects/Vehicles/Ik280_Malev_retro_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik280_troli_ACTIVE.obj Objects/Vehicles/Ik280_troli_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik280_troli_STATIC.obj Objects/Vehicles/Ik280_troli_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik280_volan_ACTIVE.obj Objects/Vehicles/Ik280_volan_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik280_volan_STATIC.obj Objects/Vehicles/Ik280_volan_STATIC.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik280_y-y-wh_ACTIVE.obj Objects/Vehicles/Ik280_y-y-wh_ACTIVE.obj
+EXPORT HungaryVFR-Library/Objects/Vehicles/Ik280_y-y-wh_STATIC.obj Objects/Vehicles/Ik280_y-y-wh_STATIC.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Taxi_1_ACTIVE.obj Objects/Vehicles/Mercedes_Taxi_1_ACTIVE.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Taxi_1_STATIC.obj Objects/Vehicles/Mercedes_Taxi_1_STATIC.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/Mercedes_Taxi_black_ACTIVE.obj Objects/Vehicles/Mercedes_Taxi_black_ACTIVE.obj
@@ -255,6 +307,7 @@ EXPORT HungaryVFR-Library/Objects/Misc/tyre_mixed_6high.str Objects/Misc/tyre_mi
 EXPORT HungaryVFR-Library/Objects/Misc/Tent_Redbull.obj Objects/Misc/Tent_redbull.obj
 EXPORT HungaryVFR-Library/Objects/Misc/Tent_GoFast.obj Objects/Misc/Tent_gofast.obj
 EXPORT HungaryVFR-Library/Objects/Misc/Flag_Hungary.obj Objects/Misc/Flag_Hungary.obj
+EXPORT HungaryVFR-Library/Objects/Misc/Solar_panel.obj Objects/Misc/Solar_panel.obj
 
 # ----------------------------------
 # POLYGONS
