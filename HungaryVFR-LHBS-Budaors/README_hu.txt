@@ -1,7 +1,7 @@
 HungaryVFR-LHBS-Budaörs scenery
 ******************************************************
 
-Verzió szám: 3.1.0.5
+Verzió szám: 3.1.0.6
 Lefedett terület: LHBS - Budaörs
 
 ******************************************************
@@ -21,7 +21,7 @@ Másold a zip tartalmát az "X-Plane folder/Custom Scenery" könyvtárba.
 
 ***** KOMPATIBILITÁS *****
 
-X-Plane verzió: X-Plane 10.50+ kiadáshoz
+X-Plane verzió: X-Plane 11.30+ kiadáshoz
 Kompatibilitás más kiegészítõkkel: igen
 Ismert kompatibilitási problémák: nincs
 

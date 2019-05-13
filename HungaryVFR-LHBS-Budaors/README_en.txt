@@ -1,7 +1,7 @@
 HungaryVFR-LHBS-Budaörs airport scenery
 ******************************************************
 
-Version: 3.1.0.5
+Version: 3.1.0.6
 Covered area: LHBS - Budaörs
 
 ******************************************************
@@ -22,7 +22,7 @@ Copy the contents of the zip into "X-Plane folder/Custom Scenery" directory.
 
 ***** COMPATIBILITY *****
 
-X-Plane version: X-Plane 10.50+
+X-Plane version: X-Plane 11.30+
 Compatibility with other sceneries: yes
 Known compatibility problems: none
 
