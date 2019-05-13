@@ -1,7 +1,7 @@
 HungaryVFR-LHTL-Tököl airport scenery
 ******************************************************
 
-Version: 3.2.2.2
+Version: 3.2.3.1
 
 Covered area: LHTL - Tököl
 
@@ -23,7 +23,7 @@ Copy the contents of the zip into "X-Plane folder/Custom Scenery" directory.
 
 ***** COMPATIBILITY *****
 
-X-Plane version: X-Plane 11.00+ (XP 10.40+ may have error messages and texture problems)
+X-Plane version: X-Plane 11.30+
 Compatibility with other sceneries: yes
 Known compatibility problems: none
 
