@@ -27,6 +27,7 @@ EXPORT HungaryVFR-Library/Objects/Misc/Row_of_Cars_10.agp Objects/Misc/Row_of_Ca
 EXPORT HungaryVFR-Library/Objects/Airplanes/AN-2_HA-MAR.obj Objects/Airplanes/AN-2_HA-MAR.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/AN-2_HA-YHF.obj Objects/Airplanes/AN-2_HA-YHF.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/GOBE_HA-5397.obj Objects/Airplanes/GOBE_HA-5355.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/b206.obj Objects/Airplanes/b206.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/IL-18V.obj Objects/Airplanes/IL-18V.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/Mi-24V_tweety.obj Objects/Airplanes/Mi-24V_tweety.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/Mi-24V_hunaf.obj Objects/Airplanes/Mi-24V_hunaf.obj
