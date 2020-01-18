@@ -423,6 +423,7 @@ EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol Polygons/Custom_RWY/
 EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_line2.pol Polygons/Custom_RWY/rway_line2.pol
 EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_semi.pol Polygons/Custom_RWY/rway_semi.pol
 EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_space.pol Polygons/Custom_RWY/rway_space.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_space1.pol Polygons/Custom_RWY/rway_space1.pol
 EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz_uk.pol Polygons/Custom_RWY/rway_tdz_uk.pol
 EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol Polygons/Custom_RWY/rway_tdz1.pol
 EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz3.pol Polygons/Custom_RWY/rway_tdz3.pol
