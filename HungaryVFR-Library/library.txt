@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.6.0.0
+# Version: 1.6.0.1
 
 REGION_DEFINE	hungary
 REGION_BITMAP	region_hungary.png
@@ -398,10 +398,12 @@ EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Sand_cracke
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Dirt_road_1.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Dirt_road_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Gravel_1.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Gravel_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Paving_1.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Paving_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Paving_2.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Paving_2.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Stone_road_1.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Stone_road_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Dirt_road_1.pol Polygons/Bump-mapped/Pavement/LOW-RES/Dirt_road_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Gravel_1.pol Polygons/Bump-mapped/Pavement/LOW-RES/Gravel_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Paving_1.pol Polygons/Bump-mapped/Pavement/LOW-RES/Paving_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Paving_2.pol Polygons/Bump-mapped/Pavement/LOW-RES/Paving_2.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Stone_road_1.pol Polygons/Bump-mapped/Pavement/LOW-RES/Stone_road_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/HIGH-RES/Cracks_old_1.pol Polygons/Bump-mapped/Surface_damages/HIGH-RES/Cracks_old_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/HIGH-RES/Tar_marks_1.pol Polygons/Bump-mapped/Surface_damages/HIGH-RES/Tar_marks_1.pol
