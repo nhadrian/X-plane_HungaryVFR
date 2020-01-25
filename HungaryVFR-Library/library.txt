@@ -3,7 +3,7 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.6.0.1
+# Version: 1.6.0.2
 
 REGION_DEFINE	hungary
 REGION_BITMAP	region_hungary.png
@@ -24,6 +24,8 @@ EXPORT HungaryVFR-Library/Objects/Misc/Row_of_Cars_10.agp Objects/Misc/Row_of_Ca
 
 # Airplanes
 # ----------------------------------
+EXPORT HungaryVFR-Library/Objects/Airplanes/tu154.obj Objects/Airplanes/tu154.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/M767.obj Objects/Airplanes/M767.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/AN-2_HA-MAR.obj Objects/Airplanes/AN-2_HA-MAR.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/AN-2_HA-YHF.obj Objects/Airplanes/AN-2_HA-YHF.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/GOBE_HA-5397.obj Objects/Airplanes/GOBE_HA-5355.obj
@@ -166,6 +168,7 @@ EXPORT HungaryVFR-Library/Objects/Trees_Hedges/thuja1_10m.obj Objects/Trees_Hedg
 
 # Vehicles
 # ----------------------------------
+EXPORT HungaryVFR-Library/Objects/Vehicles/MBUS.obj Objects/Vehicles/MBUS.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_GSXR.obj Objects/Vehicles/motor_1_GSXR.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_DUCATI_1.obj Objects/Vehicles/motor_1_DUCATI_1.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_DUCATI_2.obj Objects/Vehicles/motor_1_DUCATI_2.obj
