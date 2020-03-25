@@ -1,7 +1,7 @@
 ﻿HungaryVFR-LHBP Liszt Ferenc international airport
 ******************************************************
 
-Version: 2.1.3
+Version: 2.1.4
 Covered area: LHBP - Budapest
 
 ******************************************************
@@ -22,7 +22,7 @@ Copy the contents of the zip into "X-Plane folder/Custom Scenery" directory.
 
 ***** COMPATIBILITY *****
 
-X-Plane version: X-Plane 11.00+ (XP 10.40+ may have error messages and texture problems)
+X-Plane version: X-Plane 11.30+ (XP 10.40+ may have error messages and texture problems)
 Compatibility with other sceneries: yes
 Known compatibility problems: none
 
@@ -31,13 +31,18 @@ Known compatibility problems: none
 Libraries listed below are required: 
 Copy the libraries into "X-Plane folder/Custom Scenery" folder.
 
-- HungaryVFR Library (1.4.3 or newer)
-- OpenSceneryX Library (v2.1.1 - 16/05/2016)
-- R2-library (Version 2 - 12/2/2016)
-- Ruscenery Library (v2.1.8 - 05/05/2013)
-- world models (0.8.0 - 25/04/2016)
-- RE_Library
-- FF-library (v1.0 - 01/02/2011)
+- HungaryVFR Library (https://github.com/nhadrian/X-plane_HungaryVFR/archive/HungaryVFR-Library.zip)
+- OpenSceneryX Library (https://www.opensceneryx.com/)
+- R2-library (http://r2.xpl.cz/download.php?id=2)
+- Ruscenery Library (https://ruscenery.x-air.ru/files/RuScenery.zip)
+- world models (https://forums.x-plane.org/index.php?/files/file/32135-world-models-library/)
+- RE_Library (https://forums.x-plane.org/index.php?/files/file/24722-re_library-airport-buildings-and-related-objects/)
+- FF-library (https://forums.x-plane.org/index.php?/files/file/12836-ff-library-extended-lod-version/)
+- NAPS Library (https://forums.x-plane.org/index.php?/files/file/30478-naps-library/)
+- CDB Library (https://forums.x-plane.org/index.php?/files/file/27907-cdb-library/)
+- 3D People Library (https://forums.x-plane.org/index.php?/files/file/26611-3d-people-library/)
+- MisterX Library (https://forums.x-plane.org/index.php?/files/file/28167-misterx-library-and-static-aircraft-extension/)
+- SAM Library (https://forums.x-plane.org/index.php?/files/file/49066-sam-scenery-animation-manager/)
 
 ***** SCENERY_PACKS.ini *****
 
