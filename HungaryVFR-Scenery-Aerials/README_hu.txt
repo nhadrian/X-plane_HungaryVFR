@@ -1,11 +1,12 @@
 HungaryVFR-Scenery-Aerials
 ******************************************************
 
-Verzió szám: 0.0.4.4
+Verzió szám: 0.0.4.5
 Lefedett terület:
 	- Hungarian radio towers
 	- Hungarian windfarms
 	- Dam
+	- Hungarian solar farms (in development)
 
 ******************************************************
 A kiadást HungaryVFR Team készítette.
