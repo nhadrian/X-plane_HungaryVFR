@@ -16,7 +16,7 @@ Másold a zip tartalmát az "X-Plane folder/Custom Scenery" könyvtárba.
 
 ***** KOMPATIBILITÁS *****
 
-X-Plane verzió: X-Plane 11.30+ kiadáshoz
+X-Plane verzió: X-Plane 11.00+ kiadáshoz (XP 10.40+ alatt elõfordulhatnak hibaüzenetek, textúra hibák)
 Kompatibilitás más kiegészítõkkel: igen
 Ismert kompatibilitási problémák: nincs
 
