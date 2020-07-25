@@ -21,7 +21,7 @@ Copy the contents of the zip into "X-Plane folder/Custom Scenery" directory.
 
 ***** COMPATIBILITY *****
 
-X-Plane version: X-Plane 11.30+
+X-Plane version: X-Plane 11.00+ (XP 10.40+ may have error messages and texture problems)
 Compatibility with other sceneries: yes
 Known compatibility problems: none
 
