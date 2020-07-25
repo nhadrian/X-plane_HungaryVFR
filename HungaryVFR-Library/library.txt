@@ -3,7 +3,14 @@ A
 LIBRARY
 
 # HungaryVFR-Library
-# Version: 1.5.4.7
+# Version: 1.6.0.2
+
+REGION_DEFINE	hungary
+REGION_BITMAP	region_hungary.png
+
+REGION_DEFINE	hungary_pest
+REGION_BITMAP	region_hungary_pest.png
+
 
 # ----------------------------------
 # AGP
@@ -17,9 +24,15 @@ EXPORT HungaryVFR-Library/Objects/Misc/Row_of_Cars_10.agp Objects/Misc/Row_of_Ca
 
 # Airplanes
 # ----------------------------------
+EXPORT HungaryVFR-Library/Objects/Airplanes/tu154.obj Objects/Airplanes/tu154.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/M767.obj Objects/Airplanes/M767.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/AN-2_HA-MAR.obj Objects/Airplanes/AN-2_HA-MAR.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/AN-2_HA-YHF.obj Objects/Airplanes/AN-2_HA-YHF.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/GOBE_HA-5397.obj Objects/Airplanes/GOBE_HA-5355.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/b206.obj Objects/Airplanes/b206.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/IL-18V.obj Objects/Airplanes/IL-18V.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/Mi-24V_tweety.obj Objects/Airplanes/Mi-24V_tweety.obj
+EXPORT HungaryVFR-Library/Objects/Airplanes/Mi-24V_hunaf.obj Objects/Airplanes/Mi-24V_hunaf.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/LI-2_HA-LIX.obj Objects/Airplanes/LI-2_HA-LIX.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/TCMELAK_HA-MFC.obj Objects/Airplanes/TCMELAK_HA-MFC.obj
 EXPORT HungaryVFR-Library/Objects/Airplanes/WILGA_HA-SEM.obj Objects/Airplanes/WILGA_HA-SEM.obj
@@ -155,6 +168,7 @@ EXPORT HungaryVFR-Library/Objects/Trees_Hedges/thuja1_10m.obj Objects/Trees_Hedg
 
 # Vehicles
 # ----------------------------------
+EXPORT HungaryVFR-Library/Objects/Vehicles/MBUS.obj Objects/Vehicles/MBUS.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_GSXR.obj Objects/Vehicles/motor_1_GSXR.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_DUCATI_1.obj Objects/Vehicles/motor_1_DUCATI_1.obj
 EXPORT HungaryVFR-Library/Objects/Vehicles/motor_1_DUCATI_2.obj Objects/Vehicles/motor_1_DUCATI_2.obj
@@ -387,10 +401,12 @@ EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Mud-Sand-Dirt/LOW-RES/Sand_cracke
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Dirt_road_1.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Dirt_road_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Gravel_1.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Gravel_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Paving_1.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Paving_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Paving_2.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Paving_2.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/HIGH-RES/Stone_road_1.pol Polygons/Bump-mapped/Pavement/HIGH-RES/Stone_road_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Dirt_road_1.pol Polygons/Bump-mapped/Pavement/LOW-RES/Dirt_road_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Gravel_1.pol Polygons/Bump-mapped/Pavement/LOW-RES/Gravel_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Paving_1.pol Polygons/Bump-mapped/Pavement/LOW-RES/Paving_1.pol
+EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Paving_2.pol Polygons/Bump-mapped/Pavement/LOW-RES/Paving_2.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Pavement/LOW-RES/Stone_road_1.pol Polygons/Bump-mapped/Pavement/LOW-RES/Stone_road_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/HIGH-RES/Cracks_old_1.pol Polygons/Bump-mapped/Surface_damages/HIGH-RES/Cracks_old_1.pol
 EXPORT HungaryVFR-Library/Polygons/Bump-mapped/Surface_damages/HIGH-RES/Tar_marks_1.pol Polygons/Bump-mapped/Surface_damages/HIGH-RES/Tar_marks_1.pol
@@ -412,6 +428,7 @@ EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_line.pol Polygons/Custom_RWY/
 EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_line2.pol Polygons/Custom_RWY/rway_line2.pol
 EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_semi.pol Polygons/Custom_RWY/rway_semi.pol
 EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_space.pol Polygons/Custom_RWY/rway_space.pol
+EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_space1.pol Polygons/Custom_RWY/rway_space1.pol
 EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz_uk.pol Polygons/Custom_RWY/rway_tdz_uk.pol
 EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz1.pol Polygons/Custom_RWY/rway_tdz1.pol
 EXPORT HungaryVFR-Library/Polygons/Custom_RWY/rway_tdz3.pol Polygons/Custom_RWY/rway_tdz3.pol
@@ -466,7 +483,122 @@ EXPORT HungaryVFR-Library/Lines/Mud_road_1.lin Lines/Mud_road_1.lin
 EXPORT HungaryVFR-Library/Lines/Gravel_road_1.lin Lines/Gravel_road_1.lin
 
 # ----------------------------------
-# AUTOGEN OVERRIDES
+# AUTOGEN ADDONS, OVERRIDES
 # ----------------------------------
 
+REGION hungary
 
+PUBLIC
+# ACTIVE
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Bus_Euro_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Bus_Euro_2_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Bus_Euro_3_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Bus_Euro_4_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Bus_Euro_5_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Ford_Transit_white_GLS_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Ford_Transit_red_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Ford_Transit_white_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Ford_Transit_white_no_windows_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Mercedes_Taxi_black_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Mercedes_Taxi_black_2_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Truck_Blue_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Truck_Orange_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Truck_Red_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Truck_Silver_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Truck_White_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Truck_White_2_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Truck_Yellow_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Truck_Alone_Orange_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Truck_Alone_Silver_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Truck_Tanker_Black_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Truck_Tanker_Blue_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Truck_Tanker_Green_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Truck_Tanker_Red_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Truck_Tanker_Silver_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Truck_Tanker_Yellow_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/motor_1_DUCATI_1_active.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/motor_1_DUCATI_2_active.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/motor_1_GSXR_active.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/motor_1_NINJA_active.obj
+EXPORT_EXTEND lib/cars/car.obj Objects/Vehicles/motor_1_YAMAHA_1_active.obj
+
+# STATIC
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Bus_Euro_1_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Bus_Euro_2_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Bus_Euro_3_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Bus_Euro_4_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Bus_Euro_5_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Ford_Transit_white_GLS_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Ford_Transit_red_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Ford_Transit_white_no_windows_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Ford_Transit_white_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Mercedes_Taxi_black_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Mercedes_Taxi_black_2_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Truck_Blue_1_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Truck_Orange_1_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Truck_Red_1_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Truck_Silver_1_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Truck_White_1_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Truck_White_2_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Truck_Yellow_1_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Truck_Alone_Orange_1_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Truck_Alone_Silver_1_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Truck_Tanker_Black_1_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Truck_Tanker_Blue_1_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Truck_Tanker_Green_1_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Truck_Tanker_Red_1_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Truck_Tanker_Silver_1_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Truck_Tanker_Yellow_1_STATIC.obj
+EXPORT_EXTEND lib/cars/car_static.obj Objects/Vehicles/motor_1_DUCATI_1.obj
+EXPORT_EXTEND lib/cars/car_static.obj Objects/Vehicles/motor_1_DUCATI_2.obj
+EXPORT_EXTEND lib/cars/car_static.obj Objects/Vehicles/motor_1_GSXR.obj
+EXPORT_EXTEND lib/cars/car_static.obj Objects/Vehicles/motor_1_NINJA.obj
+EXPORT_EXTEND lib/cars/car_static.obj Objects/Vehicles/motor_1_YAMAHA_1.obj
+
+PRIVATE
+EXPORT_EXCLUDE lib/cars/police_car.obj Objects/Vehicles/Octavia_POLICE_Active_ALERT.obj
+EXPORT_RATIO 0.0005 lib/cars/car_or_truck.obj Objects/Vehicles/Octavia_POLICE_Active_NORMAL.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Octavia_POLICE_Static.obj
+EXPORT_EXCLUDE lib/cars/police_car.obj Objects/Vehicles/Mercedes_Police_ACTIVE_ALERT.obj
+EXPORT_RATIO 0.0005 lib/cars/car_or_truck.obj Objects/Vehicles/Mercedes_Police_ACTIVE_NORMAL.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Mercedes_Police_STATIC.obj
+EXPORT_EXCLUDE lib/cars/police_car.obj Objects/Vehicles/Mercedes_Police_2_ACTIVE_ALERT.obj
+EXPORT_RATIO 0.0005 lib/cars/car_or_truck.obj Objects/Vehicles/Mercedes_Police_2_ACTIVE_NORMAL.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Mercedes_Police_2_STATIC.obj
+EXPORT_EXCLUDE lib/cars/police_car.obj Objects/Vehicles/Ford_Transit_ambulance_ACTIVE_ALERT.obj
+EXPORT_RATIO 0.0005 lib/cars/car_or_truck.obj Objects/Vehicles/Ford_Transit_ambulance_ACTIVE_NORMAL.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Ford_Transit_ambulance.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Ford_Transit_green_Post_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Ford_Transit_green_Post_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Bus_VOLAN_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Bus_VOLAN_2_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Bus_VOLAN_3_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Mercedes_Taxi_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Bus_VOLAN_1_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Bus_VOLAN_2_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Bus_VOLAN_3_STATIC.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Mercedes_Taxi_1_STATIC.obj
+
+EXPORT 		lib/g10/roadsigns/SignBridge6LaneUrban.obj Objects\Misc\roadsigns\overhead\Hwy6BarThro1.obj
+EXPORT 		lib/g10/roadsigns/SignBridge6LaneUrban.obj Objects\Misc\roadsigns\overhead\Hwy6BarThro2.obj
+EXPORT 		lib/g10/roadsigns/SignBridge6LaneUrban.obj Objects\Misc\roadsigns\overhead\Hwy6BarThro3.obj
+EXPORT 		lib/g10/roadsigns/SignBridge6LaneUrban.obj Objects\Misc\roadsigns\overhead\Hwy6BarThro4.obj
+EXPORT 		lib/g10/roadsigns/SignBridge6LaneUrban.obj Objects\Misc\roadsigns\overhead\Hwy6BarThro5.obj
+EXPORT_EXCLUDE lib/g10/roadsigns/SignBridge6LaneUrban.obj Objects\Misc\roadsigns\overhead\Hwy6BarThro6.obj
+EXPORT 		lib/g10/roadsigns/SignBridge6LaneUrbanRHExit.obj Objects\Misc\roadsigns\overhead\Hwy6BarOvrExt2.obj
+EXPORT 		lib/g10/roadsigns/SignBridge6LaneUrbanRHExit.obj Objects\Misc\roadsigns\overhead\Hwy6BarOvrExt4.obj
+EXPORT 		lib/g10/roadsigns/SignBridge6LaneUrbanRHExit.obj Objects\Misc\roadsigns\overhead\Hwy6BarOvrExt5.obj
+EXPORT_EXCLUDE lib/g10/roadsigns/SignBridge6LaneUrbanRHExit.obj Objects\Misc\roadsigns\overhead\Hwy6BarOvrExt6.obj
+EXPORT_EXCLUDE lib/g10/roadsigns/SignBridge8LaneUrbanRHSplit.obj Objects\Misc\roadsigns\overhead\Hwy8BarOvrExt1.obj
+EXPORT 		lib/g10/roadsigns/SignLHShoulderUrbanExit.obj Objects\Misc\roadsigns\overhead\LHBarExit1.obj
+EXPORT_EXCLUDE lib/g10/roadsigns/SignLHShoulderUrbanExit.obj Objects\Misc\roadsigns\overhead\LHBarExit2.obj
+EXPORT 		lib/g10/roadsigns/SignRHShoulderUrbanExit.obj Objects\Misc\roadsigns\overhead\RHBarExitOnly1.obj
+EXPORT 		lib/g10/roadsigns/SignRHShoulderUrbanExit.obj Objects\Misc\roadsigns\overhead\RHBarExitOnly2.obj
+EXPORT 		lib/g10/roadsigns/SignRHShoulderUrbanExit.obj Objects\Misc\roadsigns\overhead\RHBarExitOnly3.obj
+EXPORT_EXCLUDE lib/g10/roadsigns/SignRHShoulderUrbanExit.obj Objects\Misc\roadsigns\overhead\RHBarExitOnly4.obj
+
+REGION hungary_pest
+
+PUBLIC
+EXPORT_EXTEND lib/cars/car_or_truck.obj Objects/Vehicles/Bus_BKV_1_ACTIVE.obj
+EXPORT_EXTEND lib/cars/car_or_truck_static.obj Objects/Vehicles/Bus_BKV_1_STATIC.obj

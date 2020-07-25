@@ -1,7 +1,7 @@
 A
 850
 DRAPED_POLYGON
-LAYER_GROUP 	taxiways +1
+LAYER_GROUP 	taxiways +3
 
 TEXTURE 	Asphalt_2.dds
 TEXTURE_NORMAL 	1 Asphalt_2_NML.png
