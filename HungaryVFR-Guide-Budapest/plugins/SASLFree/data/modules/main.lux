@@ -1,0 +1,161 @@
+size = { 1024 , 1024 }
+
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+planeLat = globalPropertyf("sim/flightmodel/position/latitude")
+planeLon = globalPropertyf("sim/flightmodel/position/longitude")
+planeElev = globalPropertyf("sim/flightmodel/position/elevation")
+
+timer = createGlobalPropertyf("Krabi4Xplane/misc/timer", 0.0)
+time = globalPropertyf("sim/time/total_running_time_sec")
+
+day = globalPropertyf("sim/cockpit2/clock_timer/current_day")
+month = globalPropertyf("sim/cockpit2/clock_timer/current_month")
+hours = globalPropertyf("sim/cockpit2/clock_timer/local_time_hours")
+
+test_sound = sasl.al.loadSample("../sounds/crowd.wav")
+ep_main_sound = sasl.al.loadSample("../sounds/ep_main.wav")
+ep_main_background_sound = sasl.al.loadSample('sounds/ep_main_background.wav')
+oldpimped_sound = sasl.al.loadSample("../sounds/thai_music.wav")
+
+defineProperty("view_is_external", globalPropertyi("sim/graphics/view/view_is_external"))
+
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+
+function update()
+       
+          ------------------- Distance and Gain calculations ----------------------
+ 		  local v = get(view_is_external)
+          local Lat1 = math.rad(get(planeLat))
+          local Lon1 = math.rad(get(planeLon))
+
+		  
+		  --the scrapyard guy
+		  local mainLat2 = math.rad(8.146244) 
+          local mainLon2 = math.rad(98.747783)		  
+		  local dLat = (mainLat2 - Lat1)
+		  local dLon = (mainLon2 - Lon1)
+		  local a = math.sin(dLat/2) * math.sin(dLat/2) + math.cos(Lat1 * math.pi / 180) * math.cos(mainLat2 * math.pi / 180) * math.sin(dLon / 2) * math.sin(dLon / 2)
+          local c = 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
+		  
+		  --old pimped car
+		  local mainLat3 = math.rad(8.145937) 
+          local mainLon3 = math.rad(98.748103)
+		  local dLat1 = (mainLat3 - Lat1)
+		  local dLon1 = (mainLon3 - Lon1)
+		  local a1 = math.sin(dLat1/2) * math.sin(dLat1/2) + math.cos(Lat1 * math.pi / 180) * math.cos(mainLat2 * math.pi / 180) * math.sin(dLon1 / 2) * math.sin(dLon1 / 2)
+          local c1 = 2 * math.atan2(math.sqrt(a1), math.sqrt(1-a1))
+ 
+ 		  --elev
+          local Elev = get(planeElev) - 150
+          local R = 6378.137  
+  
+
+		  --the scrapyard guy         
+          local Dist_far = math.sqrt((R * c * 1000)^2 + Elev^2)
+		  local Dist_close = math.sqrt((R * c * 20000)^2 + Elev^2)
+          local Gain_far = 1250 - Dist_far / 3
+		  local Gain_close = 150 - Dist_close / 3
+		  local Gain_talk = 150 - Dist_close / 3
+
+          if Gain_far < 0 then 
+            Gain_far = 0 
+          else 
+            if Gain_far > 100 then
+              Gain_far = 100
+            end
+          end
+		  
+		  if Gain_close < 0 then 
+            Gain_close = 0 
+          else 
+            if Gain_close > 100 then
+              Gain_close = 100
+            end
+          end
+		  
+		 if Gain_talk < 0 then 
+            Gain_talk = 0 
+         else 
+            if Gain_talk > 100 then
+              Gain_talk = 100
+            end
+          end 
+		  
+		  
+		  --old pimped car        
+          local Dist_far1 = math.sqrt((R * c1 * 1000)^2 + Elev^2)
+		  local Dist_close1 = math.sqrt((R * c1 * 20000)^2 + Elev^2)
+          local Gain_oldcar1 = 150 - Dist_close1 / 3
+		  
+		 if Gain_oldcar1 < 0 then 
+            Gain_oldcar1 = 0 
+         else 
+            if Gain_oldcar1 > 100 then
+              Gain_oldcar1 = 100
+            end
+          end 		  
+		  
+		  
+          --------------------- End ------------------------------------------------          
+		
+		--the scrapyard guy  		
+		if v == 0 then 
+			Gain_far = Gain_far / 6
+		else
+			Gain_far = Gain_far * 2
+		end		
+		
+		if v == 0 then 
+			Gain_close = Gain_close / 2
+		else
+			Gain_close = Gain_close / 2
+		end	
+		
+		if v == 0 then 
+			Gain_talk = Gain_talk * 2
+		else
+			Gain_talk = Gain_talk * 3
+		end	
+		
+	    --old pimped car  		
+		if v == 0 then 
+			Gain_oldcar1 = Gain_oldcar1 
+		else
+			Gain_oldcar1 = Gain_oldcar1 * 3
+		end	
+		
+		--Main background sound
+		sasl.al.setSampleGain(ep_main_background_sound, Gain_far)
+		sasl.al.setSampleRelative(ep_main_background_sound, 1)
+		if sasl.al.isSamplePlaying(ep_main_background_sound) == false then sasl.al.playSample(ep_main_background_sound, 1) end       
+
+		--Scrapyard guy talking
+		
+		if Dist_close < 500 then
+			if sasl.al.isSamplePlaying(test_sound) == false then test_sound = sasl.al.loadSample("../sounds/crowd.wav") end
+			sasl.al.setSampleGain(test_sound, Gain_talk)
+			sasl.al.setSampleRelative(test_sound, 1)
+			if sasl.al.isSamplePlaying(test_sound) == false then sasl.al.playSample(test_sound, 1) end			
+		else
+			sasl.al.unloadSample(test_sound)
+		end			
+		
+	    --old pimped car 	
+		if Dist_close1 < 500 then
+			if sasl.al.isSamplePlaying(oldpimped_sound) == false then oldpimped_sound = sasl.al.loadSample("../sounds/thai_music.wav") end
+			sasl.al.setSampleGain(oldpimped_sound, Gain_oldcar1)
+			sasl.al.setSampleRelative(oldpimped_sound, 1)
+			if sasl.al.isSamplePlaying(oldpimped_sound) == false then sasl.al.playSample(oldpimped_sound, 1) end  
+		else
+			sasl.al.unloadSample(oldpimped_sound)
+		end
+		
+end
+
+components = {
+}
+
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
