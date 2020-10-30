@@ -1,7 +1,7 @@
 HungaryVFR-LHFH-Farkashegy scenery
 ******************************************************
 
-Verzió szám: 2.0.3
+Verzió szám: 2.1.0
 Lefedett terület: LHFH - Farkashegy
 
 ******************************************************
