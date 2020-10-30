@@ -1,7 +1,7 @@
 HungaryVFR-LHGD-Gödöllõ airport scenery
 ******************************************************
 
-Version: 2.0.8
+Version: 2.0.9
 Covered area: 
 LHGD - Gödöllõ
 Part of Gödöllõ City
@@ -24,7 +24,7 @@ Copy the contents of the zip into "X-Plane folder/Custom Scenery" directory.
 
 ***** COMPATIBILITY *****
 
-X-Plane version: X-Plane 10.50+
+X-Plane version: X-Plane 11.30+
 Compatibility with other sceneries: yes
 Known compatibility problems: none
 

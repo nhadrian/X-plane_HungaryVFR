@@ -1,7 +1,7 @@
 HungaryVFR-LHGD-Gödöllõ scenery
 ******************************************************
 
-Verzió szám: 2.0.8
+Verzió szám: 2.0.9
 Lefedett terület: 
 - LHGD - Gödöllõ
 - Gödöllõ település egy része
@@ -23,7 +23,7 @@ Másold a zip tartalmát az "X-Plane folder/Custom Scenery" könyvtárba.
 
 ***** KOMPATIBILITÁS *****
 
-X-Plane verzió: X-Plane 10.50+ kiadáshoz
+X-Plane verzió: X-Plane 11.30+ kiadáshoz
 Kompatibilitás más kiegészítõkkel: igen
 Ismert kompatibilitási problémák: nincs
 

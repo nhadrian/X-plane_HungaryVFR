@@ -1,0 +1,9 @@
+A
+850
+DRAPED_POLYGON
+
+LAYER_GROUP markings +3
+TEXTURE_NOWRAP char.png
+DECAL_LIB lib/g10/decals/maquify_1_green_key.dcl
+SURFACE grass
+SCALE 2.2 1.1
